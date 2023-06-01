@@ -1,0 +1,273 @@
+[
+  {
+    "id": 1,
+    "nom": "Brioche au sucre",
+    "ingredients": [
+      {
+        "nom": "Beurre ramolli",
+        "quantite": "75g"
+      },
+      {
+        "nom": "Lait",
+        "quantite": "175ml"
+      },
+      {
+        "nom": "Farine",
+        "quantite": "350g"
+      },
+      {
+        "nom": "Sucre en poudre",
+        "quantite": "40g"
+      },
+      {
+        "nom": "Sucre vanillé",
+        "quantite": "1 sachet"
+      },
+      {
+        "nom": "Oeuf",
+        "quantite": "1"
+      },
+      {
+        "nom": "Levure spéciale boulangerie",
+        "quantite": "Selon le paquet"
+      },
+      {
+        "nom": "Sel",
+        "quantite": "Selon le goût"
+      },
+      {
+        "nom": "Sucre en grains",
+        "quantite": "Selon le goût"
+      }
+    ],
+    "tempsPreparation": "3 heures 40 minutes",
+    "etapes": [
+      "Dans un saladier, mélangez la farine, le sucre et le sel, puis faites un puit.",
+      "Ajoutez la levure. Attention, la levure ne doit pas être en contact direct avec le sel, sinon la brioche ne gonflera pas.",
+      "Versez lentement le lait tiède, l'oeuf et le beurre ramolli.",
+      "Pétrissez à la main ou au robot afin d'obtenir une pâte bien lisse.",
+      "Recouvrez le plat dans lequel vous avez mis la pâte et laissez reposer une nuit au réfrigérateur.",
+      "Séparez la pâte en 3 boules, puis sur un plan fariné, façonnez chacunes d'elles en pâtons.",
+      "Formez une tresse en prenant soin de bien sceller chaque côté. Recouvrez d'un linge et laissez reposer 3 heures à température ambiante.",
+      "Une fois que la brioche a triplé de volume, badigeonnez-la de lait puis recouvrez de grains de sucre.",
+      "Enfournez dans un four bien chaud (180°C) pendant 30minutes. La brioche est cuite lorsqu'elle est bien dorée",
+      "Variante : Vous pouvez ajouter des pépites de chocolat dans la pâte"
+    ],
+    "categorie": "dessert",
+    "image": "../../images/sucré/brioche.jpg"
+  },
+  {
+    "id": 2,
+    "nom": "Cookies aux pépites de chocolat",
+    "ingredients": [
+      {
+        "nom": "Oeuf",
+        "quantite": "1"
+      },
+      {
+        "nom": "Vergeoise brune",
+        "quantite": "85g"
+      },
+      {
+        "nom": "Beurre",
+        "quantite": "85g"
+      },
+      {
+        "nom": "Farine",
+        "quantite": "150g"
+      },
+      {
+        "nom": "Pépites de chocolat",
+        "quantite": "100g"
+      },
+      {
+        "nom": "Sucre vanillé",
+        "quantite": "1 sachet"
+      },
+      {
+        "nom": "Levure chimique",
+        "quantite": "1 cac"
+      },
+      {
+        "nom": "Sel",
+        "quantite": "Selon le goût"
+      }
+    ],
+    "tempsPreparation": "25 minutes",
+    "etapes": [
+      "Laissez ramollir le beurre à température ambiante. Dans un saladier, malaxez-le avec le sucre.",
+      "Ajoutez l'oeuf et le sucre vanillé.",
+      "Versez progressivement la farine, la levure chimique, le sel et les pépites de chocolat. Mélangez bien.",
+      "Beurrez une plaque allant au four ou recouvrez-le d'une feuille de papier sulfutisé. A l'aide de 2 cuillères, à soupe ou simplement avec les mains, formez des noix de pâte en les espaçant car elles s'étalant à la cuisson.",
+      "Faire cuire 8 à 10 minutes à 180°C soit thermostat 6. Il faut les sortir dès que les contours commencent à brunir."
+    ],
+    "categorie": "dessert",
+    "image": "../../images/sucré/cookies.jpg"
+  },
+  {
+    "id": 3,
+    "nom": "Crêpes sucrées",
+    "ingredients": [
+      {
+        "nom": "Farine",
+        "quantite": "250g"
+      },
+      {
+        "nom": "Lait demi-écrémé",
+        "quantite": "50 cl"
+      },
+      {
+        "nom": "Oeufs",
+        "quantite": "3"
+      },
+      {
+        "nom": "Sucre vanillé",
+        "quantite": "1 sachet"
+      }
+    ],
+    "tempsPreparation": "10 minutes",
+    "tempsCuisson": "15 minutes",
+    "etapes": [
+      "Versez la farine dans un saladier. Faire un puit",
+      "Ajoutez les oeufs.",
+      "Mélangez à l'aide d'un fouet en délayant tout doucement avec le lait, afin d'éviter les grumeaux.",
+      "Ajoutez le sucre vanillé.",
+      "Laissez reposer la pâte 1 heure environ",
+      "Vous pouvez ajouter un peu d'eau si la pâte vous parait trop épaisse."
+    ],
+    "categorie": "dessert",
+    "image": "../../images/sucré/crepes.jpg"
+  },
+  {
+    "id": 4,
+    "nom": "Far breton aux pruneaux",
+    "ingredients": [
+      {
+        "nom": "Farine",
+        "quantite": "125g"
+      },
+      {
+        "nom": "Sucre",
+        "quantite": "80g"
+      },
+      {
+        "nom": "Lait demi-écrémé",
+        "quantite": "50cl"
+      },
+      {
+        "nom": "Oeufs",
+        "quantite": "3"
+      },
+      {
+        "nom": "Pruneaux dénoyautés",
+        "quantite": "Une douzaine"
+      }
+    ],
+    "tempsPreparation": "10 minutes",
+    "tempsCuisson": "30 minutes",
+    "etapes": [
+      "Mélangez les oeufs et le sucre au fouet, jusqu'à ce que le mélange blanchisse.",
+      "Ajoutez la farine. Mélangez.",
+      "Ajoutez le lait chaud. Mélangez jusqu'à ce que la pâte soit bien lisse.",
+      "Beurrez un plat allant au four, ajoutez-y les pruneaux. Versez la pâte sur la préparation.",
+      "Mettez le plat dans un four préalablement chauffé à 200°C.",
+      "Laissez cuire environ 30 minutes. Le far est cuit quand la croûte a bien brunie."
+    ],
+    "categorie": "dessert",
+    "image": "../../images/sucré/far-breton.jpg"
+  },
+  {
+    "id": 5,
+    "nom": "Crème dessert au carambar",
+    "ingredients": [
+      {
+        "nom": "Carambars",
+        "quantite": "10"
+      },
+      {
+        "nom": "Lait demi-écrémé",
+        "quantite": "50cl"
+      },
+      {
+        "nom": "Oeufs",
+        "quantite": "2"
+      }
+    ],
+    "tempsPreparation": "10 minutes",
+    "tempsCuisson": "45 minutes",
+    "etapes": [
+      "Faire fondre les carambars dans le lait dans une casserole.",
+      "Pendant ce temps, dans un saladier, battre les oeufs.",
+      "Lorsque les carambars sont fondus, ajouter le lait dans le saladiers et bien mélanger.",
+      "Verser la préparation dans les ramequins.",
+      "Disposer les ramequins dans un plat à gratin avec de l'eau dedans, pour faire cuire au bain-marie.",
+      "Mettre à four chaud pendant 45 minutes à 175°",
+      "Sortir du four et laisser refroidir"
+    ],
+    "categorie": "dessert",
+    "image": "../../../images/sucré/creme-carambar.jpg"
+  },
+  {
+    "id": 6,
+    "nom": "Crème dessert au chocolat",
+    "ingredients": [
+      {
+        "nom": "Chocolat noir pâtissier",
+        "quantite": "100g"
+      },
+      {
+        "nom": "Lait demi-écrémé",
+        "quantite": "50cl"
+      },
+      {
+        "nom": "Maïzena (fécule de maïs)",
+        "quantite": "30g"
+      }
+    ],
+    "tempsPreparation": "10 minutes",
+    "tempsCuisson": "10 minutes",
+    "etapes": [
+      "Verser la maïzena dans le lait froid et fouettez.",
+      "Concassez grossièrement le chocolat à l'aide d'un couteau.",
+      "Dans une casserole,faites fondre à feu doux le chocolat dans le lait. Mélangez doucement sans arrêt, jusqu'à ce que la crème s'épaississe. Fouettez-la quelques instants pour qu'elle devienne bien lisse.",
+      "Répartissez la crème dans les petits ramequins, laissez poser pendant 2 heures, puis réservez au réfrigérateur jusqu'au moment de servir."
+    ],
+    "categorie": "dessert",
+    "image": "../../../images/sucré/creme-chocolat.jpg"
+  },
+  {
+    "id": 7,
+    "nom": "Crème dessert au speculos",
+    "ingredients": [
+      {
+        "nom": "Lait",
+        "quantite": "500 ml"
+      },
+      {
+        "nom": "Spéculos",
+        "quantite": "8"
+      },
+      {
+        "nom": "Maïzena",
+        "quantite": "4 CS"
+      },
+      {
+        "nom": "Sucre en poudre",
+        "quantite": "2 CS"
+      }
+    ],
+    "tempsPreparation": "10 minutes",
+    "tempsCuisson": "Non spécifié",
+    "etapes": [
+      "Délayez la maïzena dans un peu de lait.",
+      "Ajoutez le sucre puis le lait petit à petit. Bien mélanger.",
+      "Mettre les speculos entre 2 feuilles de sopalin, et les écraser avec un rouleau a pâtisserie.",
+      "Ajoutez les spéculos écrasés dans la préparation.",
+      "Faites chauffer la préparation dans une casserole jusqu'à ébullition, tout en mélangeant.",
+      "Répartir la crème dans les pots, laissez refroidir et les placer au réfrigérateur",
+      "Au moment de servir, émiettez 1/2 spéculos sur chaque dessert"
+    ],
+    "categorie": "dessert",
+    "image": "../../../images/sucré/creme-aux-speculoos.jpg"
+  }
+]
