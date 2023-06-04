@@ -6,6 +6,7 @@ export const StyledDiv = styled.div`
   justify-content: center;
   align-items: center;
   height: 100%;
+  gap: 15px;
 `;
 
 export const SectionDiv = styled.div`

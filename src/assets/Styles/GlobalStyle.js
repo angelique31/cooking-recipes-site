@@ -7,8 +7,8 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
-    // font-family: "Source Sans Pro", sans-serif;
-    font-family: "Open Sans";     
+    font-family: "Source Sans Pro", sans-serif;
+    // font-family: Montserrat,sans-serif;
   }
 `;
 

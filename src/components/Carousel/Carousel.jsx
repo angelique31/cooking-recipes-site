@@ -1,12 +1,16 @@
 import { useEffect, useState } from "react";
-import { CarouselContainer, StyledImage } from "./Carousel.styled.js";
+import {
+  CarouselContainer,
+  ImageContainer,
+  CarouselWrapper,
+} from "./Carousel.styled.js";
 
 const Carousel = () => {
   const images = [
-    "/assets/cheesecake-caramel-beurre-sale.jpeg",
-    "/assets/creme-carambar.jpg",
-    "/assets/gateau-au-chocolat.jpeg",
-    "/assets/tarte-au-chocolat.jpeg",
+    "/assets/sugar-recipe/cheesecake-caramel-beurre-sale.jpeg",
+    "/assets/sugar-recipe/creme-dessert-chocolat.jpg",
+    "/assets/sugar-recipe/tarte-citron-meringu.jpg",
+    "/assets/sugar-recipe/tarte-au-chocolat.jpeg",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -18,20 +22,19 @@ const Carousel = () => {
       );
     }, 5000);
 
-    return () => clearInterval(interval); // Ceci est important, il nettoie l'intervalle lors du démontage du composant.
+    return () => clearInterval(interval);
   }, [images.length]);
 
   return (
-    <CarouselContainer>
-      {images.map((img, index) => (
-        <StyledImage
-          key={img}
-          src={img} // ici, vous avez déjà préfixé l'URL de l'image avec "/assets/" dans le tableau `images`, donc vous n'avez pas besoin de le faire ici.
-          alt="#"
-          active={index === currentImageIndex} // utilisez "currentImageIndex" au lieu de "step"
-        />
-      ))}
-    </CarouselContainer>
+    <CarouselWrapper>
+      <CarouselContainer>
+        {images.map((img, index) => (
+          <ImageContainer key={img} active={index === currentImageIndex}>
+            <img src={img} alt="#" />
+          </ImageContainer>
+        ))}
+      </CarouselContainer>
+    </CarouselWrapper>
   );
 };
 
