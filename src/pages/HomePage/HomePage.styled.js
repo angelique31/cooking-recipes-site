@@ -1,5 +1,3 @@
 import styled from "styled-components";
 
-export const HomePageWrapper = styled.div`
-  padding: 50px;
-`;
+export const HomePageWrapper = styled.div``;

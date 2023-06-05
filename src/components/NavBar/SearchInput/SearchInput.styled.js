@@ -40,9 +40,9 @@ export const IconWrapper = styled.div`
   left: 15px;
   width: 22px;
   height: 22px;
-  color: #9b9b9b;
+  color: #ff4269;
   .search-icon {
     height: 17px;
-    color: rgb(255, 111, 97);
+    color: #ff4269;
   }
 `;

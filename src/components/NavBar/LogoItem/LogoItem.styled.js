@@ -9,11 +9,11 @@ export const LogoWrapper = styled.div`
 
 export const StyledH1 = styled.h1`
   font-size: 2rem;
-  color: rgb(255, 111, 97);
+  color: #ff4269;
 `;
 
 export const IconWrapper = styled.div`
-  color: rgb(255, 111, 97);
+  color: #ff4269;
   .kitchenSet-icon {
     height: 40px;
   }
