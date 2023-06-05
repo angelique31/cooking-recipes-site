@@ -1,5 +1,5 @@
 // NewsDetails.js
-
+import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { newsData } from "../../datas/newsData.js";
 import {
@@ -13,6 +13,11 @@ import NavBar from "../NavBar/NavBar.jsx";
 const NewsDetails = () => {
   const { newsId } = useParams();
   const newsItem = newsData.find((item, index) => index === parseInt(newsId));
+
+  // pour forcer le défilement en haut de la page lorsque le composant est monté.
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div>
