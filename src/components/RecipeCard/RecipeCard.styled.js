@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledNewsCard = styled.div`
+export const StyledCard = styled.div`
   width: 300px;
   border-radius: 10px;
   margin: 10px;
@@ -17,14 +17,14 @@ export const StyledNewsCard = styled.div`
   }
 `;
 
-export const NewsCardImage = styled.img`
+export const CardImage = styled.img`
   width: 100%;
   height: 200px;
   object-fit: cover;
   display: block;
 `;
 
-export const NewsTitle = styled.h3`
+export const CardTitle = styled.h3`
   margin: 0;
   padding: 10px;
   margin: 0px;

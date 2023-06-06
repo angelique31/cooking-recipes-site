@@ -26,7 +26,7 @@ export const newsData = [
     ],
     summaryText: [
       `Pour prolonger leur fraîcheur, nous avons tendance à les placer au frigo. Le problème est que le froid casse les saveurs de la tomate.  Plus elle reste au froid, moins elle a de goût !`,
-      `L’idéal est de les placer dans un saladier, à température ambiante mais à l’abri de la chaleur. Il faudra éviter également de les mettre à côté des pommes ou des bananes, qui dégagent de l’éthylène et accélère leur mûrissement.
+      `L’idéal est de les placer dans un saladier, à température ambiante mais à l’abri de la chaleur. Il faudra éviter également éviter de les mettre à côté des pommes ou des bananes, qui dégagent de l’éthylène et accélère leur mûrissement.
       `,
     ],
   },

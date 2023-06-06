@@ -6,7 +6,11 @@ import {
   StyledImage,
   StyledH1,
   StyledH2,
-  ContentWrapper,
+  StyleDiv,
+  FlexContainer,
+  FlexDiv,
+  FlexItem,
+  StyledDivLineHeight,
 } from "./NewsDetails.styled.js";
 import NavBar from "../NavBar/NavBar.jsx";
 
@@ -19,21 +23,54 @@ const NewsDetails = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  // return (
+  //   <div>
+  //     <NavBar />
+  //     <StyledH1>{newsItem.title}</StyledH1>
+  //     <FlexContainer>
+  //       <StyledImage src={newsItem.image} alt={newsItem.title} />
+  //       <ContentWrapper>
+  //         {newsItem.summaryTitle.map((title, index) => (
+  //           <div key={index}>
+  //             <div>
+  //               <StyledH2>{title}</StyledH2>
+  //               <p>{newsItem.summaryText[index]}</p>
+  //             </div>
+  //           </div>
+  //         ))}
+  //       </ContentWrapper>
+  //     </FlexContainer>
+  //   </div>
+  // );
+
   return (
     <div>
       <NavBar />
       <StyledH1>{newsItem.title}</StyledH1>
-      <StyledImage src={newsItem.image} alt={newsItem.title} />
-      <ContentWrapper>
-        {newsItem.summaryTitle.map((title, index) => (
-          <div key={index}>
-            <div>
-              <StyledH2>{title}</StyledH2>
-              <p>{newsItem.summaryText[index]}</p>
-            </div>
-          </div>
-        ))}
-      </ContentWrapper>
+      <FlexContainer>
+        {newsItem.summaryTitle.map((title, index) => {
+          if (index === 0) {
+            return (
+              <FlexItem key={index}>
+                <StyledImage src={newsItem.image} alt={newsItem.title} />
+                <StyleDiv>
+                  <StyledH2>{title}</StyledH2>
+                  <p>{newsItem.summaryText[index]}</p>
+                </StyleDiv>
+              </FlexItem>
+            );
+          }
+          return null;
+        })}
+        <FlexDiv>
+          {newsItem.summaryTitle.slice(1).map((nextTitle, nextIndex) => (
+            <StyledDivLineHeight key={nextIndex + 1}>
+              <StyledH2>{nextTitle}</StyledH2>
+              <p>{newsItem.summaryText[nextIndex + 1]}</p>
+            </StyledDivLineHeight>
+          ))}
+        </FlexDiv>
+      </FlexContainer>
     </div>
   );
 };
