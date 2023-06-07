@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { StyledCard, CardImage, CardTitle } from "./RecipeCard.styled";
 
-const Card = ({ image, title, index, linkTo }) => {
+const RecipeCard = ({ image, title, index, item, linkTo }) => {
   return (
     <Link to={`${linkTo}/${index}`}>
       <StyledCard>
@@ -12,4 +12,4 @@ const Card = ({ image, title, index, linkTo }) => {
   );
 };
 
-export default Card;
+export default RecipeCard;

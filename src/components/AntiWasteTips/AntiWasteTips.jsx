@@ -6,7 +6,7 @@ const AntiWasteTips = () => {
     <CardSection
       data={antiWasteTipsData}
       title="Astuces anti-gaspi"
-      linkTo="#"
+      linkTo="/recipe"
     />
   );
 };
