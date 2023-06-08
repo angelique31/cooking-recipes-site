@@ -5,7 +5,7 @@ export const recipeData = [
     title: "Sirop de queues de fraises",
 
     detailText:
-      "Pour réaliser ce sirop, il vous faudra environ 50g de queues de fraises avec un peu de chair de fraises. Ce sirop se conserve plusieurs jours au réfrigérateur et il est particulièrement délicieux avec une eau bien fraîche ou de la limonade, du citron vert et de la menthe. Pour le service : 15 ml de sirop pour 300 ml d’eau.",
+      "Pour réaliser ce sirop, il vous faudra environ 50g de queues de fraises avec un peu de chair de fraises. Ce sirop se conserve plusieurs jours au réfrigérateur et il est particulièrement délicieux avec une eau bien fraîche ou de la limonade, du citron vert et de la menthe.",
     servings: "125 ml",
     prepTime: "5 minutes",
     cookTime: "25 minutes",
@@ -19,11 +19,12 @@ export const recipeData = [
       "Mélanger tous les ingrédients dans une casserole.",
       "Faire chauffer à feu doux et mélanger régulièrement.",
       "Lorsque le sucre est dissous, poursuivre la cuisson pendant 20 minutes à couvert.",
-      "Ecraser les fraises avec le dos d'une cuillère afin qu'elles libèrent leur jus.",
-      "Retirer du feu puis enlever les grosses feuilles de fraises.",
-      "Verser la préparation dans le bol d'un blender et mixer. Filtrer.",
+      "Au fur et à mesure, la consistance de l'eau va s'épaissir et obtenir une consistance de plue en plus rouge.",
+      "Retirer du feu une fois que vous obtenez un sirop bien épais.",
+      "Filtrez le sirop obtenu avec un tamis pour enlever les queues et les débris laissés pendant la cuisson.",
       "Laisser refroidir avant de verser dans une bouteille ou un bocal stérilisé.",
       "Placer au réfrigérateur.",
+      "Servir : 15 ml de sirop pour 300 ml d’eau.",
     ],
   },
   {
@@ -32,7 +33,7 @@ export const recipeData = [
     title: "Tisane de queues de cerises",
 
     detailText:
-      "Les queues de cerise possèdent de nombreuses vertus, notamment au niveau du transit intestinal. Elles permettent en effet de drainer l’organisme et de le détoxifier, agissant comme un dépuratif naturel. La parfaite infusion pour retrouver un ventre plat ! Grâce à sa teneur en sels de potassium et polyphénols, la tisane aux queues de cerises permet aussi de lutter contre certaines affections urinaires.",
+      "Les queues de cerise possèdent de nombreuses vertus, notamment au niveau du transit intestinal. Elles permettent de drainer l’organisme et de le détoxifier, agissant comme un dépuratif naturel. La parfaite infusion pour retrouver un ventre plat ! Grâce à sa teneur en sels de potassium et polyphénols, la tisane aux queues de cerises permet aussi de lutter contre certaines affections urinaires.",
     servings: "500 ml",
     prepTime: "5 minutes",
     ingredients: [

@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const StyleDiv = styled.div`
   text-align: justify;
-  margin: 70px 50px 50px 111px;
+  margin: 70px 50px 50px 70px;
   line-height: 28px;
   width: 50%;
 `;
@@ -15,7 +15,7 @@ export const StyledImage = styled.img`
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
   height: 286px;
   margin-top: 93px;
-  margin-left: 20px;
+  margin-left: 60px;
 `;
 
 export const StyledH1 = styled.h1`
