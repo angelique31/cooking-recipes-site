@@ -1,8 +1,7 @@
+import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { recipeData } from "../../datas/recipeData.js";
 import NavBar from "../NavBar/NavBar.jsx";
-import cookingIcon from "../../assets/Icons/cookingIcon.svg";
-import timerIcon from "../../assets/Icons/timerIcon.svg";
 import {
   StyledH1,
   StyledH2,
@@ -16,9 +15,25 @@ import RecipeButton from "../RecipeButton/RecipeButton.jsx";
 import CounterButton from "../CounterButton/CounterButton.jsx";
 import RecipeInfoBox from "../RecipeInfoBox/RecipeInfoBox.jsx";
 
+/**
+ * Affiche les détails d'une recette spécifique.
+ *
+ * Utilise l'ID de la recette fourni dans l'URL pour rechercher
+ * et afficher les informations pertinentes de la recette correspondante.
+ *
+ * @returns {JSX.Element} Un élément JSX contenant les détails de la recette sélectionnée.
+ */
 const RecipeDetails = () => {
   const { recipeId } = useParams(); // Cela récupère l'id de la recette à partir de l'URL
-  const recipe = recipeData.find((item, index) => index === parseInt(recipeId));
+  console.log("recipeId from URL:", recipeId);
+  // const recipe = recipeData.find((item, index) => index === parseInt(recipeId));
+
+  const recipe = recipeData.find((item) => item.id === recipeId);
+
+  // pour forcer le défilement en haut de la page lorsque le composant est monté.
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   if (!recipe) {
     return <h2>Recette non trouvée</h2>;
@@ -31,7 +46,6 @@ const RecipeDetails = () => {
       <ContentWrapper>
         <ImageTextWrapper>
           <StyledImage src={recipe.image} alt={recipe.title} />
-
           <DetailText>{recipe.detailText}</DetailText>
         </ImageTextWrapper>
         <ContentSection>
@@ -41,7 +55,6 @@ const RecipeDetails = () => {
             cookTime={recipe.cookTime}
           />
           <RecipeButton />
-
           <StyledH2>Ingrédients</StyledH2>
           <CounterButton />
           <ul>
@@ -50,7 +63,6 @@ const RecipeDetails = () => {
             ))}
           </ul>
           <StyledH2>Préparation</StyledH2>
-
           <ol>
             {recipe.instructions.map((instruction, index) => (
               <li key={index}>
@@ -66,76 +78,3 @@ const RecipeDetails = () => {
 };
 
 export default RecipeDetails;
-
-// import {
-//   StyledH1,
-//   StyledH2,
-//   ContentWrapper,
-//   StyledImage,
-//   StyledDiv,
-//   StyledP,
-//   DetailTextWrapper,
-// } from "./RecipeDetails.styled.js";
-
-// const RecipeDetails = () => {
-//   const { recipeId } = useParams();
-//   const recipe = recipeData.find((item, index) => index === parseInt(recipeId));
-
-//   if (!recipe) {
-//     return <h2>Recette non trouvée</h2>;
-//   }
-
-//   const mainText = recipe.detailText.substring(
-//     0,
-//     recipe.detailText.lastIndexOf("Pour le service")
-//   );
-//   const serviceText = recipe.detailText.substring(
-//     recipe.detailText.lastIndexOf("Pour le service")
-//   );
-
-//   return (
-//     <div>
-//       <NavBar />
-//       <StyledH1>{recipe.title}</StyledH1>
-//       <ContentWrapper>
-//         <div>
-//           <StyledImage src={recipe.image} alt={recipe.title} />
-
-//           <DetailTextWrapper>
-//             <p>{mainText}</p>
-//           </DetailTextWrapper>
-//         </div>
-//         <p>{serviceText}</p>
-
-//         <div>
-//           <StyledDiv>
-//             <StyledP>Portions : {recipe.servings} de sirop</StyledP>
-//             <StyledP>
-//               <img src={timerIcon} alt="Timer icon" />
-//               Préparation : {recipe.prepTime}
-//             </StyledP>
-//             <StyledP>
-//               <img src={cookingIcon} alt="Cooking icon" />
-//               Cuisson : {recipe.cookTime}
-//             </StyledP>
-//           </StyledDiv>
-//           <RecipeButton />
-//           <StyledH2>Ingrédients</StyledH2>
-//           <ul>
-//             {recipe.ingredients.map((ingredient, index) => (
-//               <li key={index}>{ingredient}</li>
-//             ))}
-//           </ul>
-//           <StyledH2>Préparation</StyledH2>
-//           <ol>
-//             {recipe.instructions.map((instruction, index) => (
-//               <li key={index}>{instruction}</li>
-//             ))}
-//           </ol>
-//         </div>
-//       </ContentWrapper>
-//     </div>
-//   );
-// };
-
-// export default RecipeDetails;

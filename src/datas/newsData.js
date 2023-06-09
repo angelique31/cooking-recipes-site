@@ -1,5 +1,6 @@
 export const newsData = [
   {
+    id: "courgette",
     image: "/assets/newsCard/courgettes.jpg",
     title: "Comment conserver les courgettes?",
 
@@ -18,6 +19,7 @@ export const newsData = [
     ],
   },
   {
+    id: "tomate",
     image: "/assets/newsCard/tomates.jpg",
     title: "Comment conserver les tomates?",
     summaryTitle: [
@@ -31,6 +33,7 @@ export const newsData = [
     ],
   },
   {
+    id: "viande",
     image: "/assets/newsCard/viande.jpg",
     title: "Faut-il décongeler sa viande avant de la cuire ?",
     summaryTitle: ["Pourquoi faut-il la décongeler avant ?"],

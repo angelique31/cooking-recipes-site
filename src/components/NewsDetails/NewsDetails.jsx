@@ -16,32 +16,13 @@ import NavBar from "../NavBar/NavBar.jsx";
 
 const NewsDetails = () => {
   const { newsId } = useParams();
-  const newsItem = newsData.find((item, index) => index === parseInt(newsId));
+  // const newsItem = newsData.find((item, index) => index === parseInt(newsId));
+  const newsItem = newsData.find((item) => item.id === newsId);
 
   // pour forcer le défilement en haut de la page lorsque le composant est monté.
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
-  // return (
-  //   <div>
-  //     <NavBar />
-  //     <StyledH1>{newsItem.title}</StyledH1>
-  //     <FlexContainer>
-  //       <StyledImage src={newsItem.image} alt={newsItem.title} />
-  //       <ContentWrapper>
-  //         {newsItem.summaryTitle.map((title, index) => (
-  //           <div key={index}>
-  //             <div>
-  //               <StyledH2>{title}</StyledH2>
-  //               <p>{newsItem.summaryText[index]}</p>
-  //             </div>
-  //           </div>
-  //         ))}
-  //       </ContentWrapper>
-  //     </FlexContainer>
-  //   </div>
-  // );
 
   return (
     <div>

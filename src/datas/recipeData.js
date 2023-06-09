@@ -1,6 +1,6 @@
 export const recipeData = [
   {
-    // id: "fraise",
+    id: "fraise",
     image: "/assets/antiWasteTips/sirop-de-fraise.jpg",
     title: "Sirop de queues de fraises",
 
@@ -28,7 +28,7 @@ export const recipeData = [
     ],
   },
   {
-    // id: "cerise",
+    id: "cerise",
     image: "/assets/antiWasteTips/tisane-queue-de-cerise.jpg",
     title: "Tisane de queues de cerises",
 

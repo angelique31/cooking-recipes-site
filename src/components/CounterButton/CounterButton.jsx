@@ -6,6 +6,11 @@ import {
   CountDisplay,
 } from "./CounterButton.styled";
 
+/**
+ * Affiche un bouton de compteur permettant d'ajuster un nombre.
+ *
+ * @returns {JSX.Element} Élément JSX représentant le bouton de compteur.
+ */
 const CounterButton = () => {
   const [count, setCount] = useState(6);
 

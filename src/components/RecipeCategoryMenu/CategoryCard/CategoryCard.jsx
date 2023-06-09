@@ -16,6 +16,13 @@ const categories = [
   { icon: AperitifIcon, title: "Apéritifs" },
 ];
 
+/**
+ * Affiche une liste de catégories de recettes avec leurs icônes.
+ *
+ * Chaque catégorie est représentée par une icône et un titre.
+ *
+ * @returns {JSX.Element} Une liste de catégories de recettes sous forme de cartes.
+ */
 function CategoryCard() {
   return (
     <CategoryCardContainer>
