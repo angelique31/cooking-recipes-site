@@ -1,47 +1,51 @@
 [
   {
-    "id": 1,
-    "nom": "Brioche au sucre",
+    "id": "brioche_sucre",
+    "name": "Brioche au sucre",
+    "image": "#",
+    "eventCategory": null,
+    "category": "dessert",
+    "servingSize": "6 personnes",
     "ingredients": [
       {
-        "nom": "Beurre ramolli",
-        "quantite": "75g"
+        "name": "Beurre ramolli",
+        "quantity": "75g"
       },
       {
-        "nom": "Lait",
-        "quantite": "175ml"
+        "name": "Lait",
+        "quantity": "175ml"
       },
       {
-        "nom": "Farine",
-        "quantite": "350g"
+        "name": "Farine",
+        "quantity": "350g"
       },
       {
-        "nom": "Sucre en poudre",
-        "quantite": "40g"
+        "name": "Sucre en poudre",
+        "quantity": "40g"
       },
       {
-        "nom": "Sucre vanillé",
-        "quantite": "1 sachet"
+        "name": "Sucre vanillé",
+        "quantity": "1 sachet"
       },
       {
-        "nom": "Oeuf",
-        "quantite": "1"
+        "name": "Oeuf",
+        "quantity": "1"
       },
       {
-        "nom": "Levure spéciale boulangerie",
-        "quantite": "Selon le paquet"
+        "name": "Levure spéciale boulangerie",
+        "quantity": "Selon le paquet"
       },
       {
-        "nom": "Sel",
-        "quantite": "Selon le goût"
+        "name": "Sel",
+        "quantity": "Selon le goût"
       },
       {
-        "nom": "Sucre en grains",
-        "quantite": "Selon le goût"
+        "name": "Sucre en grains",
+        "quantity": "Selon le goût"
       }
     ],
-    "tempsPreparation": "3 heures 40 minutes",
-    "etapes": [
+    "preparationTime": "3 heures 40 minutes",
+    "steps": [
       "Dans un saladier, mélangez la farine, le sucre et le sel, puis faites un puit.",
       "Ajoutez la levure. Attention, la levure ne doit pas être en contact direct avec le sel, sinon la brioche ne gonflera pas.",
       "Versez lentement le lait tiède, l'oeuf et le beurre ramolli.",
@@ -52,150 +56,158 @@
       "Une fois que la brioche a triplé de volume, badigeonnez-la de lait puis recouvrez de grains de sucre.",
       "Enfournez dans un four bien chaud (180°C) pendant 30minutes. La brioche est cuite lorsqu'elle est bien dorée",
       "Variante : Vous pouvez ajouter des pépites de chocolat dans la pâte"
-    ],
-    "categorie": "dessert",
-    "image": "../../images/sucré/brioche.jpg"
+    ]
   },
   {
-    "id": 2,
-    "nom": "Cookies aux pépites de chocolat",
+    "id": "cookie",
+    "name": "Cookies aux pépites de chocolat",
+    "image": "#",
+    "eventCategory": null,
+    "category": "dessert",
+    "servingSize": "15 cookies",
     "ingredients": [
       {
-        "nom": "Oeuf",
-        "quantite": "1"
+        "name": "Oeuf",
+        "quantity": "1"
       },
       {
-        "nom": "Vergeoise brune",
-        "quantite": "85g"
+        "name": "Vergeoise brune",
+        "quantity": "85g"
       },
       {
-        "nom": "Beurre",
-        "quantite": "85g"
+        "name": "Beurre",
+        "quantity": "85g"
       },
       {
-        "nom": "Farine",
-        "quantite": "150g"
+        "name": "Farine",
+        "quantity": "150g"
       },
       {
-        "nom": "Pépites de chocolat",
-        "quantite": "100g"
+        "name": "Pépites de chocolat",
+        "quantity": "100g"
       },
       {
-        "nom": "Sucre vanillé",
-        "quantite": "1 sachet"
+        "name": "Sucre vanillé",
+        "quantity": "1 sachet"
       },
       {
-        "nom": "Levure chimique",
-        "quantite": "1 cac"
+        "name": "Levure chimique",
+        "quantity": "1 cac"
       },
       {
-        "nom": "Sel",
-        "quantite": "Selon le goût"
+        "name": "Sel",
+        "quantity": "Selon le goût"
       }
     ],
-    "tempsPreparation": "25 minutes",
-    "etapes": [
+    "preparationTime": "25 minutes",
+    "steps": [
       "Laissez ramollir le beurre à température ambiante. Dans un saladier, malaxez-le avec le sucre.",
       "Ajoutez l'oeuf et le sucre vanillé.",
       "Versez progressivement la farine, la levure chimique, le sel et les pépites de chocolat. Mélangez bien.",
       "Beurrez une plaque allant au four ou recouvrez-le d'une feuille de papier sulfutisé. A l'aide de 2 cuillères, à soupe ou simplement avec les mains, formez des noix de pâte en les espaçant car elles s'étalant à la cuisson.",
       "Faire cuire 8 à 10 minutes à 180°C soit thermostat 6. Il faut les sortir dès que les contours commencent à brunir."
-    ],
-    "categorie": "dessert",
-    "image": "../../images/sucré/cookies.jpg"
+    ]
   },
   {
-    "id": 3,
-    "nom": "Crêpes sucrées",
+    "id": "crepe",
+    "name": "Crêpes sucrées",
+    "image": "#",
+    "eventCategory": null,
+    "category": "dessert",
+    "servingSize": "15 crêpes",
     "ingredients": [
       {
-        "nom": "Farine",
-        "quantite": "250g"
+        "name": "Farine",
+        "quantity": "250g"
       },
       {
-        "nom": "Lait demi-écrémé",
-        "quantite": "50 cl"
+        "name": "Lait demi-écrémé",
+        "quantity": "50 cl"
       },
       {
-        "nom": "Oeufs",
-        "quantite": "3"
+        "name": "Oeufs",
+        "quantity": "3"
       },
       {
-        "nom": "Sucre vanillé",
-        "quantite": "1 sachet"
+        "name": "Sucre vanillé",
+        "quantity": "1 sachet"
       }
     ],
-    "tempsPreparation": "10 minutes",
-    "tempsCuisson": "15 minutes",
-    "etapes": [
+    "preparationTime": "10 minutes",
+    "cookingTime": "15 minutes",
+    "steps": [
       "Versez la farine dans un saladier. Faire un puit",
       "Ajoutez les oeufs.",
       "Mélangez à l'aide d'un fouet en délayant tout doucement avec le lait, afin d'éviter les grumeaux.",
       "Ajoutez le sucre vanillé.",
       "Laissez reposer la pâte 1 heure environ",
       "Vous pouvez ajouter un peu d'eau si la pâte vous parait trop épaisse."
-    ],
-    "categorie": "dessert",
-    "image": "../../images/sucré/crepes.jpg"
+    ]
   },
   {
-    "id": 4,
-    "nom": "Far breton aux pruneaux",
+    "id": "far",
+    "name": "Far breton aux pruneaux",
+    "image": "#",
+    "eventCategory": null,
+    "category": "dessert",
+    "servingSize": "8 personnes",
     "ingredients": [
       {
-        "nom": "Farine",
-        "quantite": "125g"
+        "name": "Farine",
+        "quantity": "125g"
       },
       {
-        "nom": "Sucre",
-        "quantite": "80g"
+        "name": "Sucre",
+        "quantity": "80g"
       },
       {
-        "nom": "Lait demi-écrémé",
-        "quantite": "50cl"
+        "name": "Lait demi-écrémé",
+        "quantity": "50cl"
       },
       {
-        "nom": "Oeufs",
-        "quantite": "3"
+        "name": "Oeufs",
+        "quantity": "3"
       },
       {
-        "nom": "Pruneaux dénoyautés",
-        "quantite": "Une douzaine"
+        "name": "Pruneaux dénoyautés",
+        "quantity": "Une douzaine"
       }
     ],
-    "tempsPreparation": "10 minutes",
-    "tempsCuisson": "30 minutes",
-    "etapes": [
+    "preparationTime": "10 minutes",
+    "cookingTime": "30 minutes",
+    "steps": [
       "Mélangez les oeufs et le sucre au fouet, jusqu'à ce que le mélange blanchisse.",
       "Ajoutez la farine. Mélangez.",
       "Ajoutez le lait chaud. Mélangez jusqu'à ce que la pâte soit bien lisse.",
       "Beurrez un plat allant au four, ajoutez-y les pruneaux. Versez la pâte sur la préparation.",
       "Mettez le plat dans un four préalablement chauffé à 200°C.",
       "Laissez cuire environ 30 minutes. Le far est cuit quand la croûte a bien brunie."
-    ],
-    "categorie": "dessert",
-    "image": "../../images/sucré/far-breton.jpg"
+    ]
   },
   {
-    "id": 5,
-    "nom": "Crème dessert au carambar",
+    "id": "creme_carambar",
+    "name": "Crème dessert au carambar",
+    "image": "#",
+    "eventCategory": null,
+    "category": "dessert",
+    "servingSize": "4 personnes",
     "ingredients": [
       {
-        "nom": "Carambars",
-        "quantite": "10"
+        "name": "Carambars",
+        "quantity": "10"
       },
       {
-        "nom": "Lait demi-écrémé",
-        "quantite": "50cl"
+        "name": "Lait demi-écrémé",
+        "quantity": "50cl"
       },
       {
-        "nom": "Oeufs",
-        "quantite": "2"
+        "name": "Oeufs",
+        "quantity": "2"
       }
     ],
-    "tempsPreparation": "10 minutes",
-    "tempsCuisson": "45 minutes",
-    "etapes": [
+    "preparationTime": "10 minutes",
+    "cookingTime": "45 minutes",
+    "steps": [
       "Faire fondre les carambars dans le lait dans une casserole.",
       "Pendant ce temps, dans un saladier, battre les oeufs.",
       "Lorsque les carambars sont fondus, ajouter le lait dans le saladiers et bien mélanger.",
@@ -203,62 +215,66 @@
       "Disposer les ramequins dans un plat à gratin avec de l'eau dedans, pour faire cuire au bain-marie.",
       "Mettre à four chaud pendant 45 minutes à 175°",
       "Sortir du four et laisser refroidir"
-    ],
-    "categorie": "dessert",
-    "image": "../../../images/sucré/creme-carambar.jpg"
+    ]
   },
   {
-    "id": 6,
-    "nom": "Crème dessert au chocolat",
+    "id": "creme_chocolat",
+    "name": "Crème dessert au chocolat",
+    "image": "#",
+    "eventCategory": null,
+    "category": "dessert",
+    "servingSize": "4 personnes",
     "ingredients": [
       {
-        "nom": "Chocolat noir pâtissier",
-        "quantite": "100g"
+        "name": "Chocolat noir pâtissier",
+        "quantity": "100g"
       },
       {
-        "nom": "Lait demi-écrémé",
-        "quantite": "50cl"
+        "name": "Lait demi-écrémé",
+        "quantity": "50cl"
       },
       {
-        "nom": "Maïzena (fécule de maïs)",
-        "quantite": "30g"
+        "name": "Maïzena (fécule de maïs)",
+        "quantity": "30g"
       }
     ],
-    "tempsPreparation": "10 minutes",
-    "tempsCuisson": "10 minutes",
-    "etapes": [
+    "preparationTime": "15 minutes",
+    "cookingTime": "10 minutes",
+    "steps": [
       "Verser la maïzena dans le lait froid et fouettez.",
       "Concassez grossièrement le chocolat à l'aide d'un couteau.",
       "Dans une casserole,faites fondre à feu doux le chocolat dans le lait. Mélangez doucement sans arrêt, jusqu'à ce que la crème s'épaississe. Fouettez-la quelques instants pour qu'elle devienne bien lisse.",
       "Répartissez la crème dans les petits ramequins, laissez poser pendant 2 heures, puis réservez au réfrigérateur jusqu'au moment de servir."
-    ],
-    "categorie": "dessert",
-    "image": "../../../images/sucré/creme-chocolat.jpg"
+    ]
   },
   {
-    "id": 7,
-    "nom": "Crème dessert au speculos",
+    "id": "creme_speculos",
+    "name": "Crème dessert au speculos",
+    "image": "#",
+    "eventCategory": null,
+    "category": "dessert",
+    "servingSize": "4 personnes",
     "ingredients": [
       {
-        "nom": "Lait",
-        "quantite": "500 ml"
+        "name": "Lait",
+        "quantity": "500 ml"
       },
       {
-        "nom": "Spéculos",
-        "quantite": "8"
+        "name": "Spéculos",
+        "quantity": "8"
       },
       {
-        "nom": "Maïzena",
-        "quantite": "4 CS"
+        "name": "Maïzena",
+        "quantity": "4 CS"
       },
       {
-        "nom": "Sucre en poudre",
-        "quantite": "2 CS"
+        "name": "Sucre en poudre",
+        "quantity": "2 CS"
       }
     ],
-    "tempsPreparation": "10 minutes",
-    "tempsCuisson": "Non spécifié",
-    "etapes": [
+    "preparationTime": "15 minutes",
+    "cookingTime": "10 minutes",
+    "steps": [
       "Délayez la maïzena dans un peu de lait.",
       "Ajoutez le sucre puis le lait petit à petit. Bien mélanger.",
       "Mettre les speculos entre 2 feuilles de sopalin, et les écraser avec un rouleau a pâtisserie.",
@@ -266,8 +282,1545 @@
       "Faites chauffer la préparation dans une casserole jusqu'à ébullition, tout en mélangeant.",
       "Répartir la crème dans les pots, laissez refroidir et les placer au réfrigérateur",
       "Au moment de servir, émiettez 1/2 spéculos sur chaque dessert"
+    ]
+  },
+  {
+    "id": "creme_vanille",
+    "name": "Crème dessert à la vanille",
+    "image": "../../../images/sucré/creme-vanille.jpg",
+    "eventCategory": null,
+    "category": "dessert",
+    "servingSize": "4 personnes",
+    "ingredients": [
+      {
+        "name": "Lait",
+        "quantity": "500 ml"
+      },
+      {
+        "name": "Sucre vanillé",
+        "quantity": "2 sachets"
+      },
+      {
+        "name": "Maïzena",
+        "quantity": "30g"
+      },
+      {
+        "name": "Sucre en poudre",
+        "quantity": "60g"
+      }
     ],
-    "categorie": "dessert",
-    "image": "../../../images/sucré/creme-aux-speculoos.jpg"
+    "preparationTime": "15 minutes",
+    "cookingTime": "10 minutes",
+    "steps": [
+      "Délayez la maïzena dans un peu de lait.",
+      "Ajoutez le sucre et le sucre vanillé puis le lait petit à petit. Bien mélanger.",
+      "Faites chauffer la préparation dans une casserole jusqu'à ébullition, tout en mélangeant, jusqu'à ce que la crème s'épaississe.",
+      "Répartir la crème dans les pots, laissez refroidir et les placer au réfrigérateur"
+    ]
+  },
+  {
+    "id": "riz_au_lait_caramel",
+    "name": "Riz au lait au caramel",
+    "image": "../../../images/sucré/riz-au-lait-.jpg",
+    "eventCategory": null,
+    "category": "dessert",
+    "servingSize": "6 personnes",
+    "ingredients": [
+      {
+        "name": "Riz rond",
+        "quantity": "120g"
+      },
+      {
+        "name": "Lait demi-écrémé",
+        "quantity": "1 litre"
+      },
+      {
+        "name": "Caramel liquide",
+        "quantity": "Selon le goût"
+      },
+      {
+        "name": "Sucre",
+        "quantity": "50g"
+      },
+      {
+        "name": "Gousse de vanille ou sucre vanillé",
+        "quantity": "1 gousse ou 2 sachets"
+      }
+    ],
+    "preparationTime": "10 minutes",
+    "cookingTime": "30 à 40 minutes",
+    "steps": [
+      "Faire chauffer le lait dans une casserole.",
+      "Ajouter le riz rond.",
+      "Ajouter le sucre et le sucre vanillé ou la gousse de vanille",
+      "Cuire à feu doux tout en remuant très régulièrement, jusqu'à ce que la préparation devienne onctueuse.",
+      "Verser un peu de caramel liquide dans les ramequins.",
+      "Puis, verser la préparation de riz au lait dans des ramequins.",
+      "Laisser refroidir."
+    ]
+  },
+  {
+    "id": "semoule_caramel",
+    "name": "Semoule au caramel",
+    "image": "../../../images/sucré/semoule-au-caramel.jpg",
+    "eventCategory": null,
+    "category": "dessert",
+    "servingSize": "4 personnes",
+    "ingredients": [
+      {
+        "name": "Semoule fine",
+        "quantity": "60g"
+      },
+      {
+        "name": "Jaune d'oeuf",
+        "quantity": "1"
+      },
+      {
+        "name": "Sucre",
+        "quantity": "40g"
+      },
+      {
+        "name": "Sucre vanillé",
+        "quantity": "2 sachets"
+      },
+      {
+        "name": "Lait",
+        "quantity": "500ml"
+      },
+      {
+        "name": "Caramel liquide",
+        "quantity": "Selon le goût"
+      }
+    ],
+    "preparationTime": "10 minutes",
+    "cookingTime": "30 minutes",
+    "steps": [
+      "Faire chauffer le lait. Ajouter la semoule en pluie. Laisser épaissir sans cesser de remuer.",
+      "Mélangez au fouet le jaune d'oeuf le sucre et le sucre vanillé. Versez le mélange semoule/lait puis mélangez.",
+      "Versez le caramel au fond des ramequins. Y verser la préparation de semoule.",
+      "Mettre les ramequins dans un plat allant au four et verser un fond d'eau dans le plat pour une cuisson au four au bain-marie.",
+      "Laisser cuire environ 30 minutes au four. Se mange bien frais"
+    ]
+  },
+  {
+    "id": "cake_citron",
+    "name": "Cake au citron avec glaçage",
+    "image": "../../../images/sucré/cake-au-citron-.jpg",
+    "eventCategory": null,
+    "category": "dessert",
+    "servingSize": "6 personnes",
+    "ingredients": [
+      {
+        "name": "Beurre fondu",
+        "quantity": "120g"
+      },
+      {
+        "name": "Oeufs",
+        "quantity": "3"
+      },
+      {
+        "name": "Sucre en poudre",
+        "quantity": "200g"
+      },
+      {
+        "name": "Farine",
+        "quantity": "150g"
+      },
+      {
+        "name": "Levure",
+        "quantity": "1 càc"
+      },
+      {
+        "name": "Jus et zeste de citrons",
+        "quantity": "2 citrons"
+      },
+      {
+        "name": "Sucre glaçe",
+        "quantity": "130g"
+      }
+    ],
+    "preparationTime": "30 minutes",
+    "cookingTime": "30-40 minutes",
+    "steps": [
+      "Préchauffez le four à 170°C.",
+      "Faire fondre le beurre au bain marie.",
+      "Versez le sucre dans un saladier avec le beurre fondu et le zeste du citron. Mélangez au fouet jusqu'à ce que le mélange blanchisse.",
+      "Ajoutez les oeufs, la farine, la levure, le jus de citron.",
+      "Versez la pâte dans un moule à cake légèrement beurré, et mettre au four pendant 30 à 40 minutes.",
+      "Le gâteau doit être légèrement doré, pas trop gonflé.",
+      "Démoulez à l'envers, sur une grille. Emballez-le immédiatement dans du film alimentaire pour qu'il garde toute son humidité.",
+      "Laissez le cake refroidir dans son emballage.",
+      "Quand il est à température ambiante, préparez le glaçage en mélangeant le jus de citron avec le sucre glaçe. Déballez le cake puis versez le glaçage en posant le cake sur une grille. Avec un couteau ou une spatule, lissez le glaçage pour qu'il tombe de tous les côyés et surtout qu'il soit fin.",
+      "Remettre le cake au four à 100°C pendant 8 minutes pour sécher le glaçage."
+    ]
+  },
+  {
+    "id": "cheesecake",
+    "name": "Cheesecake Vanille Et Caramel Beurre Salé (Sans Cuisson)",
+    "image": "../../../images/sucré/cheesecake-caramel-beurre-sale.jpeg",
+    "eventCategory": null,
+    "category": "dessert",
+    "servingSize": "8 personnes",
+    "ingredients": [
+      {
+        "name": "Palets bretons",
+        "quantity": "250g"
+      },
+      {
+        "name": "Beurre",
+        "quantity": "50g"
+      },
+      {
+        "name": "Sucre en poudre",
+        "quantity": "160g"
+      },
+      {
+        "name": "Crème liquide",
+        "quantity": "60cl (20cl pour le caramel et 40cl pour le cheesecake)"
+      },
+      {
+        "name": "Beurre",
+        "quantity": "60g"
+      },
+      {
+        "name": "Fleur de sel",
+        "quantity": null
+      },
+      {
+        "name": "Philadelphia",
+        "quantity": "400g"
+      },
+      {
+        "name": "Feuilles de gélatine",
+        "quantity": "3"
+      },
+      {
+        "name": "Sucre glace",
+        "quantity": "4 cs"
+      }
+    ],
+    "preparationTime": "30 minutes",
+    "cookingTime": "Repos: 6 heures",
+    "steps": [
+      "Pour le fond: Mixer les palets bretons et rajouter le beurre fondu. Bien mélanger et foncer un cercle de 20 cm posé dans un plat avec une feuille de papier cuisson. Bien tasser et réserver au frais.",
+      "Pour le caramel beurre salé: Faire chauffer le sucre dans une casserole sans le toucher jusqu'à ce qu'il caramélise. Faire chauffer (dans une autre casserole) la crème liquide et la verser (hors du feu) sur le caramel. Remettre à chauffer tout en mélangeant vigoureusement avec une cuillère en bois. Ajouter le beurre et la fleur de sel (à votre convenance) Laisser refroidir.",
+      "Pour le cheesecake: Mettre la gélatine à réhydrater dans de l'eau froide. Récupérer 3 ou 4 cs de crème liquide, la faire chauffer et y dissoudre (hors du feu) la gélatine essorée. Monter la crème liquide en chantilly et serrer en lui ajoutant le sucre glace. Dans un saladier, détendre le philadelphia à la fourchette, ajouter le caramel beurre salé (en garder un peu pour la décoration), puis rajouter la chantilly. Bien mélanger. Recouvrir la base de palets breton avec les 3/4 de la préparation. Mettre le reste dans une poche à douille et décorer le dessus. Faire de même avec le caramel mis de côté.",
+      "Mettre au minimum 4 heures au frais ou toute une nuit."
+    ]
+  },
+  {
+    "id": "fondant_chocolat_blanc",
+    "name": "Fondant au chocolat blanc et à la framboise",
+    "image": "../../../images/sucré/fondant-chocolat-blanc-framboises.jpg",
+    "eventCategory": null,
+    "category": "dessert",
+    "servingSize": "12 personnes",
+    "ingredients": [
+      {
+        "name": "Chocolat blanc",
+        "quantity": "300g"
+      },
+      {
+        "name": "Beurre",
+        "quantity": "100g"
+      },
+      {
+        "name": "Oeufs",
+        "quantity": "3"
+      },
+      {
+        "name": "Sucre en poudre",
+        "quantity": "100g"
+      },
+      {
+        "name": "Farine",
+        "quantity": "150g"
+      },
+      {
+        "name": "Levure",
+        "quantity": "1 càc"
+      },
+      {
+        "name": "Framboise",
+        "quantity": "200g"
+      }
+    ],
+    "preparationTime": "30 minutes",
+    "cookingTime": "20 minutes",
+    "steps": [
+      "Préchauffez le four à 180°C.",
+      "Faire fondre 200g de chocolat avec le beurre dans une casserole à feu doux.",
+      "Versez dans un saladier et laissez refroidir.",
+      "Rajoutez le sucre, les oeufs, la farine, la levure, le reste du chocolat concassé et les framboises.",
+      "Versez dans un moule et mettre au four pendant 20 minutes.",
+      "Laissez refroidir pour le démouler, car le coeur du gâteau est très fondant.",
+      "Servir à température ambiante."
+    ]
+  },
+  {
+    "id": "galette_des_rois",
+    "name": "Galette des rois à la frangipane",
+    "image": "../../../images/sucré/galette-des-rois.jpg",
+    "eventCategory": null,
+    "category": "dessert",
+    "servingSize": "8 personnes",
+    "ingredients": [
+      {
+        "name": "Jaunes d'oeufs (pour la crème pâtissière)",
+        "quantity": "2"
+      },
+      {
+        "name": "Sucre (pour la crème pâtissière)",
+        "quantity": "35g"
+      },
+      {
+        "name": "Farine (pour la crème pâtissière)",
+        "quantity": "20g"
+      },
+      {
+        "name": "Lait (pour la crème pâtissière)",
+        "quantity": "25cl"
+      },
+      {
+        "name": "Sucre vanillé (pour la crème pâtissière)",
+        "quantity": "1 sachet"
+      },
+      {
+        "name": "Jaunes d'oeufs (pour la crème d'amande)",
+        "quantity": "3"
+      },
+      {
+        "name": "Poudre d'amande (pour la crème d'amande)",
+        "quantity": "125g"
+      },
+      {
+        "name": "Sucre en poudre (pour la crème d'amande)",
+        "quantity": "100g"
+      },
+      {
+        "name": "Beurre pommade (pour la crème d'amande)",
+        "quantity": "125g"
+      },
+      {
+        "name": "Pépites de chocolat (pour la crème d'amande)",
+        "quantity": "50g"
+      },
+      {
+        "name": "Disques de pâte feuilletée (pour le montage de la galette)",
+        "quantity": "2"
+      },
+      {
+        "name": "Jaune d'oeuf (pour le montage de la galette)",
+        "quantity": "1"
+      }
+    ],
+    "preparationTime": "30 minutes",
+    "cookingTime": "25 minutes",
+    "steps": [
+      "La crème pâtissière: Battre dans un saladier les 2 jaunes d'œufs avec 35 g de sucre. Ajouter la farine, mélangez, puis ajouter le lait bouillant progressivement tout en mélangeant.",
+      "Verser le mélange dans la casserole et fouetter sans s’arrêter pendant 3 min après la reprise de l’ébullition.",
+      "Quand le mélange épaissit sans attacher, la crème pâtissière est prête.",
+      "Verser la crème pâtissière dans un plat, et recouvrir au contact de film alimentaire (pour éviter la formation d’une croûte).",
+      "Réserver la crème pour qu’elle refroidisse pendant 1h minimum.",
+      "La crème d’amande: Travailler ensemble au fouet le beurre pommade et le sucre jusqu’à obtention d’une pâte blanche homogène.",
+      "Ajouter les jaunes d’œufs un par un, la poudre d’amande, et enfin les pépites de chocolat. Bien mélanger.",
+      "Montage et cuisson:",
+      "Préchauffer le four à 200°C.",
+      "Etaler un premier disque de pâte feuilletée.",
+      "A l’aide d’un pinceau, recouvrir la bordure de mélange jaune d’œuf / lait sur 2 cm environ.",
+      "Ajouter la Frangipane, idéalement en utilisant une poche à douille: Faire une spirale en partant du centre. Ne pas aller trop vers les bords. Ajouter une fève.",
+      "Déposer délicatement le 2ème disque de feuilletage. Souder les bords en appuyant délicatement sur tout le tour, en chassant l’air vers l’extérieur.",
+      "« Chiqueter » les bords avec un petit couteau, c’est-à-dire faire des petites entailles sur tout le pourtour de la galette.",
+      "Avec le dos du couteau, décorer le dessus de la galette d’une jolie rosace, en partant du centre. Faire une entaille au milieu de cette rosace, pour permettre à l’air de s’échapper et au feuilletage de ne pas trop se développer.",
+      "Dorer la galette à l’aide d’un pinceau et du mélange jaune d’œuf / lait.",
+      "Enfourner pour 10 minutes à 200°C, puis baisser la température à 180°C et cuire 30 minutes supplémentaires."
+    ]
+  },
+  {
+    "id": "gateau_vanille_abricots",
+    "name": "Gâteau vanillé aux abricots",
+    "image": "../../../images/sucré/gateau-aux-abricots-et-a-la-vanille.jpg",
+    "eventCategory": null,
+    "category": "dessert",
+    "servingSize": "4 parts",
+    "ingredients": [
+      {
+        "name": "Farine",
+        "quantity": "3 CS"
+      },
+      {
+        "name": "Sucre",
+        "quantity": "4 càc"
+      },
+      {
+        "name": "Abricots secs",
+        "quantity": "12"
+      },
+      {
+        "name": "Oeufs",
+        "quantity": "3"
+      },
+      {
+        "name": "Levure",
+        "quantity": "1/2 sachet"
+      },
+      {
+        "name": "Yaourt nature",
+        "quantity": "1 pot"
+      },
+      {
+        "name": "Lait 1/2 écrémé",
+        "quantity": "50ml"
+      },
+      {
+        "name": "Sucre vanillé",
+        "quantity": "1 sachet"
+      }
+    ],
+    "preparationTime": "15 minutes",
+    "cookingTime": "25 minutes",
+    "steps": [
+      "Préchauffez le four à 180°C.",
+      "Mettez les abricots dans une casserole d'eau froide, portez à ébullition. Quand l'eau bout, retirez du feu, couvrez et laissez gonfler 15 min.",
+      "Beurrez un moule. Tamisez la farine et la levure.",
+      "Dans un récipient, fouettez les oeufs avec le sucre et le sucre vanillé. Incorporez la farine tamisée, délayez avec le lait et le yaourt.",
+      "Versez la préparation dans le moule.",
+      "Egouttez les abricots, les répartir sur le dessus de la préparation en les enfonçant légèrement.",
+      "Enfournez pendant 25 min.",
+      "Soupoudrez de sucre vanillé 5 minutes avant la fin de la cuisson."
+    ]
+  },
+  {
+    "id": "gateau_ananas_noix_coco",
+    "name": "Gâteau à l'ananas et à la noix de coco",
+    "image": "../../../images/sucré/gateau-a-l-ananas-et-noix-de-coco.jpeg",
+    "eventCategory": null,
+    "category": "dessert",
+    "servingSize": "8 parts",
+    "ingredients": [
+      {
+        "name": "Farine",
+        "quantity": "80g"
+      },
+      {
+        "name": "Sucre",
+        "quantity": "30g"
+      },
+      {
+        "name": "Crème épaisse à 4%",
+        "quantity": "100g"
+      },
+      {
+        "name": "Oeufs",
+        "quantity": "3"
+      },
+      {
+        "name": "Levure",
+        "quantity": "1 sachet"
+      },
+      {
+        "name": "Noix de coco râpée",
+        "quantity": "25g (20g pour la préparation et 5g pour la présentation)"
+      },
+      {
+        "name": "Ananas frais",
+        "quantity": "600g"
+      }
+    ],
+    "preparationTime": "15 minutes",
+    "cookingTime": "30 minutes",
+    "steps": [
+      "Préchauffez le four à 180°C.",
+      "Coupez 4 à 5 belles tranches d'ananas. Coupez le reste de votre ananas en petits dés et réservez. Conservez le jus de votre ananas.",
+      "Disposez vos tranches d'ananas au fond de votre moule.",
+      "Dans un récipient, mélangez les ingrédients en les incorporant un à un et en les mélangeant au fur et à mesure : farine, levure, sucre, crème fraîche et les œufs.",
+      "Fouettez bien la préparation.",
+      "Ajoutez 20g de noix de coco râpée, puis mélangez de nouveau.",
+      "Ajoutez les dés d'ananas à la préparation et mélangez de nouveau. Versez la pâte ainsi obtenue sur les rondelles d'ananas déjà disposées dans le moule.",
+      "Enfournez pendant 45 minutes."
+    ]
+  },
+  {
+    "id": "tarte_chocolat_noir",
+    "name": "Tarte au chocolat noir",
+    "image": "../../../images/sucré/tarte-au-chocolat.jpeg",
+    "eventCategory": null,
+    "category": "dessert",
+    "servingSize": "10 personnes",
+    "ingredients": [
+      {
+        "name": "Chocolat noir",
+        "quantity": "200g"
+      },
+      {
+        "name": "Pâte sablée",
+        "quantity": "1 rouleau"
+      },
+      {
+        "name": "Crème liquide",
+        "quantity": "20cl"
+      }
+    ],
+    "preparationTime": "30 minutes",
+    "cookingTime": "20 minutes",
+    "steps": [
+      "Préchauffez votre four à 200°C. Faites cuire la pâte à blanc selon le mode d'emploi.",
+      "Dans une casserole, faites chauffer la crème liquide.",
+      "Dans un saladier, cassez le chocolat en morceaux, versez la crème liquide et couvrez avec une assiette. Attendez 3 à 5 minutes.",
+      "Mélangez à l'aide d'un fouet.",
+      "Versez la ganache sur le fond de tarte et placez votre tarte au chocolat au réfrigérateur pendant au moins 2 heures."
+    ]
+  },
+  {
+    "id": "tarte_citron_meringuee",
+    "name": "Tarte au citron meringuée",
+    "image": "../../../images/sucré/tarte-citron-meringu.jpg",
+    "eventCategory": null,
+    "category": "dessert",
+    "servingSize": "6 personnes",
+    "ingredients": [
+      {
+        "name": "Pâte brisée",
+        "quantity": "1"
+      },
+      {
+        "name": "Maïzena",
+        "quantity": "4 CS"
+      },
+      {
+        "name": "Oeufs",
+        "quantity": "3"
+      },
+      {
+        "name": "Zeste râpé et jus de citrons non traités",
+        "quantity": "3"
+      },
+      {
+        "name": "Sucre",
+        "quantity": "150g"
+      },
+      {
+        "name": "Sel",
+        "quantity": "quantité suffisante"
+      }
+    ],
+    "preparationTime": "20 minutes",
+    "cookingTime": "40 minutes",
+    "steps": [
+      "Préchauffez le four à 180°C.",
+      "Garnissez un moule à tarte avec la pâte. Piquez le fond avec une fourchette. Cuire la pâte à blanc pendant 10 minutes.",
+      "Délayez la maïzena dans le jus de citron. Incorporez les zestes et 30 cl d'eau froide. Faites épaissir sur feu doux.",
+      "Ajoutez 50g de sucre en remuant jusqu'à dissolution. Retirez du feu, laissez tiédir.",
+      "Incorporez les jaunes d'œufs en fouettant.",
+      "Versez la préparation sur la pâte. Enfournez pendant 20 minutes. Puis retirez la tarte du four en le laissant allumé et en le mettant sur le mode grill.",
+      "Pendant ce temps, montez les blancs en neige avec une pincée de sel, en ajoutant petit à petit le reste de sucre.",
+      "Répartissez cette meringue sur la tarte.",
+      "Enfournez quelques instants en surveillant bien la prise de la meringue.",
+      "Se déguste bien frais."
+    ]
+  },
+  {
+    "id": "tarte_fraises",
+    "name": "Tarte aux fraises",
+    "image": "../../../images/sucré/tarte-fraises.jpg",
+    "eventCategory": null,
+    "category": "dessert",
+    "servingSize": "12 personnes",
+    "ingredients": [
+      {
+        "name": "Pâte sablée",
+        "quantity": "1"
+      },
+      {
+        "name": "Farine",
+        "quantity": "40g"
+      },
+      {
+        "name": "Jaunes d'oeuf",
+        "quantity": "3"
+      },
+      {
+        "name": "Lait",
+        "quantity": "500ml"
+      },
+      {
+        "name": "Sucre",
+        "quantity": "75g"
+      }
+    ],
+    "preparationTime": "30 minutes",
+    "cookingTime": "20 minutes",
+    "steps": [
+      "Préchauffez le four à 180°C.",
+      "Faites chauffer le lait.",
+      "Pendant ce temps, travaillez les jaunes d'œufs avec le sucre jusqu'à ce que le mélange blanchisse et devienne mousseux.",
+      "Ajoutez la farine en pluie. Bien mélanger. Versez le lait bouillant petit à petit sur le mélange.",
+      "Remettez le tout sur feu doux et portez à ébullition doucement, en mélangeant sans cesse.",
+      "Laissez refroidir la crème en mettant du film alimentaire au contact de la crème pour éviter la formation d'une pellicule.",
+      "Etalez la pâte dans un plat à tarte. Etalez la crème pâtissière sur la pâte. Placez les fraises coupées en deux.",
+      "Pour ajouter de la brillance, vous pouvez faire fondre de la confiture de fraises et nappez la tarte avec un pinceau large."
+    ]
+  },
+  {
+    "id": "pates_carbonara",
+    "name": "Pâtes à la carbonara",
+    "image": "../../../images/salé/pates-carbo.jpg",
+    "eventCategory": null,
+    "category": "plat principal",
+    "servingSize": "4 personnes",
+    "ingredients": [
+      {
+        "name": "Spaghettoni",
+        "quantity": "400g"
+      },
+      {
+        "name": "Guanciale (joue de porc) ou pancetta",
+        "quantity": "Quantité suffisante"
+      },
+      {
+        "name": "Jaunes d'œufs",
+        "quantity": "3"
+      },
+      {
+        "name": "Parmesan",
+        "quantity": "100g"
+      },
+      {
+        "name": "Poivre",
+        "quantity": "Quantité suffisante"
+      }
+    ],
+    "preparationTime": "5 minutes",
+    "cookingTime": "15 minutes",
+    "steps": [
+      "Faire bouillir dans une casserole un grand volume d'eau.",
+      "Plonger les pâtes dans l'eau et faire cuire 9-10 minutes selon le type de pâtes.",
+      "Pendant ce temps, couper le guanciale (joue de porc) ou la pancetta en gros lardons d'1cm de côté. Cuire la viande dans une poêle, sans ajout de matière grasse.",
+      "Dès que les pâtes sont cuites, les égoutter en gardant un peu d'eau de cuisson dans un bol. Verser les pâtes dans la poêle avec le guanciale ou la pancetta (feu éteint). Bien mélanger. Ensuite, verser la préparation dans un plat.",
+      "Dans un bol, mélanger les 3 jaunes d'œufs en ajoutant petit à petit un peu d'eau de cuisson des pâtes jusqu'à obtenir une sauce crémeuse.",
+      "Bien mélanger le tout et surtout bien poivrer. C'est le poivre qui donnera du goût au plat.",
+      "Ajouter le parmesan.",
+      "À déguster tout de suite. Bon appétit!"
+    ]
+  },
+  {
+    "id": "spaghetti_bolognaise",
+    "name": "Spaghettis à la bolognaise",
+    "image": "../../../images/salé/spaghetti-bolognaisejpg.jpg",
+    "eventCategory": null,
+    "category": "plat principal",
+    "servingSize": "4 personnes",
+    "ingredients": [
+      {
+        "name": "Spaghettis",
+        "quantity": "400g"
+      },
+      {
+        "name": "Boeuf hâché",
+        "quantity": "300g"
+      },
+      {
+        "name": "Tomates pelées",
+        "quantity": "800g"
+      },
+      {
+        "name": "Coulis de tomate",
+        "quantity": "200g"
+      },
+      {
+        "name": "Parmesan ou emmental râpé",
+        "quantity": "100g"
+      },
+      {
+        "name": "Oignon",
+        "quantity": "1 petit"
+      },
+      {
+        "name": "Huile d'olive (ou tournesol)",
+        "quantity": "1 cuillère à soupe"
+      },
+      {
+        "name": "Sucre en poudre",
+        "quantity": "1 càc"
+      },
+      {
+        "name": "Sel",
+        "quantity": "Quantité suffisante"
+      },
+      {
+        "name": "Poivre",
+        "quantity": "Quantité suffisante"
+      }
+    ],
+    "preparationTime": "5 minutes",
+    "cookingTime": "15 minutes",
+    "steps": [
+      "Épluchez et émincez les oignons en petits cubes.",
+      "Chauffez une poêle, ajoutez un filet d'huile, puis ajoutez les oignons en les faisant revenir à feu vif jusqu'à ce qu'ils colorent légèrement.",
+      "Ajoutez la viande hachée, salez et poivrez et faites-la cuire à feu vif pendant environ 5 minutes.",
+      "Versez ensuite les tomates pelées, le sucre en poudre et laissez mijoter le tout à feu doux pendant environ 10 minutes tout en remuant la préparation.",
+      "Pendant ce temps, plongez les pâtes dans l'eau et faites-les cuire 9-10 minutes selon le temps indiqué sur le paquet.",
+      "Quand les spaghettis sont cuits, égouttez-les et disposez-les dans des assiettes creuses sans attendre.",
+      "Versez la sauce bolognaise sur les spaghettis et saupoudrez de parmesan râpé."
+    ]
+  },
+  {
+    "id": "mini_buches_saumon",
+    "name": "Mini bûches au saumon",
+    "image": "../../../images/salé/mini-buche-saumon.jpg",
+    "eventCategory": "plat de fête",
+    "category": "entrée",
+    "servingSize": "2 personnes",
+    "ingredients": [
+      {
+        "name": "Tranches de pain de mie",
+        "quantity": "4"
+      },
+      {
+        "name": "Kiri",
+        "quantity": "2"
+      },
+      {
+        "name": "Tranches de saumon fumé",
+        "quantity": "2"
+      },
+      {
+        "name": "Graines de sésame",
+        "quantity": "1 cuillère à soupe"
+      }
+    ],
+    "preparationTime": "15 minutes",
+    "restingTime": "20 minutes",
+    "steps": [
+      "Étalez finement les tranches de pain de mie au rouleau à pâtisserie.",
+      "Tartinez ensuite chaque tranche de kiri. Bien en étaler sur les bords du pain de mie car le kiri servira à sceller la bûche.",
+      "Disposez sur chaque tranche de pain de mie une tranche de saumon fumé.",
+      "Roulez chaque tranche de pain de mie sur elle-même en serrant bien, de façon à former des petites bûches.",
+      "Serrez-les dans du film alimentaire et placez-les au réfrigérateur environ 20 minutes.",
+      "Ensuite, sortez les mini bûches du réfrigérateur, enlevez le film, puis coupez chaque bûche en 3 parties égales.",
+      "Ajoutez un peu de kiri sur le dessus, puis une pincée de graines de sésame.",
+      "Cette recette peut être préparée à l'avance."
+    ]
+  },
+  {
+    "id": "terrine_stjacques_saumon",
+    "name": "Terrine de Saint Jacques et saumon",
+    "image": "../../../images/salé/terrine-st-jacques-saumon.jpg",
+    "eventCategory": "plat de fête",
+    "category": "entrée",
+    "servingSize": "4 personnes",
+    "ingredients": [
+      {
+        "name": "Noix de Saint Jacques",
+        "quantity": "8"
+      },
+      {
+        "name": "Tranches de saumon fumé",
+        "quantity": "4"
+      },
+      {
+        "name": "Crème fraiche",
+        "quantity": "10cl"
+      },
+      {
+        "name": "Échalotte",
+        "quantity": "1 petite"
+      },
+      {
+        "name": "Feuilles de gélatine",
+        "quantity": "2"
+      },
+      {
+        "name": "Sucre vanillé",
+        "quantity": "1/2 cuillère à café"
+      },
+      {
+        "name": "Pavés de saumon",
+        "quantity": "2"
+      },
+      {
+        "name": "Lait",
+        "quantity": "20cl (pour recouvrir les Saint Jacques)"
+      },
+      {
+        "name": "Estragon (surgelé ou en poudre)",
+        "quantity": ""
+      }
+    ],
+    "preparationTime": "30 minutes",
+    "restingTime": "20 minutes",
+    "steps": [
+      "Mettez 48h avant, dans du lait avec un soupçon de sucre vanillé, vos coquilles St Jacques à décongeler dans un saladier.",
+      "La veille :",
+      "Faites bouillir de l'eau avec du sel et du poivre, puis éteignez le feu et mettez les saumons pendant 20 minutes à couvert.",
+      "Pendant ce temps, faites chauffer à feu doux les coquilles avec le lait vanillé. 5 minutes après le début de l'ébullition, égouttez.",
+      "Pendant la cuisson des coquilles, mettez les feuilles de gélatine dans un bol avec de l'eau tiède.",
+      "Dans un mixeur, mélangez le saumon avec l'échalote préalablement hachée, la crème, le sel, le poivre, l'estragon, les feuilles de gélatine ramollies, et mixez.",
+      "Dans une terrine, étirez un film plastique de manière à le faire largement dépasser les bords (phase délicate, le fond doit être lisse car c'est celui qu'on présente).",
+      "Ajoutez les tranches de saumon. Par-dessus les tranches, alternez une couche de Saint-Jacques et une couche de préparation de saumon.",
+      "Répétez l'opération.",
+      "Fermez le dessus avec le film plastique et réservez au frais pendant 24 heures."
+    ]
+  },
+  {
+    "id": "verrines_avocat_saumon",
+    "name": "Verrines avocat et saumon fumé",
+    "image": "../../../images/salé/avocat-saumon-fume-en-verrines.jpeg",
+    "eventCategory": "plat de fête",
+    "category": "entrée",
+    "servingSize": "6 personnes",
+    "ingredients": [
+      {
+        "name": "Citron",
+        "quantity": "1/2"
+      },
+      {
+        "name": "Crème fraiche épaisse",
+        "quantity": "25 cl"
+      },
+      {
+        "name": "Avocats",
+        "quantity": "2"
+      },
+      {
+        "name": "Tranches de saumon fumé",
+        "quantity": "3"
+      }
+    ],
+    "preparationTime": "15 minutes",
+    "steps": [
+      "Prélever la chair des avocats et la réduire en purée. Ajouter le jus d'un demi-citron au mélange afin de le parfumer et d'éviter qu'il noircisse.",
+      "Détailler les tranches de saumon fumé en fines lanières et y verser quelques gouttes de citron.",
+      "Mettre au fond d'un verre : la purée d'avocat au citron, puis quelques cuillères à café de crème fraîche, et terminer par quelques lanières de saumon fumé en les enroulant sur elles-mêmes. Ajouter une rondelle de citron pour décorer.",
+      "Se déguste frais."
+    ]
+  },
+  {
+    "id": "papillotes_cabillaud",
+    "name": "Papillotes de cabillaud",
+    "image": "../../../images/salé/dos-de-cabillaud-en-papillote.jpeg",
+    "category": "plat principal",
+    "eventCategory": "poisson",
+    "servingSize": "2 personnes",
+    "ingredients": [
+      {
+        "name": "Filets de cabillaud",
+        "quantity": "2"
+      },
+      {
+        "name": "Poivron vert",
+        "quantity": "1/2"
+      },
+      {
+        "name": "Poivron rouge",
+        "quantity": "1/2"
+      },
+      {
+        "name": "Tomate",
+        "quantity": "1"
+      },
+      {
+        "name": "Branches de thym",
+        "quantity": "2"
+      },
+      {
+        "name": "Curry en poudre"
+      },
+      {
+        "name": "Huile d'olive"
+      },
+      {
+        "name": "Sel"
+      },
+      {
+        "name": "Poivre"
+      }
+    ],
+    "preparationTime": "15 minutes",
+    "cookingTime": "30 minutes",
+    "difficulty": "Facile",
+    "steps": [
+      "Lavez, épépinez et coupez en petits dés les poivrons et la tomate.",
+      "Disposez 2 feuilles de papier sulfurisé sur le plan de travail, posez au centre de chaque feuille un filet de cabillaud.",
+      "Salez, poivrez, ajoutez le curry selon vos goûts, puis répartissez les légumes.",
+      "Nappez chaque filet d'une cuillère à café d'huile d'olive, déposez une branche de thym et refermez bien les papillotes en roulant les bords des feuilles de papier pour que ce soit bien hermétique.",
+      "Déposez les papillotes dans un plat allant au four et enfournez à 30 minutes.",
+      "Astuce : avec ce mode de cuisson, les poivrons sont encore un peu croquants. Si vous les voulez plutôt fondants, faites-les cuire dans une poêle avant de dresser vos papillotes."
+    ]
+  },
+  {
+    "id": "sauce_cabillaud",
+    "name": "Sauce pour cabillaud",
+    "image": "../../../images/salé/sauce-cabillaud.jpg",
+    "category": "sauce",
+    "eventCategory": "poisson",
+    "servingSize": "4 personnes",
+    "ingredients": [
+      {
+        "name": "Filets de cabillaud",
+        "quantity": "4"
+      },
+      {
+        "name": "Moutarde à l'ancienne",
+        "quantity": "20g"
+      },
+      {
+        "name": "Échalote",
+        "quantity": "1"
+      },
+      {
+        "name": "Beurre",
+        "quantity": "10g"
+      },
+      {
+        "name": "Crème liquide",
+        "quantity": "20cl"
+      },
+      {
+        "name": "Jus d'1/2 citron"
+      },
+      {
+        "name": "Sel"
+      },
+      {
+        "name": "Poivre"
+      }
+    ],
+    "preparationTime": "10 minutes",
+    "cookingTime": "10 minutes",
+    "difficulty": "Facile",
+    "steps": [
+      "Faites cuire les filets de cabillaud avec un filet d'huile dans une poêle, à feu moyen, quelques minutes. Retournez à mi-cuisson.",
+      "Épluchez et ciselez finement l'échalote.",
+      "Dans une casserole, faites fondre le beurre, puis ajoutez l'échalote et la cuire jusqu'à ce qu'elle soit translucide.",
+      "Ajoutez ensuite la crème, la moutarde et bien mélanger.",
+      "Assaisonnez votre sauce moutarde et laissez épaissir à feu doux pendant environ 10 minutes.",
+      "Ajoutez le jus du 1/2 citron et laissez cuire encore quelques minutes. Votre sauce est prête : elle se sert bien chaude."
+    ]
+  },
+  {
+    "id": "saumon_amandes",
+    "name": "Saumon aux amandes",
+    "image": "../../../images/salé/saumon-papillotte.jpg",
+    "category": "plat principal",
+    "eventCategory": "poisson",
+    "servingSize": "4 personnes",
+    "ingredients": [
+      {
+        "name": "Pavés de saumon frais",
+        "quantity": "4"
+      },
+      {
+        "name": "Beurre",
+        "quantity": "2 cc"
+      },
+      {
+        "name": "Amandes effilées",
+        "quantity": "20g"
+      },
+      {
+        "name": "Crème semi-épaisse",
+        "quantity": "40g"
+      },
+      {
+        "name": "Sel"
+      },
+      {
+        "name": "Poivre"
+      }
+    ],
+    "preparationTime": "15 minutes",
+    "cookingTime": "15 minutes",
+    "difficulty": "Facile",
+    "steps": [
+      "Faire cuire doucement les pavés de saumon dans une poêle antiadhésive puis les réserver au chaud. Essuyez la poêle, faire fondre la margarine et faire dorer les amandes effilées quelques instants.",
+      "Ajoutez la crème, salez, poivrez. Déposez le poisson, faire réduire 5 minutes.",
+      "Posez le saumon par-dessus, arrosez d'un filet d'huile d'olive, salez et poivrez de nouveau et ajoutez une tranche de citron.",
+      "Ce plat peut être accompagné de pâtes."
+    ]
+  },
+  {
+    "id": "saumon_cumin",
+    "name": "Papillottes de saumon au cumin",
+    "image": "../../../images/salé/saumon-papillotte.jpg",
+    "category": "plat principal",
+    "eventCategory": "poisson",
+    "servingSize": "2 personnes",
+    "ingredients": [
+      {
+        "name": "Portions de saumon",
+        "quantity": "2"
+      },
+      {
+        "name": "Carotte"
+      },
+      {
+        "name": "Courgette"
+      },
+      {
+        "name": "Cumin en poudre"
+      },
+      {
+        "name": "Herbes de Provence"
+      },
+      {
+        "name": "Jus d'1/2 citron"
+      },
+      {
+        "name": "Huile d'olive"
+      },
+      {
+        "name": "Sel"
+      },
+      {
+        "name": "Poivre"
+      }
+    ],
+    "preparationTime": "15 minutes",
+    "cookingTime": "30 minutes",
+    "difficulty": "Facile",
+    "steps": [
+      "Préchauffez le four à 180°C.",
+      "Coupez la carotte et la courgette en fins bâtonnets, puis les répartir sur 2 feuilles de papier sulfurisé. Parsemez de cumin, herbes de Provence, sel, poivre.",
+      "Posez le saumon par-dessus, arrosez d'un filet d'huile d'olive, salez et poivrez de nouveau et ajoutez une tranche de citron.",
+      "Fermez la papillote de façon hermétique et cuire 25-30 minutes."
+    ]
+  },
+  {
+    "id": "coquilles_saint_jacques",
+    "name": "Coquilles Saint Jacques",
+    "image": "../../../images/salé/st-jacques.jpg",
+    "category": "plat principal",
+    "eventCategory": "poisson",
+    "servingSize": "6 coquilles",
+    "ingredients": [
+      {
+        "name": "Noix de Saint Jacques",
+        "quantity": "12"
+      },
+      {
+        "name": "Champignons de Paris",
+        "quantity": "300g"
+      },
+      {
+        "name": "Échalote"
+      },
+      {
+        "name": "Farine",
+        "quantity": "40g"
+      },
+      {
+        "name": "Beurre",
+        "quantity": "60g"
+      },
+      {
+        "name": "Gruyère râpé",
+        "quantity": "40g"
+      },
+      {
+        "name": "Vin blanc",
+        "quantity": "10cl"
+      },
+      {
+        "name": "Lait",
+        "quantity": "50cl"
+      },
+      {
+        "name": "Sel"
+      },
+      {
+        "name": "Poivre"
+      }
+    ],
+    "preparationTime": "30 minutes",
+    "cookingTime": "30 minutes",
+    "difficulty": "Facile",
+    "steps": [
+      "Epluchez et hachez les échalotes. Nettoyez et hachez les champignons.",
+      "Faites chauffer 10g de beurre dans une poêle et faites-y revenir les échalotes 3 minutes environ. Ajoutez les champignons, un peu de sel et de poivre et faites-les rissoler 3 minutes en remuant. Versez le vin et laissez réduire aux 2/3. Sortez du feu.",
+      "Dans une casserole, faites chauffer 40g de beurre. Une fois qu'il mousse, ajoutez la farine et fouettez jusqu'à obtenir une béchamel onctueuse. Salez, poivrez et ajoutez le gruyère en mélangeant. Réservez hors du feu.",
+      "Préchauffez le four à 200°C. Faites chauffer les 10g de beurre restant dans une poêle. Faites-y dorer les Saint-Jacques 20 secondes sur chaque face jusqu'à ce qu'elles prennent une belle couleur dorée. Mélangez les Saint Jacques à la béchamel et aux champignons.",
+      "Répartissez la préparation dans les coquilles vides. Saupoudrez de chapelure et enfournez 10 minutes pour que le dessus soit bien gratiné. Servez bien chaud.",
+      "Astuce : Pour le décor et pour apporter un peu de croustillant, vous pouvez utiliser de la pâte feuilletée dans laquelle vous découperez une forme à l'emporte-pièce. Dorez au jaune d'œuf et cuisez 10 minutes à 180°C. Placez-les sur les coquilles Saint Jacques au moment de servir."
+    ]
+  },
+  {
+    "id": "gratin_dauphinois",
+    "name": "Gratin dauphinois",
+    "image": "../../../images/salé/gratin_dauphinois.jpg",
+    "category": "plat principal",
+    "eventCategory": "hiver",
+    "servingSize": "4 à 6 personnes",
+    "ingredients": [
+      {
+        "name": "Pommes de terre",
+        "quantity": "1,2 kg"
+      },
+      {
+        "name": "Gousse d'ail"
+      },
+      {
+        "name": "Lait",
+        "quantity": "80 cl"
+      },
+      {
+        "name": "Sel"
+      },
+      {
+        "name": "Poivre"
+      }
+    ],
+    "preparationTime": "20 minutes",
+    "cookingTime": "50 minutes",
+    "difficulty": "Facile",
+    "steps": [
+      "Pelez les pommes de terre. Lavez-les. Coupez-les en lamelles régulières de 2 à 3 mm d'épaisseur.",
+      "Beurrez un plat allant au four.",
+      "Pelez une gousse d'ail, coupez-la en 2 pour enlever le germe. Frottez le plat avec la gousse d'ail. Puis écrasez-la avec la lame large du couteau.",
+      "Préchauffez le four à 150°C.",
+      "Dans une casserole, versez 80cl de lait, ajoutez les rondelles de pommes de terre, l'ail écrasé, du sel et du poivre.",
+      "Portez à ébullition. Retirez du feu. Avec un écumoire, répartissez les pommes de terre dans le plat en les faisant se chevaucher. Versez le lait. Parsemez de 30g de beurre en morceaux et enfournez pendant environ 50 minutes. Piquez les pommes de terre avec la pointe d'un couteau pour vérifier qu'elles soient cuites."
+    ]
+  },
+  {
+    "id": "pommes_de_terre_raclette",
+    "name": "Pommes de terre raclette et lard fumé",
+    "image": "../../../images/salé/Pommes-de-terre-au-fromage-a-raclette-et-lard-fume.jpg",
+    "category": "plat principal",
+    "eventCategory": "hiver",
+    "servingSize": "4 personnes",
+    "ingredients": [
+      {
+        "name": "Pommes de terre",
+        "quantity": "8"
+      },
+      {
+        "name": "Fromage à raclette"
+      },
+      {
+        "name": "Lard fumé en tranches"
+      },
+      {
+        "name": "Sel"
+      },
+      {
+        "name": "Poivre"
+      }
+    ],
+    "preparationTime": "20 minutes",
+    "cookingTime": "20 minutes",
+    "difficulty": "Facile",
+    "steps": [
+      "Faites cuire les pommes de terre lavées et non épluchées à l'eau avec une pincée de sel.",
+      "Égouttez-les, passez-les sous l'eau froide, épluchez-les en deux dans le sens de la longueur.",
+      "Dans un plat allant au four, assemblez les tranches de pommes de terre, de lard et de raclette (comme sur la photo) et piquez un bâtonnet pour maintenir en place. Vous pouvez remplacer le lard par des tranches de chorizo ou du jambon.",
+      "Passez au four à 180°C ou sous le grill jusqu'à ce que le fromage fonde. Servez aussitôt."
+    ]
+  },
+  {
+    "id": "veloute_de_butternut",
+    "name": "Velouté de butternut",
+    "image": "../../../images/veloute/veloute-de-butternut.jpg",
+    "category": "entrée",
+    "eventCategory": "hiver",
+    "servingSize": "3 personnes",
+    "ingredients": [
+      {
+        "name": "Butternut",
+        "quantity": "1/2"
+      },
+      {
+        "name": "Oignon",
+        "quantity": "1"
+      },
+      {
+        "name": "Bouillon de cube à la volaille",
+        "quantity": "1"
+      },
+      {
+        "name": "Crème liquide",
+        "quantity": "70ml"
+      },
+      {
+        "name": "Sel"
+      },
+      {
+        "name": "Poivre"
+      }
+    ],
+    "preparationTime": "20 minutes",
+    "cookingTime": "20 minutes",
+    "difficulty": "Facile",
+    "steps": [
+      "Évidez la courge, pelez-la et coupez-la en morceaux.",
+      "Dans une grande casserole, faites fondre du beurre. Faites-y revenir l'oignon émincé, et ajoutez les cubes de butternut.",
+      "Faites revenir le tout pendant environ 5 minutes, puis couvrez d'eau. Ajoutez le cube de bouillon, salez, poivrez, et portez à ébullition.",
+      "Une fois que le mélange bout, couvrez et laissez cuire 25 minutes à feu moyen.",
+      "Mettez le tout dans le blender, et ajoutez la crème liquide que vous aurez préalablement fait chauffer. Mixez finement. Vous pouvez remplacer la crème par du lait.",
+      "Et voilà, votre velouté de courge butternut est prêt !"
+    ]
+  },
+  {
+    "id": "veloute_de_lentilles_corail",
+    "name": "Velouté de lentilles corail",
+    "image": "../../../images/veloute/velouté-lentilles-corail.jpg",
+    "category": "entrée",
+    "eventCategory": "hiver",
+    "servingSize": "6 personnes",
+    "ingredients": [
+      {
+        "name": "Lentilles corail",
+        "quantity": "250g"
+      },
+      {
+        "name": "Curry en poudre",
+        "quantity": "2 càc"
+      },
+      {
+        "name": "Bouillon de cube à la volaille",
+        "quantity": "1"
+      }
+    ],
+    "preparationTime": "5 minutes",
+    "cookingTime": "20 minutes",
+    "difficulty": "Facile",
+    "steps": [
+      "Chauffez de l'eau dans une grande casserole.",
+      "Versez les lentilles corail, le bouillon de cube émietté et le curry dans la casserole.",
+      "Laissez cuire environ 20 minutes à couvert.",
+      "Une fois la préparation refroidie, mixez les lentilles. Si le velouté est trop épais, diluez-le avec de l'eau jusqu'à obtenir la consistance désirée.",
+      "Réchauffez le velouté juste avant de le déguster. Servez bien chaud."
+    ]
+  },
+  {
+    "id": "curry_de_dinde_a_la_creme",
+    "name": "Curry de dinde à la crème et aux champignons",
+    "image": "../../../images/salé/dinde-au-curry.jpg",
+    "category": "plat principal",
+    "eventCategory": null,
+    "servingSize": "2 personnes",
+    "ingredients": [
+      {
+        "name": "Escalopes de dinde",
+        "quantity": "2"
+      },
+      {
+        "name": "Oignon",
+        "quantity": "1"
+      },
+      {
+        "name": "Curry",
+        "quantity": "1 cc"
+      },
+      {
+        "name": "Crème fraiche semi épaisse",
+        "quantity": "100g"
+      },
+      {
+        "name": "Champignons de Paris émincés (230g égouttés)",
+        "quantity": "1 boite"
+      },
+      {
+        "name": "Sel",
+        "quantity": "Sel"
+      },
+      {
+        "name": "Poivre",
+        "quantity": "Poivre"
+      }
+    ],
+    "preparationTime": "10 minutes",
+    "cookingTime": "20 minutes",
+    "difficulty": "Facile",
+    "steps": [
+      "Epluchez l'oignon et hachez-le. Coupez les escalopes de dinde en dés. Egouttez les champignons.",
+      "Dans une poêle antiadhésive, faites revenir les oignons, puis la viande, sur feu vif, environ 10 minutes en mélangeant régulièrement.",
+      "Ajoutez le curry, mélangez, puis ajoutez la crème et les champignons. Poursuivez la cuisson 5 minutes. Salez et poivrez.",
+      "Servez chaud accompagné de riz, par exemple."
+    ]
+  },
+  {
+    "id": "escalopes_de_poulet_a_la_moutarde",
+    "name": "Escalopes de poulet à la moutarde",
+    "image": "../../../images/salé/poulet-sauce-moutarde.jpg",
+    "category": "plat principal",
+    "eventCategory": null,
+    "servingSize": "2 personnes",
+    "ingredients": [
+      {
+        "name": "Aiguillettes de poulet",
+        "quantity": "2"
+      },
+      {
+        "name": "Vert d'eau",
+        "quantity": "1/2"
+      },
+      {
+        "name": "Moutarde",
+        "quantity": "1 CS"
+      },
+      {
+        "name": "Carotte",
+        "quantity": "1"
+      },
+      {
+        "name": "Crème fraiche",
+        "quantity": "2 CS"
+      },
+      {
+        "name": "Huile d'olive",
+        "quantity": "Huile d'olive"
+      },
+      {
+        "name": "Sel",
+        "quantity": "Sel"
+      },
+      {
+        "name": "Poivre",
+        "quantity": "Poivre"
+      }
+    ],
+    "preparationTime": "10 minutes",
+    "cookingTime": "20 minutes",
+    "difficulty": "Facile",
+    "steps": [
+      "Faites revenir dans une poêle, avec l'huile d'olive, les aiguillettes de poulet.",
+      "Préparez les tagliatelles de carottes : épluchez et rincez la carotte, puis à l'aide d'un économe, réalisez des tagliatelles. Les faire revenir quelques minutes dans l'huile d'olive. Salez et poivrez.",
+      "Diluez dans 1/2 verre d'eau chaude la moutarde et versez le tout dans la poêle. Laissez chauffer environ 10 minutes, puis ajoutez la crème. Salez et poivrez.",
+      "Ajoutez les tagliatelles de carottes. Servez immédiatement."
+    ]
+  },
+  {
+    "id": "lasagnes_a_la_bolognaise",
+    "name": "Lasagnes à la bolognaise",
+    "image": "../../../images/salé/lasagnes-a-la-bolognaise.jpg",
+    "category": "plat principal",
+    "eventCategory": null,
+    "servingSize": "4 personnes",
+    "ingredients": [
+      {
+        "name": "Plaques à lasagnes",
+        "quantity": "12"
+      },
+      {
+        "name": "Boeuf haché",
+        "quantity": "300g"
+      },
+      {
+        "name": "Coulis de tomates",
+        "quantity": "2 briques"
+      },
+      {
+        "name": "Emmental râpé",
+        "quantity": "100g"
+      },
+      {
+        "name": "Lait",
+        "quantity": "50cl"
+      },
+      {
+        "name": "Farine",
+        "quantity": "70g"
+      },
+      {
+        "name": "Huile de tournesol",
+        "quantity": "1 CS"
+      },
+      {
+        "name": "Sel",
+        "quantity": "Sel"
+      },
+      {
+        "name": "Poivre",
+        "quantity": "Poivre"
+      }
+    ],
+    "preparationTime": "20 minutes",
+    "cookingTime": "40 minutes",
+    "difficulty": "Facile",
+    "steps": [
+      "Verser l'huile dans une poêle chaude. Y ajouter la viande hâchée.",
+      "Une fois la viande cuite, ajouter le coulis de tomates, le sel et le poivre. Laisser mijoter.",
+      "Pendant ce temps, préparer la béchamel : Verser le lait dans une casserole. Ajouter la farine. Bien mélanger au fouet jusqu'à ce que la béchamel épaississe. Saler et poivrer.",
+      "Beurrer un plat rectangulaire, y déposer une couche de béchamel, puis une couche de lasagnes, et une couche de sauce tomate à la viande parsemée d'emmental râpé. Répéter l'opération jusqu'à épuisement des ingrédients en terminant par de la béchamel, et saupoudrer avec du gruyère râpé.",
+      "Enfourner à four préchauffé à 165°C (thermostat 5/6) pendant environ 45 minutes, pour que les lasagnes soient bien gratinées. Si les lasagnes gratinent trop vite, les recouvrir de papier d'aluminium."
+    ]
+  },
+  {
+    "id": "poulet_basquaise",
+    "name": "Poulet basquaise",
+    "image": "../../../images/salé/poulet-basquaise.jpg",
+    "category": "plat principal",
+    "eventCategory": null,
+    "servingSize": "6 personnes",
+    "ingredients": [
+      {
+        "name": "Cuisses de poulet ou pilons de poulet",
+        "quantity": "6 cuisses ou 12 pilons"
+      },
+      {
+        "name": "Tomates",
+        "quantity": "1kg"
+      },
+      {
+        "name": "Poivrons (verts et rouges)",
+        "quantity": "2"
+      },
+      {
+        "name": "Oignon émincé",
+        "quantity": "2"
+      },
+      {
+        "name": "Gousse d'ail",
+        "quantity": "2"
+      },
+      {
+        "name": "Bouillon de volaille",
+        "quantity": "200ml"
+      },
+      {
+        "name": "Bouquet garni",
+        "quantity": "1"
+      },
+      {
+        "name": "Huile d'olive",
+        "quantity": "6 CS"
+      },
+      {
+        "name": "Sel",
+        "quantity": "Sel"
+      },
+      {
+        "name": "Poivre",
+        "quantity": "Poivre"
+      }
+    ],
+    "preparationTime": "20 minutes",
+    "cookingTime": "1h 20min",
+    "difficulty": "Facile",
+    "steps": [
+      "Hachez l'ail et l'oignon.",
+      "Pelez puis coupez les tomates en morceaux et détaillez les poivrons en lanières.",
+      "Faire chauffer 4 cuillères à soupe d'huile dans une cocotte. Y faire dorer les oignons, l'ail et les poivrons. Laissez cuire 5 minutes.",
+      "Ajoutez les tomates et le bouillon dans la cocotte, salez, poivrez.",
+      "Couvrez et laissez mijoter 20 minutes.",
+      "Dans une sauteuse, faites dorer les morceaux de poulet dans l'huile. Salez et poivrez.",
+      "Lorsqu'ils sont dorés, ajoutez-les aux légumes, ajoutez le bouquet garni. Couvrez. C'est parti pour 45 minutes de cuisson à feu moyen."
+    ]
+  },
+  {
+    "id": "roti_porc_miel_moutarde",
+    "name": "Rôti de porc au miel et à la moutarde",
+    "image": "../../../images/salé/Rôti-de-porc-à-la-moutarde.jpg",
+    "category": "plat principal",
+    "eventCategory": null,
+    "servingSize": "2 personnes",
+    "ingredients": [
+      {
+        "name": "Rôti de porc dans le filet",
+        "quantity": "800g"
+      },
+      {
+        "name": "Miel (liquide)",
+        "quantity": "3 CS"
+      },
+      {
+        "name": "Moutarde",
+        "quantity": "2 CS"
+      },
+      {
+        "name": "Thym",
+        "quantity": "2 càc"
+      },
+      {
+        "name": "Crème fraîche",
+        "quantity": "2 CS"
+      },
+      {
+        "name": "Sel",
+        "quantity": "Sel"
+      },
+      {
+        "name": "Poivre",
+        "quantity": "Poivre"
+      }
+    ],
+    "preparationTime": "10 minutes",
+    "cookingTime": "40 minutes",
+    "difficulty": "Facile",
+    "steps": [
+      "Dans un bol, mélangez le miel, la moutarde et le thym.",
+      "Préchauffez le four à 180°C.",
+      "Placez le rôti dans un plat allant au four, et badigeonnez-le de la préparation miel/moutarde. Salez et poivrez.",
+      "Ajoutez 1/2 verre d'eau.",
+      "Enfournez et laissez cuire environ 40 minutes."
+    ]
+  },
+  {
+    "id": "pizza_poulet_curry",
+    "name": "Pizza au poulet curry",
+    "image": "../../images/salé/pizza poulet.jpeg",
+    "category": "plat principal",
+    "eventCategory": null,
+    "servingSize": "4 personnes",
+    "ingredients": [
+      {
+        "name": "Escalope de poulet",
+        "quantity": "1"
+      },
+      {
+        "name": "Crème semi-épaisse",
+        "quantity": "20cl"
+      },
+      {
+        "name": "Curry en poudre",
+        "quantity": "Curry en poudre"
+      },
+      {
+        "name": "Gruyère râpé",
+        "quantity": "50g"
+      },
+      {
+        "name": "Lardons fumés",
+        "quantity": "100g"
+      },
+      {
+        "name": "Sel",
+        "quantity": "12g"
+      },
+      {
+        "name": "Huile d'olive",
+        "quantity": "12g"
+      },
+      {
+        "name": "Farine",
+        "quantity": "300g"
+      },
+      {
+        "name": "Eau",
+        "quantity": "200ml"
+      },
+      {
+        "name": "Levure fraîche de boulanger",
+        "quantity": "14g"
+      }
+    ],
+    "preparationTime": "20 minutes",
+    "cookingTime": "30 minutes",
+    "difficulty": "Facile",
+    "steps": [
+      "Pour la pâte à pizza : Mettre la farine dans le saladier, ajouter l'huile d'olive, le sel et l'eau. Commencer à pétrir puis ajouter la levure de boulanger (Attention : le sel et la levure ne doivent pas être en contact car sinon la pâte ne lèvera pas).",
+      "Pétrir pendant 5 minutes. Puis laisser poser la pâte 10 minutes.",
+      "Ensuite, pétrir la pâte une seconde fois, laisser poser 10 minutes, puis pétrir une troisième fois. Cette procédure donnera force et élasticité à la pâte.",
+      "Laisser reposer la pâte au réfrigérateur dans une boîte hermétique pendant au moins 24 heures.",
+      "Après ce temps de repos, sortez la pâte et laissez-la poser à température ambiante pendant quelques heures. Une fois que la pâte a doublé de volume, étalez-la au rouleau sur un plan de travail fariné puis déposez-la sur la plaque de cuisson.",
+      "Pour la garniture : Découpez l'escalope de poulet en cubes et faites revenir les morceaux de poulet dans une poêle huilée.",
+      "Ajoutez le curry, mélangez, puis ajoutez la crème. Gardez un peu de crème pour la pâte.",
+      "Préchauffez le four à 230°C.",
+      "Étalez le reste de crème sur la pâte à l'aide d'un pinceau ou avec le dos d'une cuillère. Ajoutez la garniture au poulet, les lardons, puis parsemez de gruyère râpé ou de mozzarella.",
+      "Mettez la pizza au four pendant 15 minutes, puis baissez la température à 180°C pour le reste de la cuisson pendant environ 20 minutes.",
+      "À la sortie du four, laissez la pizza au poulet curry reposer pendant quelques minutes avant de la découper et de la déguster.",
+      "Savourez votre délicieuse pizza au poulet curry bien chaude !"
+    ]
   }
 ]
