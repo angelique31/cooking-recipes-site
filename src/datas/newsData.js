@@ -2,7 +2,7 @@ export const newsData = [
   {
     id: "courgette",
     image: "/assets/newsCard/courgettes.jpg",
-    title: "Comment conserver les courgettes?",
+    name: "Comment conserver les courgettes?",
 
     summaryTitle: [
       "Astuce n°1 : choisir des courgettes de petite taille",
@@ -21,7 +21,7 @@ export const newsData = [
   {
     id: "tomate",
     image: "/assets/newsCard/tomates.jpg",
-    title: "Comment conserver les tomates?",
+    name: "Comment conserver les tomates?",
     summaryTitle: [
       "Ne pas placer les tomates au frigo",
       "Comment bien conserver les tomates ?",
@@ -35,7 +35,7 @@ export const newsData = [
   {
     id: "viande",
     image: "/assets/newsCard/viande.jpg",
-    title: "Faut-il décongeler sa viande avant de la cuire ?",
+    name: "Faut-il décongeler sa viande avant de la cuire ?",
     summaryTitle: ["Pourquoi faut-il la décongeler avant ?"],
     summaryText: [
       `Il est important de prendre le temps de décongeler sa viande, avant cuisson, pour plusieurs raisons. En premier lieu, une viande congelée va prendre bien plus de temps à cuire et risque d'être mal cuite à l'intérieur. Si vous mettez une escalope de poulet congelée dans la poêle et que vous la retournez, vous risquez de cuire uniquement l'extérieur et vous retrouver avec une chair crue ou encore froide. De plus, le risque de contamination par les bactéries qu'elle contient est plus élevé. `,

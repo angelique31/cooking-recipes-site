@@ -13,10 +13,9 @@ import timerIcon from "../../assets/Icons/timerIcon.svg";
  * @param {string} [props.cookTime] - Le temps de cuisson de la recette, si applicable.
  * @returns {JSX.Element} Un élément JSX représentant la boîte d'informations de la recette.
  */
-const RecipeInfoBox = ({ servings, prepTime, cookTime }) => {
+const RecipeInfoBox = ({ prepTime, cookTime }) => {
   return (
     <StyledDiv>
-      <StyledP>Portions : {servings} de sirop</StyledP>
       <StyledP>
         <TimerIcon src={timerIcon} alt="Timer icon" />
         Préparation : {prepTime}
@@ -32,7 +31,6 @@ const RecipeInfoBox = ({ servings, prepTime, cookTime }) => {
 };
 
 RecipeInfoBox.propTypes = {
-  servings: PropTypes.number.isRequired,
   prepTime: PropTypes.string.isRequired,
   cookTime: PropTypes.string,
 };

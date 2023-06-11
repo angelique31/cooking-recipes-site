@@ -10,37 +10,32 @@ import {
  * Cartes génériques des recettes de la page d'accueil
  *
  * @param {object[]} data - Les données.
- * @param {string} title - Le titre de la section.
+ * @param {string} name - Le titre de la section.
  * @param {string} linkTo - Lien de redirection pour chaque carte.
  */
-const Section = ({ data, title, linkTo }) => {
+const Section = ({ data, name, linkTo }) => {
+  // console.log(data);
   return (
     <CommonSection>
-      <StyledH3>{title}</StyledH3>
+      <StyledH3>{name}</StyledH3>
       <CommonCardsContainer>
-        {data.map((item, index) => (
-          <RecipeCard
-            key={index}
-            image={item.image}
-            title={item.title}
-            item={item}
-            // index={index}
-            linkTo={linkTo}
-          />
+        {data.map((item) => (
+          <RecipeCard key={item.id} item={item} linkTo={linkTo} />
         ))}
       </CommonCardsContainer>
     </CommonSection>
   );
 };
+
 Section.propTypes = {
   data: PropTypes.arrayOf(
     PropTypes.shape({
+      id: PropTypes.string.isRequired,
       image: PropTypes.string.isRequired,
-      title: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
     })
   ).isRequired,
-  title: PropTypes.string.isRequired,
-
+  name: PropTypes.string.isRequired,
   linkTo: PropTypes.string.isRequired,
 };
 

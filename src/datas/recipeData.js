@@ -2,7 +2,7 @@ export const recipeData = [
   {
     id: "fraise",
     image: "/assets/antiWasteTips/sirop-de-fraise.jpg",
-    title: "Sirop de queues de fraises",
+    name: "Sirop de queues de fraises",
 
     detailText:
       "Pour réaliser ce sirop, il vous faudra environ 50g de queues de fraises avec un peu de chair de fraises. Ce sirop se conserve plusieurs jours au réfrigérateur et il est particulièrement délicieux avec une eau bien fraîche ou de la limonade, du citron vert et de la menthe.",
@@ -30,7 +30,7 @@ export const recipeData = [
   {
     id: "cerise",
     image: "/assets/antiWasteTips/tisane-queue-de-cerise.jpg",
-    title: "Tisane de queues de cerises",
+    name: "Tisane de queues de cerises",
 
     detailText:
       "Les queues de cerise possèdent de nombreuses vertus, notamment au niveau du transit intestinal. Elles permettent de drainer l’organisme et de le détoxifier, agissant comme un dépuratif naturel. La parfaite infusion pour retrouver un ventre plat ! Grâce à sa teneur en sels de potassium et polyphénols, la tisane aux queues de cerises permet aussi de lutter contre certaines affections urinaires.",

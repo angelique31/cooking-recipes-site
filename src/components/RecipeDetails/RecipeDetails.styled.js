@@ -11,11 +11,11 @@ export const ContentWrapper = styled.div`
 `;
 
 export const StyledImage = styled.img`
-  width: 50%;
+  width: 60%;
   border-radius: 10px;
   object-fit: cover;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-  height: 286px;
+  height: 486px;
   margin: 50px 0 50px 60px;
 `;
 

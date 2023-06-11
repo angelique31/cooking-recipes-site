@@ -1,15 +1,18 @@
 export const foodData = [
   {
+    id: "verrines_avocat_saumon",
     image: "/assets/salty-recipe/avocat-saumon-fume-en-verrines.jpeg",
-    title: "Verrines avocat et saumon fumé",
+    name: "Verrines avocat et saumon fumé",
   },
   {
+    id: "lasagnes_bolognaise",
     image: "/assets/salty-recipe/lasagnes-a-la-bolognaise.jpg",
-    title: "Lasagnes à la bolognaise",
+    name: "Lasagnes à la bolognaise",
   },
   {
+    id: "gateau_chocolat",
     image: "/assets/sugar-recipe/gateau-au-chocolat.jpeg",
-    title: "Gâteau au chocolat",
+    name: "Gâteau au chocolat",
   },
   // Ajoutez autant d'objets que nécessaire
 ];

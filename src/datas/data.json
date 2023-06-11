@@ -2,7 +2,7 @@
   {
     "id": "brioche_sucre",
     "name": "Brioche au sucre",
-    "image": "#",
+    "image": "/assets/sugar-recipe/brioche.png",
     "eventCategory": null,
     "category": "dessert",
     "servingSize": "6 personnes",
@@ -45,6 +45,7 @@
       }
     ],
     "preparationTime": "3 heures 40 minutes",
+    "cookTime": "25 minutes",
     "steps": [
       "Dans un saladier, mélangez la farine, le sucre et le sel, puis faites un puit.",
       "Ajoutez la levure. Attention, la levure ne doit pas être en contact direct avec le sel, sinon la brioche ne gonflera pas.",
@@ -61,7 +62,7 @@
   {
     "id": "cookie",
     "name": "Cookies aux pépites de chocolat",
-    "image": "#",
+    "image": "/assets/sugar-recipe/cookies.jpg",
     "eventCategory": null,
     "category": "dessert",
     "servingSize": "15 cookies",
@@ -100,6 +101,7 @@
       }
     ],
     "preparationTime": "25 minutes",
+    "cookTime": "10 minutes",
     "steps": [
       "Laissez ramollir le beurre à température ambiante. Dans un saladier, malaxez-le avec le sucre.",
       "Ajoutez l'oeuf et le sucre vanillé.",
@@ -111,7 +113,7 @@
   {
     "id": "crepe",
     "name": "Crêpes sucrées",
-    "image": "#",
+    "image": "/assets/sugar-recipe/crepes.jpg",
     "eventCategory": null,
     "category": "dessert",
     "servingSize": "15 crêpes",
@@ -134,7 +136,7 @@
       }
     ],
     "preparationTime": "10 minutes",
-    "cookingTime": "15 minutes",
+    "cookTime": "15 minutes",
     "steps": [
       "Versez la farine dans un saladier. Faire un puit",
       "Ajoutez les oeufs.",
@@ -147,7 +149,7 @@
   {
     "id": "far",
     "name": "Far breton aux pruneaux",
-    "image": "#",
+    "image": "/assets/sugar-recipe/far-breton.jpg",
     "eventCategory": null,
     "category": "dessert",
     "servingSize": "8 personnes",
@@ -174,7 +176,7 @@
       }
     ],
     "preparationTime": "10 minutes",
-    "cookingTime": "30 minutes",
+    "cookTime": "30 minutes",
     "steps": [
       "Mélangez les oeufs et le sucre au fouet, jusqu'à ce que le mélange blanchisse.",
       "Ajoutez la farine. Mélangez.",
@@ -187,7 +189,7 @@
   {
     "id": "creme_carambar",
     "name": "Crème dessert au carambar",
-    "image": "#",
+    "image": "/assets/sugar-recipe/creme-aux-carambar.webp",
     "eventCategory": null,
     "category": "dessert",
     "servingSize": "4 personnes",
@@ -206,7 +208,7 @@
       }
     ],
     "preparationTime": "10 minutes",
-    "cookingTime": "45 minutes",
+    "cookTime": "45 minutes",
     "steps": [
       "Faire fondre les carambars dans le lait dans une casserole.",
       "Pendant ce temps, dans un saladier, battre les oeufs.",
@@ -220,7 +222,7 @@
   {
     "id": "creme_chocolat",
     "name": "Crème dessert au chocolat",
-    "image": "#",
+    "image": "/assets/sugar-recipe/creme-chocolat.jpg",
     "eventCategory": null,
     "category": "dessert",
     "servingSize": "4 personnes",
@@ -239,7 +241,7 @@
       }
     ],
     "preparationTime": "15 minutes",
-    "cookingTime": "10 minutes",
+    "cookTime": "10 minutes",
     "steps": [
       "Verser la maïzena dans le lait froid et fouettez.",
       "Concassez grossièrement le chocolat à l'aide d'un couteau.",
@@ -250,7 +252,7 @@
   {
     "id": "creme_speculos",
     "name": "Crème dessert au speculos",
-    "image": "#",
+    "image": "/assets/sugar-recipe/creme-aux-speculoos.jpg",
     "eventCategory": null,
     "category": "dessert",
     "servingSize": "4 personnes",
@@ -273,7 +275,7 @@
       }
     ],
     "preparationTime": "15 minutes",
-    "cookingTime": "10 minutes",
+    "cookTime": "10 minutes",
     "steps": [
       "Délayez la maïzena dans un peu de lait.",
       "Ajoutez le sucre puis le lait petit à petit. Bien mélanger.",
@@ -287,7 +289,7 @@
   {
     "id": "creme_vanille",
     "name": "Crème dessert à la vanille",
-    "image": "../../../images/sucré/creme-vanille.jpg",
+    "image": "/assets/sugar-recipe/creme-vanille.jpg",
     "eventCategory": null,
     "category": "dessert",
     "servingSize": "4 personnes",
@@ -310,7 +312,7 @@
       }
     ],
     "preparationTime": "15 minutes",
-    "cookingTime": "10 minutes",
+    "cookTime": "10 minutes",
     "steps": [
       "Délayez la maïzena dans un peu de lait.",
       "Ajoutez le sucre et le sucre vanillé puis le lait petit à petit. Bien mélanger.",
@@ -321,7 +323,7 @@
   {
     "id": "riz_au_lait_caramel",
     "name": "Riz au lait au caramel",
-    "image": "../../../images/sucré/riz-au-lait-.jpg",
+    "image": "/assets/sugar-recipe/riz-au-lait.jpg",
     "eventCategory": null,
     "category": "dessert",
     "servingSize": "6 personnes",
@@ -348,7 +350,7 @@
       }
     ],
     "preparationTime": "10 minutes",
-    "cookingTime": "30 à 40 minutes",
+    "cookTime": "30 à 40 minutes",
     "steps": [
       "Faire chauffer le lait dans une casserole.",
       "Ajouter le riz rond.",
@@ -362,7 +364,7 @@
   {
     "id": "semoule_caramel",
     "name": "Semoule au caramel",
-    "image": "../../../images/sucré/semoule-au-caramel.jpg",
+    "image": "/assets/sugar-recipe/semoule-au-caramel.jpg",
     "eventCategory": null,
     "category": "dessert",
     "servingSize": "4 personnes",
@@ -393,7 +395,7 @@
       }
     ],
     "preparationTime": "10 minutes",
-    "cookingTime": "30 minutes",
+    "cookTime": "30 minutes",
     "steps": [
       "Faire chauffer le lait. Ajouter la semoule en pluie. Laisser épaissir sans cesser de remuer.",
       "Mélangez au fouet le jaune d'oeuf le sucre et le sucre vanillé. Versez le mélange semoule/lait puis mélangez.",
@@ -405,7 +407,7 @@
   {
     "id": "cake_citron",
     "name": "Cake au citron avec glaçage",
-    "image": "../../../images/sucré/cake-au-citron-.jpg",
+    "image": "/assets/sugar-recipe/cake-au-citron.jpg",
     "eventCategory": null,
     "category": "dessert",
     "servingSize": "6 personnes",
@@ -440,7 +442,7 @@
       }
     ],
     "preparationTime": "30 minutes",
-    "cookingTime": "30-40 minutes",
+    "cookTime": "30-40 minutes",
     "steps": [
       "Préchauffez le four à 170°C.",
       "Faire fondre le beurre au bain marie.",
@@ -457,7 +459,7 @@
   {
     "id": "cheesecake",
     "name": "Cheesecake Vanille Et Caramel Beurre Salé (Sans Cuisson)",
-    "image": "../../../images/sucré/cheesecake-caramel-beurre-sale.jpeg",
+    "image": "/assets/sugar-recipe/cheesecake-caramel-beurre-sale.jpeg",
     "eventCategory": null,
     "category": "dessert",
     "servingSize": "8 personnes",
@@ -500,7 +502,7 @@
       }
     ],
     "preparationTime": "30 minutes",
-    "cookingTime": "Repos: 6 heures",
+    "cookTime": "Repos: 6 heures",
     "steps": [
       "Pour le fond: Mixer les palets bretons et rajouter le beurre fondu. Bien mélanger et foncer un cercle de 20 cm posé dans un plat avec une feuille de papier cuisson. Bien tasser et réserver au frais.",
       "Pour le caramel beurre salé: Faire chauffer le sucre dans une casserole sans le toucher jusqu'à ce qu'il caramélise. Faire chauffer (dans une autre casserole) la crème liquide et la verser (hors du feu) sur le caramel. Remettre à chauffer tout en mélangeant vigoureusement avec une cuillère en bois. Ajouter le beurre et la fleur de sel (à votre convenance) Laisser refroidir.",
@@ -511,7 +513,7 @@
   {
     "id": "fondant_chocolat_blanc",
     "name": "Fondant au chocolat blanc et à la framboise",
-    "image": "../../../images/sucré/fondant-chocolat-blanc-framboises.jpg",
+    "image": "/assets/sugar-recipe/fondant-chocolat-blanc-framboises.jpg",
     "eventCategory": null,
     "category": "dessert",
     "servingSize": "12 personnes",
@@ -546,7 +548,7 @@
       }
     ],
     "preparationTime": "30 minutes",
-    "cookingTime": "20 minutes",
+    "cookTime": "20 minutes",
     "steps": [
       "Préchauffez le four à 180°C.",
       "Faire fondre 200g de chocolat avec le beurre dans une casserole à feu doux.",
@@ -560,7 +562,7 @@
   {
     "id": "galette_des_rois",
     "name": "Galette des rois à la frangipane",
-    "image": "../../../images/sucré/galette-des-rois.jpg",
+    "image": "/assets/sugar-recipe/galette-des-rois.jpg",
     "eventCategory": null,
     "category": "dessert",
     "servingSize": "8 personnes",
@@ -615,7 +617,7 @@
       }
     ],
     "preparationTime": "30 minutes",
-    "cookingTime": "25 minutes",
+    "cookTime": "25 minutes",
     "steps": [
       "La crème pâtissière: Battre dans un saladier les 2 jaunes d'œufs avec 35 g de sucre. Ajouter la farine, mélangez, puis ajouter le lait bouillant progressivement tout en mélangeant.",
       "Verser le mélange dans la casserole et fouetter sans s’arrêter pendant 3 min après la reprise de l’ébullition.",
@@ -639,7 +641,7 @@
   {
     "id": "gateau_vanille_abricots",
     "name": "Gâteau vanillé aux abricots",
-    "image": "../../../images/sucré/gateau-aux-abricots-et-a-la-vanille.jpg",
+    "image": "/assets/sugar-recipe/gateau-aux-abricots-et-a-la-vanille.jpg",
     "eventCategory": null,
     "category": "dessert",
     "servingSize": "4 parts",
@@ -678,7 +680,7 @@
       }
     ],
     "preparationTime": "15 minutes",
-    "cookingTime": "25 minutes",
+    "cookTime": "25 minutes",
     "steps": [
       "Préchauffez le four à 180°C.",
       "Mettez les abricots dans une casserole d'eau froide, portez à ébullition. Quand l'eau bout, retirez du feu, couvrez et laissez gonfler 15 min.",
@@ -693,7 +695,7 @@
   {
     "id": "gateau_ananas_noix_coco",
     "name": "Gâteau à l'ananas et à la noix de coco",
-    "image": "../../../images/sucré/gateau-a-l-ananas-et-noix-de-coco.jpeg",
+    "image": "/assets/sugar-recipe/gateau-a-l-ananas-et-noix-de-coco.jpeg",
     "eventCategory": null,
     "category": "dessert",
     "servingSize": "8 parts",
@@ -728,7 +730,7 @@
       }
     ],
     "preparationTime": "15 minutes",
-    "cookingTime": "30 minutes",
+    "cookTime": "30 minutes",
     "steps": [
       "Préchauffez le four à 180°C.",
       "Coupez 4 à 5 belles tranches d'ananas. Coupez le reste de votre ananas en petits dés et réservez. Conservez le jus de votre ananas.",
@@ -743,7 +745,7 @@
   {
     "id": "tarte_chocolat_noir",
     "name": "Tarte au chocolat noir",
-    "image": "../../../images/sucré/tarte-au-chocolat.jpeg",
+    "image": "/assets/sugar-recipe/tarte-au-chocolat.jpeg",
     "eventCategory": null,
     "category": "dessert",
     "servingSize": "10 personnes",
@@ -762,7 +764,7 @@
       }
     ],
     "preparationTime": "30 minutes",
-    "cookingTime": "20 minutes",
+    "cookTime": "20 minutes",
     "steps": [
       "Préchauffez votre four à 200°C. Faites cuire la pâte à blanc selon le mode d'emploi.",
       "Dans une casserole, faites chauffer la crème liquide.",
@@ -774,7 +776,7 @@
   {
     "id": "tarte_citron_meringuee",
     "name": "Tarte au citron meringuée",
-    "image": "../../../images/sucré/tarte-citron-meringu.jpg",
+    "image": "/assets/sugar-recipe/tarte-citron-meringu.jpg",
     "eventCategory": null,
     "category": "dessert",
     "servingSize": "6 personnes",
@@ -805,7 +807,7 @@
       }
     ],
     "preparationTime": "20 minutes",
-    "cookingTime": "40 minutes",
+    "cookTime": "40 minutes",
     "steps": [
       "Préchauffez le four à 180°C.",
       "Garnissez un moule à tarte avec la pâte. Piquez le fond avec une fourchette. Cuire la pâte à blanc pendant 10 minutes.",
@@ -822,7 +824,7 @@
   {
     "id": "tarte_fraises",
     "name": "Tarte aux fraises",
-    "image": "../../../images/sucré/tarte-fraises.jpg",
+    "image": "/assets/sugar-recipe/tarte-fraises.jpg",
     "eventCategory": null,
     "category": "dessert",
     "servingSize": "12 personnes",
@@ -849,7 +851,7 @@
       }
     ],
     "preparationTime": "30 minutes",
-    "cookingTime": "20 minutes",
+    "cookTime": "20 minutes",
     "steps": [
       "Préchauffez le four à 180°C.",
       "Faites chauffer le lait.",
@@ -864,7 +866,7 @@
   {
     "id": "pates_carbonara",
     "name": "Pâtes à la carbonara",
-    "image": "../../../images/salé/pates-carbo.jpg",
+    "image": "/assets/salty-recipe/pates-carbo.jpg",
     "eventCategory": null,
     "category": "plat principal",
     "servingSize": "4 personnes",
@@ -891,7 +893,7 @@
       }
     ],
     "preparationTime": "5 minutes",
-    "cookingTime": "15 minutes",
+    "cookTime": "15 minutes",
     "steps": [
       "Faire bouillir dans une casserole un grand volume d'eau.",
       "Plonger les pâtes dans l'eau et faire cuire 9-10 minutes selon le type de pâtes.",
@@ -906,7 +908,7 @@
   {
     "id": "spaghetti_bolognaise",
     "name": "Spaghettis à la bolognaise",
-    "image": "../../../images/salé/spaghetti-bolognaisejpg.jpg",
+    "image": "/assets/salty-recipe/spaghetti-bolognaise.jpg",
     "eventCategory": null,
     "category": "plat principal",
     "servingSize": "4 personnes",
@@ -953,7 +955,7 @@
       }
     ],
     "preparationTime": "5 minutes",
-    "cookingTime": "15 minutes",
+    "cookTime": "15 minutes",
     "steps": [
       "Épluchez et émincez les oignons en petits cubes.",
       "Chauffez une poêle, ajoutez un filet d'huile, puis ajoutez les oignons en les faisant revenir à feu vif jusqu'à ce qu'ils colorent légèrement.",
@@ -967,7 +969,7 @@
   {
     "id": "mini_buches_saumon",
     "name": "Mini bûches au saumon",
-    "image": "../../../images/salé/mini-buche-saumon.jpg",
+    "image": "/assets/salty-recipe/mini-buche-saumon.jpg",
     "eventCategory": "plat de fête",
     "category": "entrée",
     "servingSize": "2 personnes",
@@ -1005,7 +1007,7 @@
   {
     "id": "terrine_stjacques_saumon",
     "name": "Terrine de Saint Jacques et saumon",
-    "image": "../../../images/salé/terrine-st-jacques-saumon.jpg",
+    "image": "/assets/salty-recipe/terrine-st-jacques-saumon.jpg",
     "eventCategory": "plat de fête",
     "category": "entrée",
     "servingSize": "4 personnes",
@@ -1065,7 +1067,7 @@
   {
     "id": "verrines_avocat_saumon",
     "name": "Verrines avocat et saumon fumé",
-    "image": "../../../images/salé/avocat-saumon-fume-en-verrines.jpeg",
+    "image": "/assets/salty-recipe/avocat-saumon-fume-en-verrines.jpeg",
     "eventCategory": "plat de fête",
     "category": "entrée",
     "servingSize": "6 personnes",
@@ -1098,7 +1100,7 @@
   {
     "id": "papillotes_cabillaud",
     "name": "Papillotes de cabillaud",
-    "image": "../../../images/salé/dos-de-cabillaud-en-papillote.jpeg",
+    "image": "/assets/salty-recipe/dos-de-cabillaud-en-papillote.jpeg",
     "category": "plat principal",
     "eventCategory": "poisson",
     "servingSize": "2 personnes",
@@ -1137,7 +1139,7 @@
       }
     ],
     "preparationTime": "15 minutes",
-    "cookingTime": "30 minutes",
+    "cookTime": "30 minutes",
     "difficulty": "Facile",
     "steps": [
       "Lavez, épépinez et coupez en petits dés les poivrons et la tomate.",
@@ -1151,7 +1153,7 @@
   {
     "id": "sauce_cabillaud",
     "name": "Sauce pour cabillaud",
-    "image": "../../../images/salé/sauce-cabillaud.jpg",
+    "image": "/assets/salty-recipe/sauce-cabillaud.jpg",
     "category": "sauce",
     "eventCategory": "poisson",
     "servingSize": "4 personnes",
@@ -1187,7 +1189,7 @@
       }
     ],
     "preparationTime": "10 minutes",
-    "cookingTime": "10 minutes",
+    "cookTime": "10 minutes",
     "difficulty": "Facile",
     "steps": [
       "Faites cuire les filets de cabillaud avec un filet d'huile dans une poêle, à feu moyen, quelques minutes. Retournez à mi-cuisson.",
@@ -1201,7 +1203,7 @@
   {
     "id": "saumon_amandes",
     "name": "Saumon aux amandes",
-    "image": "../../../images/salé/saumon-papillotte.jpg",
+    "image": "/assets/salty-recipe/saumon-amandes.jpg",
     "category": "plat principal",
     "eventCategory": "poisson",
     "servingSize": "4 personnes",
@@ -1230,7 +1232,7 @@
       }
     ],
     "preparationTime": "15 minutes",
-    "cookingTime": "15 minutes",
+    "cookTime": "15 minutes",
     "difficulty": "Facile",
     "steps": [
       "Faire cuire doucement les pavés de saumon dans une poêle antiadhésive puis les réserver au chaud. Essuyez la poêle, faire fondre la margarine et faire dorer les amandes effilées quelques instants.",
@@ -1242,7 +1244,7 @@
   {
     "id": "saumon_cumin",
     "name": "Papillottes de saumon au cumin",
-    "image": "../../../images/salé/saumon-papillotte.jpg",
+    "image": "/assets/salty-recipe/saumon-papillotte.jpg",
     "category": "plat principal",
     "eventCategory": "poisson",
     "servingSize": "2 personnes",
@@ -1277,7 +1279,7 @@
       }
     ],
     "preparationTime": "15 minutes",
-    "cookingTime": "30 minutes",
+    "cookTime": "30 minutes",
     "difficulty": "Facile",
     "steps": [
       "Préchauffez le four à 180°C.",
@@ -1289,7 +1291,7 @@
   {
     "id": "coquilles_saint_jacques",
     "name": "Coquilles Saint Jacques",
-    "image": "../../../images/salé/st-jacques.jpg",
+    "image": "/assets/salty-recipe/st-jacques.jpg",
     "category": "plat principal",
     "eventCategory": "poisson",
     "servingSize": "6 coquilles",
@@ -1333,7 +1335,7 @@
       }
     ],
     "preparationTime": "30 minutes",
-    "cookingTime": "30 minutes",
+    "cookTime": "30 minutes",
     "difficulty": "Facile",
     "steps": [
       "Epluchez et hachez les échalotes. Nettoyez et hachez les champignons.",
@@ -1347,7 +1349,7 @@
   {
     "id": "gratin_dauphinois",
     "name": "Gratin dauphinois",
-    "image": "../../../images/salé/gratin_dauphinois.jpg",
+    "image": "/assets/salty-recipe/gratin_dauphinois.jpg",
     "category": "plat principal",
     "eventCategory": "hiver",
     "servingSize": "4 à 6 personnes",
@@ -1371,7 +1373,7 @@
       }
     ],
     "preparationTime": "20 minutes",
-    "cookingTime": "50 minutes",
+    "cookTime": "50 minutes",
     "difficulty": "Facile",
     "steps": [
       "Pelez les pommes de terre. Lavez-les. Coupez-les en lamelles régulières de 2 à 3 mm d'épaisseur.",
@@ -1385,7 +1387,7 @@
   {
     "id": "pommes_de_terre_raclette",
     "name": "Pommes de terre raclette et lard fumé",
-    "image": "../../../images/salé/Pommes-de-terre-au-fromage-a-raclette-et-lard-fume.jpg",
+    "image": "/assets/salty-recipe/Pommes-de-terre-au-fromage-a-raclette-et-lard-fume.jpg",
     "category": "plat principal",
     "eventCategory": "hiver",
     "servingSize": "4 personnes",
@@ -1408,7 +1410,7 @@
       }
     ],
     "preparationTime": "20 minutes",
-    "cookingTime": "20 minutes",
+    "cookTime": "20 minutes",
     "difficulty": "Facile",
     "steps": [
       "Faites cuire les pommes de terre lavées et non épluchées à l'eau avec une pincée de sel.",
@@ -1420,7 +1422,7 @@
   {
     "id": "veloute_de_butternut",
     "name": "Velouté de butternut",
-    "image": "../../../images/veloute/veloute-de-butternut.jpg",
+    "image": "/assets/salty-recipe/veloute-de-butternut.jpg",
     "category": "entrée",
     "eventCategory": "hiver",
     "servingSize": "3 personnes",
@@ -1449,7 +1451,7 @@
       }
     ],
     "preparationTime": "20 minutes",
-    "cookingTime": "20 minutes",
+    "cookTime": "20 minutes",
     "difficulty": "Facile",
     "steps": [
       "Évidez la courge, pelez-la et coupez-la en morceaux.",
@@ -1463,7 +1465,7 @@
   {
     "id": "veloute_de_lentilles_corail",
     "name": "Velouté de lentilles corail",
-    "image": "../../../images/veloute/velouté-lentilles-corail.jpg",
+    "image": "/assets/salty-recipe/velouté-lentilles-corail.jpg",
     "category": "entrée",
     "eventCategory": "hiver",
     "servingSize": "6 personnes",
@@ -1482,7 +1484,7 @@
       }
     ],
     "preparationTime": "5 minutes",
-    "cookingTime": "20 minutes",
+    "cookTime": "20 minutes",
     "difficulty": "Facile",
     "steps": [
       "Chauffez de l'eau dans une grande casserole.",
@@ -1495,7 +1497,7 @@
   {
     "id": "curry_de_dinde_a_la_creme",
     "name": "Curry de dinde à la crème et aux champignons",
-    "image": "../../../images/salé/dinde-au-curry.jpg",
+    "image": "/assets/salty-recipe/dinde-au-curry.jpg",
     "category": "plat principal",
     "eventCategory": null,
     "servingSize": "2 personnes",
@@ -1530,7 +1532,7 @@
       }
     ],
     "preparationTime": "10 minutes",
-    "cookingTime": "20 minutes",
+    "cookTime": "20 minutes",
     "difficulty": "Facile",
     "steps": [
       "Epluchez l'oignon et hachez-le. Coupez les escalopes de dinde en dés. Egouttez les champignons.",
@@ -1542,7 +1544,7 @@
   {
     "id": "escalopes_de_poulet_a_la_moutarde",
     "name": "Escalopes de poulet à la moutarde",
-    "image": "../../../images/salé/poulet-sauce-moutarde.jpg",
+    "image": "/assets/salty-recipe/poulet-sauce-moutarde.jpg",
     "category": "plat principal",
     "eventCategory": null,
     "servingSize": "2 personnes",
@@ -1581,7 +1583,7 @@
       }
     ],
     "preparationTime": "10 minutes",
-    "cookingTime": "20 minutes",
+    "cookTime": "20 minutes",
     "difficulty": "Facile",
     "steps": [
       "Faites revenir dans une poêle, avec l'huile d'olive, les aiguillettes de poulet.",
@@ -1593,7 +1595,7 @@
   {
     "id": "lasagnes_a_la_bolognaise",
     "name": "Lasagnes à la bolognaise",
-    "image": "../../../images/salé/lasagnes-a-la-bolognaise.jpg",
+    "image": "/assets/salty-recipe/lasagnes-a-la-bolognaise.jpg",
     "category": "plat principal",
     "eventCategory": null,
     "servingSize": "4 personnes",
@@ -1636,7 +1638,7 @@
       }
     ],
     "preparationTime": "20 minutes",
-    "cookingTime": "40 minutes",
+    "cookTime": "40 minutes",
     "difficulty": "Facile",
     "steps": [
       "Verser l'huile dans une poêle chaude. Y ajouter la viande hâchée.",
@@ -1649,7 +1651,7 @@
   {
     "id": "poulet_basquaise",
     "name": "Poulet basquaise",
-    "image": "../../../images/salé/poulet-basquaise.jpg",
+    "image": "/assets/salty-recipe/poulet-basquaise.jpg",
     "category": "plat principal",
     "eventCategory": null,
     "servingSize": "6 personnes",
@@ -1696,7 +1698,7 @@
       }
     ],
     "preparationTime": "20 minutes",
-    "cookingTime": "1h 20min",
+    "cookTime": "1h 20min",
     "difficulty": "Facile",
     "steps": [
       "Hachez l'ail et l'oignon.",
@@ -1711,7 +1713,7 @@
   {
     "id": "roti_porc_miel_moutarde",
     "name": "Rôti de porc au miel et à la moutarde",
-    "image": "../../../images/salé/Rôti-de-porc-à-la-moutarde.jpg",
+    "image": "/assets/salty-recipe/Rôti-de-porc-à-la-moutarde.jpg",
     "category": "plat principal",
     "eventCategory": null,
     "servingSize": "2 personnes",
@@ -1746,7 +1748,7 @@
       }
     ],
     "preparationTime": "10 minutes",
-    "cookingTime": "40 minutes",
+    "cookTime": "40 minutes",
     "difficulty": "Facile",
     "steps": [
       "Dans un bol, mélangez le miel, la moutarde et le thym.",
@@ -1759,7 +1761,7 @@
   {
     "id": "pizza_poulet_curry",
     "name": "Pizza au poulet curry",
-    "image": "../../images/salé/pizza poulet.jpeg",
+    "image": "/assets/salty-recipe/pizza poulet.jpeg",
     "category": "plat principal",
     "eventCategory": null,
     "servingSize": "4 personnes",
@@ -1806,7 +1808,7 @@
       }
     ],
     "preparationTime": "20 minutes",
-    "cookingTime": "30 minutes",
+    "cookTime": "30 minutes",
     "difficulty": "Facile",
     "steps": [
       "Pour la pâte à pizza : Mettre la farine dans le saladier, ajouter l'huile d'olive, le sel et l'eau. Commencer à pétrir puis ajouter la levure de boulanger (Attention : le sel et la levure ne doivent pas être en contact car sinon la pâte ne lèvera pas).",

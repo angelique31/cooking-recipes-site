@@ -12,24 +12,24 @@ import PropTypes from "prop-types";
  * @param {string} props.linkTo - Le chemin de base pour le lien vers la recette détaillée.
  * @returns {JSX.Element} Un élément de carte contenant une image, un titre et un lien.
  */
-const RecipeCard = ({ image, title, item, linkTo }) => {
+
+const RecipeCard = ({ item, linkTo }) => {
+  // console.log("Props in RecipeCard component:", { item, linkTo });
   return (
-    // <Link to={`${linkTo}/${index}`}>
     <Link to={`${linkTo}/${item.id}`}>
       <StyledCard>
-        <CardImage src={image} alt={title} />
-        <CardTitle>{title}</CardTitle>
+        <CardImage src={item.image} alt={item.name} />
+        <CardTitle>{item.name}</CardTitle>
       </StyledCard>
     </Link>
   );
 };
 
 RecipeCard.propTypes = {
-  image: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  // index: PropTypes.number.isRequired,
   item: PropTypes.shape({
     id: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
   }).isRequired,
   linkTo: PropTypes.string.isRequired,
 };

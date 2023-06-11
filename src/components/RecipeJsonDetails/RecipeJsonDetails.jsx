@@ -1,7 +1,6 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { recipeData } from "../../datas/recipeData.js";
-// import recipesData from "../../datas/data.json";
+import recipesData from "../../datas/data.json";
 import NavBar from "../NavBar/NavBar.jsx";
 import {
   StyledH1,
@@ -9,30 +8,27 @@ import {
   ContentWrapper,
   StyledImage,
   ImageTextWrapper,
-  DetailText,
+  //   DetailText,
   ContentSection,
-} from "./RecipeDetails.styled.js";
+} from "../RecipeDetails/RecipeDetails.styled";
 import RecipeButton from "../RecipeButton/RecipeButton.jsx";
 import CounterButton from "../CounterButton/CounterButton.jsx";
 import RecipeInfoBox from "../RecipeInfoBox/RecipeInfoBox.jsx";
 
-/**
- * Affiche les détails d'une recette spécifique.
- *
- * Utilise l'ID de la recette fourni dans l'URL pour rechercher
- * et afficher les informations pertinentes de la recette correspondante.
- *
- * @returns {JSX.Element} Un élément JSX contenant les détails de la recette sélectionnée.
- */
-const RecipeDetails = () => {
-  const { recipeId } = useParams(); // Cela récupère l'id de la recette à partir de l'URL
-  // console.log(recipeData);
-  const recipe = recipeData.find((item) => item.id === recipeId);
-  // console.log(recipe);
-  // pour forcer le défilement en haut de la page lorsque le composant est monté.
+const RecipeJsonDetails = () => {
+  const { recipeId } = useParams();
+  console.log(recipesData);
+  const [recipe, setRecipe] = useState(null);
+
   useEffect(() => {
+    // Trouver la recette dans les données importées
+    const foundRecipe = recipesData.find((item) => item.id === recipeId);
+    console.log(foundRecipe);
+    setRecipe(foundRecipe);
+
+    // Pour forcer le défilement en haut de la page
     window.scrollTo(0, 0);
-  }, []);
+  }, [recipeId]);
 
   if (!recipe) {
     return <h2>Recette non trouvée</h2>;
@@ -44,13 +40,11 @@ const RecipeDetails = () => {
       <StyledH1>{recipe.name}</StyledH1>
       <ContentWrapper>
         <ImageTextWrapper>
-          <StyledImage src={recipe.image} alt={recipe.title} />
-          <DetailText>{recipe.detailText}</DetailText>
+          <StyledImage src={recipe.image} alt={recipe.name} />
         </ImageTextWrapper>
         <ContentSection>
           <RecipeInfoBox
-            servings={recipe.servings}
-            prepTime={recipe.prepTime}
+            prepTime={recipe.preparationTime}
             cookTime={recipe.cookTime}
           />
           <RecipeButton />
@@ -58,15 +52,17 @@ const RecipeDetails = () => {
           <CounterButton />
           <ul>
             {recipe.ingredients.map((ingredient, index) => (
-              <li key={index}>{ingredient}</li>
+              <li key={index}>
+                {ingredient.name} - {ingredient.quantity}
+              </li>
             ))}
           </ul>
           <StyledH2>Préparation</StyledH2>
           <ol>
-            {recipe.instructions.map((instruction, index) => (
+            {recipe.steps.map((step, index) => (
               <li key={index}>
                 <strong> {index + 1}. </strong>
-                {instruction}
+                {step}
               </li>
             ))}
           </ol>
@@ -76,4 +72,4 @@ const RecipeDetails = () => {
   );
 };
 
-export default RecipeDetails;
+export default RecipeJsonDetails;

@@ -16,7 +16,6 @@ import NavBar from "../NavBar/NavBar.jsx";
 
 const NewsDetails = () => {
   const { newsId } = useParams();
-  // const newsItem = newsData.find((item, index) => index === parseInt(newsId));
   const newsItem = newsData.find((item) => item.id === newsId);
 
   // pour forcer le défilement en haut de la page lorsque le composant est monté.
@@ -27,7 +26,7 @@ const NewsDetails = () => {
   return (
     <div>
       <NavBar />
-      <StyledH1>{newsItem.title}</StyledH1>
+      <StyledH1>{newsItem.name}</StyledH1>
       <FlexContainer>
         {newsItem.summaryTitle.map((title, index) => {
           if (index === 0) {

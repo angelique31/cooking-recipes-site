@@ -2,8 +2,11 @@ import RecipeArticle from "../RecipeArticle/RecipeArticle";
 import { currentNewsData } from "../../datas/currentRecipeData.js";
 import { foodData } from "../../datas/foodData.js";
 import { newsData } from "../../datas/newsData.js";
-import { recipeData } from "../../datas/recipeData.js";
+// import { recipeData } from "../../datas/recipeData.js";
 import { antiWasteTipsData } from "../../datas/antiWasteTipsData";
+
+import recipesData from "../../datas/data.json";
+
 /**
  * Composant qui affiche plusieurs composants RecipeArticle avec
  * différents ensembles de données, titres et liens.
@@ -16,17 +19,18 @@ import { antiWasteTipsData } from "../../datas/antiWasteTipsData";
 const RecipeArticleContainer = () => {
   return (
     <div>
-      <RecipeArticle data={currentNewsData} title="En ce moment" linkTo="#" />
-      <RecipeArticle data={foodData} title="Top recettes" linkTo="#" />
+      <RecipeArticle data={currentNewsData} name="En ce moment" linkTo="#" />
+      <RecipeArticle data={foodData} name="Top recettes" linkTo="#" />
       <RecipeArticle
         data={newsData}
-        title="Dernières actualités"
+        name="Dernières actualités"
         linkTo="/news"
       />
-      <RecipeArticle data={recipeData} title="Recettes" linkTo="/recipe" />
+      {/* <RecipeArticle data={recipeData}name="Recettes" linkTo="/recipe" /> */}
+      <RecipeArticle data={recipesData} name="Recettes" linkTo="/recipes" />
       <RecipeArticle
         data={antiWasteTipsData}
-        title="Astuces anti-gaspi"
+        name="Astuces anti-gaspi"
         linkTo="/recipe"
       />
     </div>
