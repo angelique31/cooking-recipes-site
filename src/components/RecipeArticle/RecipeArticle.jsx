@@ -11,8 +11,16 @@ import CardSection from "../CardSection/CardSection.jsx";
  * @param {string} props.linkTo - Le lien vers lequel rediriger depuis la section de la carte.
  * @returns {JSX.Element} Un élément CardSection avec les données, titre et lien spécifiés.
  */
-const RecipeArticle = ({ data, name, linkTo }) => {
-  return <CardSection data={data} name={name} linkTo={linkTo} />;
+const RecipeArticle = ({ data, name, linkTo, flexDisplay = true }) => {
+  // console.log("RecipeArticle data", data);
+  return (
+    <CardSection
+      data={data}
+      name={name}
+      linkTo={linkTo}
+      flexDisplay={flexDisplay}
+    />
+  );
 };
 
 RecipeArticle.propTypes = {

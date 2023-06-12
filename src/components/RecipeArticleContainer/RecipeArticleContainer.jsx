@@ -1,22 +1,19 @@
 import RecipeArticle from "../RecipeArticle/RecipeArticle";
+import RecipeListFilter from "../RecipeListFilter/RecipeListFilter";
 import { currentNewsData } from "../../datas/currentRecipeData.js";
 import { foodData } from "../../datas/foodData.js";
 import { newsData } from "../../datas/newsData.js";
-// import { recipeData } from "../../datas/recipeData.js";
 import { antiWasteTipsData } from "../../datas/antiWasteTipsData";
 
-import recipesData from "../../datas/data.json";
-
-/**
- * Composant qui affiche plusieurs composants RecipeArticle avec
- * différents ensembles de données, titres et liens.
- *
- * Il utilise des données provenant de currentNewsData, foodData, et newsData, et passe ces données avec
- * des titres et des liens en tant que props aux composants RecipeArticle.
- *
- * @returns {JSX.Element} Un élément conteneur contenant plusieurs composants RecipeArticle.
- */
 const RecipeArticleContainer = () => {
+  // console.log("RecipeArticleContainer is rendered");
+  const filteredRecipes = RecipeListFilter();
+
+  let flexDisplay = true;
+  if (filteredRecipes.length > 3) {
+    flexDisplay = false;
+  }
+
   return (
     <div>
       <RecipeArticle data={currentNewsData} name="En ce moment" linkTo="#" />
@@ -26,8 +23,13 @@ const RecipeArticleContainer = () => {
         name="Dernières actualités"
         linkTo="/news"
       />
-      {/* <RecipeArticle data={recipeData}name="Recettes" linkTo="/recipe" /> */}
-      <RecipeArticle data={recipesData} name="Recettes" linkTo="/recipes" />
+      <RecipeArticle
+        data={filteredRecipes}
+        name="Recettes"
+        linkTo="/recipes"
+        flexDisplay={flexDisplay}
+      />
+
       <RecipeArticle
         data={antiWasteTipsData}
         name="Astuces anti-gaspi"
@@ -38,3 +40,45 @@ const RecipeArticleContainer = () => {
 };
 
 export default RecipeArticleContainer;
+
+// import { useSelector } from "react-redux";
+// import recipesData from "../../datas/data.json";
+
+// const RecipeArticleContainer = () => {
+//   const searchValue = useSelector((state) => state.recipes.searchValue);
+
+//   let filteredRecipes = recipesData;
+
+//   // Si une valeur de recherche est présente, filtrez les recettes
+//   if (searchValue) {
+//     filteredRecipes = recipesData.filter((recipe) => {
+//       const ingredients = recipe.ingredients
+//         .map((ingredient) => ingredient.name)
+//         .join(" ");
+//       return (
+//         recipe.name.toLowerCase().includes(searchValue.toLowerCase()) ||
+//         ingredients.toLowerCase().includes(searchValue.toLowerCase())
+//       );
+//     });
+//   }
+
+//   return (
+//     <div>
+//       <RecipeArticle data={currentNewsData} name="En ce moment" linkTo="#" />
+//       <RecipeArticle data={foodData} name="Top recettes" linkTo="#" />
+//       <RecipeArticle
+//         data={newsData}
+//         name="Dernières actualités"
+//         linkTo="/news"
+//       />
+//       <RecipeArticle data={filteredRecipes} name="Recettes" linkTo="/recipes" />
+//       <RecipeArticle
+//         data={antiWasteTipsData}
+//         name="Astuces anti-gaspi"
+//         linkTo="/recipe"
+//       />
+//     </div>
+//   );
+// };
+
+// export default RecipeArticleContainer;

@@ -16,8 +16,12 @@ export const CommonSection = styled.section`
   margin: 0px 100px 50px 100px;
 `;
 
+// export const CommonCardsContainer = styled.div`
+//   display: flex;
+// `;
+
 export const CommonCardsContainer = styled.div`
-  display: flex;
+  display: ${(props) => (props.flexDisplay ? "flex" : "block")};
 `;
 
 export const StyledH3 = styled.h3`

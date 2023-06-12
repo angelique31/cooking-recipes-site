@@ -17,7 +17,7 @@ import RecipeInfoBox from "../RecipeInfoBox/RecipeInfoBox.jsx";
 
 const RecipeJsonDetails = () => {
   const { recipeId } = useParams();
-  console.log(recipesData);
+  // console.log(recipesData);
   const [recipe, setRecipe] = useState(null);
 
   useEffect(() => {

@@ -13,12 +13,24 @@ import {
  * @param {string} name - Le titre de la section.
  * @param {string} linkTo - Lien de redirection pour chaque carte.
  */
-const Section = ({ data, name, linkTo }) => {
-  // console.log(data);
+// const Section = ({ data, name, linkTo }) => {
+//   return (
+//     <CommonSection>
+//       <StyledH3>{name}</StyledH3>
+//       <CommonCardsContainer>
+//         {data.map((item) => (
+//           <RecipeCard key={item.id} item={item} linkTo={linkTo} />
+//         ))}
+//       </CommonCardsContainer>
+//     </CommonSection>
+//   );
+// };
+
+const Section = ({ data, name, linkTo, flexDisplay = true }) => {
   return (
     <CommonSection>
       <StyledH3>{name}</StyledH3>
-      <CommonCardsContainer>
+      <CommonCardsContainer flexDisplay={flexDisplay}>
         {data.map((item) => (
           <RecipeCard key={item.id} item={item} linkTo={linkTo} />
         ))}
