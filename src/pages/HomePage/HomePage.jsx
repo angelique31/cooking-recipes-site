@@ -12,7 +12,7 @@ const HomePage = () => {
         <NavBar />
         <CategoryCard />
       </HomePageWrapper>
-      <Carousel />
+      {/* <Carousel /> */}
       <RecipeArticleContainer />
     </div>
   );

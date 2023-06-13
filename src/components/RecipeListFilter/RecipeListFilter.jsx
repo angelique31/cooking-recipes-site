@@ -5,7 +5,7 @@ const normalizeString = (input) => {
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
-    .replace(/\s+/g, " ") // supprime les espaces en double
+    .replace(/\s/g, "") // supprime les espaces en double
     .trim(); // supprime les espaces en début et fin de chaîne
 };
 
@@ -45,7 +45,7 @@ const normalizeString = (input) => {
 //     })
 //     .slice(0, initialLimit);
 // };
-
+// export default RecipeListFilter;
 const RecipeListFilter = () => {
   const searchValue = useSelector((state) => state.recipes.searchValue);
   const recipes = useSelector((state) => state.recipes.recipes);

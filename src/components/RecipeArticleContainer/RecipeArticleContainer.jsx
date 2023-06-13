@@ -16,13 +16,13 @@ const RecipeArticleContainer = () => {
 
   return (
     <div>
-      <RecipeArticle data={currentNewsData} name="En ce moment" linkTo="#" />
+      {/* <RecipeArticle data={currentNewsData} name="En ce moment" linkTo="#" />
       <RecipeArticle data={foodData} name="Top recettes" linkTo="#" />
       <RecipeArticle
         data={newsData}
         name="Dernières actualités"
         linkTo="/news"
-      />
+      /> */}
       <RecipeArticle
         data={filteredRecipes}
         name="Recettes"
@@ -40,45 +40,3 @@ const RecipeArticleContainer = () => {
 };
 
 export default RecipeArticleContainer;
-
-// import { useSelector } from "react-redux";
-// import recipesData from "../../datas/data.json";
-
-// const RecipeArticleContainer = () => {
-//   const searchValue = useSelector((state) => state.recipes.searchValue);
-
-//   let filteredRecipes = recipesData;
-
-//   // Si une valeur de recherche est présente, filtrez les recettes
-//   if (searchValue) {
-//     filteredRecipes = recipesData.filter((recipe) => {
-//       const ingredients = recipe.ingredients
-//         .map((ingredient) => ingredient.name)
-//         .join(" ");
-//       return (
-//         recipe.name.toLowerCase().includes(searchValue.toLowerCase()) ||
-//         ingredients.toLowerCase().includes(searchValue.toLowerCase())
-//       );
-//     });
-//   }
-
-//   return (
-//     <div>
-//       <RecipeArticle data={currentNewsData} name="En ce moment" linkTo="#" />
-//       <RecipeArticle data={foodData} name="Top recettes" linkTo="#" />
-//       <RecipeArticle
-//         data={newsData}
-//         name="Dernières actualités"
-//         linkTo="/news"
-//       />
-//       <RecipeArticle data={filteredRecipes} name="Recettes" linkTo="/recipes" />
-//       <RecipeArticle
-//         data={antiWasteTipsData}
-//         name="Astuces anti-gaspi"
-//         linkTo="/recipe"
-//       />
-//     </div>
-//   );
-// };
-
-// export default RecipeArticleContainer;
