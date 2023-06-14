@@ -3,9 +3,19 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faKitchenSet } from "@fortawesome/free-solid-svg-icons";
 import { LogoWrapper, StyledH1, IconWrapper } from "./LogoItem.styled";
 
+import { useDispatch } from "react-redux";
+import { RESET_SEARCH_VALUE } from "../../../store/reducers/recipeReducer";
+
 const LogoItem = () => {
+  const dispatch = useDispatch();
+
+  const handleLogoClick = () => {
+    // Dispatcher l'action pour réinitialiser la valeur de recherche dans le store Redux
+    dispatch({ type: RESET_SEARCH_VALUE });
+  };
+
   return (
-    <div>
+    <div onClick={handleLogoClick}>
       <Link to="/">
         <LogoWrapper>
           <IconWrapper>

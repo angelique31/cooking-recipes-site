@@ -9,7 +9,7 @@ const HomePage = () => {
   return (
     <div>
       <HomePageWrapper>
-        <NavBar />
+        <NavBar showSearchBar={true} /> {/* Activer la barre de recherche */}
         <CategoryCard />
       </HomePageWrapper>
       {/* <Carousel /> */}

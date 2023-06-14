@@ -14,7 +14,6 @@ import PropTypes from "prop-types";
  */
 
 const RecipeCard = ({ item, linkTo }) => {
-  // console.log("Props in RecipeCard component:", { item, linkTo });
   return (
     <Link to={`${linkTo}/${item.id}`}>
       <StyledCard>

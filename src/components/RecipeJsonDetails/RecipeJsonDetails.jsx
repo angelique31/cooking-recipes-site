@@ -15,15 +15,13 @@ import RecipeButton from "../RecipeButton/RecipeButton.jsx";
 import CounterButton from "../CounterButton/CounterButton.jsx";
 import RecipeInfoBox from "../RecipeInfoBox/RecipeInfoBox.jsx";
 
-const RecipeJsonDetails = () => {
+const RecipeJsonDetails = ({ showSearchBar }) => {
   const { recipeId } = useParams();
-  // console.log(recipesData);
   const [recipe, setRecipe] = useState(null);
 
   useEffect(() => {
     // Trouver la recette dans les données importées
     const foundRecipe = recipesData.find((item) => item.id === recipeId);
-    console.log(foundRecipe);
     setRecipe(foundRecipe);
 
     // Pour forcer le défilement en haut de la page
@@ -36,7 +34,8 @@ const RecipeJsonDetails = () => {
 
   return (
     <div>
-      <NavBar />
+      {/* {showSearchBar && <NavBar />} */}
+      <NavBar showSearchBar={showSearchBar} />
       <StyledH1>{recipe.name}</StyledH1>
       <ContentWrapper>
         <ImageTextWrapper>

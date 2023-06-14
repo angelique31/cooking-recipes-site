@@ -1,12 +1,11 @@
 import RecipeArticle from "../RecipeArticle/RecipeArticle";
 import RecipeListFilter from "../RecipeListFilter/RecipeListFilter";
-import { currentNewsData } from "../../datas/currentRecipeData.js";
-import { foodData } from "../../datas/foodData.js";
-import { newsData } from "../../datas/newsData.js";
+// import { currentNewsData } from "../../datas/currentRecipeData.js";
+// import { foodData } from "../../datas/foodData.js";
+// import { newsData } from "../../datas/newsData.js";
 import { antiWasteTipsData } from "../../datas/antiWasteTipsData";
 
 const RecipeArticleContainer = () => {
-  // console.log("RecipeArticleContainer is rendered");
   const filteredRecipes = RecipeListFilter();
 
   let flexDisplay = true;
@@ -23,6 +22,7 @@ const RecipeArticleContainer = () => {
         name="Dernières actualités"
         linkTo="/news"
       /> */}
+
       <RecipeArticle
         data={filteredRecipes}
         name="Recettes"

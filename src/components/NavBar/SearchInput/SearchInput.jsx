@@ -12,13 +12,18 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { setSearchValue } from "../../../store/actions/recipeActions.js";
 
+import { useNavigate } from "react-router-dom";
+
 const SearchInput = () => {
   const [tempSearchValue, setTempSearchValue] = useState("");
   const dispatch = useDispatch();
+  const navigate = useNavigate();
 
   const handleSubmit = (event) => {
     event.preventDefault(); // Empêche le comportement de soumission de formulaire par défaut
     dispatch(setSearchValue(tempSearchValue));
+
+    navigate("/filtered-recipes");
   };
   //la recherche n'est déclenchée que si on clique sur le bouton "Rechercher".
   const handleChange = (e) => {
