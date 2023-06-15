@@ -11,7 +11,7 @@ const normalizeString = (input) => {
 
 const RecipeListFilter = () => {
   const searchValue = useSelector((state) => state.recipes.searchValue);
-  const recipes = useSelector((state) => state.recipes.recipes);
+  const recipes = useSelector((state) => state.recipes.recipes.regularRecipes);
 
   if (!recipes) {
     return [];

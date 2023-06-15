@@ -1,8 +1,8 @@
 import RecipeArticle from "../RecipeArticle/RecipeArticle";
 import RecipeListFilter from "../RecipeListFilter/RecipeListFilter";
-// import { currentNewsData } from "../../datas/currentRecipeData.js";
-// import { foodData } from "../../datas/foodData.js";
-// import { newsData } from "../../datas/newsData.js";
+import { currentNewsData } from "../../datas/currentRecipeData.js";
+import { foodData } from "../../datas/foodData.js";
+import { newsData } from "../../datas/newsData.js";
 import { antiWasteTipsData } from "../../datas/antiWasteTipsData";
 
 const RecipeArticleContainer = () => {
@@ -15,13 +15,24 @@ const RecipeArticleContainer = () => {
 
   return (
     <div>
-      {/* <RecipeArticle data={currentNewsData} name="En ce moment" linkTo="#" />
-      <RecipeArticle data={foodData} name="Top recettes" linkTo="#" />
+      <RecipeArticle
+        data={currentNewsData}
+        name="En ce moment"
+        linkTo="#"
+        showTitle={true}
+      />
+      <RecipeArticle
+        data={foodData}
+        name="Top recettes"
+        linkTo="#"
+        showTitle={true}
+      />
       <RecipeArticle
         data={newsData}
         name="Dernières actualités"
         linkTo="/news"
-      /> */}
+        showTitle={true}
+      />
 
       <RecipeArticle
         data={filteredRecipes}
@@ -34,7 +45,8 @@ const RecipeArticleContainer = () => {
       <RecipeArticle
         data={antiWasteTipsData}
         name="Astuces anti-gaspi"
-        linkTo="/recipe"
+        linkTo="/special-recipes"
+        showTitle={true}
       />
     </div>
   );

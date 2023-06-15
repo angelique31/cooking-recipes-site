@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage/HomePage";
 import GlobalStyles from "./assets/Styles/GlobalStyle";
 import NewsDetails from "./components/NewsDetails/NewsDetails";
-import RecipeDetails from "./components/RecipeDetails/RecipeDetails";
+// import RecipeDetails from "./components/RecipeDetails/RecipeDetails";
 import RecipeJsonDetails from "./components/RecipeJsonDetails/RecipeJsonDetails";
 import FilteredRecipesPage from "./pages/FilteredRecipesPage/FilteredRecipesPage";
 
@@ -14,24 +14,29 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/news/:newsId" element={<NewsDetails />} />
-          <Route
+          {/* <Route
             path="/recipes/:recipeId"
             element={<RecipeJsonDetails showSearchBar={true} />}
-          />
+          /> */}
           <Route
-            path="/recipe-detail/:recipeId"
-            element={<RecipeJsonDetails showSearchBar={false} />}
+            path="/recipes/:recipeId"
+            element={<RecipeJsonDetails recipeType="regularRecipes" />}
           />
 
           {/* <Route
-            path="/recipe/:recipeId"
-            element={<RecipeDetails isFiltered={false} />}
-          />
-          <Route
-            path="/filtered-recipe/:recipeId"
-            element={<RecipeDetails isFiltered={true} />}
+            path="/recipe-detail/:recipeId"
+            element={<RecipeJsonDetails showSearchBar={false} />}
           /> */}
-          <Route path="/recipe/:recipeId" element={<RecipeDetails />} />
+          <Route
+            path="/recipe-detail/:recipeId"
+            element={<RecipeJsonDetails recipeType="regularRecipes" />}
+          />
+
+          {/* <Route path="/recipe/:recipeId" element={<RecipeDetails />} /> */}
+          <Route
+            path="/special-recipes/:recipeId"
+            element={<RecipeJsonDetails recipeType="specialRecipes" />}
+          />
           <Route path="/filtered-recipes" element={<FilteredRecipesPage />} />
           {/* <Route path="*" element={<NotFoundPage />} /> */}
         </Routes>

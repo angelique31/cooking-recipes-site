@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
+
 import recipesData from "../../datas/data.json";
+
 import NavBar from "../NavBar/NavBar.jsx";
 import {
   BackButton,
@@ -16,19 +18,24 @@ import RecipeButton from "../RecipeButton/RecipeButton.jsx";
 import CounterButton from "../CounterButton/CounterButton.jsx";
 import RecipeInfoBox from "../RecipeInfoBox/RecipeInfoBox.jsx";
 
-const RecipeJsonDetails = ({ showSearchBar }) => {
+const RecipeJsonDetails = ({ showSearchBar, recipeType }) => {
   const navigate = useNavigate();
   const { recipeId } = useParams();
   const [recipe, setRecipe] = useState(null);
 
   useEffect(() => {
+    // Choisir la section appropriée de données en fonction de recipeType
+    const recipesSection = recipesData[recipeType];
+
     // Trouver la recette dans les données importées
-    const foundRecipe = recipesData.find((item) => item.id === recipeId);
+    // const foundRecipe = recipesData.find((item) => item.id === recipeId);
+    const foundRecipe = recipesSection.find((item) => item.id === recipeId);
+    // console.log(foundRecipe);
     setRecipe(foundRecipe);
 
     // Pour forcer le défilement en haut de la page
     window.scrollTo(0, 0);
-  }, [recipeId]);
+  }, [recipeId, recipeType]);
 
   if (!recipe) {
     return <h2>Recette non trouvée</h2>;
@@ -57,7 +64,7 @@ const RecipeJsonDetails = ({ showSearchBar }) => {
         </ImageTextWrapper>
         <ContentSection>
           <RecipeInfoBox
-            prepTime={recipe.preparationTime}
+            prepTime={recipe.prepTime}
             cookTime={recipe.cookTime}
           />
           <RecipeButton />
