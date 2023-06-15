@@ -28,6 +28,7 @@ const RecipeArticleContainer = () => {
         name="Recettes"
         linkTo="/recipes"
         flexDisplay={flexDisplay}
+        showTitle={true}
       />
 
       <RecipeArticle

@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import recipesData from "../../datas/data.json";
 import NavBar from "../NavBar/NavBar.jsx";
 import {
+  BackButton,
   StyledH1,
   StyledH2,
   ContentWrapper,
@@ -16,6 +17,7 @@ import CounterButton from "../CounterButton/CounterButton.jsx";
 import RecipeInfoBox from "../RecipeInfoBox/RecipeInfoBox.jsx";
 
 const RecipeJsonDetails = ({ showSearchBar }) => {
+  const navigate = useNavigate();
   const { recipeId } = useParams();
   const [recipe, setRecipe] = useState(null);
 
@@ -32,11 +34,23 @@ const RecipeJsonDetails = ({ showSearchBar }) => {
     return <h2>Recette non trouvée</h2>;
   }
 
+  const handleBackClick = () => {
+    navigate(-1);
+  };
+
   return (
     <div>
-      {/* {showSearchBar && <NavBar />} */}
       <NavBar showSearchBar={showSearchBar} />
-      <StyledH1>{recipe.name}</StyledH1>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <BackButton onClick={handleBackClick}>&#8592;</BackButton>
+        <StyledH1>{recipe.name}</StyledH1>
+      </div>
       <ContentWrapper>
         <ImageTextWrapper>
           <StyledImage src={recipe.image} alt={recipe.name} />

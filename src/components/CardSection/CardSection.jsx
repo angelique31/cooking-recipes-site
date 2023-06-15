@@ -14,13 +14,18 @@ import {
  * @param {string} linkTo - Lien de redirection pour chaque carte.
  */
 
-const Section = ({ data, name, linkTo, flexDisplay = true }) => {
+const Section = ({ data, name, linkTo, flexDisplay = true, showTitle }) => {
   return (
     <CommonSection>
       <StyledH3>{name}</StyledH3>
       <CommonCardsContainer flexDisplay={flexDisplay}>
         {data.map((item) => (
-          <RecipeCard key={item.id} item={item} linkTo={linkTo} />
+          <RecipeCard
+            key={item.id}
+            item={item}
+            linkTo={linkTo}
+            showTitle={showTitle}
+          />
         ))}
       </CommonCardsContainer>
     </CommonSection>

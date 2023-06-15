@@ -2,7 +2,7 @@
 import styled from "styled-components";
 
 export const CommonSection = styled.section`
-  display: flex;
+  display: grid;
   justify-content: center;
   flex-direction: column;
   background-color: white;

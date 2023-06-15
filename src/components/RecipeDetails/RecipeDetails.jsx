@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { recipeData } from "../../datas/recipeData.js";
-// import recipesData from "../../datas/data.json";
+// import { useNavigate } from "react-router-dom";
 import NavBar from "../NavBar/NavBar.jsx";
 import {
   StyledH1,
@@ -26,9 +26,8 @@ import RecipeInfoBox from "../RecipeInfoBox/RecipeInfoBox.jsx";
  */
 const RecipeDetails = () => {
   const { recipeId } = useParams(); // Cela récupère l'id de la recette à partir de l'URL
-  // console.log(recipeData);
   const recipe = recipeData.find((item) => item.id === recipeId);
-  // console.log(recipe);
+
   // pour forcer le défilement en haut de la page lorsque le composant est monté.
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -49,12 +48,11 @@ const RecipeDetails = () => {
         </ImageTextWrapper>
         <ContentSection>
           <RecipeInfoBox
-            servings={recipe.servings}
             prepTime={recipe.prepTime}
             cookTime={recipe.cookTime}
           />
           <RecipeButton />
-          <StyledH2>Ingrédients</StyledH2>
+          {/* <StyledH2>Ingrédients</StyledH2> */}
           <CounterButton />
           <ul>
             {recipe.ingredients.map((ingredient, index) => (

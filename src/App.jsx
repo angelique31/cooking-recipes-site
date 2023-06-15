@@ -22,6 +22,15 @@ const App = () => {
             path="/recipe-detail/:recipeId"
             element={<RecipeJsonDetails showSearchBar={false} />}
           />
+
+          {/* <Route
+            path="/recipe/:recipeId"
+            element={<RecipeDetails isFiltered={false} />}
+          />
+          <Route
+            path="/filtered-recipe/:recipeId"
+            element={<RecipeDetails isFiltered={true} />}
+          /> */}
           <Route path="/recipe/:recipeId" element={<RecipeDetails />} />
           <Route path="/filtered-recipes" element={<FilteredRecipesPage />} />
           {/* <Route path="*" element={<NotFoundPage />} /> */}

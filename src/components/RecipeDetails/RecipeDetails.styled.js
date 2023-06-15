@@ -1,5 +1,13 @@
 import styled from "styled-components";
 
+export const BackButton = styled.button`
+  font-size: 1.5em;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+`;
+
 export const StyledH1 = styled.h1`
   text-align: center;
   margin: 50px 0 50px 0;
