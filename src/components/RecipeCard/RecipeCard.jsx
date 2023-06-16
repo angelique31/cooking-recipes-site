@@ -18,7 +18,6 @@ const RecipeCard = ({ item, linkTo, showTitle }) => {
     <Link to={`${linkTo}/${item.id}`}>
       <StyledCard>
         <CardImage src={item.image} alt={item.name} />
-        {/* <CardTitle>{item.name}</CardTitle> */}
         {showTitle && <CardTitle>{item.name}</CardTitle>}
       </StyledCard>
     </Link>
@@ -32,6 +31,7 @@ RecipeCard.propTypes = {
     name: PropTypes.string.isRequired,
   }).isRequired,
   linkTo: PropTypes.string.isRequired,
+  showTitle: true,
 };
 
 export default RecipeCard;

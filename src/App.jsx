@@ -14,25 +14,14 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/news/:newsId" element={<NewsDetails />} />
-          {/* <Route
-            path="/recipes/:recipeId"
-            element={<RecipeJsonDetails showSearchBar={true} />}
-          /> */}
           <Route
             path="/recipes/:recipeId"
             element={<RecipeJsonDetails recipeType="regularRecipes" />}
           />
-
-          {/* <Route
-            path="/recipe-detail/:recipeId"
-            element={<RecipeJsonDetails showSearchBar={false} />}
-          /> */}
           <Route
             path="/recipe-detail/:recipeId"
             element={<RecipeJsonDetails recipeType="regularRecipes" />}
           />
-
-          {/* <Route path="/recipe/:recipeId" element={<RecipeDetails />} /> */}
           <Route
             path="/special-recipes/:recipeId"
             element={<RecipeJsonDetails recipeType="specialRecipes" />}

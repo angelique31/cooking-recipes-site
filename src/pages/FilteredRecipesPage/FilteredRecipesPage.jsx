@@ -17,7 +17,7 @@ const FilteredRecipesPage = () => {
 
   return (
     <div>
-      <NavBar showSearchBar />
+      <NavBar />
       <CommonSection>
         <HeadingWrapper>
           <StyledH2>

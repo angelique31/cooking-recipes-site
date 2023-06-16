@@ -18,7 +18,6 @@ const RecipeArticle = ({
   flexDisplay = true,
   showTitle,
 }) => {
-  // console.log("RecipeArticle data", data);
   return (
     <CardSection
       data={data}
@@ -34,6 +33,8 @@ RecipeArticle.propTypes = {
   data: PropTypes.array.isRequired,
   name: PropTypes.string.isRequired,
   linkTo: PropTypes.string.isRequired,
+  flexDisplay: PropTypes.bool,
+  showTitle: PropTypes.bool,
 };
 
 export default RecipeArticle;

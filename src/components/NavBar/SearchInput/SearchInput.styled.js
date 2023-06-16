@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledForm = styled.form`
   display: flex;
-  width: 50%;
+  width: 100%;
 `;
 
 export const SearchInputWrapper = styled.div`
@@ -26,9 +26,6 @@ export const StyledInput = styled.input`
   font-size: 1.2rem;
   cursor: pointer;
   padding-left: 75px;
-  ::placeholder {
-    opacity: 0.6;
-  }
   &:focus {
     box-shadow: 0 0 10px 0 rgb(255, 111, 97);
     outline: none;

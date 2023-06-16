@@ -4,14 +4,17 @@ import { NavBarWrapper } from "../NavBar/NavBar.styled";
 
 import PropTypes from "prop-types";
 
-const NavBar = ({ showSearchBar }) => {
+const NavBar = () => {
   return (
-    <NavBarWrapper>
+    <div>
       <LogoItem />
-      {/* <SearchInput /> */}
-      {showSearchBar && <SearchInput />}{" "}
-      {/* Montrez la barre de recherche seulement si showSearchBar est vrai */}
-    </NavBarWrapper>
+      <NavBarWrapper>
+        <div className="navBarContent">
+          {/* <LogoItem /> */}
+          <SearchInput />
+        </div>
+      </NavBarWrapper>
+    </div>
   );
 };
 

@@ -5,6 +5,7 @@ export const LogoWrapper = styled.div`
   align-items: center;
   gap: 20px;
   cursor: pointer;
+  margin: 20px;
 `;
 
 export const StyledH1 = styled.h1`

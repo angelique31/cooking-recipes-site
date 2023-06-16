@@ -42,6 +42,8 @@ Section.propTypes = {
   ).isRequired,
   name: PropTypes.string.isRequired,
   linkTo: PropTypes.string.isRequired,
+  flexDisplay: PropTypes.bool,
+  showTitle: PropTypes.bool,
 };
 
 export default Section;

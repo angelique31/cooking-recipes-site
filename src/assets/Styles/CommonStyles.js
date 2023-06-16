@@ -13,7 +13,7 @@ export const CommonSection = styled.section`
   color: rgba(0, 0, 0, 0.87);
   transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   padding: 20px;
-  margin: 0px 100px 50px 100px;
+  margin: 50px 100px 50px 100px;
 `;
 
 // export const CommonCardsContainer = styled.div`

@@ -1,25 +1,24 @@
 import { useEffect, useState } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 import recipesData from "../../datas/data.json";
 
 import NavBar from "../NavBar/NavBar.jsx";
 import {
-  BackButton,
   StyledH1,
   StyledH2,
   ContentWrapper,
   StyledImage,
   ImageTextWrapper,
-  //   DetailText,
   ContentSection,
-} from "../RecipeDetails/RecipeDetails.styled";
+} from "./RecipeJsonDetails.styled";
 import RecipeButton from "../RecipeButton/RecipeButton.jsx";
 import CounterButton from "../CounterButton/CounterButton.jsx";
 import RecipeInfoBox from "../RecipeInfoBox/RecipeInfoBox.jsx";
 
-const RecipeJsonDetails = ({ showSearchBar, recipeType }) => {
-  const navigate = useNavigate();
+import PropTypes from "prop-types";
+
+const RecipeJsonDetails = ({ recipeType }) => {
   const { recipeId } = useParams();
   const [recipe, setRecipe] = useState(null);
 
@@ -41,21 +40,10 @@ const RecipeJsonDetails = ({ showSearchBar, recipeType }) => {
     return <h2>Recette non trouvée</h2>;
   }
 
-  const handleBackClick = () => {
-    navigate(-1);
-  };
-
   return (
     <div>
-      <NavBar showSearchBar={showSearchBar} />
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <BackButton onClick={handleBackClick}>&#8592;</BackButton>
+      <NavBar />
+      <div>
         <StyledH1>{recipe.name}</StyledH1>
       </div>
       <ContentWrapper>
@@ -90,6 +78,10 @@ const RecipeJsonDetails = ({ showSearchBar, recipeType }) => {
       </ContentWrapper>
     </div>
   );
+};
+
+RecipeJsonDetails.propTypes = {
+  recipeType: PropTypes.string.isRequired,
 };
 
 export default RecipeJsonDetails;
