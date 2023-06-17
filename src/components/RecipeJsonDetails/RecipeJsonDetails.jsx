@@ -42,7 +42,7 @@ const RecipeJsonDetails = ({ recipeType }) => {
 
   return (
     <div>
-      <NavBar />
+      <NavBar isRecipePage={true} />
       <div>
         <StyledH1>{recipe.name}</StyledH1>
       </div>

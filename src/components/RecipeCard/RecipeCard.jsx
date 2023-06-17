@@ -31,7 +31,7 @@ RecipeCard.propTypes = {
     name: PropTypes.string.isRequired,
   }).isRequired,
   linkTo: PropTypes.string.isRequired,
-  showTitle: true,
+  showTitle: PropTypes.bool,
 };
 
 export default RecipeCard;

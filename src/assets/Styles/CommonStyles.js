@@ -16,10 +16,6 @@ export const CommonSection = styled.section`
   margin: 50px 100px 50px 100px;
 `;
 
-// export const CommonCardsContainer = styled.div`
-//   display: flex;
-// `;
-
 export const CommonCardsContainer = styled.div`
   display: ${(props) => (props.flexDisplay ? "flex" : "block")};
 `;

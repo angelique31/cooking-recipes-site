@@ -13,6 +13,14 @@ const StyledButton = styled.button`
   font-size: 1.2rem;
   background-color: #ff4269;
   transition: 1s;
+  ${(props) =>
+    props.isRecipePage
+      ? `
+        height: 40px;
+        font-size: 1rem;
+        padding: 0 15px;
+      `
+      : ""}
 `;
 
 export default StyledButton;

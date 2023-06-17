@@ -1,9 +1,11 @@
 import StyledButton from "./SearchButton.styled";
 
-function SearchButton() {
+function SearchButton({ isRecipePage }) {
   return (
     <div>
-      <StyledButton type="submit">Rechercher</StyledButton>
+      <StyledButton isRecipePage={isRecipePage} type="submit">
+        Rechercher
+      </StyledButton>
     </div>
   );
 }

@@ -14,7 +14,7 @@ import { setSearchValue } from "../../../store/actions/recipeActions.js";
 
 import { useNavigate } from "react-router-dom";
 
-const SearchInput = () => {
+const SearchInput = ({ isRecipePage }) => {
   const [tempSearchValue, setTempSearchValue] = useState("");
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -40,6 +40,7 @@ const SearchInput = () => {
     <StyledForm onSubmit={handleSubmit}>
       <SearchInputWrapper>
         <StyledInput
+          isRecipePage={isRecipePage}
           type="search"
           id="search_input"
           placeholder="Je recherche une recette, un ingrédient ..."
@@ -50,7 +51,7 @@ const SearchInput = () => {
           <FontAwesomeIcon className="search-icon" icon={faMagnifyingGlass} />
         </IconWrapper>
       </SearchInputWrapper>
-      <SearchButton type="submit" />
+      <SearchButton isRecipePage={isRecipePage} type="submit" />
     </StyledForm>
   );
 };

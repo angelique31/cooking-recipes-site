@@ -26,6 +26,14 @@ export const StyledInput = styled.input`
   font-size: 1.2rem;
   cursor: pointer;
   padding-left: 75px;
+  ${(props) =>
+    props.isRecipePage
+      ? `
+        height: 40px;
+        font-size: 1rem;
+        
+      `
+      : ""}
   &:focus {
     box-shadow: 0 0 10px 0 rgb(255, 111, 97);
     outline: none;

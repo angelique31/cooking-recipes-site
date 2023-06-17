@@ -20,7 +20,7 @@ export const StyledImage = styled.img`
 
 export const StyledH1 = styled.h1`
   text-align: center;
-  margin: 50px 0 50px 0;
+  margin: 150px 0 50px 0;
 `;
 
 export const StyledH2 = styled.h2`

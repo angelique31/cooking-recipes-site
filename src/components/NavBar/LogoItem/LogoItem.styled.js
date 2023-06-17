@@ -9,13 +9,14 @@ export const LogoWrapper = styled.div`
 `;
 
 export const StyledH1 = styled.h1`
-  font-size: 2rem;
+  // font-size: 2rem;
   color: #ff4269;
+  font-size: ${(props) => (props.isRecipePage ? "1.5rem" : "2rem")};
 `;
 
 export const IconWrapper = styled.div`
   color: #ff4269;
   .kitchenSet-icon {
-    height: 40px;
+    height: ${(props) => (props.isRecipePage ? "25px" : "40px")};
   }
 `;
