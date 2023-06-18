@@ -11,6 +11,7 @@ import {
   StyledImage,
   ImageTextWrapper,
   ContentSection,
+  ImageInfoWrapper,
 } from "./RecipeJsonDetails.styled";
 import RecipeButton from "../RecipeButton/RecipeButton.jsx";
 import CounterButton from "../CounterButton/CounterButton.jsx";
@@ -40,6 +41,48 @@ const RecipeJsonDetails = ({ recipeType }) => {
     return <h2>Recette non trouvée</h2>;
   }
 
+  //   return (
+  //     <div>
+  //       <NavBar isRecipePage={true} />
+  //       <div>
+  //         <StyledH1>{recipe.name}</StyledH1>
+  //       </div>
+  //       <ContentWrapper>
+
+  //         <ImageTextWrapper>
+  //           <StyledImage src={recipe.image} alt={recipe.name} />
+  //         </ImageTextWrapper>
+  //         <ContentSection>
+  //           <RecipeInfoBox
+  //             prepTime={recipe.prepTime}
+  //             cookTime={recipe.cookTime}
+  //           />
+
+  //           <RecipeButton />
+  //           <StyledH2>Ingrédients</StyledH2>
+  //           <CounterButton />
+  //           <ul>
+  //             {recipe.ingredients.map((ingredient, index) => (
+  //               <li key={index}>
+  //                 {ingredient.name} - {ingredient.quantity}
+  //               </li>
+  //             ))}
+  //           </ul>
+  //           <StyledH2>Préparation</StyledH2>
+  //           <ol>
+  //             {recipe.steps.map((step, index) => (
+  //               <li key={index}>
+  //                 <strong> {index + 1}. </strong>
+  //                 {step}
+  //               </li>
+  //             ))}
+  //           </ol>
+  //         </ContentSection>
+  //       </ContentWrapper>
+  //     </div>
+  //   );
+  // };
+
   return (
     <div>
       <NavBar isRecipePage={true} />
@@ -47,14 +90,16 @@ const RecipeJsonDetails = ({ recipeType }) => {
         <StyledH1>{recipe.name}</StyledH1>
       </div>
       <ContentWrapper>
-        <ImageTextWrapper>
-          <StyledImage src={recipe.image} alt={recipe.name} />
-        </ImageTextWrapper>
-        <ContentSection>
+        <ImageInfoWrapper>
+          <ImageTextWrapper>
+            <StyledImage src={recipe.image} alt={recipe.name} />
+          </ImageTextWrapper>
           <RecipeInfoBox
             prepTime={recipe.prepTime}
             cookTime={recipe.cookTime}
           />
+        </ImageInfoWrapper>
+        <ContentSection>
           <RecipeButton />
           <StyledH2>Ingrédients</StyledH2>
           <CounterButton />

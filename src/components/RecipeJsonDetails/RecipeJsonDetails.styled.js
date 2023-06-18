@@ -11,12 +11,15 @@ export const ContentWrapper = styled.div`
 `;
 
 export const StyledImage = styled.img`
-  width: 60%;
+  width: 100%;
   border-radius: 10px;
   object-fit: cover;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
   height: 486px;
-  margin: 50px 0 50px 60px;
+  margin: 50px 0 50px 0;
+  @media screen and (max-width: 900px) {
+    height: 300px;
+  }
 `;
 
 export const StyledH2 = styled.h2`
@@ -38,4 +41,18 @@ export const DetailText = styled.p`
 
 export const ContentSection = styled.div`
   margin-left: 60px;
+  @media screen and (max-width: 670px) {
+    margin-left: 0;
+  }
+`;
+
+export const ImageInfoWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+  @media screen and (max-width: 760px) {
+    width: 100%;
+  }
 `;

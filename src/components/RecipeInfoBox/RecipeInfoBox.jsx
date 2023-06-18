@@ -18,12 +18,14 @@ const RecipeInfoBox = ({ prepTime, cookTime }) => {
     <StyledDiv>
       <StyledP>
         <TimerIcon src={timerIcon} alt="Timer icon" />
-        Préparation : {prepTime}
+        {/* Préparation : {prepTime} */}
+        <span className="prep-text">Préparation:&nbsp; </span> {prepTime}
       </StyledP>
       {cookTime && (
         <StyledP>
           <img src={cookingIcon} alt="Cooking icon" />
-          Cuisson : {cookTime}
+          {/* Cuisson : {cookTime} */}
+          <span className="cook-text">Cuisson:&nbsp; </span> {cookTime}
         </StyledP>
       )}
     </StyledDiv>

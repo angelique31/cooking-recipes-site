@@ -21,6 +21,9 @@ export const NavBarContainer = styled(DivWithFilteredProps)`
         /* Styles par défaut */
        
       `}
+  @media screen and (max-width: 934px) {
+    flex-direction: ${(props) => (props.isRecipePage ? "column" : "row")};
+  }
 `;
 export const NavBarWrapper = styled.div`
   display: flex;

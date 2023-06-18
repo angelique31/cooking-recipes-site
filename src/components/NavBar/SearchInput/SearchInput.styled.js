@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const StyledForm = styled.form`
   display: flex;
   width: 100%;
+  @media screen and (max-width: 934px) {
+    padding-bottom: 10px;
+  }
 `;
 
 export const SearchInputWrapper = styled.div`

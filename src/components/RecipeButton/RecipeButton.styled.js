@@ -13,6 +13,7 @@ export const ModifiedButton = styled(SearchButton)`
   box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
   transition: all 0.15s ease-in-out;
   transform: translateY(0);
+  margin: auto;
 
   &:hover {
     background-color: rgb(233 34 75);
