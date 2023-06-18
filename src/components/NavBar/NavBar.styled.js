@@ -1,12 +1,4 @@
 import styled from "styled-components";
-
-// export const NavBarContainer = styled.div`
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   width: 100%;
-//   z-index: 100;
-// `;
 import DivWithFilteredProps from "../DivWithFilteredProps";
 
 export const NavBarContainer = styled(DivWithFilteredProps)`
@@ -41,6 +33,7 @@ export const NavBarWrapper = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
   ${(props) =>
     props.isRecipePage &&
     `
@@ -63,5 +56,10 @@ export const NavBarWrapper = styled.div`
         width: 100%;
        
       `}
+    @media screen and (max-width: 891px) {
+      padding: 0;
+      background-color: transparent;
+      flex-grow: 1;
+    }
   }
 `;

@@ -13,6 +13,20 @@ const StyledButton = styled.button`
   font-size: 1.2rem;
   background-color: #ff4269;
   transition: 1s;
+  .icon {
+    display: none;
+  }
+  @media screen and (max-width: 556px) {
+    font-size: 1rem;
+    padding: 10px;
+    height: 40px;
+    .text {
+      display: none;
+    }
+    .icon {
+      display: inline-block;
+    }
+  }
   ${(props) =>
     props.isRecipePage
       ? `

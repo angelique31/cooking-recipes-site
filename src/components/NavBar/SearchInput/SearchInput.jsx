@@ -47,7 +47,7 @@ const SearchInput = ({ isRecipePage }) => {
           value={tempSearchValue}
           onChange={handleChange}
         />
-        <IconWrapper>
+        <IconWrapper className="icon-wrapper">
           <FontAwesomeIcon className="search-icon" icon={faMagnifyingGlass} />
         </IconWrapper>
       </SearchInputWrapper>

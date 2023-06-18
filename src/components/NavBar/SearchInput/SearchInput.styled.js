@@ -26,6 +26,11 @@ export const StyledInput = styled.input`
   font-size: 1.2rem;
   cursor: pointer;
   padding-left: 75px;
+  @media screen and (max-width: 556px) {
+    font-size: 1rem;
+    height: 40px;
+    padding-left: 29px;
+  }
   ${(props) =>
     props.isRecipePage
       ? `
@@ -49,5 +54,8 @@ export const IconWrapper = styled.div`
   .search-icon {
     height: 17px;
     color: #ff4269;
+  }
+  @media screen and (max-width: 556px) {
+    display: none;
   }
 `;

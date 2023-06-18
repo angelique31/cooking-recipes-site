@@ -14,10 +14,22 @@ export const CommonSection = styled.section`
   transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   padding: 20px;
   margin: 50px 100px 50px 100px;
+  @media screen and (max-width: 686px) {
+    margin: 0;
+  }
 `;
 
 export const CommonCardsContainer = styled.div`
-  display: ${(props) => (props.flexDisplay ? "flex" : "block")};
+  // display: ${(props) => (props.flexDisplay ? "flex" : "block")};
+  grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  @media screen and (max-width: 1190px) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  @media screen and (max-width: 686px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `;
 
 export const StyledH3 = styled.h3`

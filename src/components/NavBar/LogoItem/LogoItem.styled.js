@@ -12,6 +12,9 @@ export const StyledH1 = styled.h1`
   // font-size: 2rem;
   color: #ff4269;
   font-size: ${(props) => (props.isRecipePage ? "1.5rem" : "2rem")};
+  @media screen and (max-width: 390px) {
+    font-size: 1.5rem;
+  }
 `;
 
 export const IconWrapper = styled.div`
