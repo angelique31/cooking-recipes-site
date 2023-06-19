@@ -6,7 +6,10 @@ export const StyleDiv = styled.div`
   margin: 70px 50px 50px 70px;
   line-height: 28px;
   width: 50%;
- 
+  @media screen and (max-width: 1158px) {
+    margin: 100px 50px 0 20px;
+    width: auto;
+  }
 `;
 
 export const StyledImage = styled.img`
@@ -17,11 +20,22 @@ export const StyledImage = styled.img`
   height: 286px;
   margin-top: 93px;
   margin-left: 60px;
+  @media screen and (max-width: 1158px) {
+    margin: 63px auto 0 auto;
+    display: block;
+    @media screen and (max-width: 560px) {
+      width: 100%;
+      max-width: calc(100% - 20px);
+    }
+  }
 `;
 
 export const StyledH1 = styled.h1`
   text-align: center;
-  margin: 150px 0 50px 0;
+  margin: 160px 0 0;
+  @media screen and (max-width: 400px) {
+    font-size: 1.8rem;
+  }
 `;
 
 export const StyledH2 = styled.h2`
@@ -43,6 +57,9 @@ export const FlexDiv = styled.div`
 
 export const FlexItem = styled.div`
   display: flex;
+  @media screen and (max-width: 1158px) {
+    display: block;
+  }
 `;
 
 export const StyledDivLineHeight = styled.div`

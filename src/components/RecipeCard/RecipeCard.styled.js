@@ -6,9 +6,7 @@ export const StyledCard = styled.div`
   margin: 10px;
   overflow: hidden;
   position: relative;
-  @media screen and (max-width: 888px) {
-    width: 100%;
-  }
+
   &::before {
     content: "";
     position: absolute;

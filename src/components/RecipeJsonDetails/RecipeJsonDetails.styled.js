@@ -60,7 +60,7 @@ export const ImageInfoWrapper = styled.div`
     width: 100%;
   }
   @media screen and (max-width: 670px) {
-    margin: 0 auto; /* Centrer horizontalement */
+    margin: 0 auto;
     max-width: calc(100% - 20px); /* Empêcher le débordement horizontal */
   }
 `;

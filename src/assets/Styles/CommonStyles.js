@@ -15,7 +15,8 @@ export const CommonSection = styled.section`
   padding: 20px;
   margin: 50px 100px 50px 100px;
   @media screen and (max-width: 686px) {
-    margin: 0;
+    margin: auto;
+    width: 100%;
   }
 `;
 
