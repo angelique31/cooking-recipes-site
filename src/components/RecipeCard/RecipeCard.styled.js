@@ -6,7 +6,7 @@ export const StyledCard = styled.div`
   margin: 10px;
   overflow: hidden;
   position: relative;
-  @media screen and (max-width: 686px) {
+  @media screen and (max-width: 888px) {
     width: 100%;
   }
   &::before {
@@ -27,6 +27,9 @@ export const CardImage = styled.img`
   display: block;
   @media screen and (max-width: 686px) {
     height: 300px;
+  }
+  @media screen and (max-width: 560px) {
+    height: 200px;
   }
 `;
 

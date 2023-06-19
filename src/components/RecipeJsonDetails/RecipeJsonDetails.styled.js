@@ -2,12 +2,16 @@ import styled from "styled-components";
 
 export const StyledH1 = styled.h1`
   text-align: center;
-  margin: 150px 0 50px 0;
+  margin: 170px 0 50px 0;
 `;
 
 export const ContentWrapper = styled.div`
   margin: 30px 50px 50px 20px;
   line-height: 28px;
+  @media screen and (max-width: 670px) {
+    margin: 30px auto; /* Centrer horizontalement */
+    max-width: calc(100% - 20px); /* Empêcher le débordement horizontal */
+  }
 `;
 
 export const StyledImage = styled.img`
@@ -16,7 +20,7 @@ export const StyledImage = styled.img`
   object-fit: cover;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
   height: 486px;
-  margin: 50px 0 50px 0;
+  margin: 0 0 50px 0;
   @media screen and (max-width: 900px) {
     height: 300px;
   }
@@ -54,5 +58,9 @@ export const ImageInfoWrapper = styled.div`
   margin: 0 auto;
   @media screen and (max-width: 760px) {
     width: 100%;
+  }
+  @media screen and (max-width: 670px) {
+    margin: 0 auto; /* Centrer horizontalement */
+    max-width: calc(100% - 20px); /* Empêcher le débordement horizontal */
   }
 `;

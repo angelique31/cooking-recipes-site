@@ -6,6 +6,7 @@ export const StyleDiv = styled.div`
   margin: 70px 50px 50px 70px;
   line-height: 28px;
   width: 50%;
+ 
 `;
 
 export const StyledImage = styled.img`

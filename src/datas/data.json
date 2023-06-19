@@ -7,8 +7,8 @@
 
       "detailText": "Pour réaliser ce sirop, il vous faudra environ 50g de queues de fraises avec un peu de chair de fraises. Ce sirop se conserve plusieurs jours au réfrigérateur et il est particulièrement délicieux avec une eau bien fraîche ou de la limonade, du citron vert et de la menthe.",
       "servings": "125 ml",
-      "prepTime": "5 minutes",
-      "cookTime": "25 minutes",
+      "prepTime": "5 min",
+      "cookTime": "25 min",
       "ingredients": [
         {
           "name": "queues de fraises avec un peu de chair",
@@ -31,7 +31,7 @@
       "steps": [
         "Mélanger tous les ingrédients dans une casserole.",
         "Faire chauffer à feu doux et mélanger régulièrement.",
-        "Lorsque le sucre est dissous, poursuivre la cuisson pendant 20 minutes à couvert.",
+        "Lorsque le sucre est dissous, poursuivre la cuisson pendant 20 min à couvert.",
         "Au fur et à mesure, la consistance de l'eau va s'épaissir et obtenir une consistance de plue en plus rouge.",
         "Retirer du feu une fois que vous obtenez un sirop bien épais.",
         "Filtrez le sirop obtenu avec un tamis pour enlever les queues et les débris laissés pendant la cuisson.",
@@ -47,8 +47,8 @@
 
       "detailText": "Les queues de cerise possèdent de nombreuses vertus, notamment au niveau du transit intestinal. Elles permettent de drainer l’organisme et de le détoxifier, agissant comme un dépuratif naturel. La parfaite infusion pour retrouver un ventre plat ! Grâce à sa teneur en sels de potassium et polyphénols, la tisane aux queues de cerises permet aussi de lutter contre certaines affections urinaires.",
       "servings": "500 ml",
-      "prepTime": "5 minutes",
-      "cookTime": "5 minutes",
+      "prepTime": "5 min",
+      "cookTime": "5 min",
       "ingredients": [
         {
           "name": "queues de cerises",
@@ -62,7 +62,7 @@
       "steps": [
         "Faites bouillir 500 ml d’eau.",
         "Versez les queues, rincées au préalable, dans l’eau bouillante.",
-        "Couvrez et laissez infuser 5 bonnes minutes.",
+        "Couvrez et laissez infuser 5 bonnes min.",
         "Filtrez et dégustez pour profiter de tous les bienfaits de cette boisson "
       ]
     }
@@ -122,16 +122,16 @@
         "Pétrissez à la main ou au robot afin d'obtenir une pâte bien lisse.",
         "Recouvrez le plat dans lequel vous avez mis la pâte et laissez reposer une nuit au réfrigérateur.",
         "Séparez la pâte en 3 boules, puis sur un plan fariné, façonnez chacunes d'elles en pâtons.",
-        "Formez une tresse en prenant soin de bien sceller chaque côté. Recouvrez d'un linge et laissez reposer 3 heures à température ambiante.",
+        "Formez une tresse en prenant soin de bien sceller chaque côté. Recouvrez d'un linge et laissez reposer 3 h à température ambiante.",
         "Une fois que la brioche a triplé de volume, badigeonnez-la de lait puis recouvrez de grains de sucre.",
-        "Enfournez dans un four bien chaud (180°C) pendant 30minutes. La brioche est cuite lorsqu'elle est bien dorée",
+        "Enfournez dans un four bien chaud (180°C) pendant 30min. La brioche est cuite lorsqu'elle est bien dorée",
         "Variante : Vous pouvez ajouter des pépites de chocolat dans la pâte"
       ]
     },
     {
       "id": "cookie",
       "name": "Cookies aux pépites de chocolat",
-      "image": "/assets/sugar-recipe/cookies.jpg",
+      "image": "/assets/sugar-recipe/cookies.webp",
       "eventCategory": null,
       "category": "dessert",
       "servingSize": "15 cookies",
@@ -169,14 +169,14 @@
           "quantity": "Selon le goût"
         }
       ],
-      "prepTime": "25 minutes",
-      "cookTime": "10 minutes",
+      "prepTime": "25 min",
+      "cookTime": "10 min",
       "steps": [
         "Laissez ramollir le beurre à température ambiante. Dans un saladier, malaxez-le avec le sucre.",
         "Ajoutez l'oeuf et le sucre vanillé.",
         "Versez progressivement la farine, la levure chimique, le sel et les pépites de chocolat. Mélangez bien.",
         "Beurrez une plaque allant au four ou recouvrez-le d'une feuille de papier sulfutisé. A l'aide de 2 cuillères, à soupe ou simplement avec les mains, formez des noix de pâte en les espaçant car elles s'étalant à la cuisson.",
-        "Faire cuire 8 à 10 minutes à 180°C soit thermostat 6. Il faut les sortir dès que les contours commencent à brunir."
+        "Faire cuire 8 à 10 min à 180°C soit thermostat 6. Il faut les sortir dès que les contours commencent à brunir."
       ]
     },
     {
@@ -204,8 +204,8 @@
           "quantity": "1 sachet"
         }
       ],
-      "prepTime": "10 minutes",
-      "cookTime": "15 minutes",
+      "prepTime": "10 min",
+      "cookTime": "15 min",
       "steps": [
         "Versez la farine dans un saladier. Faire un puit",
         "Ajoutez les oeufs.",
@@ -244,15 +244,15 @@
           "quantity": "Une douzaine"
         }
       ],
-      "prepTime": "10 minutes",
-      "cookTime": "30 minutes",
+      "prepTime": "10 min",
+      "cookTime": "30 min",
       "steps": [
         "Mélangez les oeufs et le sucre au fouet, jusqu'à ce que le mélange blanchisse.",
         "Ajoutez la farine. Mélangez.",
         "Ajoutez le lait chaud. Mélangez jusqu'à ce que la pâte soit bien lisse.",
         "Beurrez un plat allant au four, ajoutez-y les pruneaux. Versez la pâte sur la préparation.",
         "Mettez le plat dans un four préalablement chauffé à 200°C.",
-        "Laissez cuire environ 30 minutes. Le far est cuit quand la croûte a bien brunie."
+        "Laissez cuire environ 30 min. Le far est cuit quand la croûte a bien brunie."
       ]
     },
     {
@@ -276,15 +276,15 @@
           "quantity": "2"
         }
       ],
-      "prepTime": "10 minutes",
-      "cookTime": "45 minutes",
+      "prepTime": "10 min",
+      "cookTime": "45 min",
       "steps": [
         "Faire fondre les carambars dans le lait dans une casserole.",
         "Pendant ce temps, dans un saladier, battre les oeufs.",
         "Lorsque les carambars sont fondus, ajouter le lait dans le saladiers et bien mélanger.",
         "Verser la préparation dans les ramequins.",
         "Disposer les ramequins dans un plat à gratin avec de l'eau dedans, pour faire cuire au bain-marie.",
-        "Mettre à four chaud pendant 45 minutes à 175°",
+        "Mettre à four chaud pendant 45 min à 175°",
         "Sortir du four et laisser refroidir"
       ]
     },
@@ -309,13 +309,13 @@
           "quantity": "30g"
         }
       ],
-      "prepTime": "15 minutes",
-      "cookTime": "10 minutes",
+      "prepTime": "15 min",
+      "cookTime": "10 min",
       "steps": [
         "Verser la maïzena dans le lait froid et fouettez.",
         "Concassez grossièrement le chocolat à l'aide d'un couteau.",
         "Dans une casserole,faites fondre à feu doux le chocolat dans le lait. Mélangez doucement sans arrêt, jusqu'à ce que la crème s'épaississe. Fouettez-la quelques instants pour qu'elle devienne bien lisse.",
-        "Répartissez la crème dans les petits ramequins, laissez poser pendant 2 heures, puis réservez au réfrigérateur jusqu'au moment de servir."
+        "Répartissez la crème dans les petits ramequins, laissez poser pendant 2 h, puis réservez au réfrigérateur jusqu'au moment de servir."
       ]
     },
     {
@@ -343,8 +343,8 @@
           "quantity": "2 CS"
         }
       ],
-      "prepTime": "15 minutes",
-      "cookTime": "10 minutes",
+      "prepTime": "15 min",
+      "cookTime": "10 min",
       "steps": [
         "Délayez la maïzena dans un peu de lait.",
         "Ajoutez le sucre puis le lait petit à petit. Bien mélanger.",
@@ -380,8 +380,8 @@
           "quantity": "60g"
         }
       ],
-      "prepTime": "15 minutes",
-      "cookTime": "10 minutes",
+      "prepTime": "15 min",
+      "cookTime": "10 min",
       "steps": [
         "Délayez la maïzena dans un peu de lait.",
         "Ajoutez le sucre et le sucre vanillé puis le lait petit à petit. Bien mélanger.",
@@ -418,8 +418,8 @@
           "quantity": "1 gousse ou 2 sachets"
         }
       ],
-      "prepTime": "10 minutes",
-      "cookTime": "30 à 40 minutes",
+      "prepTime": "10 min",
+      "cookTime": "30 à 40 min",
       "steps": [
         "Faire chauffer le lait dans une casserole.",
         "Ajouter le riz rond.",
@@ -463,14 +463,14 @@
           "quantity": "Selon le goût"
         }
       ],
-      "prepTime": "10 minutes",
-      "cookTime": "30 minutes",
+      "prepTime": "10 min",
+      "cookTime": "30 min",
       "steps": [
         "Faire chauffer le lait. Ajouter la semoule en pluie. Laisser épaissir sans cesser de remuer.",
         "Mélangez au fouet le jaune d'oeuf le sucre et le sucre vanillé. Versez le mélange semoule/lait puis mélangez.",
         "Versez le caramel au fond des ramequins. Y verser la préparation de semoule.",
         "Mettre les ramequins dans un plat allant au four et verser un fond d'eau dans le plat pour une cuisson au four au bain-marie.",
-        "Laisser cuire environ 30 minutes au four. Se mange bien frais"
+        "Laisser cuire environ 30 min au four. Se mange bien frais"
       ]
     },
     {
@@ -510,19 +510,19 @@
           "quantity": "130g"
         }
       ],
-      "prepTime": "30 minutes",
-      "cookTime": "30-40 minutes",
+      "prepTime": "30 min",
+      "cookTime": "30-40 min",
       "steps": [
         "Préchauffez le four à 170°C.",
         "Faire fondre le beurre au bain marie.",
         "Versez le sucre dans un saladier avec le beurre fondu et le zeste du citron. Mélangez au fouet jusqu'à ce que le mélange blanchisse.",
         "Ajoutez les oeufs, la farine, la levure, le jus de citron.",
-        "Versez la pâte dans un moule à cake légèrement beurré, et mettre au four pendant 30 à 40 minutes.",
+        "Versez la pâte dans un moule à cake légèrement beurré, et mettre au four pendant 30 à 40 min.",
         "Le gâteau doit être légèrement doré, pas trop gonflé.",
         "Démoulez à l'envers, sur une grille. Emballez-le immédiatement dans du film alimentaire pour qu'il garde toute son humidité.",
         "Laissez le cake refroidir dans son emballage.",
         "Quand il est à température ambiante, préparez le glaçage en mélangeant le jus de citron avec le sucre glaçe. Déballez le cake puis versez le glaçage en posant le cake sur une grille. Avec un couteau ou une spatule, lissez le glaçage pour qu'il tombe de tous les côyés et surtout qu'il soit fin.",
-        "Remettre le cake au four à 100°C pendant 8 minutes pour sécher le glaçage."
+        "Remettre le cake au four à 100°C pendant 8 min pour sécher le glaçage."
       ]
     },
     {
@@ -570,13 +570,13 @@
           "quantity": "4 cs"
         }
       ],
-      "prepTime": "30 minutes",
-      "cookTime": "Repos: 6 heures",
+      "prepTime": "30 min",
+      "cookTime": "Repos: 6 h",
       "steps": [
         "Pour le fond: Mixer les palets bretons et rajouter le beurre fondu. Bien mélanger et foncer un cercle de 20 cm posé dans un plat avec une feuille de papier cuisson. Bien tasser et réserver au frais.",
         "Pour le caramel beurre salé: Faire chauffer le sucre dans une casserole sans le toucher jusqu'à ce qu'il caramélise. Faire chauffer (dans une autre casserole) la crème liquide et la verser (hors du feu) sur le caramel. Remettre à chauffer tout en mélangeant vigoureusement avec une cuillère en bois. Ajouter le beurre et la fleur de sel (à votre convenance) Laisser refroidir.",
         "Pour le cheesecake: Mettre la gélatine à réhydrater dans de l'eau froide. Récupérer 3 ou 4 cs de crème liquide, la faire chauffer et y dissoudre (hors du feu) la gélatine essorée. Monter la crème liquide en chantilly et serrer en lui ajoutant le sucre glace. Dans un saladier, détendre le philadelphia à la fourchette, ajouter le caramel beurre salé (en garder un peu pour la décoration), puis rajouter la chantilly. Bien mélanger. Recouvrir la base de palets breton avec les 3/4 de la préparation. Mettre le reste dans une poche à douille et décorer le dessus. Faire de même avec le caramel mis de côté.",
-        "Mettre au minimum 4 heures au frais ou toute une nuit."
+        "Mettre au minimum 4 h au frais ou toute une nuit."
       ]
     },
     {
@@ -616,14 +616,14 @@
           "quantity": "200g"
         }
       ],
-      "prepTime": "30 minutes",
-      "cookTime": "20 minutes",
+      "prepTime": "30 min",
+      "cookTime": "20 min",
       "steps": [
         "Préchauffez le four à 180°C.",
         "Faire fondre 200g de chocolat avec le beurre dans une casserole à feu doux.",
         "Versez dans un saladier et laissez refroidir.",
         "Rajoutez le sucre, les oeufs, la farine, la levure, le reste du chocolat concassé et les framboises.",
-        "Versez dans un moule et mettre au four pendant 20 minutes.",
+        "Versez dans un moule et mettre au four pendant 20 min.",
         "Laissez refroidir pour le démouler, car le coeur du gâteau est très fondant.",
         "Servir à température ambiante."
       ]
@@ -685,8 +685,8 @@
           "quantity": "1"
         }
       ],
-      "prepTime": "30 minutes",
-      "cookTime": "25 minutes",
+      "prepTime": "30 min",
+      "cookTime": "25 min",
       "steps": [
         "La crème pâtissière: Battre dans un saladier les 2 jaunes d'œufs avec 35 g de sucre. Ajouter la farine, mélangez, puis ajouter le lait bouillant progressivement tout en mélangeant.",
         "Verser le mélange dans la casserole et fouetter sans s’arrêter pendant 3 min après la reprise de l’ébullition.",
@@ -704,7 +704,7 @@
         "« Chiqueter » les bords avec un petit couteau, c’est-à-dire faire des petites entailles sur tout le pourtour de la galette.",
         "Avec le dos du couteau, décorer le dessus de la galette d’une jolie rosace, en partant du centre. Faire une entaille au milieu de cette rosace, pour permettre à l’air de s’échapper et au feuilletage de ne pas trop se développer.",
         "Dorer la galette à l’aide d’un pinceau et du mélange jaune d’œuf / lait.",
-        "Enfourner pour 10 minutes à 200°C, puis baisser la température à 180°C et cuire 30 minutes supplémentaires."
+        "Enfourner pour 10 min à 200°C, puis baisser la température à 180°C et cuire 30 min supplémentaires."
       ]
     },
     {
@@ -748,8 +748,8 @@
           "quantity": "1 sachet"
         }
       ],
-      "prepTime": "15 minutes",
-      "cookTime": "25 minutes",
+      "prepTime": "15 min",
+      "cookTime": "25 min",
       "steps": [
         "Préchauffez le four à 180°C.",
         "Mettez les abricots dans une casserole d'eau froide, portez à ébullition. Quand l'eau bout, retirez du feu, couvrez et laissez gonfler 15 min.",
@@ -758,7 +758,7 @@
         "Versez la préparation dans le moule.",
         "Egouttez les abricots, les répartir sur le dessus de la préparation en les enfonçant légèrement.",
         "Enfournez pendant 25 min.",
-        "Soupoudrez de sucre vanillé 5 minutes avant la fin de la cuisson."
+        "Soupoudrez de sucre vanillé 5 min avant la fin de la cuisson."
       ]
     },
     {
@@ -798,8 +798,8 @@
           "quantity": "600g"
         }
       ],
-      "prepTime": "15 minutes",
-      "cookTime": "30 minutes",
+      "prepTime": "15 min",
+      "cookTime": "30 min",
       "steps": [
         "Préchauffez le four à 180°C.",
         "Coupez 4 à 5 belles tranches d'ananas. Coupez le reste de votre ananas en petits dés et réservez. Conservez le jus de votre ananas.",
@@ -808,7 +808,7 @@
         "Fouettez bien la préparation.",
         "Ajoutez 20g de noix de coco râpée, puis mélangez de nouveau.",
         "Ajoutez les dés d'ananas à la préparation et mélangez de nouveau. Versez la pâte ainsi obtenue sur les rondelles d'ananas déjà disposées dans le moule.",
-        "Enfournez pendant 45 minutes."
+        "Enfournez pendant 45 min."
       ]
     },
     {
@@ -832,14 +832,14 @@
           "quantity": "20cl"
         }
       ],
-      "prepTime": "30 minutes",
-      "cookTime": "20 minutes",
+      "prepTime": "30 min",
+      "cookTime": "20 min",
       "steps": [
         "Préchauffez votre four à 200°C. Faites cuire la pâte à blanc selon le mode d'emploi.",
         "Dans une casserole, faites chauffer la crème liquide.",
-        "Dans un saladier, cassez le chocolat en morceaux, versez la crème liquide et couvrez avec une assiette. Attendez 3 à 5 minutes.",
+        "Dans un saladier, cassez le chocolat en morceaux, versez la crème liquide et couvrez avec une assiette. Attendez 3 à 5 min.",
         "Mélangez à l'aide d'un fouet.",
-        "Versez la ganache sur le fond de tarte et placez votre tarte au chocolat au réfrigérateur pendant au moins 2 heures."
+        "Versez la ganache sur le fond de tarte et placez votre tarte au chocolat au réfrigérateur pendant au moins 2 h."
       ]
     },
     {
@@ -875,15 +875,15 @@
           "quantity": "quantité suffisante"
         }
       ],
-      "prepTime": "20 minutes",
-      "cookTime": "40 minutes",
+      "prepTime": "20 min",
+      "cookTime": "40 min",
       "steps": [
         "Préchauffez le four à 180°C.",
-        "Garnissez un moule à tarte avec la pâte. Piquez le fond avec une fourchette. Cuire la pâte à blanc pendant 10 minutes.",
+        "Garnissez un moule à tarte avec la pâte. Piquez le fond avec une fourchette. Cuire la pâte à blanc pendant 10 min.",
         "Délayez la maïzena dans le jus de citron. Incorporez les zestes et 30 cl d'eau froide. Faites épaissir sur feu doux.",
         "Ajoutez 50g de sucre en remuant jusqu'à dissolution. Retirez du feu, laissez tiédir.",
         "Incorporez les jaunes d'œufs en fouettant.",
-        "Versez la préparation sur la pâte. Enfournez pendant 20 minutes. Puis retirez la tarte du four en le laissant allumé et en le mettant sur le mode grill.",
+        "Versez la préparation sur la pâte. Enfournez pendant 20 min. Puis retirez la tarte du four en le laissant allumé et en le mettant sur le mode grill.",
         "Pendant ce temps, montez les blancs en neige avec une pincée de sel, en ajoutant petit à petit le reste de sucre.",
         "Répartissez cette meringue sur la tarte.",
         "Enfournez quelques instants en surveillant bien la prise de la meringue.",
@@ -919,8 +919,8 @@
           "quantity": "75g"
         }
       ],
-      "prepTime": "30 minutes",
-      "cookTime": "20 minutes",
+      "prepTime": "30 min",
+      "cookTime": "20 min",
       "steps": [
         "Préchauffez le four à 180°C.",
         "Faites chauffer le lait.",
@@ -961,11 +961,11 @@
           "quantity": "Quantité suffisante"
         }
       ],
-      "prepTime": "5 minutes",
-      "cookTime": "15 minutes",
+      "prepTime": "5 min",
+      "cookTime": "15 min",
       "steps": [
         "Faire bouillir dans une casserole un grand volume d'eau.",
-        "Plonger les pâtes dans l'eau et faire cuire 9-10 minutes selon le type de pâtes.",
+        "Plonger les pâtes dans l'eau et faire cuire 9-10 min selon le type de pâtes.",
         "Pendant ce temps, couper le guanciale (joue de porc) ou la pancetta en gros lardons d'1cm de côté. Cuire la viande dans une poêle, sans ajout de matière grasse.",
         "Dès que les pâtes sont cuites, les égoutter en gardant un peu d'eau de cuisson dans un bol. Verser les pâtes dans la poêle avec le guanciale ou la pancetta (feu éteint). Bien mélanger. Ensuite, verser la préparation dans un plat.",
         "Dans un bol, mélanger les 3 jaunes d'œufs en ajoutant petit à petit un peu d'eau de cuisson des pâtes jusqu'à obtenir une sauce crémeuse.",
@@ -1023,14 +1023,14 @@
           "quantity": "Quantité suffisante"
         }
       ],
-      "prepTime": "5 minutes",
-      "cookTime": "15 minutes",
+      "prepTime": "5 min",
+      "cookTime": "15 min",
       "steps": [
         "Épluchez et émincez les oignons en petits cubes.",
         "Chauffez une poêle, ajoutez un filet d'huile, puis ajoutez les oignons en les faisant revenir à feu vif jusqu'à ce qu'ils colorent légèrement.",
-        "Ajoutez la viande hachée, salez et poivrez et faites-la cuire à feu vif pendant environ 5 minutes.",
-        "Versez ensuite les tomates pelées, le sucre en poudre et laissez mijoter le tout à feu doux pendant environ 10 minutes tout en remuant la préparation.",
-        "Pendant ce temps, plongez les pâtes dans l'eau et faites-les cuire 9-10 minutes selon le temps indiqué sur le paquet.",
+        "Ajoutez la viande hachée, salez et poivrez et faites-la cuire à feu vif pendant environ 5 min.",
+        "Versez ensuite les tomates pelées, le sucre en poudre et laissez mijoter le tout à feu doux pendant environ 10 min tout en remuant la préparation.",
+        "Pendant ce temps, plongez les pâtes dans l'eau et faites-les cuire 9-10 min selon le temps indiqué sur le paquet.",
         "Quand les spaghettis sont cuits, égouttez-les et disposez-les dans des assiettes creuses sans attendre.",
         "Versez la sauce bolognaise sur les spaghettis et saupoudrez de parmesan râpé."
       ]
@@ -1060,14 +1060,14 @@
           "quantity": "1 cuillère à soupe"
         }
       ],
-      "prepTime": "15 minutes",
-      "restingTime": "20 minutes",
+      "prepTime": "15 min",
+      "restingTime": "20 min",
       "steps": [
         "Étalez finement les tranches de pain de mie au rouleau à pâtisserie.",
         "Tartinez ensuite chaque tranche de kiri. Bien en étaler sur les bords du pain de mie car le kiri servira à sceller la bûche.",
         "Disposez sur chaque tranche de pain de mie une tranche de saumon fumé.",
         "Roulez chaque tranche de pain de mie sur elle-même en serrant bien, de façon à former des petites bûches.",
-        "Serrez-les dans du film alimentaire et placez-les au réfrigérateur environ 20 minutes.",
+        "Serrez-les dans du film alimentaire et placez-les au réfrigérateur environ 20 min.",
         "Ensuite, sortez les mini bûches du réfrigérateur, enlevez le film, puis coupez chaque bûche en 3 parties égales.",
         "Ajoutez un peu de kiri sur le dessus, puis une pincée de graines de sésame.",
         "Cette recette peut être préparée à l'avance."
@@ -1118,19 +1118,19 @@
           "quantity": ""
         }
       ],
-      "prepTime": "30 minutes",
-      "restingTime": "20 minutes",
+      "prepTime": "30 min",
+      "restingTime": "20 min",
       "steps": [
         "Mettez 48h avant, dans du lait avec un soupçon de sucre vanillé, vos coquilles St Jacques à décongeler dans un saladier.",
         "La veille :",
-        "Faites bouillir de l'eau avec du sel et du poivre, puis éteignez le feu et mettez les saumons pendant 20 minutes à couvert.",
-        "Pendant ce temps, faites chauffer à feu doux les coquilles avec le lait vanillé. 5 minutes après le début de l'ébullition, égouttez.",
+        "Faites bouillir de l'eau avec du sel et du poivre, puis éteignez le feu et mettez les saumons pendant 20 min à couvert.",
+        "Pendant ce temps, faites chauffer à feu doux les coquilles avec le lait vanillé. 5 min après le début de l'ébullition, égouttez.",
         "Pendant la cuisson des coquilles, mettez les feuilles de gélatine dans un bol avec de l'eau tiède.",
         "Dans un mixeur, mélangez le saumon avec l'échalote préalablement hachée, la crème, le sel, le poivre, l'estragon, les feuilles de gélatine ramollies, et mixez.",
         "Dans une terrine, étirez un film plastique de manière à le faire largement dépasser les bords (phase délicate, le fond doit être lisse car c'est celui qu'on présente).",
         "Ajoutez les tranches de saumon. Par-dessus les tranches, alternez une couche de Saint-Jacques et une couche de préparation de saumon.",
         "Répétez l'opération.",
-        "Fermez le dessus avec le film plastique et réservez au frais pendant 24 heures."
+        "Fermez le dessus avec le film plastique et réservez au frais pendant 24 h."
       ]
     },
     {
@@ -1158,7 +1158,7 @@
           "quantity": "3"
         }
       ],
-      "prepTime": "15 minutes",
+      "prepTime": "15 min",
       "steps": [
         "Prélever la chair des avocats et la réduire en purée. Ajouter le jus d'un demi-citron au mélange afin de le parfumer et d'éviter qu'il noircisse.",
         "Détailler les tranches de saumon fumé en fines lanières et y verser quelques gouttes de citron.",
@@ -1207,15 +1207,15 @@
           "name": "Poivre"
         }
       ],
-      "prepTime": "15 minutes",
-      "cookTime": "30 minutes",
+      "prepTime": "15 min",
+      "cookTime": "30 min",
       "difficulty": "Facile",
       "steps": [
         "Lavez, épépinez et coupez en petits dés les poivrons et la tomate.",
         "Disposez 2 feuilles de papier sulfurisé sur le plan de travail, posez au centre de chaque feuille un filet de cabillaud.",
         "Salez, poivrez, ajoutez le curry selon vos goûts, puis répartissez les légumes.",
         "Nappez chaque filet d'une cuillère à café d'huile d'olive, déposez une branche de thym et refermez bien les papillotes en roulant les bords des feuilles de papier pour que ce soit bien hermétique.",
-        "Déposez les papillotes dans un plat allant au four et enfournez à 30 minutes.",
+        "Déposez les papillotes dans un plat allant au four et enfournez à 30 min.",
         "Astuce : avec ce mode de cuisson, les poivrons sont encore un peu croquants. Si vous les voulez plutôt fondants, faites-les cuire dans une poêle avant de dresser vos papillotes."
       ]
     },
@@ -1257,16 +1257,16 @@
           "name": "Poivre"
         }
       ],
-      "prepTime": "10 minutes",
-      "cookTime": "10 minutes",
+      "prepTime": "10 min",
+      "cookTime": "10 min",
       "difficulty": "Facile",
       "steps": [
-        "Faites cuire les filets de cabillaud avec un filet d'huile dans une poêle, à feu moyen, quelques minutes. Retournez à mi-cuisson.",
+        "Faites cuire les filets de cabillaud avec un filet d'huile dans une poêle, à feu moyen, quelques min. Retournez à mi-cuisson.",
         "Épluchez et ciselez finement l'échalote.",
         "Dans une casserole, faites fondre le beurre, puis ajoutez l'échalote et la cuire jusqu'à ce qu'elle soit translucide.",
         "Ajoutez ensuite la crème, la moutarde et bien mélanger.",
-        "Assaisonnez votre sauce moutarde et laissez épaissir à feu doux pendant environ 10 minutes.",
-        "Ajoutez le jus du 1/2 citron et laissez cuire encore quelques minutes. Votre sauce est prête : elle se sert bien chaude."
+        "Assaisonnez votre sauce moutarde et laissez épaissir à feu doux pendant environ 10 min.",
+        "Ajoutez le jus du 1/2 citron et laissez cuire encore quelques min. Votre sauce est prête : elle se sert bien chaude."
       ]
     },
     {
@@ -1300,12 +1300,12 @@
           "name": "Poivre"
         }
       ],
-      "prepTime": "15 minutes",
-      "cookTime": "15 minutes",
+      "prepTime": "15 min",
+      "cookTime": "15 min",
       "difficulty": "Facile",
       "steps": [
         "Faire cuire doucement les pavés de saumon dans une poêle antiadhésive puis les réserver au chaud. Essuyez la poêle, faire fondre la margarine et faire dorer les amandes effilées quelques instants.",
-        "Ajoutez la crème, salez, poivrez. Déposez le poisson, faire réduire 5 minutes.",
+        "Ajoutez la crème, salez, poivrez. Déposez le poisson, faire réduire 5 min.",
         "Posez le saumon par-dessus, arrosez d'un filet d'huile d'olive, salez et poivrez de nouveau et ajoutez une tranche de citron.",
         "Ce plat peut être accompagné de pâtes."
       ]
@@ -1347,14 +1347,14 @@
           "name": "Poivre"
         }
       ],
-      "prepTime": "15 minutes",
-      "cookTime": "30 minutes",
+      "prepTime": "15 min",
+      "cookTime": "30 min",
       "difficulty": "Facile",
       "steps": [
         "Préchauffez le four à 180°C.",
         "Coupez la carotte et la courgette en fins bâtonnets, puis les répartir sur 2 feuilles de papier sulfurisé. Parsemez de cumin, herbes de Provence, sel, poivre.",
         "Posez le saumon par-dessus, arrosez d'un filet d'huile d'olive, salez et poivrez de nouveau et ajoutez une tranche de citron.",
-        "Fermez la papillote de façon hermétique et cuire 25-30 minutes."
+        "Fermez la papillote de façon hermétique et cuire 25-30 min."
       ]
     },
     {
@@ -1403,16 +1403,16 @@
           "name": "Poivre"
         }
       ],
-      "prepTime": "30 minutes",
-      "cookTime": "30 minutes",
+      "prepTime": "30 min",
+      "cookTime": "30 min",
       "difficulty": "Facile",
       "steps": [
         "Epluchez et hachez les échalotes. Nettoyez et hachez les champignons.",
-        "Faites chauffer 10g de beurre dans une poêle et faites-y revenir les échalotes 3 minutes environ. Ajoutez les champignons, un peu de sel et de poivre et faites-les rissoler 3 minutes en remuant. Versez le vin et laissez réduire aux 2/3. Sortez du feu.",
+        "Faites chauffer 10g de beurre dans une poêle et faites-y revenir les échalotes 3 min environ. Ajoutez les champignons, un peu de sel et de poivre et faites-les rissoler 3 min en remuant. Versez le vin et laissez réduire aux 2/3. Sortez du feu.",
         "Dans une casserole, faites chauffer 40g de beurre. Une fois qu'il mousse, ajoutez la farine et fouettez jusqu'à obtenir une béchamel onctueuse. Salez, poivrez et ajoutez le gruyère en mélangeant. Réservez hors du feu.",
         "Préchauffez le four à 200°C. Faites chauffer les 10g de beurre restant dans une poêle. Faites-y dorer les Saint-Jacques 20 secondes sur chaque face jusqu'à ce qu'elles prennent une belle couleur dorée. Mélangez les Saint Jacques à la béchamel et aux champignons.",
-        "Répartissez la préparation dans les coquilles vides. Saupoudrez de chapelure et enfournez 10 minutes pour que le dessus soit bien gratiné. Servez bien chaud.",
-        "Astuce : Pour le décor et pour apporter un peu de croustillant, vous pouvez utiliser de la pâte feuilletée dans laquelle vous découperez une forme à l'emporte-pièce. Dorez au jaune d'œuf et cuisez 10 minutes à 180°C. Placez-les sur les coquilles Saint Jacques au moment de servir."
+        "Répartissez la préparation dans les coquilles vides. Saupoudrez de chapelure et enfournez 10 min pour que le dessus soit bien gratiné. Servez bien chaud.",
+        "Astuce : Pour le décor et pour apporter un peu de croustillant, vous pouvez utiliser de la pâte feuilletée dans laquelle vous découperez une forme à l'emporte-pièce. Dorez au jaune d'œuf et cuisez 10 min à 180°C. Placez-les sur les coquilles Saint Jacques au moment de servir."
       ]
     },
     {
@@ -1441,8 +1441,8 @@
           "name": "Poivre"
         }
       ],
-      "prepTime": "20 minutes",
-      "cookTime": "50 minutes",
+      "prepTime": "20 min",
+      "cookTime": "50 min",
       "difficulty": "Facile",
       "steps": [
         "Pelez les pommes de terre. Lavez-les. Coupez-les en lamelles régulières de 2 à 3 mm d'épaisseur.",
@@ -1450,7 +1450,7 @@
         "Pelez une gousse d'ail, coupez-la en 2 pour enlever le germe. Frottez le plat avec la gousse d'ail. Puis écrasez-la avec la lame large du couteau.",
         "Préchauffez le four à 150°C.",
         "Dans une casserole, versez 80cl de lait, ajoutez les rondelles de pommes de terre, l'ail écrasé, du sel et du poivre.",
-        "Portez à ébullition. Retirez du feu. Avec un écumoire, répartissez les pommes de terre dans le plat en les faisant se chevaucher. Versez le lait. Parsemez de 30g de beurre en morceaux et enfournez pendant environ 50 minutes. Piquez les pommes de terre avec la pointe d'un couteau pour vérifier qu'elles soient cuites."
+        "Portez à ébullition. Retirez du feu. Avec un écumoire, répartissez les pommes de terre dans le plat en les faisant se chevaucher. Versez le lait. Parsemez de 30g de beurre en morceaux et enfournez pendant environ 50 min. Piquez les pommes de terre avec la pointe d'un couteau pour vérifier qu'elles soient cuites."
       ]
     },
     {
@@ -1478,8 +1478,8 @@
           "name": "Poivre"
         }
       ],
-      "prepTime": "20 minutes",
-      "cookTime": "20 minutes",
+      "prepTime": "20 min",
+      "cookTime": "20 min",
       "difficulty": "Facile",
       "steps": [
         "Faites cuire les pommes de terre lavées et non épluchées à l'eau avec une pincée de sel.",
@@ -1519,14 +1519,14 @@
           "name": "Poivre"
         }
       ],
-      "prepTime": "20 minutes",
-      "cookTime": "20 minutes",
+      "prepTime": "20 min",
+      "cookTime": "20 min",
       "difficulty": "Facile",
       "steps": [
         "Évidez la courge, pelez-la et coupez-la en morceaux.",
         "Dans une grande casserole, faites fondre du beurre. Faites-y revenir l'oignon émincé, et ajoutez les cubes de butternut.",
-        "Faites revenir le tout pendant environ 5 minutes, puis couvrez d'eau. Ajoutez le cube de bouillon, salez, poivrez, et portez à ébullition.",
-        "Une fois que le mélange bout, couvrez et laissez cuire 25 minutes à feu moyen.",
+        "Faites revenir le tout pendant environ 5 min, puis couvrez d'eau. Ajoutez le cube de bouillon, salez, poivrez, et portez à ébullition.",
+        "Une fois que le mélange bout, couvrez et laissez cuire 25 min à feu moyen.",
         "Mettez le tout dans le blender, et ajoutez la crème liquide que vous aurez préalablement fait chauffer. Mixez finement. Vous pouvez remplacer la crème par du lait.",
         "Et voilà, votre velouté de courge butternut est prêt !"
       ]
@@ -1552,13 +1552,13 @@
           "quantity": "1"
         }
       ],
-      "prepTime": "5 minutes",
-      "cookTime": "20 minutes",
+      "prepTime": "5 min",
+      "cookTime": "20 min",
       "difficulty": "Facile",
       "steps": [
         "Chauffez de l'eau dans une grande casserole.",
         "Versez les lentilles corail, le bouillon de cube émietté et le curry dans la casserole.",
-        "Laissez cuire environ 20 minutes à couvert.",
+        "Laissez cuire environ 20 min à couvert.",
         "Une fois la préparation refroidie, mixez les lentilles. Si le velouté est trop épais, diluez-le avec de l'eau jusqu'à obtenir la consistance désirée.",
         "Réchauffez le velouté juste avant de le déguster. Servez bien chaud."
       ]
@@ -1600,13 +1600,13 @@
           "quantity": "Poivre"
         }
       ],
-      "prepTime": "10 minutes",
-      "cookTime": "20 minutes",
+      "prepTime": "10 min",
+      "cookTime": "20 min",
       "difficulty": "Facile",
       "steps": [
         "Epluchez l'oignon et hachez-le. Coupez les escalopes de dinde en dés. Egouttez les champignons.",
-        "Dans une poêle antiadhésive, faites revenir les oignons, puis la viande, sur feu vif, environ 10 minutes en mélangeant régulièrement.",
-        "Ajoutez le curry, mélangez, puis ajoutez la crème et les champignons. Poursuivez la cuisson 5 minutes. Salez et poivrez.",
+        "Dans une poêle antiadhésive, faites revenir les oignons, puis la viande, sur feu vif, environ 10 min en mélangeant régulièrement.",
+        "Ajoutez le curry, mélangez, puis ajoutez la crème et les champignons. Poursuivez la cuisson 5 min. Salez et poivrez.",
         "Servez chaud accompagné de riz, par exemple."
       ]
     },
@@ -1651,13 +1651,13 @@
           "quantity": "Poivre"
         }
       ],
-      "prepTime": "10 minutes",
-      "cookTime": "20 minutes",
+      "prepTime": "10 min",
+      "cookTime": "20 min",
       "difficulty": "Facile",
       "steps": [
         "Faites revenir dans une poêle, avec l'huile d'olive, les aiguillettes de poulet.",
-        "Préparez les tagliatelles de carottes : épluchez et rincez la carotte, puis à l'aide d'un économe, réalisez des tagliatelles. Les faire revenir quelques minutes dans l'huile d'olive. Salez et poivrez.",
-        "Diluez dans 1/2 verre d'eau chaude la moutarde et versez le tout dans la poêle. Laissez chauffer environ 10 minutes, puis ajoutez la crème. Salez et poivrez.",
+        "Préparez les tagliatelles de carottes : épluchez et rincez la carotte, puis à l'aide d'un économe, réalisez des tagliatelles. Les faire revenir quelques min dans l'huile d'olive. Salez et poivrez.",
+        "Diluez dans 1/2 verre d'eau chaude la moutarde et versez le tout dans la poêle. Laissez chauffer environ 10 min, puis ajoutez la crème. Salez et poivrez.",
         "Ajoutez les tagliatelles de carottes. Servez immédiatement."
       ]
     },
@@ -1706,15 +1706,15 @@
           "quantity": "Poivre"
         }
       ],
-      "prepTime": "20 minutes",
-      "cookTime": "40 minutes",
+      "prepTime": "20 min",
+      "cookTime": "40 min",
       "difficulty": "Facile",
       "steps": [
         "Verser l'huile dans une poêle chaude. Y ajouter la viande hâchée.",
         "Une fois la viande cuite, ajouter le coulis de tomates, le sel et le poivre. Laisser mijoter.",
         "Pendant ce temps, préparer la béchamel : Verser le lait dans une casserole. Ajouter la farine. Bien mélanger au fouet jusqu'à ce que la béchamel épaississe. Saler et poivrer.",
         "Beurrer un plat rectangulaire, y déposer une couche de béchamel, puis une couche de lasagnes, et une couche de sauce tomate à la viande parsemée d'emmental râpé. Répéter l'opération jusqu'à épuisement des ingrédients en terminant par de la béchamel, et saupoudrer avec du gruyère râpé.",
-        "Enfourner à four préchauffé à 165°C (thermostat 5/6) pendant environ 45 minutes, pour que les lasagnes soient bien gratinées. Si les lasagnes gratinent trop vite, les recouvrir de papier d'aluminium."
+        "Enfourner à four préchauffé à 165°C (thermostat 5/6) pendant environ 45 min, pour que les lasagnes soient bien gratinées. Si les lasagnes gratinent trop vite, les recouvrir de papier d'aluminium."
       ]
     },
     {
@@ -1766,17 +1766,17 @@
           "quantity": "Poivre"
         }
       ],
-      "prepTime": "20 minutes",
+      "prepTime": "20 min",
       "cookTime": "1h 20min",
       "difficulty": "Facile",
       "steps": [
         "Hachez l'ail et l'oignon.",
         "Pelez puis coupez les tomates en morceaux et détaillez les poivrons en lanières.",
-        "Faire chauffer 4 cuillères à soupe d'huile dans une cocotte. Y faire dorer les oignons, l'ail et les poivrons. Laissez cuire 5 minutes.",
+        "Faire chauffer 4 cuillères à soupe d'huile dans une cocotte. Y faire dorer les oignons, l'ail et les poivrons. Laissez cuire 5 min.",
         "Ajoutez les tomates et le bouillon dans la cocotte, salez, poivrez.",
-        "Couvrez et laissez mijoter 20 minutes.",
+        "Couvrez et laissez mijoter 20 min.",
         "Dans une sauteuse, faites dorer les morceaux de poulet dans l'huile. Salez et poivrez.",
-        "Lorsqu'ils sont dorés, ajoutez-les aux légumes, ajoutez le bouquet garni. Couvrez. C'est parti pour 45 minutes de cuisson à feu moyen."
+        "Lorsqu'ils sont dorés, ajoutez-les aux légumes, ajoutez le bouquet garni. Couvrez. C'est parti pour 45 min de cuisson à feu moyen."
       ]
     },
     {
@@ -1816,15 +1816,15 @@
           "quantity": "Poivre"
         }
       ],
-      "prepTime": "10 minutes",
-      "cookTime": "40 minutes",
+      "prepTime": "10 min",
+      "cookTime": "40 min",
       "difficulty": "Facile",
       "steps": [
         "Dans un bol, mélangez le miel, la moutarde et le thym.",
         "Préchauffez le four à 180°C.",
         "Placez le rôti dans un plat allant au four, et badigeonnez-le de la préparation miel/moutarde. Salez et poivrez.",
         "Ajoutez 1/2 verre d'eau.",
-        "Enfournez et laissez cuire environ 40 minutes."
+        "Enfournez et laissez cuire environ 40 min."
       ]
     },
     {
@@ -1876,21 +1876,21 @@
           "quantity": "14g"
         }
       ],
-      "prepTime": "20 minutes",
-      "cookTime": "30 minutes",
+      "prepTime": "20 min",
+      "cookTime": "30 min",
       "difficulty": "Facile",
       "steps": [
         "Pour la pâte à pizza : Mettre la farine dans le saladier, ajouter l'huile d'olive, le sel et l'eau. Commencer à pétrir puis ajouter la levure de boulanger (Attention : le sel et la levure ne doivent pas être en contact car sinon la pâte ne lèvera pas).",
-        "Pétrir pendant 5 minutes. Puis laisser poser la pâte 10 minutes.",
-        "Ensuite, pétrir la pâte une seconde fois, laisser poser 10 minutes, puis pétrir une troisième fois. Cette procédure donnera force et élasticité à la pâte.",
-        "Laisser reposer la pâte au réfrigérateur dans une boîte hermétique pendant au moins 24 heures.",
-        "Après ce temps de repos, sortez la pâte et laissez-la poser à température ambiante pendant quelques heures. Une fois que la pâte a doublé de volume, étalez-la au rouleau sur un plan de travail fariné puis déposez-la sur la plaque de cuisson.",
+        "Pétrir pendant 5 min. Puis laisser poser la pâte 10 min.",
+        "Ensuite, pétrir la pâte une seconde fois, laisser poser 10 min, puis pétrir une troisième fois. Cette procédure donnera force et élasticité à la pâte.",
+        "Laisser reposer la pâte au réfrigérateur dans une boîte hermétique pendant au moins 24 h.",
+        "Après ce temps de repos, sortez la pâte et laissez-la poser à température ambiante pendant quelques h. Une fois que la pâte a doublé de volume, étalez-la au rouleau sur un plan de travail fariné puis déposez-la sur la plaque de cuisson.",
         "Pour la garniture : Découpez l'escalope de poulet en cubes et faites revenir les morceaux de poulet dans une poêle huilée.",
         "Ajoutez le curry, mélangez, puis ajoutez la crème. Gardez un peu de crème pour la pâte.",
         "Préchauffez le four à 230°C.",
         "Étalez le reste de crème sur la pâte à l'aide d'un pinceau ou avec le dos d'une cuillère. Ajoutez la garniture au poulet, les lardons, puis parsemez de gruyère râpé ou de mozzarella.",
-        "Mettez la pizza au four pendant 15 minutes, puis baissez la température à 180°C pour le reste de la cuisson pendant environ 20 minutes.",
-        "À la sortie du four, laissez la pizza au poulet curry reposer pendant quelques minutes avant de la découper et de la déguster.",
+        "Mettez la pizza au four pendant 15 min, puis baissez la température à 180°C pour le reste de la cuisson pendant environ 20 min.",
+        "À la sortie du four, laissez la pizza au poulet curry reposer pendant quelques min avant de la découper et de la déguster.",
         "Savourez votre délicieuse pizza au poulet curry bien chaude !"
       ]
     }

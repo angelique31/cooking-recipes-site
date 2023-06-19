@@ -5,10 +5,15 @@ export const RecipesWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  justify-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
   @media (max-width: 1250px) {
     grid-template-columns: repeat(2, 1fr);
   }
+  @media (max-width: 896px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
 `;
 
 export const StyledH2 = styled.h2`
