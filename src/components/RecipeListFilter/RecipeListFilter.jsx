@@ -31,8 +31,10 @@ const RecipeListFilter = () => {
       }
 
       const ingredients = recipe.ingredients
-        .map((ingredient) => normalizeString(ingredient.name))
-        .join(" ");
+        ? recipe.ingredients
+            .map((ingredient) => normalizeString(ingredient.name))
+            .join(" ")
+        : "";
 
       const normalizedRecipeName = normalizeString(recipe.name);
 
@@ -43,64 +45,5 @@ const RecipeListFilter = () => {
     })
     .slice(0, initialLimit);
 };
+
 export default RecipeListFilter;
-
-// const RecipeListFilter = () => {
-//   const searchValue = useSelector((state) => state.recipes.searchValue);
-//   const recipes = useSelector((state) => state.recipes.recipes);
-
-//   if (!recipes) {
-//     return [];
-//   }
-
-//   let initialLimit = 3;
-//   if (searchValue) {
-//     initialLimit = recipes.length;
-//   }
-
-//   const normalizedSearchValue = normalizeString(searchValue);
-//   const searchWords = normalizedSearchValue.split(" ");
-
-//   return recipes
-//     .filter((recipe) => {
-//       if (!searchValue) {
-//         return true;
-//       }
-//       const ingredients = recipe.ingredients
-//         .map((ingredient) => normalizeString(ingredient.name))
-//         .join(" ");
-
-//       const normalizedRecipeName = normalizeString(recipe.name);
-
-//       // Vérifie si l'ensemble de la chaîne de recherche est présent
-//       const fullMatch =
-//         normalizedRecipeName.includes(normalizedSearchValue) ||
-//         ingredients.includes(normalizedSearchValue);
-
-//       // Si un match complet est trouvé, retourner true
-//       if (fullMatch) {
-//         return true;
-//       }
-
-//       return searchWords.every(
-//         (word) =>
-//           normalizedRecipeName.includes(word) || ingredients.includes(word)
-//       );
-//       // const ingredientsSet = new Set(
-//       //   recipe.ingredients
-//       //     .map((ingredient) => normalizeString(ingredient.name))
-//       //     .join(" ")
-//       //     .split(" ")
-//       // );
-
-//       // const recipeNameSet = new Set(normalizeString(recipe.name).split(" "));
-
-//       // return (
-//       //   recipeNameSet.has(normalizedSearchValue) ||
-//       //   ingredientsSet.has(normalizedSearchValue)
-//       // );
-//     })
-//     .slice(0, initialLimit);
-// };
-
-// export default RecipeListFilter;

@@ -1,12 +1,212 @@
 {
-  "specialRecipes": [
+  "currentNewsData": [
+    {
+      "id": "glace_au_chocolat",
+      "image": "/assets/current-recipe/glace-au-chocolat.jpg",
+      "name": "Glace au chocolat sans sorbetière",
+      "eventCategory": "summer",
+      "servingSize": "4",
+      "prepTime": "30 min",
+      "cookTime": "0 min",
+      "ingredients": [
+        {
+          "name": "Chocolat noir (pâtissier)",
+          "quantity": "150 g"
+        },
+        {
+          "name": "Crème entière",
+          "quantity": "25 cl"
+        },
+        {
+          "name": "Sucre",
+          "quantity": "90 g"
+        },
+        {
+          "name": "Oeufs",
+          "quantity": "2"
+        },
+        {
+          "name": "Jaune d'oeuf",
+          "quantity": "1"
+        }
+      ],
+      "steps": [
+        "Mettre la crème dans un récipient pour la monter en chantilly plus tard, et mettre le tout dans le réfrigérateur, avec les fouets du batteur électrique, pendant au moins 20 min. Cela permettra à la crème de monter plus facilement.",
+        "Pendant ce temps, faire fondre le chocolat au bain-marie. Laisser refroidir hors du feu",
+        "Battre les jaunes d'œufs et le sucre quelques minutes.",
+        "Ajouter le chocolat fondu à la préparation et mélanger",
+        "Monter la crème liquide en chantilly puis l’incorporer à la préparation",
+        "Battre les 2 blancs d’œufs en neige, puis les ajouter à l'ensemble de la préparation",
+        "Ajouter des pépites de chocolat selon vos envies",
+        "Placer au congélateur pendant au moins 4 heures, en remuant toutes les 30 minutes pour éviter la formation de cristaux de glace.",
+        "Servez et dégustez votre glace au chocolat maison!"
+      ]
+    },
+    {
+      "id": "confiture_de_fraise",
+      "image": "/assets/current-recipe/confiture-de-fraises.jpg",
+      "name": "Confiture de fraises",
+      "eventCategory": "summer",
+      "servingSize": "4 pots",
+      "prepTime": "10 min",
+      "cookTime": "45 min",
+      "ingredients": [
+        {
+          "name": "Fraises fraîches",
+          "quantity": "1 kg"
+        },
+        {
+          "name": "Sucre cristallisé",
+          "quantity": "250 g"
+        },
+        {
+          "name": "jus de citron",
+          "quantity": "2 cuillères à soupe"
+        }
+      ],
+      "steps": [
+        "Lavez, équeutez et coupez les fraises en morceaux.",
+        "Dans une marmite, mélangez les fraises avec le sucre et le jus de citron.",
+        "Faites cuire en maintenant l'ébullition 30 min environ, en remuant de temps en temps.",
+        "Faites le test de l'assiette froide : sortir une assiette de réfrigérateur et y mettre quelques gouttes de confiture. Placer l'assiette à la verticale. Si la confiture ne coule pas, cela veut dire qu'elle est cuite.",
+        "Versez la confiture dans des pots stérilisés et fermez-les hermétiquement. Les retourner jusqu'à complet refroidissement.",
+        "Les pots se conservent ainsi 2-3 ans dans un endroit sec et à l'abri de la lumière."
+      ]
+    },
+    {
+      "id": "tarte_aux_fraise",
+      "image": "/assets/current-recipe/tarte-aux-fraises.jpg",
+      "name": "Tarte aux fraises",
+      "eventCategory": "summer",
+      "servingSize": "8",
+      "prepTime": "30 min",
+      "cookTime": "25 min",
+      "sections": [
+        {
+          "name": "Pâte sablée",
+          "ingredients": [
+            {
+              "name": "Farine",
+              "quantity": "250g"
+            },
+            {
+              "name": "Beurre mou",
+              "quantity": "125g"
+            },
+            {
+              "name": "Oeuf",
+              "quantity": "1"
+            },
+            {
+              "name": "Sucre glace",
+              "quantity": "60g"
+            }
+          ],
+          "steps": [
+            "Incorporez le beurre coupé en dés à la farine en mélangeant avec les doigts de façon à obtenir un sable grossier. Attention à ne pas trop travailler la pâte sinon elle devient élastique. Il faut juste incorporer les ingrédients.",
+            "Ajoutez l'oeuf tout en continuant de mélanger avec les mains. Versez progressivement le sucre glace et pétrissez jusuq'à obtenir une pâte homogène.",
+            "Formez une boule, enveloppez-la dans du film alimentaire et laissez reposer au réfrigérateur pendant environ 2 heures."
+          ]
+        },
+        {
+          "name": "Crème pâtissière",
+          "ingredients": [
+            {
+              "name": "Lait",
+              "quantity": "500 ml"
+            },
+            {
+              "name": "Jaunes d'oeufs",
+              "quantity": "3"
+            },
+
+            {
+              "name": "Sucre en poudre",
+              "quantity": "75g"
+            },
+            {
+              "name": "Farine",
+              "quantity": "40g"
+            }
+          ],
+          "steps": [
+            "Faire chauffer le lait.",
+            "Travailler les jaunes d'oeufs avec le sucre jusqu'à ce que le mélange blanchisse et devienne mousseux.",
+            "Ajouter la farine en pluie. Bien mélanger. Verser le lait bouillant petit à petit sur le mélange.",
+            "Remettre le tout sur feu doux et porter doucement à ébullition 5 minutes, en tournant sans cesse."
+          ]
+        },
+        {
+          "name": "Montage et cuisson",
+          "ingredients": [
+            {
+              "name": "Disques de pâte feuilletée",
+              "quantity": "2"
+            },
+            {
+              "name": "Jaune d'oeuf",
+              "quantity": "1"
+            }
+          ],
+          "steps": [
+            "Préchauffer le four à 180°C.",
+            "Étaler la pâte sur un plan fariné. La pâte étant fragile, on peut l'étaler entre 2 feuilles de papier sulfurisé.",
+            "Garnir le moule à tarte de la pâte en épousant bien le fond du moule et recouper les bords.",
+            "Cuire la pâte à blanc pendant 15 min environ à 180° en mettant dessus un papier sulfurisé avec des noyaux ou des légumes secs (pour éviter les gonflements de la pâte). Avant la fin de la cuisson, retirer le papier pour que le fond cuise aussi. Bien surveiller la cuisson pour que la pâte ne cuise pas trop et reste couleur blond.",
+            "Laver les fraises rapidement, les égoutter puis les équeuter.",
+            "Quand le fond de tarte est refroidi étaler dessus la crème pâtissière refroidie et déposer par dessus les fraises en rang serré.",
+            "Dans une petite casserole, sur feu doux, délayer 2 cuillerées de gelée de fruits (ou de confiture sans les fruits) avec 1 cuillerée d'eau. Faire briller la tarte en passant ce nappage au pinceau sur les fruits."
+          ]
+        }
+      ]
+    }
+  ],
+  "newsData": [
+    {
+      "id": "courgette",
+      "image": "/assets/newsCard/courgettes.webp",
+      "name": "Comment conserver les courgettes?",
+      "summaryTitle": [
+        "Astuce n°1 : choisir des courgettes de petite taille",
+        "Astuce n°2 : bien conserver les courgettes",
+        "Astuce n°3 : ne pas trop cuire les courgettes",
+        "Astuce n°4 : utiliser les épices après cuisson"
+      ],
+      "summaryText": [
+        "En fonction de la taille, le goût change drastiquement. Les grosses courgettes ont en effet tendance à être plus farineuses et possèdent souvent plus de pépins ou de fibres, qui rendent les légumes plus amers. Pour des recettes réussies, il est donc préférable de choisir des courgettes de petite taille. Elles se gardent mieux à la cuisson, se digèrent facilement et leur chair est surtout plus savoureuse. Choisissez-les lourdes car c’est un signe de grande fraîcheur !",
+        "Il suffit de les garder dans un endroit sec et à l'abri de la lumière comme par exemple dans la cave ou dans le garage. Ainsi, vos courgettes pourront se conserver facilement une semaine !",
+        "Le temps de cuisson des courgettes est crucial pour préserver leurs qualités nutritionnelles. Une cuisson trop longue risque de les rendre molles et d’éliminer une partie de leurs vitamines et minéraux. Préférez une cuisson à la vapeur ou à l’étouffée pour les garder croquantes et pleines de saveurs. Prenez l'habitude ne pas dépasser les 8 à 10 minutes de cuisson si vous utilisez une poêle. Commencez par une cuisson à feu vif pour créer une couche croustillante sur les légumes puis baisser le feu pour cuire à l'intérieur",
+        "Pour éviter que les courgettes soient sans goût comme on leur reproche souvent, il est important de bien les assaisonner. Mais attention, l’astuce pour libérer le maximum de saveur, c’est de les assaisonner seulement après la cuisson ! Il est préférable d'attendre que l'eau de cuisson se soit évaporée avant de vous lancer dans l'assaisonnement. Sel, poivre, paprika, piment d'Espelette ou même curry, laissez libre cours à votre imagination!"
+      ]
+    },
+    {
+      "id": "tomate",
+      "image": "/assets/newsCard/tomates.jpg",
+      "name": "Comment conserver les tomates?",
+      "summaryTitle": [
+        "Ne pas placer les tomates au frigo",
+        "Comment bien conserver les tomates ?",
+        "Utilisation d'un sac en papier",
+        "Lavage au moment de la consommation",
+        "Conservation des tomates mûres"
+      ],
+      "summaryText": [
+        "Pour prolonger leur fraîcheur, nous avons tendance à les placer au frigo. Le problème est que le froid casse les saveurs de la tomate. Plus elle reste au froid, moins elle a de goût.",
+        "Il faut plutôt les conserver dans un endroit sec, à l’abri de la lumière. La température ambiante leur permet de mûrir doucement et de garder toute leur saveur.",
+        "Une astuce simple et efficace consiste à placer les tomates dans un sac en papier et d’y ajouter une pomme. La pomme, en murissant, émet du gaz éthylène, ce qui accélère le murissement des tomates.",
+        "Il est préférable de laver les tomates uniquement au moment où vous allez les consommer. En effet, en les lavant trop tôt, elles deviennent humides et peuvent développer des moisissures.",
+        "Pour les tomates déjà mûres, il est possible de les conserver dans un récipient hermétique avec un couvercle au réfrigérateur. Pensez à les sortir quelques heures avant consommation pour qu’elles retrouvent leur saveur."
+      ]
+    }
+  ],
+  "antiWasteTipsData": [
     {
       "id": "fraise",
       "image": "/assets/antiWasteTips/sirop-de-fraise.jpg",
       "name": "Sirop de queues de fraises",
 
       "detailText": "Pour réaliser ce sirop, il vous faudra environ 50g de queues de fraises avec un peu de chair de fraises. Ce sirop se conserve plusieurs jours au réfrigérateur et il est particulièrement délicieux avec une eau bien fraîche ou de la limonade, du citron vert et de la menthe.",
-      "servings": "125 ml",
+      "servingSize": "125 ml",
       "prepTime": "5 min",
       "cookTime": "25 min",
       "ingredients": [
@@ -46,7 +246,7 @@
       "name": "Tisane de queues de cerises",
 
       "detailText": "Les queues de cerise possèdent de nombreuses vertus, notamment au niveau du transit intestinal. Elles permettent de drainer l’organisme et de le détoxifier, agissant comme un dépuratif naturel. La parfaite infusion pour retrouver un ventre plat ! Grâce à sa teneur en sels de potassium et polyphénols, la tisane aux queues de cerises permet aussi de lutter contre certaines affections urinaires.",
-      "servings": "500 ml",
+      "servingSize": "500 ml",
       "prepTime": "5 min",
       "cookTime": "5 min",
       "ingredients": [
@@ -67,6 +267,7 @@
       ]
     }
   ],
+
   "regularRecipes": [
     {
       "id": "brioche_sucre",
@@ -635,78 +836,98 @@
       "eventCategory": null,
       "category": "dessert",
       "servingSize": "8 personnes",
-      "ingredients": [
-        {
-          "name": "Jaunes d'oeufs (pour la crème pâtissière)",
-          "quantity": "2"
-        },
-        {
-          "name": "Sucre (pour la crème pâtissière)",
-          "quantity": "35g"
-        },
-        {
-          "name": "Farine (pour la crème pâtissière)",
-          "quantity": "20g"
-        },
-        {
-          "name": "Lait (pour la crème pâtissière)",
-          "quantity": "25cl"
-        },
-        {
-          "name": "Sucre vanillé (pour la crème pâtissière)",
-          "quantity": "1 sachet"
-        },
-        {
-          "name": "Jaunes d'oeufs (pour la crème d'amande)",
-          "quantity": "3"
-        },
-        {
-          "name": "Poudre d'amande (pour la crème d'amande)",
-          "quantity": "125g"
-        },
-        {
-          "name": "Sucre en poudre (pour la crème d'amande)",
-          "quantity": "100g"
-        },
-        {
-          "name": "Beurre pommade (pour la crème d'amande)",
-          "quantity": "125g"
-        },
-        {
-          "name": "Pépites de chocolat (pour la crème d'amande)",
-          "quantity": "50g"
-        },
-        {
-          "name": "Disques de pâte feuilletée (pour le montage de la galette)",
-          "quantity": "2"
-        },
-        {
-          "name": "Jaune d'oeuf (pour le montage de la galette)",
-          "quantity": "1"
-        }
-      ],
       "prepTime": "30 min",
       "cookTime": "25 min",
-      "steps": [
-        "La crème pâtissière: Battre dans un saladier les 2 jaunes d'œufs avec 35 g de sucre. Ajouter la farine, mélangez, puis ajouter le lait bouillant progressivement tout en mélangeant.",
-        "Verser le mélange dans la casserole et fouetter sans s’arrêter pendant 3 min après la reprise de l’ébullition.",
-        "Quand le mélange épaissit sans attacher, la crème pâtissière est prête.",
-        "Verser la crème pâtissière dans un plat, et recouvrir au contact de film alimentaire (pour éviter la formation d’une croûte).",
-        "Réserver la crème pour qu’elle refroidisse pendant 1h minimum.",
-        "La crème d’amande: Travailler ensemble au fouet le beurre pommade et le sucre jusqu’à obtention d’une pâte blanche homogène.",
-        "Ajouter les jaunes d’œufs un par un, la poudre d’amande, et enfin les pépites de chocolat. Bien mélanger.",
-        "Montage et cuisson:",
-        "Préchauffer le four à 200°C.",
-        "Etaler un premier disque de pâte feuilletée.",
-        "A l’aide d’un pinceau, recouvrir la bordure de mélange jaune d’œuf / lait sur 2 cm environ.",
-        "Ajouter la Frangipane, idéalement en utilisant une poche à douille: Faire une spirale en partant du centre. Ne pas aller trop vers les bords. Ajouter une fève.",
-        "Déposer délicatement le 2ème disque de feuilletage. Souder les bords en appuyant délicatement sur tout le tour, en chassant l’air vers l’extérieur.",
-        "« Chiqueter » les bords avec un petit couteau, c’est-à-dire faire des petites entailles sur tout le pourtour de la galette.",
-        "Avec le dos du couteau, décorer le dessus de la galette d’une jolie rosace, en partant du centre. Faire une entaille au milieu de cette rosace, pour permettre à l’air de s’échapper et au feuilletage de ne pas trop se développer.",
-        "Dorer la galette à l’aide d’un pinceau et du mélange jaune d’œuf / lait.",
-        "Enfourner pour 10 min à 200°C, puis baisser la température à 180°C et cuire 30 min supplémentaires."
+      "sections": [
+        {
+          "name": "Crème pâtissière",
+          "ingredients": [
+            {
+              "name": "Jaunes d'oeufs",
+              "quantity": "2"
+            },
+            {
+              "name": "Sucre",
+              "quantity": "35g"
+            },
+            {
+              "name": "Farine",
+              "quantity": "20g"
+            },
+            {
+              "name": "Lait",
+              "quantity": "25cl"
+            },
+            {
+              "name": "Sucre vanillé",
+              "quantity": "1 sachet"
+            }
+          ],
+          "steps": [
+            "Battre dans un saladier les 2 jaunes d'œufs avec 35 g de sucre.",
+            "Ajouter la farine, mélanger, puis ajouter le lait bouillant progressivement tout en mélangeant.",
+            "Verser le mélange dans la casserole et fouetter sans s’arrêter pendant 3 min après la reprise de l’ébullition.",
+            "Quand le mélange épaissit sans attacher, la crème pâtissière est prête.",
+            "Verser la crème pâtissière dans un plat, et recouvrir au contact de film alimentaire (pour éviter la formation d’une croûte).",
+            "Réserver la crème pour qu’elle refroidisse pendant 1h minimum."
+          ]
+        },
+        {
+          "name": "Crème d'amande",
+          "ingredients": [
+            {
+              "name": "Jaunes d'oeufs",
+              "quantity": "3"
+            },
+            {
+              "name": "Poudre d'amande",
+              "quantity": "125g"
+            },
+            {
+              "name": "Sucre en poudre",
+              "quantity": "100g"
+            },
+            {
+              "name": "Beurre pommade",
+              "quantity": "125g"
+            },
+            {
+              "name": "Pépites de chocolat",
+              "quantity": "50g"
+            }
+          ],
+          "steps": [
+            "Travailler ensemble au fouet le beurre pommade et le sucre jusqu’à obtention d’une pâte blanche homogène.",
+            "Ajouter les jaunes d’œufs un par un, la poudre d’amande, et enfin les pépites de chocolat. Bien mélanger."
+          ]
+        },
+        {
+          "name": "Montage et cuisson",
+          "ingredients": [
+            {
+              "name": "Disques de pâte feuilletée",
+              "quantity": "2"
+            },
+            {
+              "name": "Jaune d'oeuf",
+              "quantity": "1"
+            }
+          ],
+          "steps": [
+            "Préchauffer le four à 200°C.",
+            "Étaler un premier disque de pâte feuilletée.",
+            "À l’aide d’un pinceau, recouvrir la bordure de mélange jaune d’œuf / lait sur 2 cm environ.",
+            "Ajouter la Frangipane, idéalement en utilisant une poche à douille: Faire une spirale en partant du centre. Ne pas aller trop vers les bords. Ajouter une fève.",
+            "Déposer délicatement le 2ème disque de feuilletage. Souder les bords en appuyant délicatement sur tout le tour, en chassant l’air vers l’extérieur.",
+            "« Chiqueter » les bords avec un petit couteau, c’est-à-dire faire des petites entailles sur tout le pourtour de la galette.",
+            "Avec le dos du couteau, décorer le dessus de la galette d’une jolie rosace, en partant du centre. Faire une entaille au milieu de cette rosace, pour permettre à l’air de s’échapper et au feuilletage de ne pas trop se développer.",
+            "Dorer la galette à l’aide d’un pinceau et du mélange jaune d’œuf / lait.",
+            "Enfourner pour 10 min à 200°C, puis baisser la température à 180°C et cuire 30 min supplémentaires."
+          ]
+        }
       ]
     },
+
     {
       "id": "gateau_vanille_abricots",
       "name": "Gâteau vanillé aux abricots",
@@ -890,48 +1111,7 @@
         "Se déguste bien frais."
       ]
     },
-    {
-      "id": "tarte_fraises",
-      "name": "Tarte aux fraises",
-      "image": "/assets/sugar-recipe/tarte-fraises.jpg",
-      "eventCategory": null,
-      "category": "dessert",
-      "servingSize": "12 personnes",
-      "ingredients": [
-        {
-          "name": "Pâte sablée",
-          "quantity": "1"
-        },
-        {
-          "name": "Farine",
-          "quantity": "40g"
-        },
-        {
-          "name": "Jaunes d'oeuf",
-          "quantity": "3"
-        },
-        {
-          "name": "Lait",
-          "quantity": "500ml"
-        },
-        {
-          "name": "Sucre",
-          "quantity": "75g"
-        }
-      ],
-      "prepTime": "30 min",
-      "cookTime": "20 min",
-      "steps": [
-        "Préchauffez le four à 180°C.",
-        "Faites chauffer le lait.",
-        "Pendant ce temps, travaillez les jaunes d'œufs avec le sucre jusqu'à ce que le mélange blanchisse et devienne mousseux.",
-        "Ajoutez la farine en pluie. Bien mélanger. Versez le lait bouillant petit à petit sur le mélange.",
-        "Remettez le tout sur feu doux et portez à ébullition doucement, en mélangeant sans cesse.",
-        "Laissez refroidir la crème en mettant du film alimentaire au contact de la crème pour éviter la formation d'une pellicule.",
-        "Etalez la pâte dans un plat à tarte. Etalez la crème pâtissière sur la pâte. Placez les fraises coupées en deux.",
-        "Pour ajouter de la brillance, vous pouvez faire fondre de la confiture de fraises et nappez la tarte avec un pinceau large."
-      ]
-    },
+
     {
       "id": "pates_carbonara",
       "name": "Pâtes à la carbonara",

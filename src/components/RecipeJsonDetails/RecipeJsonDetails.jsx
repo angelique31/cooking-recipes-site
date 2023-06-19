@@ -41,48 +41,6 @@ const RecipeJsonDetails = ({ recipeType }) => {
     return <h2>Recette non trouvée</h2>;
   }
 
-  //   return (
-  //     <div>
-  //       <NavBar isRecipePage={true} />
-  //       <div>
-  //         <StyledH1>{recipe.name}</StyledH1>
-  //       </div>
-  //       <ContentWrapper>
-
-  //         <ImageTextWrapper>
-  //           <StyledImage src={recipe.image} alt={recipe.name} />
-  //         </ImageTextWrapper>
-  //         <ContentSection>
-  //           <RecipeInfoBox
-  //             prepTime={recipe.prepTime}
-  //             cookTime={recipe.cookTime}
-  //           />
-
-  //           <RecipeButton />
-  //           <StyledH2>Ingrédients</StyledH2>
-  //           <CounterButton />
-  //           <ul>
-  //             {recipe.ingredients.map((ingredient, index) => (
-  //               <li key={index}>
-  //                 {ingredient.name} - {ingredient.quantity}
-  //               </li>
-  //             ))}
-  //           </ul>
-  //           <StyledH2>Préparation</StyledH2>
-  //           <ol>
-  //             {recipe.steps.map((step, index) => (
-  //               <li key={index}>
-  //                 <strong> {index + 1}. </strong>
-  //                 {step}
-  //               </li>
-  //             ))}
-  //           </ol>
-  //         </ContentSection>
-  //       </ContentWrapper>
-  //     </div>
-  //   );
-  // };
-
   return (
     <div>
       <NavBar isRecipePage={true} />
@@ -99,26 +57,65 @@ const RecipeJsonDetails = ({ recipeType }) => {
             cookTime={recipe.cookTime}
           />
         </ImageInfoWrapper>
+
         <ContentSection>
           <RecipeButton />
           <StyledH2>Ingrédients</StyledH2>
           <CounterButton />
-          <ul>
-            {recipe.ingredients.map((ingredient, index) => (
-              <li key={index}>
-                {ingredient.name} - {ingredient.quantity}
-              </li>
-            ))}
-          </ul>
+
+          {/* Vérifier si l'attribut "sections" existe */}
+          {recipe.sections ? (
+            // Affichage pour les recettes avec sections
+            recipe.sections.map((section, sectionIndex) => (
+              <div key={sectionIndex}>
+                <h3>{section.name}</h3>
+                <ul>
+                  {section.ingredients.map((ingredient, index) => (
+                    <li key={index}>
+                      {ingredient.name} - {ingredient.quantity}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))
+          ) : (
+            // Affichage pour les recettes sans sections (ancienne méthode)
+            <ul>
+              {recipe.ingredients.map((ingredient, index) => (
+                <li key={index}>
+                  {ingredient.name} - {ingredient.quantity}
+                </li>
+              ))}
+            </ul>
+          )}
+
           <StyledH2>Préparation</StyledH2>
-          <ol>
-            {recipe.steps.map((step, index) => (
-              <li key={index}>
-                <strong> {index + 1}. </strong>
-                {step}
-              </li>
-            ))}
-          </ol>
+
+          {/* Vérifier à nouveau si l'attribut "sections" existe pour les étapes */}
+          {recipe.sections ? (
+            recipe.sections.map((section, sectionIndex) => (
+              <div key={sectionIndex}>
+                <h3>{section.name}</h3>
+                <ol>
+                  {section.steps.map((step, index) => (
+                    <li key={index}>
+                      <strong>{index + 1}. </strong>
+                      {step}
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            ))
+          ) : (
+            <ol>
+              {recipe.steps.map((step, index) => (
+                <li key={index}>
+                  <strong>{index + 1}. </strong>
+                  {step}
+                </li>
+              ))}
+            </ol>
+          )}
         </ContentSection>
       </ContentWrapper>
     </div>
