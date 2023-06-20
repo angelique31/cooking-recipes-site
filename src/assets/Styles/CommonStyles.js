@@ -18,10 +18,6 @@ export const CommonSection = styled.section`
     border: none;
     box-shadow: none;
   }
-  // @media screen and (max-width: 686px) {
-  //   margin: auto;
-  //   width: 100%;
-  // }
 `;
 
 export const CommonCardsContainer = styled.div`

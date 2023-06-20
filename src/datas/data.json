@@ -1,5 +1,5 @@
 {
-  "currentNewsData": [
+  "currentRecipeData": [
     {
       "id": "glace_au_chocolat",
       "image": "/assets/current-recipe/glace-au-chocolat.jpg",
@@ -156,6 +156,113 @@
             "Laver les fraises rapidement, les égoutter puis les équeuter.",
             "Quand le fond de tarte est refroidi étaler dessus la crème pâtissière refroidie et déposer par dessus les fraises en rang serré.",
             "Dans une petite casserole, sur feu doux, délayer 2 cuillerées de gelée de fruits (ou de confiture sans les fruits) avec 1 cuillerée d'eau. Faire briller la tarte en passant ce nappage au pinceau sur les fruits."
+          ]
+        }
+      ]
+    }
+  ],
+
+  "topFoodData": [
+    {
+      "id": "verrines_avocat_saumon",
+      "image": "/assets/salty-recipe/avocat-saumon-fume-en-verrines.jpeg",
+      "name": "Verrines avocat et saumon fumé",
+      "eventCategory": "party",
+      "servings": "4 verrines",
+      "prepTime": "15 min",
+      "cookTime": "0 min",
+      "ingredients": [
+        {
+          "name": "avocats",
+          "quantity": "2"
+        },
+        {
+          "name": "saumon fumé",
+          "quantity": "3 tranches"
+        },
+        {
+          "name": "jus de citron",
+          "quantity": "2 cuillères à soupe"
+        },
+        {
+          "name": "crème fraîche épaisse",
+          "quantity": "25 cl"
+        }
+      ],
+      "steps": [
+        "Coupez les avocats en deux, enlevez le noyau et récupérez la chair.",
+        "Dans un bol, mélangez la chair d'avocat avec le jus de citron afin d'éviter que les avocats noircissent.",
+        "Coupez le saumon fumé en petits morceaux.",
+        "Mettre au fond de chaque verrine : la purée d'avocat au citron, puis quelques cuillères à café de crème fraîche, et terminer par quelques lanières de saumon fumé en les enroulant sur elles-mêmes. Ajouter une rondelle de citron pour décorer.",
+        "Se déguste bien frais."
+      ]
+    },
+    {
+      "id": "gateau_chocolat",
+      "image": "/assets/sugar-recipe/gateau-au-chocolat.jpeg",
+      "name": "Gâteau au chocolat",
+      "eventCategory": null,
+      "servings": "6 portions",
+      "prepTime": "30 min",
+      "cookTime": "40 min",
+      "sections": [
+        {
+          "name": "Fondant au chocolat",
+          "ingredients": [
+            {
+              "name": "Chocolat pâtisier",
+              "quantity": "240g"
+            },
+            {
+              "name": "Beurre en parcelles",
+              "quantity": "200g"
+            },
+            {
+              "name": "Lait",
+              "quantity": "150 ml"
+            },
+            {
+              "name": "Farine",
+              "quantity": "100g"
+            },
+            {
+              "name": "Sucre en poudre",
+              "quantity": "150g"
+            },
+            {
+              "name": "Oeufs",
+              "quantity": "6"
+            },
+            {
+              "name": "Poudre d'amande",
+              "quantity": "125g"
+            }
+          ],
+          "steps": [
+            "Préchauffez le four à 160°C (th.5/6). Dans une casserole, faites fondre le chocolat avec le beurre et le lait sur feu très doux.",
+            "Hors du feu, incorporez la farine et le sucre en poudre en fouettant.",
+            "Fouettez les jaunes d'oeufs avec les amandes en poudre. Incorporez au mélange précédent.",
+            "Fouettez les blancs en neige avec une pincée de sel. Incorporez les délicatement à la préparation précédente. Versez dans un moule à manquer beurré.",
+            "Enfournez pour 1 heure."
+          ]
+        },
+        {
+          "name": "Ganache au chocolat",
+          "ingredients": [
+            {
+              "name": "Chocolat pâtisier",
+              "quantity": "100g"
+            },
+            {
+              "name": "Crème fraîche",
+              "quantity": "25cl"
+            }
+          ],
+          "steps": [
+            "Faire fondre le chocolat au bain-marie.",
+            "Ajouter la crème faîche tout en mélangeant.",
+            "Napper le gâteau avec une spatule dès que le mélange est homogène.",
+            "Astuce: Pour un aspect bien brillant, nappez votre gâteau encore chaud."
           ]
         }
       ]

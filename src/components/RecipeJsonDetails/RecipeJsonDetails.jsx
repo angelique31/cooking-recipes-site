@@ -25,12 +25,38 @@ const RecipeJsonDetails = ({ recipeType }) => {
 
   useEffect(() => {
     // Choisir la section appropriée de données en fonction de recipeType
-    const recipesSection = recipesData[recipeType];
+    // const recipesSection = recipesData[recipeType];
+
+    let recipesSection;
+
+    if (recipeType === "currentNews") {
+      recipesSection = recipesData.currentRecipeData; // Accéder aux données "En ce moment" dans le fichier JSON
+    } else if (recipeType === "topFood") {
+      recipesSection = recipesData.topFoodData; // Accéder aux données "Top recettes" dans le fichier JSON
+    } else {
+      recipesSection = recipesData[recipeType];
+    }
+
+    // switch (recipeType) {
+    //   case "currentNews":
+    //     recipesSection = recipesData.regularRecipes; // Accéder aux données "En ce moment" dans le fichier JSON
+    //     break;
+    //   case "topFood":
+    //     recipesSection = recipesData.topFoodData || []; // Accéder aux données "Top recettes" dans le fichier JSON
+    //     break;
+    //   default:
+    //     recipesSection = recipesData[recipeType];
+    // }
 
     // Trouver la recette dans les données importées
-    // const foundRecipe = recipesData.find((item) => item.id === recipeId);
     const foundRecipe = recipesSection.find((item) => item.id === recipeId);
-    // console.log(foundRecipe);
+
+    // Si la recette n'est pas trouvée dans topFoodData, effectuer une recherche de secours dans regularRecipes
+    // if (!foundRecipe) {
+    //   const regularRecipesSection = recipesData.regularRecipes || [];
+    //   foundRecipe = regularRecipesSection.find((item) => item.id === recipeId);
+    // }
+
     setRecipe(foundRecipe);
 
     // Pour forcer le défilement en haut de la page

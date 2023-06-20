@@ -18,13 +18,13 @@ const RecipeArticleContainer = () => {
       <RecipeArticle
         data={currentNewsData}
         name="En ce moment"
-        linkTo="#"
+        linkTo="/current-news"
         showTitle={true}
       />
       <RecipeArticle
         data={foodData}
         name="Top recettes"
-        linkTo="#"
+        linkTo="/top-food"
         showTitle={true}
       />
       <RecipeArticle

@@ -13,6 +13,14 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route
+            path="/current-news/:recipeId"
+            element={<RecipeJsonDetails recipeType="currentNews" />}
+          />
+          <Route
+            path="/top-food/:recipeId"
+            element={<RecipeJsonDetails recipeType="topFood" />}
+          />
           <Route path="/news/:newsId" element={<NewsDetails />} />
           <Route
             path="/recipes/:recipeId"
