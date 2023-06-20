@@ -14,10 +14,14 @@ export const CommonSection = styled.section`
   transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   padding: 20px;
   margin: 50px 100px 50px 100px;
-  @media screen and (max-width: 686px) {
-    margin: auto;
-    width: 100%;
+  @media screen and (max-width: 876px) {
+    border: none;
+    box-shadow: none;
   }
+  // @media screen and (max-width: 686px) {
+  //   margin: auto;
+  //   width: 100%;
+  // }
 `;
 
 export const CommonCardsContainer = styled.div`
