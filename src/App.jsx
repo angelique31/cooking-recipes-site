@@ -32,7 +32,7 @@ const App = () => {
           />
           <Route
             path="/special-recipes/:recipeId"
-            element={<RecipeJsonDetails recipeType="specialRecipes" />}
+            element={<RecipeJsonDetails recipeType="antiWasteTipsData" />}
           />
           <Route path="/filtered-recipes" element={<FilteredRecipesPage />} />
           {/* <Route path="*" element={<NotFoundPage />} /> */}

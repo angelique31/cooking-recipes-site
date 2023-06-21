@@ -1,12 +1,12 @@
 import RecipeArticle from "../RecipeArticle/RecipeArticle";
 import RecipeListFilter from "../RecipeListFilter/RecipeListFilter";
-import { currentNewsData } from "../../datas/currentRecipeData.js";
-import { foodData } from "../../datas/foodData.js";
-import { newsData } from "../../datas/newsData.js";
-import { antiWasteTipsData } from "../../datas/antiWasteTipsData";
+import { useSelector } from "react-redux";
 
 const RecipeArticleContainer = () => {
-  const filteredRecipes = RecipeListFilter();
+  // const recipesData = useSelector((state) => state.regularRecipes);
+  const recipesData = useSelector((state) => state.recipes.recipeData);
+
+  const filteredRecipes = RecipeListFilter(recipesData);
 
   let flexDisplay = true;
   if (filteredRecipes.length > 3) {
@@ -16,19 +16,19 @@ const RecipeArticleContainer = () => {
   return (
     <div>
       <RecipeArticle
-        data={currentNewsData}
+        data={recipesData.currentRecipeData}
         name="En ce moment"
         linkTo="/current-news"
         showTitle={true}
       />
       <RecipeArticle
-        data={foodData}
+        data={recipesData.topFoodData}
         name="Top recettes"
         linkTo="/top-food"
         showTitle={true}
       />
       <RecipeArticle
-        data={newsData}
+        data={recipesData.newsData}
         name="Dernières actualités"
         linkTo="/news"
         showTitle={true}
@@ -43,7 +43,7 @@ const RecipeArticleContainer = () => {
       />
 
       <RecipeArticle
-        data={antiWasteTipsData}
+        data={recipesData.antiWasteTipsData}
         name="Astuces anti-gaspi"
         linkTo="/special-recipes"
         showTitle={true}

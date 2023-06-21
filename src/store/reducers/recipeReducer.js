@@ -4,7 +4,7 @@ export const RESET_SEARCH_VALUE = "RESET_SEARCH_VALUE";
 
 const initialState = {
   searchValue: "",
-  recipes: [],
+  recipeData: [],
 };
 
 const recipeReducer = (state = initialState, action) => {
@@ -17,9 +17,9 @@ const recipeReducer = (state = initialState, action) => {
     case SET_RECIPES:
       return {
         ...state,
-        recipes: action.payload,
+        recipeData: action.payload,
       };
-    case RESET_SEARCH_VALUE: // Ajoutez ceci
+    case RESET_SEARCH_VALUE:
       return {
         ...state,
         searchValue: "", // Réinitialisez la valeur de recherche

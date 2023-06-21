@@ -198,6 +198,40 @@
       ]
     },
     {
+      "id": "saumon_amandes",
+      "image": "/assets/salty-recipe/saumon-papillotte.jpg",
+      "name": "Saumon aux amandes",
+      "eventCategory": null,
+      "servings": "4 personnes",
+      "prepTime": "15 min",
+      "cookTime": "15 min",
+      "ingredients": [
+        {
+          "name": "Pavés de saumon frais",
+          "quantity": "4"
+        },
+        {
+          "name": "Beurre",
+          "quantity": "2 càc"
+        },
+        {
+          "name": "Amandes effilées",
+          "quantity": "20g"
+        },
+        {
+          "name": "Crème semi-épaisse",
+          "quantity": "40g"
+        }
+      ],
+      "steps": [
+        "Faire cuire doucement les pavés de saumon dans une poêle antiadhésive puis les réserver au chaud.",
+        "Essuyer la poêle, faire fondre la margarine et faire dorer les amandes effilées quelques instants.",
+        "Ajouter la crème, saler, poivrer. Déposer le poisson, faire réduire 5 minutes.",
+        "Poser le saumon par-dessus, arroser d'un filet d'huile d'olive, saler et poivrer de nouveau et ajouter une tranche de citron.",
+        "Ce plat peut être accompagné de pâtes."
+      ]
+    },
+    {
       "id": "gateau_chocolat",
       "image": "/assets/sugar-recipe/gateau-au-chocolat.jpeg",
       "name": "Gâteau au chocolat",
@@ -303,6 +337,19 @@
         "Une astuce simple et efficace consiste à placer les tomates dans un sac en papier et d’y ajouter une pomme. La pomme, en murissant, émet du gaz éthylène, ce qui accélère le murissement des tomates.",
         "Il est préférable de laver les tomates uniquement au moment où vous allez les consommer. En effet, en les lavant trop tôt, elles deviennent humides et peuvent développer des moisissures.",
         "Pour les tomates déjà mûres, il est possible de les conserver dans un récipient hermétique avec un couvercle au réfrigérateur. Pensez à les sortir quelques heures avant consommation pour qu’elles retrouvent leur saveur."
+      ]
+    },
+    {
+      "id": "viande",
+      "image": "/assets/newsCard/viande.jpg",
+      "name": "Faut-il décongeler sa viande avant de la cuire ?",
+      "summaryTitle": [
+        "Pourquoi faut-il la décongeler avant ?",
+        "Perte de jus et de saveur"
+      ],
+      "summaryText": [
+        "Il est important de prendre le temps de décongeler sa viande, avant cuisson, pour plusieurs raisons. En premier lieu, une viande congelée va prendre bien plus de temps à cuire et risque d'être mal cuite à l'intérieur. Si vous mettez une escalope de poulet congelée dans la poêle et que vous la retournez, vous risquez de cuire uniquement l'extérieur et vous retrouver avec une chair crue ou encore froide. De plus, le risque de contamination par les bactéries qu'elle contient est plus élevé.",
+        "Cuire la viande lorsqu'elle est encore congelée peut provoquer une perte plus importante des jus naturels de la viande. Cela peut rendre la viande plus sèche et diminuer sa saveur."
       ]
     }
   ],

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-import recipesData from "../../datas/data.json";
+import { useSelector } from "react-redux";
 
 import NavBar from "../NavBar/NavBar.jsx";
 import {
@@ -22,46 +22,40 @@ import PropTypes from "prop-types";
 const RecipeJsonDetails = ({ recipeType }) => {
   const { recipeId } = useParams();
   const [recipe, setRecipe] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
+
+  const recipesData = useSelector((state) => state.recipes.recipeData);
+  // console.log(recipesData);
 
   useEffect(() => {
+    setIsLoading(true); // Définir isLoading à true au début du chargement
     // Choisir la section appropriée de données en fonction de recipeType
-    // const recipesSection = recipesData[recipeType];
-
+    // let recipesSection = recipesData[recipeType];
     let recipesSection;
 
     if (recipeType === "currentNews") {
-      recipesSection = recipesData.currentRecipeData; // Accéder aux données "En ce moment" dans le fichier JSON
+      recipesSection = recipesData.currentRecipeData;
     } else if (recipeType === "topFood") {
-      recipesSection = recipesData.topFoodData; // Accéder aux données "Top recettes" dans le fichier JSON
+      recipesSection = recipesData.topFoodData;
+    } else if (recipeType === "antiWasteTipsData") {
+      recipesSection = recipesData.antiWasteTipsData;
     } else {
       recipesSection = recipesData[recipeType];
     }
-
-    // switch (recipeType) {
-    //   case "currentNews":
-    //     recipesSection = recipesData.regularRecipes; // Accéder aux données "En ce moment" dans le fichier JSON
-    //     break;
-    //   case "topFood":
-    //     recipesSection = recipesData.topFoodData || []; // Accéder aux données "Top recettes" dans le fichier JSON
-    //     break;
-    //   default:
-    //     recipesSection = recipesData[recipeType];
-    // }
-
+    // console.log(recipesSection);
     // Trouver la recette dans les données importées
     const foundRecipe = recipesSection.find((item) => item.id === recipeId);
-
-    // Si la recette n'est pas trouvée dans topFoodData, effectuer une recherche de secours dans regularRecipes
-    // if (!foundRecipe) {
-    //   const regularRecipesSection = recipesData.regularRecipes || [];
-    //   foundRecipe = regularRecipesSection.find((item) => item.id === recipeId);
-    // }
 
     setRecipe(foundRecipe);
 
     // Pour forcer le défilement en haut de la page
     window.scrollTo(0, 0);
-  }, [recipeId, recipeType]);
+    setIsLoading(false); // Définir isLoading à false lorsque les données sont traitées
+  }, [recipeId, recipeType, recipesData]);
+
+  if (isLoading) {
+    return <h2>Chargement...</h2>; // Vous pouvez mettre un spinner de chargement ici
+  }
 
   if (!recipe) {
     return <h2>Recette non trouvée</h2>;
