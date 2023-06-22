@@ -20,6 +20,6 @@ export const StyledH1 = styled.h1`
 export const IconWrapper = styled.div`
   color: #ff4269;
   .kitchenSet-icon {
-    height: ${(props) => (props.isRecipePage ? "25px" : "40px")};
+    height: ${(props) => (props.isRecipePage ? "30px" : "40px")};
   }
 `;

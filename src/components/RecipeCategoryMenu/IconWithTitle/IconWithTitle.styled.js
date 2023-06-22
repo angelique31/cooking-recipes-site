@@ -20,4 +20,5 @@ export const SectionDiv = styled.div`
 
 export const StyledH2 = styled.h2`
   font-size: 1rem;
+  color: black;
 `;
