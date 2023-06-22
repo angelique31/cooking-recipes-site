@@ -14,6 +14,11 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route
+            path="/category/:categoryName"
+            element={<FilteredRecipesPage />}
+          />
+
+          <Route
             path="/current-news/:recipeId"
             element={<RecipeJsonDetails recipeType="currentNews" />}
           />

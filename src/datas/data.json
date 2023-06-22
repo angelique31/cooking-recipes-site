@@ -428,7 +428,7 @@
       "name": "Brioche au sucre",
       "image": "/assets/sugar-recipe/brioche.png",
       "eventCategory": null,
-      "category": "dessert",
+      "category": ["dessert"],
       "servingSize": "6 personnes",
       "ingredients": [
         {
@@ -488,7 +488,7 @@
       "name": "Cookies aux pépites de chocolat",
       "image": "/assets/sugar-recipe/cookies.webp",
       "eventCategory": null,
-      "category": "dessert",
+      "category": ["dessert"],
       "servingSize": "15 cookies",
       "ingredients": [
         {
@@ -539,7 +539,7 @@
       "name": "Crêpes sucrées",
       "image": "/assets/sugar-recipe/crepes.jpg",
       "eventCategory": null,
-      "category": "dessert",
+      "category": ["dessert"],
       "servingSize": "15 crêpes",
       "ingredients": [
         {
@@ -575,7 +575,7 @@
       "name": "Far breton aux pruneaux",
       "image": "/assets/sugar-recipe/far-breton.jpg",
       "eventCategory": null,
-      "category": "dessert",
+      "category": ["dessert"],
       "servingSize": "8 personnes",
       "ingredients": [
         {
@@ -615,7 +615,7 @@
       "name": "Crème dessert au carambar",
       "image": "/assets/sugar-recipe/creme-aux-carambar.webp",
       "eventCategory": null,
-      "category": "dessert",
+      "category": ["dessert"],
       "servingSize": "4 personnes",
       "ingredients": [
         {
@@ -648,7 +648,7 @@
       "name": "Crème dessert au chocolat",
       "image": "/assets/sugar-recipe/creme-chocolat.jpg",
       "eventCategory": null,
-      "category": "dessert",
+      "category": ["dessert"],
       "servingSize": "4 personnes",
       "ingredients": [
         {
@@ -678,7 +678,7 @@
       "name": "Crème dessert au speculos",
       "image": "/assets/sugar-recipe/creme-aux-speculoos.jpg",
       "eventCategory": null,
-      "category": "dessert",
+      "category": ["dessert"],
       "servingSize": "4 personnes",
       "ingredients": [
         {
@@ -715,7 +715,7 @@
       "name": "Crème dessert à la vanille",
       "image": "/assets/sugar-recipe/creme-vanille.jpg",
       "eventCategory": null,
-      "category": "dessert",
+      "category": ["dessert"],
       "servingSize": "4 personnes",
       "ingredients": [
         {
@@ -749,7 +749,7 @@
       "name": "Riz au lait au caramel",
       "image": "/assets/sugar-recipe/riz-au-lait.jpg",
       "eventCategory": null,
-      "category": "dessert",
+      "category": ["dessert"],
       "servingSize": "6 personnes",
       "ingredients": [
         {
@@ -790,7 +790,7 @@
       "name": "Semoule au caramel",
       "image": "/assets/sugar-recipe/semoule-au-caramel.jpg",
       "eventCategory": null,
-      "category": "dessert",
+      "category": ["dessert"],
       "servingSize": "4 personnes",
       "ingredients": [
         {
@@ -833,7 +833,7 @@
       "name": "Cake au citron avec glaçage",
       "image": "/assets/sugar-recipe/cake-au-citron.jpg",
       "eventCategory": null,
-      "category": "dessert",
+      "category": ["dessert"],
       "servingSize": "6 personnes",
       "ingredients": [
         {
@@ -885,7 +885,7 @@
       "name": "Cheesecake Vanille Et Caramel Beurre Salé (Sans Cuisson)",
       "image": "/assets/sugar-recipe/cheesecake-caramel-beurre-sale.jpeg",
       "eventCategory": null,
-      "category": "dessert",
+      "category": ["dessert"],
       "servingSize": "8 personnes",
       "ingredients": [
         {
@@ -939,7 +939,7 @@
       "name": "Fondant au chocolat blanc et à la framboise",
       "image": "/assets/sugar-recipe/fondant-chocolat-blanc-framboises.jpg",
       "eventCategory": null,
-      "category": "dessert",
+      "category": ["dessert"],
       "servingSize": "12 personnes",
       "ingredients": [
         {
@@ -988,7 +988,7 @@
       "name": "Galette des rois à la frangipane",
       "image": "/assets/sugar-recipe/galette-des-rois.jpg",
       "eventCategory": null,
-      "category": "dessert",
+      "category": ["dessert"],
       "servingSize": "8 personnes",
       "prepTime": "30 min",
       "cookTime": "25 min",
@@ -1087,7 +1087,7 @@
       "name": "Gâteau vanillé aux abricots",
       "image": "/assets/sugar-recipe/gateau-aux-abricots-et-a-la-vanille.jpg",
       "eventCategory": null,
-      "category": "dessert",
+      "category": ["dessert"],
       "servingSize": "4 parts",
       "ingredients": [
         {
@@ -1141,7 +1141,7 @@
       "name": "Gâteau à l'ananas et à la noix de coco",
       "image": "/assets/sugar-recipe/gateau-a-l-ananas-et-noix-de-coco.jpeg",
       "eventCategory": null,
-      "category": "dessert",
+      "category": ["dessert"],
       "servingSize": "8 parts",
       "ingredients": [
         {
@@ -1191,7 +1191,7 @@
       "name": "Tarte au chocolat noir",
       "image": "/assets/sugar-recipe/tarte-au-chocolat.jpeg",
       "eventCategory": null,
-      "category": "dessert",
+      "category": ["dessert"],
       "servingSize": "10 personnes",
       "ingredients": [
         {
@@ -1222,7 +1222,7 @@
       "name": "Tarte au citron meringuée",
       "image": "/assets/sugar-recipe/tarte-citron-meringu.jpg",
       "eventCategory": null,
-      "category": "dessert",
+      "category": ["dessert"],
       "servingSize": "6 personnes",
       "ingredients": [
         {
@@ -1271,7 +1271,7 @@
       "name": "Pâtes à la carbonara",
       "image": "/assets/salty-recipe/pates-carbo.jpg",
       "eventCategory": null,
-      "category": "plat principal",
+      "category": ["plat", "rapide"],
       "servingSize": "4 personnes",
       "ingredients": [
         {
@@ -1313,7 +1313,7 @@
       "name": "Spaghettis à la bolognaise",
       "image": "/assets/salty-recipe/spaghetti-bolognaise.jpg",
       "eventCategory": null,
-      "category": "plat principal",
+      "category": ["plat", "rapide"],
       "servingSize": "4 personnes",
       "ingredients": [
         {
@@ -1374,7 +1374,7 @@
       "name": "Mini bûches au saumon",
       "image": "/assets/salty-recipe/mini-buche-saumon.jpg",
       "eventCategory": "plat de fête",
-      "category": "entrée",
+      "category": ["entrée"],
       "servingSize": "2 personnes",
       "ingredients": [
         {
@@ -1412,7 +1412,7 @@
       "name": "Terrine de Saint Jacques et saumon",
       "image": "/assets/salty-recipe/terrine-st-jacques-saumon.jpg",
       "eventCategory": "plat de fête",
-      "category": "entrée",
+      "category": ["entrée"],
       "servingSize": "4 personnes",
       "ingredients": [
         {
@@ -1472,7 +1472,7 @@
       "name": "Verrines avocat et saumon fumé",
       "image": "/assets/salty-recipe/avocat-saumon-fume-en-verrines.jpeg",
       "eventCategory": "plat de fête",
-      "category": "entrée",
+      "category": ["entrée"],
       "servingSize": "6 personnes",
       "ingredients": [
         {
@@ -1504,7 +1504,7 @@
       "id": "papillotes_cabillaud",
       "name": "Papillotes de cabillaud",
       "image": "/assets/salty-recipe/dos-de-cabillaud-en-papillote.jpeg",
-      "category": "plat principal",
+      "category": ["plat", "rapide"],
       "eventCategory": "poisson",
       "servingSize": "2 personnes",
       "ingredients": [
@@ -1557,7 +1557,7 @@
       "id": "sauce_cabillaud",
       "name": "Sauce pour cabillaud",
       "image": "/assets/salty-recipe/sauce-cabillaud.jpg",
-      "category": "sauce",
+      "category": ["sauce", "rapide"],
       "eventCategory": "poisson",
       "servingSize": "4 personnes",
       "ingredients": [
@@ -1607,7 +1607,7 @@
       "id": "saumon_amandes",
       "name": "Saumon aux amandes",
       "image": "/assets/salty-recipe/saumon-amandes.jpg",
-      "category": "plat principal",
+      "category": ["plat", "rapide"],
       "eventCategory": "poisson",
       "servingSize": "4 personnes",
       "ingredients": [
@@ -1648,7 +1648,7 @@
       "id": "saumon_cumin",
       "name": "Papillottes de saumon au cumin",
       "image": "/assets/salty-recipe/saumon-papillotte.jpg",
-      "category": "plat principal",
+      "category": ["plat", "rapide"],
       "eventCategory": "poisson",
       "servingSize": "2 personnes",
       "ingredients": [
@@ -1695,7 +1695,7 @@
       "id": "coquilles_saint_jacques",
       "name": "Coquilles Saint Jacques",
       "image": "/assets/salty-recipe/st-jacques.jpg",
-      "category": "plat principal",
+      "category": ["entrée"],
       "eventCategory": "poisson",
       "servingSize": "6 coquilles",
       "ingredients": [
@@ -1753,7 +1753,7 @@
       "id": "gratin_dauphinois",
       "name": "Gratin dauphinois",
       "image": "/assets/salty-recipe/gratin_dauphinois.jpg",
-      "category": "plat principal",
+      "category": ["plat"],
       "eventCategory": "hiver",
       "servingSize": "4 à 6 personnes",
       "ingredients": [
@@ -1791,7 +1791,7 @@
       "id": "pommes_de_terre_raclette",
       "name": "Pommes de terre raclette et lard fumé",
       "image": "/assets/salty-recipe/Pommes-de-terre-au-fromage-a-raclette-et-lard-fume.jpg",
-      "category": "plat principal",
+      "category": ["plat"],
       "eventCategory": "hiver",
       "servingSize": "4 personnes",
       "ingredients": [
@@ -1826,7 +1826,7 @@
       "id": "veloute_de_butternut",
       "name": "Velouté de butternut",
       "image": "/assets/salty-recipe/veloute-de-butternut.jpg",
-      "category": "entrée",
+      "category": ["entrée"],
       "eventCategory": "hiver",
       "servingSize": "3 personnes",
       "ingredients": [
@@ -1869,7 +1869,7 @@
       "id": "veloute_de_lentilles_corail",
       "name": "Velouté de lentilles corail",
       "image": "/assets/salty-recipe/velouté-lentilles-corail.jpg",
-      "category": "entrée",
+      "category": ["entrée"],
       "eventCategory": "hiver",
       "servingSize": "6 personnes",
       "ingredients": [
@@ -1901,7 +1901,7 @@
       "id": "curry_de_dinde_a_la_creme",
       "name": "Curry de dinde à la crème et aux champignons",
       "image": "/assets/salty-recipe/dinde-au-curry.jpg",
-      "category": "plat principal",
+      "category": ["plat"],
       "eventCategory": null,
       "servingSize": "2 personnes",
       "ingredients": [
@@ -1948,7 +1948,7 @@
       "id": "escalopes_de_poulet_a_la_moutarde",
       "name": "Escalopes de poulet à la moutarde",
       "image": "/assets/salty-recipe/poulet-sauce-moutarde.jpg",
-      "category": "plat principal",
+      "category": ["plat", "rapide"],
       "eventCategory": null,
       "servingSize": "2 personnes",
       "ingredients": [
@@ -1999,7 +1999,7 @@
       "id": "lasagnes_a_la_bolognaise",
       "name": "Lasagnes à la bolognaise",
       "image": "/assets/salty-recipe/lasagnes-a-la-bolognaise.jpg",
-      "category": "plat principal",
+      "category": ["plat"],
       "eventCategory": null,
       "servingSize": "4 personnes",
       "ingredients": [
@@ -2055,7 +2055,7 @@
       "id": "poulet_basquaise",
       "name": "Poulet basquaise",
       "image": "/assets/salty-recipe/poulet-basquaise.jpg",
-      "category": "plat principal",
+      "category": ["plat"],
       "eventCategory": null,
       "servingSize": "6 personnes",
       "ingredients": [
@@ -2117,7 +2117,7 @@
       "id": "roti_porc_miel_moutarde",
       "name": "Rôti de porc au miel et à la moutarde",
       "image": "/assets/salty-recipe/Rôti-de-porc-à-la-moutarde.jpg",
-      "category": "plat principal",
+      "category": ["plat"],
       "eventCategory": null,
       "servingSize": "2 personnes",
       "ingredients": [
@@ -2165,7 +2165,7 @@
       "id": "pizza_poulet_curry",
       "name": "Pizza au poulet curry",
       "image": "/assets/salty-recipe/pizza poulet.jpeg",
-      "category": "plat principal",
+      "category": ["plat"],
       "eventCategory": null,
       "servingSize": "4 personnes",
       "ingredients": [
