@@ -1,15 +1,12 @@
 import { ModifiedButton } from "../RecipeButton/RecipeButton.styled";
+import { Link } from "react-router-dom";
 
-/**
- * Composant qui affiche un bouton stylisé.
- * Ce bouton contient le texte "Mes recettes".
- *
- * @returns {JSX.Element} Un élément de bouton stylisé contenant du texte.
- */
 const NotBookButton = () => {
   return (
     <div>
-      <ModifiedButton>Mes recettes</ModifiedButton>
+      <Link to="/mes-recettes">
+        <ModifiedButton>Mes recettes</ModifiedButton>
+      </Link>
     </div>
   );
 };

@@ -17,6 +17,9 @@ import RecipeButton from "../RecipeButton/RecipeButton.jsx";
 import CounterButton from "../CounterButton/CounterButton.jsx";
 import RecipeInfoBox from "../RecipeInfoBox/RecipeInfoBox.jsx";
 
+// import { useDispatch } from "react-redux";
+// import { addSavedRecipe } from "../../store/actions/recipeActions.js";
+
 import PropTypes from "prop-types";
 
 const RecipeJsonDetails = ({ recipeType }) => {
@@ -25,12 +28,17 @@ const RecipeJsonDetails = ({ recipeType }) => {
   const [isLoading, setIsLoading] = useState(true);
 
   const recipesData = useSelector((state) => state.recipes.recipeData);
-  // console.log(recipesData);
+
+  // const dispatch = useDispatch();
+
+  // const handleSaveRecipe = () => {
+  //   dispatch(addSavedRecipe(recipe));
+  // };
 
   useEffect(() => {
     setIsLoading(true); // Définir isLoading à true au début du chargement
     // Choisir la section appropriée de données en fonction de recipeType
-    // let recipesSection = recipesData[recipeType];
+
     let recipesSection;
 
     if (recipeType === "currentNews") {
@@ -42,7 +50,7 @@ const RecipeJsonDetails = ({ recipeType }) => {
     } else {
       recipesSection = recipesData[recipeType];
     }
-    // console.log(recipesSection);
+
     // Trouver la recette dans les données importées
     const foundRecipe = recipesSection.find((item) => item.id === recipeId);
 
@@ -79,7 +87,7 @@ const RecipeJsonDetails = ({ recipeType }) => {
         </ImageInfoWrapper>
 
         <ContentSection>
-          <RecipeButton />
+          <RecipeButton recipe={recipe} />
           <StyledH2>Ingrédients</StyledH2>
           <CounterButton />
 
