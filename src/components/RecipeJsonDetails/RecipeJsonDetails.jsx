@@ -17,9 +17,6 @@ import RecipeButton from "../RecipeButton/RecipeButton.jsx";
 import CounterButton from "../CounterButton/CounterButton.jsx";
 import RecipeInfoBox from "../RecipeInfoBox/RecipeInfoBox.jsx";
 
-// import { useDispatch } from "react-redux";
-// import { addSavedRecipe } from "../../store/actions/recipeActions.js";
-
 import PropTypes from "prop-types";
 
 const RecipeJsonDetails = ({ recipeType }) => {
@@ -28,12 +25,6 @@ const RecipeJsonDetails = ({ recipeType }) => {
   const [isLoading, setIsLoading] = useState(true);
 
   const recipesData = useSelector((state) => state.recipes.recipeData);
-
-  // const dispatch = useDispatch();
-
-  // const handleSaveRecipe = () => {
-  //   dispatch(addSavedRecipe(recipe));
-  // };
 
   useEffect(() => {
     setIsLoading(true); // Définir isLoading à true au début du chargement
@@ -87,7 +78,7 @@ const RecipeJsonDetails = ({ recipeType }) => {
         </ImageInfoWrapper>
 
         <ContentSection>
-          <RecipeButton recipe={recipe} />
+          <RecipeButton recipe={recipe} recipeType={recipeType} />
           <StyledH2>Ingrédients</StyledH2>
           <CounterButton />
 

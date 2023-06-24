@@ -19,12 +19,14 @@ const RecipeArticleContainer = () => {
         data={recipesData.currentRecipeData}
         name="En ce moment"
         linkTo="/current-news"
+        section="current-news"
         showTitle={true}
       />
       <RecipeArticle
         data={recipesData.topFoodData}
         name="Top recettes"
         linkTo="/top-food"
+        section="top-food"
         showTitle={true}
       />
       <RecipeArticle
@@ -38,6 +40,7 @@ const RecipeArticleContainer = () => {
         data={filteredRecipes}
         name="Recettes"
         linkTo="/recipes"
+        section="recipes"
         flexDisplay={flexDisplay}
         showTitle={true}
       />

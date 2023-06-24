@@ -30,9 +30,19 @@ const recipeReducer = (state = initialState, action) => {
         searchValue: "", // Réinitialisez la valeur de recherche
       };
     case ADD_SAVED_RECIPE:
+      // return {
+      //   ...state,
+      //   savedRecipes: [...state.savedRecipes, action.payload],
+      // };
       return {
         ...state,
-        savedRecipes: [...state.savedRecipes, action.payload],
+        savedRecipes: [
+          ...state.savedRecipes,
+          {
+            recipe: action.payload.recipe,
+            recipeType: action.payload.recipeType,
+          },
+        ],
       };
     default:
       return state;

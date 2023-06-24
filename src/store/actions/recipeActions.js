@@ -16,9 +16,12 @@ export const setRecipes = (recipes) => {
   };
 };
 
-export const addSavedRecipe = (recipe) => {
+export const addSavedRecipe = (recipe, recipeType) => {
   return {
     type: ADD_SAVED_RECIPE,
-    payload: recipe,
+    payload: {
+      recipe,
+      recipeType,
+    },
   };
 };

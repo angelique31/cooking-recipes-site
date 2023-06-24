@@ -14,7 +14,15 @@ import {
  * @param {string} linkTo - Lien de redirection pour chaque carte.
  */
 
-const Section = ({ data, name, linkTo, flexDisplay = true, showTitle }) => {
+const Section = ({
+  data,
+  name,
+  linkTo,
+  section,
+  flexDisplay = true,
+  showTitle,
+}) => {
+  // console.log("linkTo in Section:", linkTo);
   return (
     <CommonSection>
       <StyledH3>{name}</StyledH3>

@@ -15,6 +15,7 @@ const RecipeArticle = ({
   data,
   name,
   linkTo,
+  section,
   flexDisplay = true,
   showTitle,
 }) => {
@@ -23,6 +24,7 @@ const RecipeArticle = ({
       data={data}
       name={name}
       linkTo={linkTo}
+      section={section}
       flexDisplay={flexDisplay}
       showTitle={showTitle}
     />
