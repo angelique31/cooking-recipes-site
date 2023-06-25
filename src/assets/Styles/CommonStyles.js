@@ -36,3 +36,24 @@ export const CommonCardsContainer = styled.div`
 export const StyledH3 = styled.h3`
   margin-left: 9px;
 `;
+
+export const ItemWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 80%;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  @media screen and (max-width: 604px) {
+    width: 100%;
+    min-width: 100%;
+  }
+  @media screen and (max-width: 429px) {
+    width: 100%;
+    min-width: 92%;
+  }
+`;

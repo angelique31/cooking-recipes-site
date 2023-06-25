@@ -13,11 +13,15 @@ import PropTypes from "prop-types";
  * @returns {JSX.Element} Un élément de carte contenant une image, un titre et un lien.
  */
 
-const RecipeCard = ({ item, linkTo, showTitle }) => {
+const RecipeCard = ({ item, linkTo, showTitle, isInSavedRecipesPage }) => {
   return (
     <Link to={`${linkTo}/${item.id}`}>
-      <StyledCard>
-        <CardImage src={item.image} alt={item.name} />
+      <StyledCard isInSavedRecipesPage={isInSavedRecipesPage}>
+        <CardImage
+          src={item.image}
+          alt={item.name}
+          isInSavedRecipesPage={isInSavedRecipesPage}
+        />
         {showTitle && <CardTitle>{item.name}</CardTitle>}
       </StyledCard>
     </Link>

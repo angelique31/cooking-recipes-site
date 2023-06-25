@@ -2,6 +2,8 @@ import {
   SET_SEARCH_VALUE,
   SET_RECIPES,
   ADD_SAVED_RECIPE,
+  SET_SAVED_RECIPES,
+  DELETE_RECIPE,
 } from "../actions/recipeActions";
 
 export const RESET_SEARCH_VALUE = "RESET_SEARCH_VALUE";
@@ -30,10 +32,6 @@ const recipeReducer = (state = initialState, action) => {
         searchValue: "", // Réinitialisez la valeur de recherche
       };
     case ADD_SAVED_RECIPE:
-      // return {
-      //   ...state,
-      //   savedRecipes: [...state.savedRecipes, action.payload],
-      // };
       return {
         ...state,
         savedRecipes: [
@@ -43,6 +41,18 @@ const recipeReducer = (state = initialState, action) => {
             recipeType: action.payload.recipeType,
           },
         ],
+      };
+    case SET_SAVED_RECIPES:
+      return {
+        ...state,
+        savedRecipes: action.payload,
+      };
+    case DELETE_RECIPE:
+      return {
+        ...state,
+        savedRecipes: state.savedRecipes.filter(
+          (savedRecipe) => savedRecipe.recipe.id !== action.payload
+        ),
       };
     default:
       return state;
