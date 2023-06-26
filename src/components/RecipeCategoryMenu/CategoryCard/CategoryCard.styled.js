@@ -6,6 +6,7 @@ export const CategoryCardContainer = styled.div`
   margin: 100px 0 70px 0;
   gap: 100px;
   flex-wrap: wrap;
+
   @media screen and (max-width: 800px) {
     gap: 50px;
   }

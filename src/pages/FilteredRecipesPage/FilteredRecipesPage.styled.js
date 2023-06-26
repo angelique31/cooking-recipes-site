@@ -13,7 +13,6 @@ export const RecipesWrapper = styled.div`
   @media (max-width: 896px) {
     grid-template-columns: repeat(1, 1fr);
   }
-  
 `;
 
 export const StyledH2 = styled.h2`
@@ -30,8 +29,7 @@ export const RecipeCount = styled.p`
 export const StyledH3 = styled.h3`
   margin-bottom: 5px;
   color: rgb(63, 55, 53);
-  font-weight: normal;
-  font-family: "Open Sans";
+  font-weight: 600;
   margin-left: 16px;
 `;
 

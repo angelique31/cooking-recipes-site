@@ -4,6 +4,7 @@ import {
   ADD_SAVED_RECIPE,
   SET_SAVED_RECIPES,
   DELETE_RECIPE,
+  TOGGLE_SAVED_STATUS,
 } from "../actions/recipeActions";
 
 export const RESET_SEARCH_VALUE = "RESET_SEARCH_VALUE";
@@ -41,6 +42,15 @@ const recipeReducer = (state = initialState, action) => {
             recipeType: action.payload.recipeType,
           },
         ],
+      };
+    case TOGGLE_SAVED_STATUS:
+      return {
+        ...state,
+        savedRecipes: state.savedRecipes.map((recipe) =>
+          recipe.recipe.id === action.payload.recipeId
+            ? { ...recipe, isSaved: action.payload.isSaved }
+            : recipe
+        ),
       };
     case SET_SAVED_RECIPES:
       return {

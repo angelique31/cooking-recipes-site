@@ -16,6 +16,10 @@ export const SectionDiv = styled.div`
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
   cursor: pointer;
+  transition: 0.5s;
+  &:hover {
+    transform: scale(1.05);
+  }
 `;
 
 export const StyledH2 = styled.h2`

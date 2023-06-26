@@ -15,13 +15,15 @@ export const RecipeItem = styled.div`
   max-width: 80%;
   transition: all 0.5s ease-out; /* Ajoute une transition douce */
   opacity: 1; /* Opacité initiale de 1 */
-
+  transition: 0.8s;
   /* Le code suivant sera utilisé pour l'effet de disparition */
   &.removing {
-    transform: scale(0.8); /* Réduit l'échelle de l'élément */
-    opacity: 0; /* Réduit l'opacité à 0 */
+    transform: scale(0.8);
+    opacity: 0;
   }
-
+  &:hover {
+    transform: scale(1.02);
+  }
   @media screen and (max-width: 1217px) {
     max-width: 100%;
   }
@@ -35,6 +37,9 @@ export const DeleteContainer = styled.div`
   display: flex;
   justify-content: center;
   cursor: pointer;
+  &:hover {
+    color: rgb(255, 66, 105);
+  }
 `;
 
 export const TrashIcon = styled.img`
@@ -45,9 +50,15 @@ export const DeleteText = styled.span`
   margin-right: 5px;
 `;
 
+export const PageTitle = styled.h1`
+  margin-left: 50px;
+  margin-top: 50px;
+`;
+
 export const Title = styled.h3`
   margin: 0;
   padding: 10px;
-  color: #000; // ou une autre couleur de votre choix
+  color: #000;
   font-size: 1rem;
+  text-align: center;
 `;
