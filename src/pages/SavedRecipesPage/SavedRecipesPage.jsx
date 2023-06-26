@@ -29,8 +29,19 @@ const SavedRecipesPage = () => {
   const dispatch = useDispatch();
   const savedRecipes = useSelector((state) => state.recipes.savedRecipes);
 
-  const handleDelete = (id) => {
-    dispatch(deleteRecipe(id));
+  // const handleDelete = (id) => {
+  //   dispatch(deleteRecipe(id));
+  // };
+
+  const handleDelete = (id, event) => {
+    const recipeElement = event.currentTarget.closest(".recipe-item");
+    if (recipeElement) {
+      recipeElement.classList.add("removing");
+
+      setTimeout(() => {
+        dispatch(deleteRecipe(id));
+      }, 500); // correspond à la durée de l'animation
+    }
   };
 
   return (
@@ -39,7 +50,7 @@ const SavedRecipesPage = () => {
       <h1>Mes recettes</h1>
       <RecipeList>
         {savedRecipes.map((savedRecipe) => (
-          <RecipeItem key={savedRecipe.recipe.id}>
+          <RecipeItem key={savedRecipe.recipe.id} className="recipe-item">
             <ItemWrapper>
               <RecipeCard
                 item={savedRecipe.recipe}
@@ -49,8 +60,13 @@ const SavedRecipesPage = () => {
               />
               <div>
                 <Title>{savedRecipe.recipe.name}</Title>
-                <DeleteContainer
+                {/* <DeleteContainer
                   onClick={() => handleDelete(savedRecipe.recipe.id)}
+                > */}
+                <DeleteContainer
+                  onClick={(event) =>
+                    handleDelete(savedRecipe.recipe.id, event)
+                  }
                 >
                   <TrashIcon src={trashIcon} alt="icon trash" />
                   <DeleteText>Supprimer</DeleteText>

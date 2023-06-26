@@ -13,6 +13,15 @@ export const RecipeList = styled.div`
 export const RecipeItem = styled.div`
   align-items: center;
   max-width: 80%;
+  transition: all 0.5s ease-out; /* Ajoute une transition douce */
+  opacity: 1; /* Opacité initiale de 1 */
+
+  /* Le code suivant sera utilisé pour l'effet de disparition */
+  &.removing {
+    transform: scale(0.8); /* Réduit l'échelle de l'élément */
+    opacity: 0; /* Réduit l'opacité à 0 */
+  }
+
   @media screen and (max-width: 1217px) {
     max-width: 100%;
   }

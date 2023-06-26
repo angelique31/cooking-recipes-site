@@ -27,31 +27,6 @@ export const StyledCard = styled.div`
   `}
 `;
 
-// export const CardImage = styled.img`
-//   width: 100%;
-//   height: 200px;
-//   object-fit: cover;
-//   display: block;
-
-//   ${({ isInSavedRecipesPage }) =>
-//     isInSavedRecipesPage &&
-//     `
-//     @media screen and (max-width: 1024px) {
-//       width: 80%;
-//     }
-//     @media screen and (max-width: 845px) {
-//       width: 100%;
-//     }
-//   `}
-
-//   @media screen and (max-width: 686px) {
-//     height: 300px;
-//   }
-//   @media screen and (max-width: 560px) {
-//     height: 200px;
-//   }
-// `;
-
 export const CardImage = styled.img`
   width: 100%;
   height: 200px;
