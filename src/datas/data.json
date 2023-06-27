@@ -47,7 +47,7 @@
       "image": "/assets/current-recipe/confiture-de-fraises.jpg",
       "name": "Confiture de fraises",
       "eventCategory": "summer",
-      "servingSize": "4 pots",
+      "servingSize": "4",
       "prepTime": "10 min",
       "cookTime": "45 min",
       "ingredients": [
@@ -360,7 +360,7 @@
       "name": "Sirop de queues de fraises",
 
       "detailText": "Pour réaliser ce sirop, il vous faudra environ 50g de queues de fraises avec un peu de chair de fraises. Ce sirop se conserve plusieurs jours au réfrigérateur et il est particulièrement délicieux avec une eau bien fraîche ou de la limonade, du citron vert et de la menthe.",
-      "servingSize": "125 ml",
+      "servingSize": "6",
       "prepTime": "5 min",
       "cookTime": "25 min",
       "ingredients": [
@@ -400,7 +400,7 @@
       "name": "Tisane de queues de cerises",
 
       "detailText": "Les queues de cerise possèdent de nombreuses vertus, notamment au niveau du transit intestinal. Elles permettent de drainer l’organisme et de le détoxifier, agissant comme un dépuratif naturel. La parfaite infusion pour retrouver un ventre plat ! Grâce à sa teneur en sels de potassium et polyphénols, la tisane aux queues de cerises permet aussi de lutter contre certaines affections urinaires.",
-      "servingSize": "500 ml",
+      "servingSize": "500",
       "prepTime": "5 min",
       "cookTime": "5 min",
       "ingredients": [
@@ -429,7 +429,7 @@
       "image": "/assets/sugar-recipe/brioche.png",
       "eventCategory": null,
       "category": ["dessert"],
-      "servingSize": "6 personnes",
+      "servingSize": "6",
       "ingredients": [
         {
           "name": "Beurre ramolli",
@@ -489,7 +489,7 @@
       "image": "/assets/sugar-recipe/cookies.webp",
       "eventCategory": null,
       "category": ["dessert"],
-      "servingSize": "15 cookies",
+      "servingSize": "15 cookies ",
       "ingredients": [
         {
           "name": "Oeuf",
@@ -576,7 +576,7 @@
       "image": "/assets/sugar-recipe/far-breton.jpg",
       "eventCategory": null,
       "category": ["dessert"],
-      "servingSize": "8 personnes",
+      "servingSize": "8",
       "ingredients": [
         {
           "name": "Farine",
@@ -616,7 +616,7 @@
       "image": "/assets/sugar-recipe/creme-aux-carambar.webp",
       "eventCategory": null,
       "category": ["dessert"],
-      "servingSize": "4 personnes",
+      "servingSize": "4",
       "ingredients": [
         {
           "name": "Carambars",
@@ -649,7 +649,7 @@
       "image": "/assets/sugar-recipe/creme-chocolat.jpg",
       "eventCategory": null,
       "category": ["dessert"],
-      "servingSize": "4 personnes",
+      "servingSize": "4",
       "ingredients": [
         {
           "name": "Chocolat noir pâtissier",
@@ -679,7 +679,7 @@
       "image": "/assets/sugar-recipe/creme-aux-speculoos.jpg",
       "eventCategory": null,
       "category": ["dessert"],
-      "servingSize": "4 personnes",
+      "servingSize": "4",
       "ingredients": [
         {
           "name": "Lait",
@@ -716,7 +716,7 @@
       "image": "/assets/sugar-recipe/creme-vanille.jpg",
       "eventCategory": null,
       "category": ["dessert"],
-      "servingSize": "4 personnes",
+      "servingSize": "4",
       "ingredients": [
         {
           "name": "Lait",
@@ -750,7 +750,7 @@
       "image": "/assets/sugar-recipe/riz-au-lait.jpg",
       "eventCategory": null,
       "category": ["dessert"],
-      "servingSize": "6 personnes",
+      "servingSize": "6",
       "ingredients": [
         {
           "name": "Riz rond",
@@ -791,7 +791,7 @@
       "image": "/assets/sugar-recipe/semoule-au-caramel.jpg",
       "eventCategory": null,
       "category": ["dessert"],
-      "servingSize": "4 personnes",
+      "servingSize": "4",
       "ingredients": [
         {
           "name": "Semoule fine",
@@ -834,7 +834,7 @@
       "image": "/assets/sugar-recipe/cake-au-citron.jpg",
       "eventCategory": null,
       "category": ["dessert"],
-      "servingSize": "6 personnes",
+      "servingSize": "6",
       "ingredients": [
         {
           "name": "Beurre fondu",
@@ -886,7 +886,7 @@
       "image": "/assets/sugar-recipe/cheesecake-caramel-beurre-sale.jpeg",
       "eventCategory": null,
       "category": ["dessert"],
-      "servingSize": "8 personnes",
+      "servingSize": "8",
       "ingredients": [
         {
           "name": "Palets bretons",
@@ -940,7 +940,7 @@
       "image": "/assets/sugar-recipe/fondant-chocolat-blanc-framboises.jpg",
       "eventCategory": null,
       "category": ["dessert"],
-      "servingSize": "12 personnes",
+      "servingSize": "12",
       "ingredients": [
         {
           "name": "Chocolat blanc",
@@ -989,7 +989,7 @@
       "image": "/assets/sugar-recipe/galette-des-rois.jpg",
       "eventCategory": null,
       "category": ["dessert"],
-      "servingSize": "8 personnes",
+      "servingSize": "8",
       "prepTime": "30 min",
       "cookTime": "25 min",
       "sections": [
@@ -1088,7 +1088,7 @@
       "image": "/assets/sugar-recipe/gateau-aux-abricots-et-a-la-vanille.jpg",
       "eventCategory": null,
       "category": ["dessert"],
-      "servingSize": "4 parts",
+      "servingSize": "4",
       "ingredients": [
         {
           "name": "Farine",
@@ -1142,7 +1142,7 @@
       "image": "/assets/sugar-recipe/gateau-a-l-ananas-et-noix-de-coco.jpeg",
       "eventCategory": null,
       "category": ["dessert"],
-      "servingSize": "8 parts",
+      "servingSize": "8",
       "ingredients": [
         {
           "name": "Farine",
@@ -1192,7 +1192,7 @@
       "image": "/assets/sugar-recipe/tarte-au-chocolat.jpeg",
       "eventCategory": null,
       "category": ["dessert"],
-      "servingSize": "10 personnes",
+      "servingSize": "10",
       "ingredients": [
         {
           "name": "Chocolat noir",
@@ -1223,7 +1223,7 @@
       "image": "/assets/sugar-recipe/tarte-citron-meringu.jpg",
       "eventCategory": null,
       "category": ["dessert"],
-      "servingSize": "6 personnes",
+      "servingSize": "6",
       "ingredients": [
         {
           "name": "Pâte brisée",
@@ -1272,7 +1272,7 @@
       "image": "/assets/salty-recipe/pates-carbo.jpg",
       "eventCategory": null,
       "category": ["plat", "rapide"],
-      "servingSize": "4 personnes",
+      "servingSize": "4",
       "ingredients": [
         {
           "name": "Spaghettoni",
@@ -1314,7 +1314,7 @@
       "image": "/assets/salty-recipe/spaghetti-bolognaise.jpg",
       "eventCategory": null,
       "category": ["plat", "rapide"],
-      "servingSize": "4 personnes",
+      "servingSize": "4",
       "ingredients": [
         {
           "name": "Spaghettis",
@@ -1375,7 +1375,7 @@
       "image": "/assets/salty-recipe/mini-buche-saumon.jpg",
       "eventCategory": "plat de fête",
       "category": ["entrée"],
-      "servingSize": "2 personnes",
+      "servingSize": "2",
       "ingredients": [
         {
           "name": "Tranches de pain de mie",
@@ -1413,7 +1413,7 @@
       "image": "/assets/salty-recipe/terrine-st-jacques-saumon.jpg",
       "eventCategory": "plat de fête",
       "category": ["entrée"],
-      "servingSize": "4 personnes",
+      "servingSize": "4",
       "ingredients": [
         {
           "name": "Noix de Saint Jacques",
@@ -1436,16 +1436,12 @@
           "quantity": "2"
         },
         {
-          "name": "Sucre vanillé",
-          "quantity": "1/2 cuillère à café"
-        },
-        {
           "name": "Pavés de saumon",
           "quantity": "2"
         },
         {
-          "name": "Lait",
-          "quantity": "20cl (pour recouvrir les Saint Jacques)"
+          "name": "Lait (pour recouvrir les Saint Jacques)",
+          "quantity": "20cl"
         },
         {
           "name": "Estragon (surgelé ou en poudre)",
@@ -1455,7 +1451,7 @@
       "prepTime": "30 min",
       "restingTime": "20 min",
       "steps": [
-        "Mettez 48h avant, dans du lait avec un soupçon de sucre vanillé, vos coquilles St Jacques à décongeler dans un saladier.",
+        "Mettez 48h avant, dans du lait, vos coquilles St Jacques à décongeler dans un saladier.",
         "La veille :",
         "Faites bouillir de l'eau avec du sel et du poivre, puis éteignez le feu et mettez les saumons pendant 20 min à couvert.",
         "Pendant ce temps, faites chauffer à feu doux les coquilles avec le lait vanillé. 5 min après le début de l'ébullition, égouttez.",
@@ -1473,7 +1469,7 @@
       "image": "/assets/salty-recipe/avocat-saumon-fume-en-verrines.jpeg",
       "eventCategory": "plat de fête",
       "category": ["entrée"],
-      "servingSize": "6 personnes",
+      "servingSize": "6",
       "ingredients": [
         {
           "name": "Citron",
@@ -1506,7 +1502,7 @@
       "image": "/assets/salty-recipe/dos-de-cabillaud-en-papillote.jpeg",
       "category": ["plat", "rapide"],
       "eventCategory": "poisson",
-      "servingSize": "2 personnes",
+      "servingSize": "2",
       "ingredients": [
         {
           "name": "Filets de cabillaud",
@@ -1559,7 +1555,7 @@
       "image": "/assets/salty-recipe/sauce-cabillaud.jpg",
       "category": ["sauce", "rapide"],
       "eventCategory": "poisson",
-      "servingSize": "4 personnes",
+      "servingSize": "4",
       "ingredients": [
         {
           "name": "Filets de cabillaud",
@@ -1609,7 +1605,7 @@
       "image": "/assets/salty-recipe/saumon-amandes.jpg",
       "category": ["plat", "rapide"],
       "eventCategory": "poisson",
-      "servingSize": "4 personnes",
+      "servingSize": "4",
       "ingredients": [
         {
           "name": "Pavés de saumon frais",
@@ -1650,7 +1646,7 @@
       "image": "/assets/salty-recipe/saumon-papillotte.jpg",
       "category": ["plat", "rapide"],
       "eventCategory": "poisson",
-      "servingSize": "2 personnes",
+      "servingSize": "2",
       "ingredients": [
         {
           "name": "Portions de saumon",
@@ -1697,7 +1693,7 @@
       "image": "/assets/salty-recipe/st-jacques.jpg",
       "category": ["entrée"],
       "eventCategory": "poisson",
-      "servingSize": "6 coquilles",
+      "servingSize": "6",
       "ingredients": [
         {
           "name": "Noix de Saint Jacques",
@@ -1755,7 +1751,7 @@
       "image": "/assets/salty-recipe/gratin_dauphinois.jpg",
       "category": ["plat"],
       "eventCategory": "hiver",
-      "servingSize": "4 à 6 personnes",
+      "servingSize": "4",
       "ingredients": [
         {
           "name": "Pommes de terre",
@@ -1793,7 +1789,7 @@
       "image": "/assets/salty-recipe/Pommes-de-terre-au-fromage-a-raclette-et-lard-fume.jpg",
       "category": ["plat"],
       "eventCategory": "hiver",
-      "servingSize": "4 personnes",
+      "servingSize": "4",
       "ingredients": [
         {
           "name": "Pommes de terre",
@@ -1828,7 +1824,7 @@
       "image": "/assets/salty-recipe/veloute-de-butternut.jpg",
       "category": ["entrée"],
       "eventCategory": "hiver",
-      "servingSize": "3 personnes",
+      "servingSize": "3",
       "ingredients": [
         {
           "name": "Butternut",
@@ -1871,7 +1867,7 @@
       "image": "/assets/salty-recipe/velouté-lentilles-corail.jpg",
       "category": ["entrée"],
       "eventCategory": "hiver",
-      "servingSize": "6 personnes",
+      "servingSize": "6",
       "ingredients": [
         {
           "name": "Lentilles corail",
@@ -1903,7 +1899,7 @@
       "image": "/assets/salty-recipe/dinde-au-curry.jpg",
       "category": ["plat"],
       "eventCategory": null,
-      "servingSize": "2 personnes",
+      "servingSize": "2",
       "ingredients": [
         {
           "name": "Escalopes de dinde",
@@ -1950,7 +1946,7 @@
       "image": "/assets/salty-recipe/poulet-sauce-moutarde.jpg",
       "category": ["plat", "rapide"],
       "eventCategory": null,
-      "servingSize": "2 personnes",
+      "servingSize": "2",
       "ingredients": [
         {
           "name": "Aiguillettes de poulet",
@@ -2001,7 +1997,7 @@
       "image": "/assets/salty-recipe/lasagnes-a-la-bolognaise.jpg",
       "category": ["plat"],
       "eventCategory": null,
-      "servingSize": "4 personnes",
+      "servingSize": "4",
       "ingredients": [
         {
           "name": "Plaques à lasagnes",
@@ -2057,7 +2053,7 @@
       "image": "/assets/salty-recipe/poulet-basquaise.jpg",
       "category": ["plat"],
       "eventCategory": null,
-      "servingSize": "6 personnes",
+      "servingSize": "6",
       "ingredients": [
         {
           "name": "Cuisses de poulet ou pilons de poulet",
@@ -2119,7 +2115,7 @@
       "image": "/assets/salty-recipe/Rôti-de-porc-à-la-moutarde.jpg",
       "category": ["plat"],
       "eventCategory": null,
-      "servingSize": "2 personnes",
+      "servingSize": "2",
       "ingredients": [
         {
           "name": "Rôti de porc dans le filet",
@@ -2167,7 +2163,7 @@
       "image": "/assets/salty-recipe/pizza poulet.jpeg",
       "category": ["plat"],
       "eventCategory": null,
-      "servingSize": "4 personnes",
+      "servingSize": "4",
       "ingredients": [
         {
           "name": "Escalope de poulet",

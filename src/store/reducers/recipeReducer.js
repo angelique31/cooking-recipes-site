@@ -5,6 +5,7 @@ import {
   SET_SAVED_RECIPES,
   DELETE_RECIPE,
   TOGGLE_SAVED_STATUS,
+  SET_NUMBER_OF_PEOPLE,
 } from "../actions/recipeActions";
 
 export const RESET_SEARCH_VALUE = "RESET_SEARCH_VALUE";
@@ -13,6 +14,7 @@ const initialState = {
   searchValue: "",
   recipeData: [],
   savedRecipes: [],
+  numberOfPeople: 1, //l'état initial du nombre de personnes.
 };
 
 const recipeReducer = (state = initialState, action) => {
@@ -63,6 +65,11 @@ const recipeReducer = (state = initialState, action) => {
         savedRecipes: state.savedRecipes.filter(
           (savedRecipe) => savedRecipe.recipe.id !== action.payload
         ),
+      };
+    case SET_NUMBER_OF_PEOPLE:
+      return {
+        ...state,
+        numberOfPeople: action.payload,
       };
     default:
       return state;

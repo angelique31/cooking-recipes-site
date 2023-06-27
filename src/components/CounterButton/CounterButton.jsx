@@ -1,4 +1,6 @@
-import { useState } from "react";
+// import { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { setNumberOfPeople } from "../../store/actions/recipeActions";
 import {
   CounterContainer,
   LeftButton,
@@ -6,22 +8,51 @@ import {
   CountDisplay,
 } from "./CounterButton.styled";
 
-/**
- * Affiche un bouton de compteur permettant d'ajuster un nombre.
- *
- * @returns {JSX.Element} Élément JSX représentant le bouton de compteur.
- */
+// const CounterButton = ({ setNumberOfGuests }) => {
+//   const [count, setCount] = useState(1);
+
+//   const increment = () => {
+//     setCount(count + 1);
+//     setNumberOfGuests(count + 1);
+//   };
+
+//   const decrement = () => {
+//     setCount(count - 1);
+//     setNumberOfGuests(count - 1);
+//   };
+
+//   return (
+//     <CounterContainer>
+//       <LeftButton onClick={decrement}>-</LeftButton>
+//       <CountDisplay>
+//         <span>{count}</span>
+//         <span>personnes</span>
+//       </CountDisplay>
+//       <RightButton onClick={increment}>+</RightButton>
+//     </CounterContainer>
+//   );
+// };
+// export default CounterButton;
 const CounterButton = () => {
-  const [count, setCount] = useState(6);
+  const dispatch = useDispatch();
+  const numberOfPeople = useSelector((state) => state.recipes.numberOfPeople);
 
   return (
     <CounterContainer>
-      <LeftButton onClick={() => setCount(count - 1)}>-</LeftButton>
+      <LeftButton
+        onClick={() => dispatch(setNumberOfPeople(numberOfPeople - 1))}
+      >
+        -
+      </LeftButton>
       <CountDisplay>
-        <span>{count}</span>
+        <span>{numberOfPeople}</span>
         <span>personnes</span>
       </CountDisplay>
-      <RightButton onClick={() => setCount(count + 1)}>+</RightButton>
+      <RightButton
+        onClick={() => dispatch(setNumberOfPeople(numberOfPeople + 1))}
+      >
+        +
+      </RightButton>
     </CounterContainer>
   );
 };

@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-import { useSelector } from "react-redux";
-
 import NavBar from "../NavBar/NavBar.jsx";
 import {
   StyledH1,
@@ -19,12 +17,41 @@ import RecipeInfoBox from "../RecipeInfoBox/RecipeInfoBox.jsx";
 
 import PropTypes from "prop-types";
 
+import { useSelector, useDispatch } from "react-redux";
+import { setNumberOfPeople } from "../../store/actions/recipeActions.js";
+
 const RecipeJsonDetails = ({ recipeType }) => {
   const { recipeId } = useParams();
   const [recipe, setRecipe] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
   const recipesData = useSelector((state) => state.recipes.recipeData);
+
+  const numberOfPeople = useSelector((state) => state.recipes.numberOfPeople);
+
+  const adjustIngredientQuantity = (quantity, initialServings) => {
+    if (!quantity) {
+      return "";
+    }
+
+    // Split the quantity string into value and unit
+    const quantityParts = quantity.match(/(\d*\.*\d*)\s*(.*)/);
+
+    // Check if we have a value part which is numeric
+    if (quantityParts && !isNaN(quantityParts[1])) {
+      const value = parseFloat(quantityParts[1]);
+      const unit = quantityParts[2];
+
+      // Multiply the numeric part by the number of people and divide by initial servings
+      const adjustedValue = (value * numberOfPeople) / initialServings;
+
+      // Return adjusted value with unit
+      return `${adjustedValue}${unit ? " " + unit : ""}`;
+    }
+
+    // If no numeric value, return the quantity as is
+    return quantity;
+  };
 
   useEffect(() => {
     setIsLoading(true); // Définir isLoading à true au début du chargement
@@ -91,7 +118,15 @@ const RecipeJsonDetails = ({ recipeType }) => {
                 <ul>
                   {section.ingredients.map((ingredient, index) => (
                     <li key={index}>
-                      {ingredient.name} - {ingredient.quantity}
+                      {adjustIngredientQuantity(
+                        ingredient.quantity,
+                        recipe.servingSize
+                      )}{" "}
+                      {ingredient.name}
+                      {/* {adjustIngredientQuantity(
+                        ingredient.quantity,
+                        recipe.servingSize
+                      )} */}
                     </li>
                   ))}
                 </ul>
@@ -101,8 +136,19 @@ const RecipeJsonDetails = ({ recipeType }) => {
             // Affichage pour les recettes sans sections (ancienne méthode)
             <ul>
               {recipe.ingredients.map((ingredient, index) => (
+                // <li key={index}>
+                //   {ingredient.quantity} {ingredient.name}
+                // </li>
                 <li key={index}>
-                  {ingredient.name} - {ingredient.quantity}
+                  {adjustIngredientQuantity(
+                    ingredient.quantity,
+                    recipe.servingSize
+                  )}{" "}
+                  {ingredient.name}
+                  {/* {adjustIngredientQuantity(
+                    ingredient.quantity,
+                    recipe.servingSize
+                  )} */}
                 </li>
               ))}
             </ul>

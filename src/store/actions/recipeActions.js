@@ -4,6 +4,7 @@ export const ADD_SAVED_RECIPE = "ADD_SAVED_RECIPE";
 export const SET_SAVED_RECIPES = "SET_SAVED_RECIPES";
 export const DELETE_RECIPE = "DELETE_RECIPE";
 export const TOGGLE_SAVED_STATUS = "TOGGLE_SAVED_STATUS";
+export const SET_NUMBER_OF_PEOPLE = "SET_NUMBER_OF_PEOPLE";
 
 export const setSearchValue = (value) => {
   return {
@@ -50,5 +51,12 @@ export const toggleSavedStatus = (recipeId, isSaved) => {
       recipeId,
       isSaved,
     },
+  };
+};
+
+export const setNumberOfPeople = (number) => {
+  return {
+    type: SET_NUMBER_OF_PEOPLE,
+    payload: number,
   };
 };
