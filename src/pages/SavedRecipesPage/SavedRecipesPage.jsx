@@ -45,22 +45,31 @@ const SavedRecipesPage = () => {
   };
 
   const handleDelete = (id) => {
-    // Accéder à l'élément de la recette en utilisant l'attribut data-id.
+    // Access the recipe element using the data-id attribute.
     const recipeElement = document.querySelector(
       `.recipe-item[data-id="${id}"]`
     );
 
-    // Ajouter la classe "removing" pour déclencher la transition CSS.
+    // Add the "removing" class to trigger the CSS transition.
     if (recipeElement) {
       recipeElement.classList.add("removing");
 
-      // Utiliser setTimeout pour retarder l'envoi de l'action de suppression.
+      // Use setTimeout to delay the dispatch of the delete action.
       setTimeout(() => {
         dispatch(deleteRecipe(id));
-      }, 500); // 500ms pour correspondre à la durée de la transition.
+
+        // Update localStorage after deleting the recipe.
+        const updatedSavedRecipes = savedRecipes.filter(
+          (savedRecipe) => savedRecipe.recipe.id !== id
+        );
+        localStorage.setItem(
+          "savedRecipes",
+          JSON.stringify(updatedSavedRecipes)
+        );
+      }, 500); // 500ms to match the duration of the transition.
     }
 
-    // Fermer la modale.
+    // Close the modal.
     setModalVisible(false);
   };
 
