@@ -1,9 +1,12 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import LogoItem from "../../components/NavBar/LogoItem/LogoItem";
 import RecipeCard from "../../components/RecipeCard/RecipeCard";
 import trashIcon from "../../assets/Icons/trashIcon.svg";
 import {
+  NoRecipesBackground,
+  NoRecipesContent,
   RecipeList,
   RecipeItem,
   DeleteContainer,
@@ -11,6 +14,8 @@ import {
   DeleteText,
   PageTitle,
   Title,
+  NoRecipesWrapper,
+  NoRecipesMessage,
 } from "./SavedRecipesPage.styes";
 
 import { ItemWrapper } from "../../assets/Styles/CommonStyles";
@@ -76,39 +81,60 @@ const SavedRecipesPage = () => {
   return (
     <div>
       <LogoItem />
-      <PageTitle>Mes recettes</PageTitle>
-      <RecipeList>
-        {savedRecipes.map((savedRecipe) => (
-          <RecipeItem
-            key={savedRecipe.recipe.id}
-            data-id={savedRecipe.recipe.id}
-            className="recipe-item"
-          >
-            <ItemWrapper>
-              <RecipeCard
-                item={savedRecipe.recipe}
-                linkTo={getLinkPrefix(savedRecipe.recipeType)}
-                showTitle={false} // Ne pas afficher le titre sur l'image
-                isInSavedRecipesPage={true}
-              />
-              <div>
-                <Title>{savedRecipe.recipe.name}</Title>
-                <DeleteContainer
-                  onClick={() =>
-                    handleDeleteConfirmation(
-                      savedRecipe.recipe.id,
-                      savedRecipe.recipe.name
-                    )
-                  }
-                >
-                  <TrashIcon src={trashIcon} alt="icon trash" />
-                  <DeleteText>Supprimer</DeleteText>
-                </DeleteContainer>
-              </div>
-            </ItemWrapper>
-          </RecipeItem>
-        ))}
+      {savedRecipes.length > 0 && <PageTitle>Mes recettes</PageTitle>}
+
+      <RecipeList
+        className={savedRecipes.length > 0 ? "has-recipes" : "no-recipes"}
+      >
+        {savedRecipes.length > 0 ? (
+          savedRecipes.map((savedRecipe) => (
+            <RecipeItem
+              key={savedRecipe.recipe.id}
+              data-id={savedRecipe.recipe.id}
+              className="recipe-item"
+            >
+              <ItemWrapper>
+                <RecipeCard
+                  item={savedRecipe.recipe}
+                  linkTo={getLinkPrefix(savedRecipe.recipeType)}
+                  showTitle={false} // Ne pas afficher le titre sur l'image
+                  isInSavedRecipesPage={true}
+                />
+                <div>
+                  <Title>{savedRecipe.recipe.name}</Title>
+                  <DeleteContainer
+                    onClick={() =>
+                      handleDeleteConfirmation(
+                        savedRecipe.recipe.id,
+                        savedRecipe.recipe.name
+                      )
+                    }
+                  >
+                    <TrashIcon src={trashIcon} alt="icon trash" />
+                    <DeleteText>Supprimer</DeleteText>
+                  </DeleteContainer>
+                </div>
+              </ItemWrapper>
+            </RecipeItem>
+          ))
+        ) : (
+          <div>
+            <NoRecipesBackground />
+            <NoRecipesContent>
+              <NoRecipesWrapper>
+                <NoRecipesMessage>
+                  <span>{`Vous n'avez aucune recette enregistrée.`}</span>
+                  <span>{` Naviguez à travers le site et enregistrez vos recettes préférées! 😊`}</span>
+                  <span className="go-home">
+                    <Link to="/">{`Retourner sur la page d'accueil`}</Link>
+                  </span>
+                </NoRecipesMessage>
+              </NoRecipesWrapper>
+            </NoRecipesContent>
+          </div>
+        )}
       </RecipeList>
+
       <ConfirmationModal
         isVisible={isModalVisible}
         onClose={() => setModalVisible(false)}

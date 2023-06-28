@@ -1,12 +1,29 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+`;
 
 export const RecipeList = styled.div`
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  margin: 50px;
+  &.no-recipes {
+    margin: 0;
+  }
+
+  &.has-recipes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
   @media screen and (max-width: 845px) {
-    grid-template-columns: repeat(1, 1fr);
+    &.has-recipes {
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
 `;
 
@@ -61,4 +78,81 @@ export const Title = styled.h3`
   color: #000;
   font-size: 1rem;
   text-align: center;
+`;
+
+export const NoRecipesWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  grid-column: span 2;
+`;
+
+export const NoRecipesMessage = styled.div`
+  text-align: center;
+  line-height: 2;
+  color: rgb(255, 66, 105);
+  font-weight: 600;
+  font-size: 1.5rem;
+
+  span {
+    display: block;
+    opacity: 0;
+    animation: ${fadeIn} 1s ease-in-out forwards;
+
+    &:nth-child(1) {
+      animation-delay: 0.2s;
+    }
+
+    &:nth-child(2) {
+      animation-delay: 0.6s;
+    }
+    &:nth-child(3) {
+      animation-delay: 0.9s;
+    }
+  }
+  .go-home {
+    font-size: 1.1rem;
+    position: relative;
+    padding-bottom: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 3px;
+      width: 0;
+      background: #ff6680;
+      transition: width 0.4s ease-in-out;
+    }
+
+    &:hover::before {
+      width: 35%;
+    }
+  }
+`;
+
+export const NoRecipesBackground = styled.div`
+  background-image: url("/assets/navBarRecipe2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+
+  position: absolute;
+  z-index: -1; // Pour s'assurer que le fond est derrière le contenu
+`;
+
+export const NoRecipesContent = styled.div`
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 `;

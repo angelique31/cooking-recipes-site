@@ -489,7 +489,7 @@
       "image": "/assets/sugar-recipe/cookies.webp",
       "eventCategory": null,
       "category": ["dessert"],
-      "servingSize": "15 cookies ",
+      "servingSize": "4",
       "ingredients": [
         {
           "name": "Oeuf",
@@ -521,7 +521,7 @@
         },
         {
           "name": "Sel",
-          "quantity": "Selon le goût"
+          "quantity": "1 pincée"
         }
       ],
       "prepTime": "25 min",
@@ -1653,10 +1653,12 @@
           "quantity": "2"
         },
         {
-          "name": "Carotte"
+          "name": "Carotte",
+          "quantity": "1"
         },
         {
-          "name": "Courgette"
+          "name": "Courgette",
+          "quantity": "1"
         },
         {
           "name": "Cumin en poudre"

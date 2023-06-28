@@ -13,6 +13,9 @@ const StyledButton = styled.button`
   font-size: 1.2rem;
   background-color: #ff4269;
   transition: 1s;
+  &:hover {
+    background-color: rgb(233, 34, 75);
+  }
   .icon {
     display: none;
   }
