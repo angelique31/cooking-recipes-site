@@ -236,7 +236,7 @@
       "image": "/assets/sugar-recipe/gateau-au-chocolat.jpeg",
       "name": "Gâteau au chocolat",
       "eventCategory": null,
-      "servings": "6 portions",
+      "servingSize": "6",
       "prepTime": "30 min",
       "cookTime": "40 min",
       "sections": [
@@ -1510,7 +1510,7 @@
         },
         {
           "name": "Poivron vert",
-          "quantity": "1/2"
+          "quantity": "1/2 demi"
         },
         {
           "name": "Poivron rouge",

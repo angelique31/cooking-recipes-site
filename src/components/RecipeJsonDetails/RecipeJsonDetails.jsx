@@ -18,15 +18,16 @@ import RecipeInfoBox from "../RecipeInfoBox/RecipeInfoBox.jsx";
 import PropTypes from "prop-types";
 
 import { useSelector, useDispatch } from "react-redux";
+
 import { setNumberOfPeople } from "../../store/actions/recipeActions.js";
 
 const RecipeJsonDetails = ({ recipeType }) => {
+  const dispatch = useDispatch();
   const { recipeId } = useParams();
   const [recipe, setRecipe] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
   const recipesData = useSelector((state) => state.recipes.recipeData);
-
   const numberOfPeople = useSelector((state) => state.recipes.numberOfPeople);
 
   const adjustIngredientQuantity = (quantity, initialServings) => {
@@ -45,13 +46,25 @@ const RecipeJsonDetails = ({ recipeType }) => {
       // Multiply the numeric part by the number of people and divide by initial servings
       const adjustedValue = (value * numberOfPeople) / initialServings;
 
+      // Round to the nearest integer
+      const roundedValue = Math.round(adjustedValue);
+
       // Return adjusted value with unit
-      return `${adjustedValue}${unit ? " " + unit : ""}`;
+      // return `${adjustedValue}${unit ? " " + unit : ""}`;
+      return `${roundedValue}${unit ? " " + unit : ""}`;
     }
 
     // If no numeric value, return the quantity as is
     return quantity;
   };
+  // Ceci est un nouvel effet qui se déclenche lorsque 'recipe' change
+  useEffect(() => {
+    // Vérifier si la recette est chargée
+    if (recipe && recipe.servingSize) {
+      // Mettre à jour le compteur avec la valeur de servingSize de la recette
+      dispatch(setNumberOfPeople(parseInt(recipe.servingSize, 10)));
+    }
+  }, [recipe, dispatch]);
 
   useEffect(() => {
     setIsLoading(true); // Définir isLoading à true au début du chargement
@@ -107,8 +120,7 @@ const RecipeJsonDetails = ({ recipeType }) => {
         <ContentSection>
           <RecipeButton recipe={recipe} recipeType={recipeType} />
           <StyledH2>Ingrédients</StyledH2>
-          <CounterButton />
-
+          <CounterButton servingSize={recipe.servingSize} />
           {/* Vérifier si l'attribut "sections" existe */}
           {recipe.sections ? (
             // Affichage pour les recettes avec sections
@@ -123,10 +135,6 @@ const RecipeJsonDetails = ({ recipeType }) => {
                         recipe.servingSize
                       )}{" "}
                       {ingredient.name}
-                      {/* {adjustIngredientQuantity(
-                        ingredient.quantity,
-                        recipe.servingSize
-                      )} */}
                     </li>
                   ))}
                 </ul>
@@ -136,26 +144,17 @@ const RecipeJsonDetails = ({ recipeType }) => {
             // Affichage pour les recettes sans sections (ancienne méthode)
             <ul>
               {recipe.ingredients.map((ingredient, index) => (
-                // <li key={index}>
-                //   {ingredient.quantity} {ingredient.name}
-                // </li>
                 <li key={index}>
                   {adjustIngredientQuantity(
                     ingredient.quantity,
                     recipe.servingSize
                   )}{" "}
                   {ingredient.name}
-                  {/* {adjustIngredientQuantity(
-                    ingredient.quantity,
-                    recipe.servingSize
-                  )} */}
                 </li>
               ))}
             </ul>
           )}
-
           <StyledH2>Préparation</StyledH2>
-
           {/* Vérifier à nouveau si l'attribut "sections" existe pour les étapes */}
           {recipe.sections ? (
             recipe.sections.map((section, sectionIndex) => (

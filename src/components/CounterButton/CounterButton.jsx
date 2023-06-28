@@ -1,4 +1,3 @@
-// import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setNumberOfPeople } from "../../store/actions/recipeActions";
 import {
@@ -7,40 +6,26 @@ import {
   RightButton,
   CountDisplay,
 } from "./CounterButton.styled";
+import { useEffect } from "react";
 
-// const CounterButton = ({ setNumberOfGuests }) => {
-//   const [count, setCount] = useState(1);
-
-//   const increment = () => {
-//     setCount(count + 1);
-//     setNumberOfGuests(count + 1);
-//   };
-
-//   const decrement = () => {
-//     setCount(count - 1);
-//     setNumberOfGuests(count - 1);
-//   };
-
-//   return (
-//     <CounterContainer>
-//       <LeftButton onClick={decrement}>-</LeftButton>
-//       <CountDisplay>
-//         <span>{count}</span>
-//         <span>personnes</span>
-//       </CountDisplay>
-//       <RightButton onClick={increment}>+</RightButton>
-//     </CounterContainer>
-//   );
-// };
-// export default CounterButton;
-const CounterButton = () => {
+const CounterButton = ({ servingSize }) => {
   const dispatch = useDispatch();
   const numberOfPeople = useSelector((state) => state.recipes.numberOfPeople);
+
+  useEffect(() => {
+    if (!numberOfPeople) {
+      dispatch(setNumberOfPeople(parseInt(servingSize, 10)));
+    }
+  }, [servingSize, dispatch, numberOfPeople]);
 
   return (
     <CounterContainer>
       <LeftButton
-        onClick={() => dispatch(setNumberOfPeople(numberOfPeople - 1))}
+        onClick={() => {
+          if (numberOfPeople > 1) {
+            dispatch(setNumberOfPeople(numberOfPeople - 1));
+          }
+        }}
       >
         -
       </LeftButton>
