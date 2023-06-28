@@ -32,6 +32,10 @@ export const StyledH2 = styled.h2`
   margin: 30px 0px 20px;
 `;
 
+export const StyledH3 = styled.h3`
+  margin: 10px 0;
+`;
+
 export const ImageTextWrapper = styled.div`
   display: flex;
 `;

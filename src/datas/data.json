@@ -168,7 +168,7 @@
       "image": "/assets/salty-recipe/avocat-saumon-fume-en-verrines.jpeg",
       "name": "Verrines avocat et saumon fumé",
       "eventCategory": "party",
-      "servings": "4 verrines",
+      "servingSize": "4",
       "prepTime": "15 min",
       "cookTime": "0 min",
       "ingredients": [
@@ -202,7 +202,7 @@
       "image": "/assets/salty-recipe/saumon-papillotte.jpg",
       "name": "Saumon aux amandes",
       "eventCategory": null,
-      "servings": "4 personnes",
+      "servingSize": "4",
       "prepTime": "15 min",
       "cookTime": "15 min",
       "ingredients": [
@@ -212,7 +212,7 @@
         },
         {
           "name": "Beurre",
-          "quantity": "2 càc"
+          "quantity": "2 cc"
         },
         {
           "name": "Amandes effilées",
@@ -400,7 +400,7 @@
       "name": "Tisane de queues de cerises",
 
       "detailText": "Les queues de cerise possèdent de nombreuses vertus, notamment au niveau du transit intestinal. Elles permettent de drainer l’organisme et de le détoxifier, agissant comme un dépuratif naturel. La parfaite infusion pour retrouver un ventre plat ! Grâce à sa teneur en sels de potassium et polyphénols, la tisane aux queues de cerises permet aussi de lutter contre certaines affections urinaires.",
-      "servingSize": "500",
+      "servingSize": "2",
       "prepTime": "5 min",
       "cookTime": "5 min",
       "ingredients": [
@@ -456,16 +456,15 @@
           "quantity": "1"
         },
         {
-          "name": "Levure spéciale boulangerie",
-          "quantity": "Selon le paquet"
+          "name": "Levure spéciale boulangerie"
         },
         {
           "name": "Sel",
-          "quantity": "Selon le goût"
+          "quantity": "1 pincée"
         },
         {
           "name": "Sucre en grains",
-          "quantity": "Selon le goût"
+          "quantity": "1 CS"
         }
       ],
       "prepTime": "3 h 40 min",
@@ -517,7 +516,7 @@
         },
         {
           "name": "Levure chimique",
-          "quantity": "1 cac"
+          "quantity": "1 cc"
         },
         {
           "name": "Sel",
@@ -540,7 +539,7 @@
       "image": "/assets/sugar-recipe/crepes.jpg",
       "eventCategory": null,
       "category": ["dessert"],
-      "servingSize": "15 crêpes",
+      "servingSize": "4",
       "ingredients": [
         {
           "name": "Farine",
@@ -596,7 +595,7 @@
         },
         {
           "name": "Pruneaux dénoyautés",
-          "quantity": "Une douzaine"
+          "quantity": "12"
         }
       ],
       "prepTime": "10 min",
@@ -762,15 +761,15 @@
         },
         {
           "name": "Caramel liquide",
-          "quantity": "Selon le goût"
+          "quantity": "6 cc"
         },
         {
           "name": "Sucre",
           "quantity": "50g"
         },
         {
-          "name": "Gousse de vanille ou sucre vanillé",
-          "quantity": "1 gousse ou 2 sachets"
+          "name": "Sucre vanillé",
+          "quantity": "2 sachets"
         }
       ],
       "prepTime": "10 min",
@@ -815,7 +814,7 @@
         },
         {
           "name": "Caramel liquide",
-          "quantity": "Selon le goût"
+          "quantity": "4 cc"
         }
       ],
       "prepTime": "10 min",
@@ -854,7 +853,7 @@
         },
         {
           "name": "Levure",
-          "quantity": "1 càc"
+          "quantity": "1 cc"
         },
         {
           "name": "Jus et zeste de citrons",

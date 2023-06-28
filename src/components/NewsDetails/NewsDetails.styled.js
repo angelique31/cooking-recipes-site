@@ -20,6 +20,7 @@ export const StyledImage = styled.img`
   height: 286px;
   margin-top: 93px;
   margin-left: 60px;
+  background-color: #f0f0f0;
   @media screen and (max-width: 1158px) {
     margin: 63px auto 0 auto;
     display: block;

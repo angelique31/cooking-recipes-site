@@ -5,6 +5,7 @@ import NavBar from "../NavBar/NavBar.jsx";
 import {
   StyledH1,
   StyledH2,
+  StyledH3,
   ContentWrapper,
   StyledImage,
   ImageTextWrapper,
@@ -126,7 +127,7 @@ const RecipeJsonDetails = ({ recipeType }) => {
             // Affichage pour les recettes avec sections
             recipe.sections.map((section, sectionIndex) => (
               <div key={sectionIndex}>
-                <h3>{section.name}</h3>
+                <StyledH3>{section.name}</StyledH3>
                 <ul>
                   {section.ingredients.map((ingredient, index) => (
                     <li key={index}>
@@ -159,7 +160,7 @@ const RecipeJsonDetails = ({ recipeType }) => {
           {recipe.sections ? (
             recipe.sections.map((section, sectionIndex) => (
               <div key={sectionIndex}>
-                <h3>{section.name}</h3>
+                <StyledH3>{section.name}</StyledH3>
                 <ol>
                   {section.steps.map((step, index) => (
                     <li key={index}>
