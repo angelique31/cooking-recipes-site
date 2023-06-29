@@ -18,7 +18,7 @@ export const StyledImage = styled.img`
   object-fit: contain;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
   height: 286px;
-  margin-top: 93px;
+  margin-top: 105px;
   margin-left: 60px;
   background-color: #f0f0f0;
   @media screen and (max-width: 1158px) {
@@ -48,12 +48,13 @@ export const StyledH2 = styled.h2`
 export const FlexContainer = styled.div`
   display: flex;
   flex-direction: column;
+  margin-bottom: 50px;
 `;
 
 export const FlexDiv = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 30px 50px 50px 20px;
+  margin: 0 50px 0 50px;
 `;
 
 export const FlexItem = styled.div`
@@ -66,4 +67,5 @@ export const FlexItem = styled.div`
 export const StyledDivLineHeight = styled.div`
   line-height: 28px;
   text-align: justify;
+  margin: 0 50px 0 20px;
 `;

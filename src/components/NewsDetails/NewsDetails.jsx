@@ -33,30 +33,43 @@ const NewsDetails = () => {
       <StyledH1>{newsItem.name}</StyledH1>
       <FlexContainer>
         {newsItem.summaryTitle.map((title, index) => {
+          const currentText = newsItem.summaryText[index];
+
           if (index === 0) {
             return (
               <FlexItem key={index}>
                 <StyledImage src={newsItem.image} alt={newsItem.title} />
                 <StyleDiv>
                   <StyledH2>{title}</StyledH2>
-                  <p>{newsItem.summaryText[index]}</p>
+                  {/* Vérifier si currentText est un tableau et le traiter en conséquence */}
+                  {Array.isArray(currentText) ? (
+                    currentText.map((text, textIndex) => (
+                      <p key={textIndex}>{text}</p>
+                    ))
+                  ) : (
+                    <p>{currentText}</p>
+                  )}
                 </StyleDiv>
               </FlexItem>
             );
+          } else {
+            return (
+              <StyledDivLineHeight key={index}>
+                <StyledH2>{title}</StyledH2>
+                {/* Vérifier si currentText est un tableau et le traiter en conséquence */}
+                {Array.isArray(currentText) ? (
+                  currentText.map((text, textIndex) => (
+                    <p key={textIndex}>{text}</p>
+                  ))
+                ) : (
+                  <p>{currentText}</p>
+                )}
+              </StyledDivLineHeight>
+            );
           }
-          return null;
         })}
-        <FlexDiv>
-          {newsItem.summaryTitle.slice(1).map((nextTitle, nextIndex) => (
-            <StyledDivLineHeight key={nextIndex + 1}>
-              <StyledH2>{nextTitle}</StyledH2>
-              <p>{newsItem.summaryText[nextIndex + 1]}</p>
-            </StyledDivLineHeight>
-          ))}
-        </FlexDiv>
       </FlexContainer>
     </div>
   );
 };
-
 export default NewsDetails;

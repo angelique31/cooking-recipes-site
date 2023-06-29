@@ -199,7 +199,7 @@
     },
     {
       "id": "saumon_amandes",
-      "image": "/assets/salty-recipe/saumon-papillotte.jpg",
+      "image": "/assets/salty-recipe/saumon-papillotte_2.jpg",
       "name": "Saumon aux amandes",
       "eventCategory": null,
       "servingSize": "4",
@@ -350,6 +350,79 @@
       "summaryText": [
         "Il est important de prendre le temps de décongeler sa viande, avant cuisson, pour plusieurs raisons. En premier lieu, une viande congelée va prendre bien plus de temps à cuire et risque d'être mal cuite à l'intérieur. Si vous mettez une escalope de poulet congelée dans la poêle et que vous la retournez, vous risquez de cuire uniquement l'extérieur et vous retrouver avec une chair crue ou encore froide. De plus, le risque de contamination par les bactéries qu'elle contient est plus élevé.",
         "Cuire la viande lorsqu'elle est encore congelée peut provoquer une perte plus importante des jus naturels de la viande. Cela peut rendre la viande plus sèche et diminuer sa saveur."
+      ]
+    },
+    {
+      "id": "gourde",
+      "image": "/assets/newsCard/gourdes.jpg",
+      "name": "Mauvaises odeurs dans une gourde, comment s'en débarrasser?",
+      "summaryTitle": [
+        "Pourquoi est-il important de nettoyer sa gourde et à quelle fréquence faut-il le faire ?",
+        "Comment nettoyer sa gourde efficacement ?"
+      ],
+      "summaryText": [
+        [
+          "L'absence d'un nettoyage régulier de la gourde peut être nuisible à la santé, car les restes de boissons et les bactéries créent un environnement propice à la prolifération de germes et de moisissures, responsables des mauvaises odeurs. Consommer des liquides d'une gourde mal entretenue peut causer des troubles gastro-intestinaux et affecter le goût des boissons. Pour maintenir la gourde en bon état, il est conseillé de la laver tous les jours, de préférence après chaque utilisation, et de s'assurer qu'elle soit complètement sèche avant de la remplir à nouveau."
+        ],
+        [
+          "1. Démontez la gourde, en enlevant le bouchon, le bec verseur, et tout autre élément amovible.",
+          "2. Faites un prélavage avec de l'eau chaude et du savon en frottant l'intérieur et l'extérieur de la gourde et de ses pièces démontées avec une brosse ou une éponge.",
+          "3. Pour éliminer les odeurs tenaces, remplissez la gourde d'eau chaude avec du vinaigre blanc, du bicarbonate de soude, du jus de citron ou quelques gouttes d'huile essentielle, et laissez agir quelques heures avant de rincer.",
+          "4. Rincez la gourde à l'eau claire pour enlever les résidus de savon et des solutions odorantes.",
+          "5. Laissez toutes les parties de la gourde sécher complètement à l'air libre ou avec un chiffon propre, en portant une attention particulière aux joints et aux zones difficiles à atteindre pour éviter la croissance de moisissures."
+        ]
+      ]
+    },
+    {
+      "id": "ratatouille",
+      "image": "/assets/newsCard/ratatouille.jpg",
+      "name": "Astuces efficaces pour éviter que la ratatouille soit trop liquide",
+      "summaryTitle": [
+        "Astuce n°1 : Cuire les légumes en plusieurs temps",
+        "Astuce n°2 : Faire dégorger les légumes"
+      ],
+      "summaryText": [
+        "Pour préparer une ratatouille savoureuse sans que les légumes ne deviennent de la bouillie ou rendent trop d'eau, il est recommandé de les cuire séparément. Dans une poêle avec de l'huile d'olive, cuisez chaque type de légume jusqu'à ce qu'il atteigne la consistance désirée et que son eau se soit évaporée. Si nécessaire, égouttez-les après cuisson. Une fois que tous les légumes sont cuits individuellement, combinez-les dans la poêle. Ajoutez un peu d'huile d'olive, des herbes de Provence, du sel, et du poivre, puis faites cuire ensemble pendant quelques minutes. Cela vous permettra d'obtenir une ratatouille aux textures idéales et pleine de saveurs.",
+        "Pour prévenir l’excès d’eau dans la ratatouille provenant des légumes, il est astucieux de les faire dégorger. Après les avoir coupés, placez-les dans une passoire, saupoudrez-les de sel, et laissez-les reposer pendant au moins 30 minutes. Ensuite, utilisez du papier absorbant pour les essuyer. Il est judicieux de commencer par les légumes qui requièrent une cuisson plus longue comme l’aubergine, tandis que d'autres dégorgent. Pour les tomates, qui contiennent beaucoup d'eau, retirez les pépins avant de les ajouter à la ratatouille."
+      ]
+    },
+    {
+      "id": "repas_ete",
+      "image": "/assets/newsCard/eat_food.jpg",
+      "name": "Pourquoi a-t-on moins d'appétit quand il fait chaud ?",
+      "summaryTitle": [
+        "Pourquoi la chaleur diminue l’appétit en été ?",
+        "Que faire pour bien s’alimenter en été ?"
+      ],
+      "summaryText": [
+        "Durant les fortes chaleurs, le corps humain a tendance à être plus inactif et à conserver son énergie, car les activités et l’agitation peuvent augmenter la sensation de chaleur. En été, le corps n’a pas besoin de dépenser beaucoup d'énergie pour maintenir sa température interne, contrairement à l'hiver où il lutte pour se réchauffer. De ce fait, les besoins énergétiques diminuent et, par un mécanisme d'auto-régulation, l'appétit se réduit naturellement, ce qui rend les repas copieux moins attrayants. Ce phénomène est particulièrement notable chez les enfants, qui ont tendance à être moins actifs et donc à ressentir moins la faim lorsque les températures sont élevées.",
+        "Pour assurer un régime alimentaire équilibré sans carences pendant les jours chauds, optez pour des repas froids et rafraîchissants. Les salades variées, les crudités et les sandwichs froids sont d'excellentes options pour toute la famille. Pour satisfaire les enfants ou les amateurs de sucreries, envisagez des desserts glacés, comme la glace au yaourt et aux framboises fait maison.En outre, il est crucial de ne pas négliger l'hydratation. Consommer suffisamment d'eau est essentiel, surtout pendant les périodes de chaleur."
+      ]
+    },
+    {
+      "id": "cuisson_oeufs",
+      "image": "/assets/newsCard/oeufs.jpg",
+      "name": "Faut-il commencer la cuisson des œufs durs à l'eau froide ou dans l'eau bouillante?",
+      "summaryTitle": [
+        "Cuire l’œuf dur à l’eau chaude, une bonne méthode ?",
+        "Quels sont les avantage d’un départ à l’eau froide ?",
+        "A vous de choisir la méthode que vous préférez!"
+      ],
+      "summaryText": [
+        [
+          "Pour cuire des œufs durs sans risque de choc thermique, commencez par les laisser à température ambiante en les sortant du réfrigérateur une heure avant la cuisson.",
+          "Ensuite, portez de l’eau à ébullition dans une casserole. Utilisez une cuillère ou une écumoire pour y déposer les œufs délicatement, puis laissez-les cuire pendant environ 10 minutes.",
+          "Une fois la cuisson terminée, retirez la casserole du feu, extrayez les œufs et plongez-les dans un saladier d'eau froide pour les refroidir avant de les écaler.",
+          "L'avantage de cette méthode est que le temps de cuisson est facile à surveiller, car il démarre dès que les œufs sont immergés dans l'eau bouillante."
+        ],
+        [
+          "- Cette méthode consiste à cuire les œufs en les démarrant dans de l'eau froide, ce qui réduit les risques de brisures et de brûlures. Pour ce faire, placez les œufs dans une casserole et ajoutez suffisamment d'eau froide pour qu'ils soient entièrement submergés. Amenez l'eau à ébullition, puis réduisez la chaleur et laissez cuire pendant 9 à 10 minutes selon la taille des œufs.",
+          "- Cependant, cette méthode présente l’inconvénient de rendre difficile la détermination du moment exact pour commencer à chronométrer la cuisson : faut-il le faire dès que l'eau commence à frémir ou lorsqu'elle bout ? Ceci peut entraîner des œufs insuffisamment cuits ou trop cuits, ce qui peut rendre le blanc caoutchouteux et foncé.",
+          "- Pour éviter les erreurs, commencez à chronométrer dès que l'eau atteint l'ébullition, et veillez à ne pas cuire les œufs pendant plus de 10 minutes afin d'éviter la sur-cuisson."
+        ],
+        [
+          "A vous de choisir la méthode qui vous convient le mieux. Une fois bien maîtrisée, elle vous permettra d’obtenir des œufs cuits à la perfection !"
+        ]
       ]
     }
   ],
