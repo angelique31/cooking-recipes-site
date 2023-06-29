@@ -57,3 +57,21 @@ export const ItemWrapper = styled.div`
     min-width: 92%;
   }
 `;
+
+export const StyledDiv = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+
+export const StyledP = styled.p`
+  margin-right: 14px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: rgb(255, 66, 105);
+  cursor: pointer;
+`;
+
+export const ArrowImg = styled.img`
+  margin-left: 8px;
+`;

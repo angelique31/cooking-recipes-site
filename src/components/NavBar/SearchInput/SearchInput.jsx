@@ -8,7 +8,7 @@ import {
 } from "./SearchInput.styled.js";
 import SearchButton from "../SearchButton/SearchButton.jsx";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { setSearchValue } from "../../../store/actions/recipeActions.js";
 
@@ -16,6 +16,10 @@ import { useNavigate } from "react-router-dom";
 
 const SearchInput = ({ isRecipePage }) => {
   const [tempSearchValue, setTempSearchValue] = useState("");
+  const [placeholderText, setPlaceholderText] = useState(
+    "Je recherche une recette, un ingrédient ..."
+  );
+
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
@@ -36,6 +40,23 @@ const SearchInput = ({ isRecipePage }) => {
     }
   };
 
+  useEffect(() => {
+    const updatePlaceholder = () => {
+      if (window.matchMedia("(max-width: 420px)").matches) {
+        setPlaceholderText("Je recherche une recette ...");
+      } else {
+        setPlaceholderText("Je recherche une recette, un ingrédient ...");
+      }
+    };
+    // Listener pour les changements de la largeur de la fenêtre
+    window.addEventListener("resize", updatePlaceholder);
+    // Mise à jour initiale
+    updatePlaceholder();
+
+    // Nettoyage
+    return () => window.removeEventListener("resize", updatePlaceholder);
+  }, []);
+
   return (
     <StyledForm onSubmit={handleSubmit}>
       <SearchInputWrapper>
@@ -43,7 +64,7 @@ const SearchInput = ({ isRecipePage }) => {
           isRecipePage={isRecipePage}
           type="search"
           id="search_input"
-          placeholder="Je recherche une recette, un ingrédient ..."
+          placeholder={placeholderText}
           value={tempSearchValue}
           onChange={handleChange}
         />

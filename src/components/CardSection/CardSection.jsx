@@ -4,7 +4,11 @@ import {
   CommonSection,
   CommonCardsContainer,
   StyledH3,
+  StyledDiv,
+  StyledP,
+  ArrowImg,
 } from "../../assets/Styles/CommonStyles";
+import arrowRightIcon from "../../assets/Icons/arrowRightIcon.svg";
 
 /**
  * Cartes génériques des recettes de la page d'accueil
@@ -25,7 +29,16 @@ const Section = ({
   // console.log("linkTo in Section:", linkTo);
   return (
     <CommonSection>
-      <StyledH3>{name}</StyledH3>
+      <StyledDiv>
+        <StyledH3>{name}</StyledH3>
+        {/* <StyledP>
+          Voir plus <ArrowSpan className="arrow">&rarr;</ArrowSpan>
+        </StyledP> */}
+        <StyledP>
+          Voir plus
+          <ArrowImg src={arrowRightIcon} alt="Arrow right" />
+        </StyledP>
+      </StyledDiv>
       <CommonCardsContainer flexDisplay={flexDisplay}>
         {data.map((item) => (
           <RecipeCard

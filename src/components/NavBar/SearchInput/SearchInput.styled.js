@@ -32,7 +32,7 @@ export const StyledInput = styled.input`
   @media screen and (max-width: 556px) {
     font-size: 1rem;
     height: 40px;
-    padding-left: 29px;
+    padding-left: 10px;
   }
   ${(props) =>
     props.isRecipePage

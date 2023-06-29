@@ -17,7 +17,8 @@ export const RecipeList = styled.div`
   &.has-recipes {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 50px;
+    padding: 100px;
   }
 
   @media screen and (max-width: 845px) {
@@ -68,7 +69,7 @@ export const DeleteText = styled.span`
 `;
 
 export const PageTitle = styled.h1`
-  margin-left: 50px;
+  margin-left: 100px;
   margin-top: 50px;
 `;
 
@@ -94,7 +95,7 @@ export const NoRecipesMessage = styled.div`
   color: rgb(255, 66, 105);
   font-weight: 600;
   font-size: 1.5rem;
-
+  padding: 0 20px;
   span {
     display: block;
     opacity: 0;
