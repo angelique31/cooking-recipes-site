@@ -34,6 +34,7 @@ const RecipeArticleContainer = () => {
         name="Dernières actualités"
         linkTo="/news"
         showTitle={true}
+        enableCarousel={true}
       />
 
       <RecipeArticle
@@ -50,6 +51,7 @@ const RecipeArticleContainer = () => {
         name="Astuces anti-gaspi"
         linkTo="/special-recipes"
         showTitle={true}
+        enableCarousel={true}
       />
     </div>
   );

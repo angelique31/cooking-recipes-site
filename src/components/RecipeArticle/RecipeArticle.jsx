@@ -18,6 +18,7 @@ const RecipeArticle = ({
   section,
   flexDisplay = true,
   showTitle,
+  enableCarousel = false,
 }) => {
   return (
     <CardSection
@@ -27,6 +28,7 @@ const RecipeArticle = ({
       section={section}
       flexDisplay={flexDisplay}
       showTitle={showTitle}
+      enableCarousel={enableCarousel}
     />
   );
 };

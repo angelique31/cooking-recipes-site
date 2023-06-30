@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 
 import NavBar from "../NavBar/NavBar.jsx";
 import {
+  StyledDivH1,
   StyledH1,
   StyledH2,
   StyledH3,
@@ -11,10 +12,14 @@ import {
   ImageTextWrapper,
   ContentSection,
   ImageInfoWrapper,
+  StyledDiv,
+  ArrowImg,
 } from "./RecipeJsonDetails.styled";
 import RecipeButton from "../RecipeButton/RecipeButton.jsx";
 import CounterButton from "../CounterButton/CounterButton.jsx";
 import RecipeInfoBox from "../RecipeInfoBox/RecipeInfoBox.jsx";
+
+import arrowLeftIcon from "../../assets/Icons/arrowLeftIcon.svg";
 
 import PropTypes from "prop-types";
 
@@ -104,9 +109,12 @@ const RecipeJsonDetails = ({ recipeType }) => {
   return (
     <div>
       <NavBar isRecipePage={true} />
-      <div>
-        <StyledH1>{recipe.name}</StyledH1>
-      </div>
+      <StyledDiv>
+        <StyledDivH1>
+          <StyledH1>{recipe.name}</StyledH1>
+        </StyledDivH1>
+        <ArrowImg src={arrowLeftIcon} alt="Left arrow" />
+      </StyledDiv>
       <ContentWrapper>
         <ImageInfoWrapper>
           <ImageTextWrapper>

@@ -1,22 +1,21 @@
+import { useState } from "react";
 import PropTypes from "prop-types";
 import RecipeCard from "../RecipeCard/RecipeCard";
 import {
   CommonSection,
   CommonCardsContainer,
-  StyledH3,
+  DynamicStyledH3,
   StyledDiv,
-  StyledP,
-  ArrowImg,
+  ArrowContainer,
+  CenteredContainer,
+  ArrowImgLargeScreen,
+  ArrowImgSmallScreen,
+  ArrowLeftSmallScreen,
+  ArrowRightSmallScreen,
 } from "../../assets/Styles/CommonStyles";
-import arrowRightIcon from "../../assets/Icons/arrowRightIcon.svg";
 
-/**
- * Cartes génériques des recettes de la page d'accueil
- *
- * @param {object[]} data - Les données.
- * @param {string} name - Le titre de la section.
- * @param {string} linkTo - Lien de redirection pour chaque carte.
- */
+import arrowCarouselLeft from "../../assets/Icons/arrowCarouselLeft.svg";
+import arrowCarouselRight from "../../assets/Icons/arrowCarouselRight.svg";
 
 const Section = ({
   data,
@@ -25,30 +24,79 @@ const Section = ({
   section,
   flexDisplay = true,
   showTitle,
+  enableCarousel = false,
 }) => {
-  // console.log("linkTo in Section:", linkTo);
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const handlePrev = () => {
+    setCurrentIndex((oldIndex) => Math.max(oldIndex - 1, 0));
+  };
+
+  const handleNext = () => {
+    setCurrentIndex((oldIndex) => Math.min(oldIndex + 1, data.length - 3)); // 3 étant le nombre de cartes affichées
+  };
+
   return (
     <CommonSection>
       <StyledDiv>
-        <StyledH3>{name}</StyledH3>
-        {/* <StyledP>
-          Voir plus <ArrowSpan className="arrow">&rarr;</ArrowSpan>
-        </StyledP> */}
-        <StyledP>
-          Voir plus
-          <ArrowImg src={arrowRightIcon} alt="Arrow right" />
-        </StyledP>
+        <DynamicStyledH3 arrowVisible={enableCarousel && currentIndex > 0}>
+          {name}
+        </DynamicStyledH3>
       </StyledDiv>
-      <CommonCardsContainer flexDisplay={flexDisplay}>
-        {data.map((item) => (
-          <RecipeCard
-            key={item.id}
-            item={item}
-            linkTo={linkTo}
-            showTitle={showTitle}
+      <CenteredContainer>
+        {enableCarousel && currentIndex > 0 && (
+          <ArrowImgLargeScreen
+            src={arrowCarouselLeft}
+            alt="Left arrow"
+            onClick={handlePrev}
           />
-        ))}
-      </CommonCardsContainer>
+        )}
+        <CommonCardsContainer flexDisplay={flexDisplay}>
+          {enableCarousel
+            ? data
+                .slice(currentIndex, currentIndex + 3)
+                .map((item) => (
+                  <RecipeCard
+                    key={item.id}
+                    item={item}
+                    linkTo={linkTo}
+                    showTitle={showTitle}
+                  />
+                ))
+            : data.map((item) => (
+                <RecipeCard
+                  key={item.id}
+                  item={item}
+                  linkTo={linkTo}
+                  showTitle={showTitle}
+                />
+              ))}
+        </CommonCardsContainer>
+        {enableCarousel && currentIndex < data.length - 3 && (
+          <ArrowImgLargeScreen
+            src={arrowCarouselRight}
+            alt="Right arrow"
+            onClick={handleNext}
+          />
+        )}
+        <ArrowContainer>
+          {/* Ici, ajoutez les flèches pour les petits écrans */}
+          {enableCarousel && currentIndex > 0 && (
+            <ArrowLeftSmallScreen
+              src={arrowCarouselLeft}
+              alt="Left arrow"
+              onClick={handlePrev}
+            />
+          )}
+          {enableCarousel && currentIndex < data.length - 3 && (
+            <ArrowRightSmallScreen
+              src={arrowCarouselRight}
+              alt="Right arrow"
+              onClick={handleNext}
+            />
+          )}
+        </ArrowContainer>
+      </CenteredContainer>
     </CommonSection>
   );
 };
@@ -66,5 +114,4 @@ Section.propTypes = {
   flexDisplay: PropTypes.bool,
   showTitle: PropTypes.bool,
 };
-
 export default Section;

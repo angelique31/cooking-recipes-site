@@ -492,6 +492,111 @@
         "Couvrez et laissez infuser 5 bonnes min.",
         "Filtrez et dégustez pour profiter de tous les bienfaits de cette boisson "
       ]
+    },
+    {
+      "id": "epluchures-pomme",
+      "image": "/assets/antiWasteTips/epluchures-pomme.jpg",
+      "name": "Chips d'épluchures de pomme",
+
+      "detailText": "Ne jetez plus vos épluchures de pomme! Transformez-les en délicieux chips croustillants. C'est une collation saine et sans gaspillage, parfaite pour grignoter sans culpabilité.",
+
+      "servingSize": "2",
+      "prepTime": "10 min",
+      "cookTime": "2 heures",
+      "ingredients": [
+        {
+          "name": "pommes",
+          "quantity": "4"
+        },
+        {
+          "name": "sucre en poudre",
+          "quantity": "2 CS"
+        },
+        {
+          "name": "cannelle en poudre",
+          "quantity": "1 cc"
+        }
+      ],
+
+      "steps": [
+        "Préchauffez votre four à 110°C (Th. 1/4).",
+        "Mélangez le sucre en poudre et la cannelle dans un petit bol.",
+        "Placez les épluchures de pomme sur une plaque de cuisson recouverte de papier sulfurisé.",
+        "Saupoudrez les épluchures de pomme avec le mélange de sucre et de cannelle.",
+        "Enfournez pendant environ 2 heures, ou jusqu'à ce que les épluchures soient croustillantes.",
+        "Laissez-les refroidir avant de les déguster."
+      ]
+    },
+    {
+      "id": "marc-cafe",
+      "image": "/assets/antiWasteTips/marc-cafe-gommage.jpg",
+      "name": "Gommage pour le corps au marc de café",
+
+      "detailText": "Le marc de café peut être utilisé comme un excellent exfoliant naturel pour le corps. Il aide à éliminer les cellules mortes de la peau, améliore la circulation et laisse la peau douce et lisse.",
+
+      "servingSize": "1",
+      "prepTime": "5 min",
+      "cookTime": "0 min",
+      "ingredients": [
+        {
+          "name": "Marc de café",
+          "quantity": "1 tasse"
+        },
+        {
+          "name": "Huile de coco",
+          "quantity": "1/4 tasse"
+        },
+        {
+          "name": "Sucre",
+          "quantity": "2 cuillères à soupe"
+        }
+      ],
+
+      "steps": [
+        "Mélangez le marc de café, l'huile de coco et le sucre dans un bol jusqu'à obtenir une pâte homogène.",
+        "Sous la douche, appliquez le gommage sur votre peau en effectuant des mouvements circulaires.",
+        "Rincez abondamment à l'eau tiède.",
+        "Séchez votre peau en la tamponnant doucement avec une serviette."
+      ]
+    },
+    {
+      "id": "bouillon-epeluchures",
+      "image": "/assets/antiWasteTips/bouillon-epluchures.jpg",
+      "name": "Bouillon de légumes avec épluchures",
+
+      "detailText": "Utilisez les épluchures et restes de légumes pour préparer un bouillon maison savoureux. Cela inclut les bouts de carottes, les tiges de céleri, les peaux d'oignon, etc.",
+
+      "servingSize": "4",
+      "prepTime": "10 min",
+      "cookTime": "1 heure",
+      "ingredients": [
+        {
+          "name": "épluchures et restes de légumes",
+          "quantity": "2 tasses"
+        },
+        {
+          "name": "eau",
+          "quantity": "6 tasses"
+        },
+        {
+          "name": "Sel",
+          "quantity": "1 pincée"
+        },
+        {
+          "name": "Poivre",
+          "quantity": "1 pincée"
+        }
+      ],
+
+      "steps": [
+        "Laver avec une brosse les légumes.",
+        "Les éplucher puis ettez les épluchures et les restes de légumes dans une grande casserole.",
+        "Ajoutez l'eau.",
+        "Portez à ébullition, puis réduisez le feu et laissez mijoter pendant 1 heure.",
+        "Filtrez le bouillon à travers une passoire fine et assaisonnez avec du sel et du poivre.",
+        "Utilisez-le comme base pour des soupes ou des ragoûts, ou congelez-le pour une utilisation ultérieure.",
+        "Astuce : Si on cuit les ingrédients, départ au froide, ils donneront tous leurs nutriments au bouillon. Il est donc préférable de mettre les ingrédients dans l’eau froide."
+      ]
     }
   ],
 
