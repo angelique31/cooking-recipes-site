@@ -33,6 +33,34 @@ export const CommonCardsContainer = styled.div`
   }
 `;
 
+export const ArrowRightContainer = styled.div`
+  @media screen and (max-width: 686px) {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+`;
+
+export const ArrowLeftContainer = styled.div`
+  @media screen and (max-width: 686px) {
+    display: block;
+    position: absolute;
+    left: 15px; // Utilisez "left" pour positionner la flèche de gauche
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+`;
+
+export const CenteredContainer = styled.div`
+  display: flex;
+  align-items: center;
+  position: relative;
+`;
+
 export const StyledH3 = styled.h3`
   margin-left: 9px;
 `;
@@ -80,62 +108,18 @@ export const ArrowImg = styled.img`
   padding: 10px;
   cursor: pointer;
   @media screen and (max-width: 686px) {
-    margin-top: 10px; // Ajoute un peu d'espace entre la flèche et les cartes
+    margin-top: 10px;
+    color: white;
   }
 `;
 
-export const CenteredContainer = styled.div`
-  display: flex;
-  align-items: center;
-  @media screen and (max-width: 686px) {
-    flex-direction: column-reverse; // Change la direction de flex à la colonne en inversant l'ordre
-  }
-`;
+// export const CenteredContainer = styled.div`
+//   display: flex;
+//   align-items: center;
+// `;
 
 export const Placeholder = styled.div`
   width= 20px; 
   height= 28px;
   flex-shrink: 0;
-`;
-
-export const ArrowImgLargeScreen = styled.img`
-  padding: 10px;
-  cursor: pointer;
-
-  @media screen and (max-width: 686px) {
-    display: none; // Cache les flèches sur les petits écrans
-  }
-`;
-
-export const ArrowImgSmallScreen = styled.img`
-  display: none; // Cache par défaut les flèches sur les grands écrans
-  padding: 10px;
-  cursor: pointer;
-
-  @media screen and (max-width: 686px) {
-    display: inline-block; // Montre les flèches sur les petits écrans
-    margin-top: 10px; // Ajoute un peu d'espace entre la flèche et les cartes
-  }
-`;
-
-export const ArrowContainer = styled.div`
-  display: none; // Cache par défaut le conteneur de flèches
-
-  @media screen and (max-width: 686px) {
-    display: flex; // Montre le conteneur de flèches sur les petits écrans
-    justify-content: center;
-    margin-top: 10px;
-  }
-`;
-
-export const ArrowLeftSmallScreen = styled(ArrowImgSmallScreen)`
-  @media screen and (max-width: 686px) {
-    margin-right: 20px; // Ajoute une marge à droite de la flèche gauche
-  }
-`;
-
-export const ArrowRightSmallScreen = styled(ArrowImgSmallScreen)`
-  @media screen and (max-width: 686px) {
-    margin-right: 20px; // Ajoute une marge à droite de la flèche gauche
-  }
 `;
