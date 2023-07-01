@@ -18,7 +18,7 @@ export const RecipeList = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
-    padding: 100px;
+    padding: 30px 100px 100px 50px;
   }
 
   @media screen and (max-width: 845px) {
