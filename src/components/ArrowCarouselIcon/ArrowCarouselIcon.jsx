@@ -1,6 +1,6 @@
 import React from "react";
 
-const ArrowIcon = ({ color, direction = "right", ...props }) => {
+const ArrowCarouselIcon = ({ color, direction = "right", ...props }) => {
   const transform =
     direction === "left" ? "scale(-1, 1) translate(-30, 0)" : "";
 
@@ -23,4 +23,4 @@ const ArrowIcon = ({ color, direction = "right", ...props }) => {
   );
 };
 
-export default ArrowIcon;
+export default ArrowCarouselIcon;

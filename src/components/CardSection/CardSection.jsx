@@ -7,14 +7,20 @@ import {
   DynamicStyledH3,
   StyledDiv,
   CenteredContainer,
-  ArrowImg,
   ArrowRightContainer,
   ArrowLeftContainer,
 } from "../../assets/Styles/CommonStyles";
 
-import arrowCarouselLeft from "../../assets/Icons/arrowCarouselLeft.svg";
-import arrowCarouselRight from "../../assets/Icons/arrowCarouselRight.svg";
-import ArrowIcon from "../ArrowIcon/ArrowIcon";
+import ArrowCarouselIcon from "../ArrowCarouselIcon/ArrowCarouselIcon";
+
+import { useSelector, useDispatch } from "react-redux";
+
+import {
+  incrementCurrentIndex,
+  decrementCurrentIndex,
+} from "../../store/actions/recipeActions";
+
+import SwipeableContainer from "../SwipeableContainer/SwipeableContainer";
 
 const Section = ({
   data,
@@ -26,6 +32,10 @@ const Section = ({
   enableCarousel = false,
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  // const dispatch = useDispatch();
+  // const currentIndex = useSelector((state) => state.currentIndex);
+  // const currentIndex = useSelector((state) => state.recipe.currentIndex);
+
   const [cardsToShow, setCardsToShow] = useState(
     window.innerWidth > 1190 ? 3 : window.innerWidth > 686 ? 2 : 1
   );
@@ -55,6 +65,15 @@ const Section = ({
     );
   };
 
+  // const handlePrev = () => {
+  //   console.log("Dispatching increment action");
+  //   dispatch(decrementCurrentIndex());
+  // };
+
+  // const handleNext = () => {
+  //   dispatch(incrementCurrentIndex());
+  // };
+
   const isMobile = window.innerWidth <= 686;
 
   return (
@@ -67,47 +86,46 @@ const Section = ({
 
       <CenteredContainer>
         {enableCarousel && currentIndex > 0 && (
-          <ArrowLeftContainer>
-            <ArrowIcon
-              // src={arrowCarouselLeft}
-              // color={isMobile ? "white" : "rgb(255, 66, 105)"}
+          <ArrowLeftContainer onClick={handlePrev}>
+            <ArrowCarouselIcon
               color={isMobile ? "white" : "rgb(255, 66, 105)"}
               direction="left"
               alt="Left arrow"
-              onClick={handlePrev}
+              // onClick={handlePrev}
             />
           </ArrowLeftContainer>
         )}
-        <CommonCardsContainer flexDisplay={flexDisplay}>
-          {enableCarousel
-            ? data
-                .slice(currentIndex, currentIndex + cardsToShow)
-                .map((item) => (
+        {/* <SwipeableContainer> */}
+        <SwipeableContainer onSwipeLeft={handleNext} onSwipeRight={handlePrev}>
+          <CommonCardsContainer flexDisplay={flexDisplay}>
+            {enableCarousel
+              ? data
+                  .slice(currentIndex, currentIndex + cardsToShow)
+                  .map((item) => (
+                    <RecipeCard
+                      key={item.id}
+                      item={item}
+                      linkTo={linkTo}
+                      showTitle={showTitle}
+                    />
+                  ))
+              : data.map((item) => (
                   <RecipeCard
                     key={item.id}
                     item={item}
                     linkTo={linkTo}
                     showTitle={showTitle}
                   />
-                ))
-            : data.map((item) => (
-                <RecipeCard
-                  key={item.id}
-                  item={item}
-                  linkTo={linkTo}
-                  showTitle={showTitle}
-                />
-              ))}
-        </CommonCardsContainer>
+                ))}
+          </CommonCardsContainer>
+        </SwipeableContainer>
         {enableCarousel && currentIndex < data.length - cardsToShow && (
-          <ArrowRightContainer>
-            <ArrowIcon
+          <ArrowRightContainer onClick={handleNext}>
+            <ArrowCarouselIcon
               color={isMobile ? "white" : "rgb(255, 66, 105)"}
               direction="right"
-              // src={arrowCarouselRight}
-
               alt="Right arrow"
-              onClick={handleNext}
+              // onClick={handleNext}
             />
           </ArrowRightContainer>
         )}
