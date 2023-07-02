@@ -29,7 +29,6 @@ const NewsDetails = () => {
   return (
     <div>
       <NavBar />
-      {/* <StyledH1>{newsItem.name}</StyledH1> */}
       <HeaderWithBackButton recipeName={newsItem.name} />
       <FlexContainer>
         {newsItem.summaryTitle.map((title, index) => {

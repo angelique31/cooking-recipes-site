@@ -9,6 +9,7 @@ import {
 import { useLocation } from "react-router-dom";
 import PropTypes from "prop-types";
 import NotBookButton from "../NoteBookButton/NoteBookButton";
+import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
 
 const NavBar = () => {
   const [lastScrollTop, setLastScrollTop] = useState(0);
@@ -46,6 +47,7 @@ const NavBar = () => {
     >
       <LogoAndButtonWrapper>
         <LogoItem isRecipePage={shouldModifyNavBar} />
+        <HamburgerMenu />
         <NotBookButton />
       </LogoAndButtonWrapper>
       <NavBarWrapper isRecipePage={shouldModifyNavBar}>
