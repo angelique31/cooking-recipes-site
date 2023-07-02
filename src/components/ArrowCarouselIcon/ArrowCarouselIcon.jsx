@@ -1,5 +1,3 @@
-import React from "react";
-
 const ArrowCarouselIcon = ({ color, direction = "right", ...props }) => {
   const transform =
     direction === "left" ? "scale(-1, 1) translate(-30, 0)" : "";
@@ -11,6 +9,7 @@ const ArrowCarouselIcon = ({ color, direction = "right", ...props }) => {
       viewBox="0 0 30 48"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      style={{ cursor: "pointer" }}
       {...props}
     >
       <g transform={transform}>

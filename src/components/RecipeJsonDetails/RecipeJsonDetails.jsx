@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import NavBar from "../NavBar/NavBar.jsx";
 import {
@@ -29,6 +30,7 @@ import { setNumberOfPeople } from "../../store/actions/recipeActions.js";
 
 const RecipeJsonDetails = ({ recipeType }) => {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const { recipeId } = useParams();
   const [recipe, setRecipe] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -106,6 +108,10 @@ const RecipeJsonDetails = ({ recipeType }) => {
     return <h2>Recette non trouvée</h2>;
   }
 
+  const handleArrowClick = () => {
+    navigate(-1); // Cela ramènera l'utilisateur à la page précédente
+  };
+
   return (
     <div>
       <NavBar isRecipePage={true} />
@@ -113,7 +119,11 @@ const RecipeJsonDetails = ({ recipeType }) => {
         <StyledDivH1>
           <StyledH1>{recipe.name}</StyledH1>
         </StyledDivH1>
-        <ArrowImg src={arrowLeftIcon} alt="Left arrow" />
+        <ArrowImg
+          src={arrowLeftIcon}
+          alt="Left arrow"
+          onClick={handleArrowClick}
+        />
       </StyledDiv>
       <ContentWrapper>
         <ImageInfoWrapper>

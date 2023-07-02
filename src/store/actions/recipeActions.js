@@ -6,10 +6,6 @@ export const DELETE_RECIPE = "DELETE_RECIPE";
 export const TOGGLE_SAVED_STATUS = "TOGGLE_SAVED_STATUS";
 export const SET_NUMBER_OF_PEOPLE = "SET_NUMBER_OF_PEOPLE";
 
-//gestion du défilement des cartes avec le doigt :
-export const INCREMENT_CURRENT_INDEX = "INCREMENT_CURRENT_INDEX";
-export const DECREMENT_CURRENT_INDEX = "DECREMENT_CURRENT_INDEX";
-
 export const setSearchValue = (value) => {
   return {
     type: SET_SEARCH_VALUE,
@@ -62,18 +58,5 @@ export const setNumberOfPeople = (number) => {
   return {
     type: SET_NUMBER_OF_PEOPLE,
     payload: number,
-  };
-};
-
-//gestion du défilement des cartes avec le doigt :
-export const incrementCurrentIndex = () => {
-  return {
-    type: INCREMENT_CURRENT_INDEX,
-  };
-};
-
-export const decrementCurrentIndex = () => {
-  return {
-    type: DECREMENT_CURRENT_INDEX,
   };
 };

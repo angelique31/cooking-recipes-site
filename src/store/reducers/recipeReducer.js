@@ -6,8 +6,6 @@ import {
   DELETE_RECIPE,
   TOGGLE_SAVED_STATUS,
   SET_NUMBER_OF_PEOPLE,
-  INCREMENT_CURRENT_INDEX,
-  DECREMENT_CURRENT_INDEX,
 } from "../actions/recipeActions";
 
 export const RESET_SEARCH_VALUE = "RESET_SEARCH_VALUE";
@@ -17,7 +15,7 @@ const initialState = {
   recipeData: [],
   savedRecipes: [],
   numberOfPeople: 1, //l'état initial du nombre de personnes.
-  currentIndex: 0,
+  // currentIndex: 0,
 };
 
 const recipeReducer = (state = initialState, action) => {
@@ -73,17 +71,6 @@ const recipeReducer = (state = initialState, action) => {
       return {
         ...state,
         numberOfPeople: action.payload,
-      };
-    case INCREMENT_CURRENT_INDEX:
-      console.log("Incrementing currentIndex");
-      return {
-        ...state,
-        currentIndex: state.currentIndex + 1,
-      };
-    case DECREMENT_CURRENT_INDEX:
-      return {
-        ...state,
-        currentIndex: Math.max(state.currentIndex - 1, 0),
       };
     default:
       return state;

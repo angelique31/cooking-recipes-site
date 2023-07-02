@@ -13,13 +13,6 @@ import {
 
 import ArrowCarouselIcon from "../ArrowCarouselIcon/ArrowCarouselIcon";
 
-import { useSelector, useDispatch } from "react-redux";
-
-import {
-  incrementCurrentIndex,
-  decrementCurrentIndex,
-} from "../../store/actions/recipeActions";
-
 import SwipeableContainer from "../SwipeableContainer/SwipeableContainer";
 
 const Section = ({
@@ -32,9 +25,6 @@ const Section = ({
   enableCarousel = false,
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  // const dispatch = useDispatch();
-  // const currentIndex = useSelector((state) => state.currentIndex);
-  // const currentIndex = useSelector((state) => state.recipe.currentIndex);
 
   const [cardsToShow, setCardsToShow] = useState(
     window.innerWidth > 1190 ? 3 : window.innerWidth > 686 ? 2 : 1
@@ -56,23 +46,16 @@ const Section = ({
   }, []);
 
   const handlePrev = () => {
+    event.stopPropagation();
     setCurrentIndex((oldIndex) => Math.max(oldIndex - 1, 0));
   };
 
   const handleNext = () => {
+    event.stopPropagation();
     setCurrentIndex((oldIndex) =>
       Math.min(oldIndex + 1, data.length - cardsToShow)
     );
   };
-
-  // const handlePrev = () => {
-  //   console.log("Dispatching increment action");
-  //   dispatch(decrementCurrentIndex());
-  // };
-
-  // const handleNext = () => {
-  //   dispatch(incrementCurrentIndex());
-  // };
 
   const isMobile = window.innerWidth <= 686;
 
@@ -86,16 +69,16 @@ const Section = ({
 
       <CenteredContainer>
         {enableCarousel && currentIndex > 0 && (
-          <ArrowLeftContainer onClick={handlePrev}>
+          // <ArrowLeftContainer onClick={handlePrev}>
+          <ArrowLeftContainer onClick={(event) => handlePrev(event)}>
             <ArrowCarouselIcon
               color={isMobile ? "white" : "rgb(255, 66, 105)"}
               direction="left"
               alt="Left arrow"
-              // onClick={handlePrev}
             />
           </ArrowLeftContainer>
         )}
-        {/* <SwipeableContainer> */}
+
         <SwipeableContainer onSwipeLeft={handleNext} onSwipeRight={handlePrev}>
           <CommonCardsContainer flexDisplay={flexDisplay}>
             {enableCarousel
@@ -120,12 +103,12 @@ const Section = ({
           </CommonCardsContainer>
         </SwipeableContainer>
         {enableCarousel && currentIndex < data.length - cardsToShow && (
-          <ArrowRightContainer onClick={handleNext}>
+          // <ArrowRightContainer onClick={handleNext}>
+          <ArrowRightContainer onClick={(event) => handleNext(event)}>
             <ArrowCarouselIcon
               color={isMobile ? "white" : "rgb(255, 66, 105)"}
               direction="right"
               alt="Right arrow"
-              // onClick={handleNext}
             />
           </ArrowRightContainer>
         )}
