@@ -1,13 +1,5 @@
 import styled from "styled-components";
 
-export const StyledDivH1 = styled.div`
-  text-align: center;
-  margin: 170px 0 50px 0;
-  @media screen and (max-width: 900px) {
-    font-size: 1.7rem;
-  }
-`;
-
 export const ContentWrapper = styled.div`
   margin: 30px 50px 50px 20px;
   line-height: 28px;
@@ -26,21 +18,6 @@ export const StyledImage = styled.img`
   margin: 0 0 50px 0;
   @media screen and (max-width: 900px) {
     height: 300px;
-  }
-`;
-
-export const StyledH1 = styled.h1`
-  font-size: 1.7rem;
-  @media screen and (max-width: 900px) {
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-    @media screen and (max-width: 611px) {
-      width: 60%;
-    }
-    @media screen and (max-width: 485px) {
-      width: 70%;
-    }
   }
 `;
 
@@ -84,24 +61,5 @@ export const ImageInfoWrapper = styled.div`
   @media screen and (max-width: 670px) {
     margin: 0 auto;
     max-width: calc(100% - 20px); /* Empêcher le débordement horizontal */
-  }
-`;
-
-export const StyledDiv = styled.div`
-  position: relative;
-`;
-
-export const ArrowImg = styled.img`
-  position: absolute;
-  top: 2px;
-  left: 100px;
-  @media screen and (max-width: 900px) {
-    top: 0;
-  }
-  @media screen and (max-width: 611px) {
-    left: 50px;
-  }
-  @media screen and (max-width: 485px) {
-    left: 10px;
   }
 `;

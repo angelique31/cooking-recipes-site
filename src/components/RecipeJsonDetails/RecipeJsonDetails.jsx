@@ -1,11 +1,8 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
 
 import NavBar from "../NavBar/NavBar.jsx";
 import {
-  StyledDivH1,
-  StyledH1,
   StyledH2,
   StyledH3,
   ContentWrapper,
@@ -13,24 +10,20 @@ import {
   ImageTextWrapper,
   ContentSection,
   ImageInfoWrapper,
-  StyledDiv,
-  ArrowImg,
 } from "./RecipeJsonDetails.styled";
 import RecipeButton from "../RecipeButton/RecipeButton.jsx";
 import CounterButton from "../CounterButton/CounterButton.jsx";
 import RecipeInfoBox from "../RecipeInfoBox/RecipeInfoBox.jsx";
-
-import arrowLeftIcon from "../../assets/Icons/arrowLeftIcon.svg";
 
 import PropTypes from "prop-types";
 
 import { useSelector, useDispatch } from "react-redux";
 
 import { setNumberOfPeople } from "../../store/actions/recipeActions.js";
+import HeaderWithBackButton from "../HeaderWithBackButton/HeaderWithBackButton.jsx";
 
 const RecipeJsonDetails = ({ recipeType }) => {
   const dispatch = useDispatch();
-  const navigate = useNavigate();
   const { recipeId } = useParams();
   const [recipe, setRecipe] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -108,23 +101,10 @@ const RecipeJsonDetails = ({ recipeType }) => {
     return <h2>Recette non trouvée</h2>;
   }
 
-  const handleArrowClick = () => {
-    navigate(-1); // Cela ramènera l'utilisateur à la page précédente
-  };
-
   return (
     <div>
       <NavBar isRecipePage={true} />
-      <StyledDiv>
-        <StyledDivH1>
-          <StyledH1>{recipe.name}</StyledH1>
-        </StyledDivH1>
-        <ArrowImg
-          src={arrowLeftIcon}
-          alt="Left arrow"
-          onClick={handleArrowClick}
-        />
-      </StyledDiv>
+      <HeaderWithBackButton recipeName={recipe.name} />
       <ContentWrapper>
         <ImageInfoWrapper>
           <ImageTextWrapper>

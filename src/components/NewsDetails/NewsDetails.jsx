@@ -3,15 +3,14 @@ import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import {
   StyledImage,
-  StyledH1,
   StyledH2,
   StyleDiv,
   FlexContainer,
-  FlexDiv,
   FlexItem,
   StyledDivLineHeight,
 } from "./NewsDetails.styled.js";
 import NavBar from "../NavBar/NavBar.jsx";
+import HeaderWithBackButton from "../HeaderWithBackButton/HeaderWithBackButton.jsx";
 
 const NewsDetails = () => {
   const { newsId } = useParams();
@@ -30,7 +29,8 @@ const NewsDetails = () => {
   return (
     <div>
       <NavBar />
-      <StyledH1>{newsItem.name}</StyledH1>
+      {/* <StyledH1>{newsItem.name}</StyledH1> */}
+      <HeaderWithBackButton recipeName={newsItem.name} />
       <FlexContainer>
         {newsItem.summaryTitle.map((title, index) => {
           const currentText = newsItem.summaryText[index];
