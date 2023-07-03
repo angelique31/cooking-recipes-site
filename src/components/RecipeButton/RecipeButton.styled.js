@@ -29,3 +29,10 @@ export const ModifiedButton = styled(SearchButton)`
     display: none;
   }
 `;
+
+export const MyRecipesButton = styled(ModifiedButton)`
+  @media screen and (max-width: 600px) {
+    display: flex;
+    align-items: center;
+  }
+`;

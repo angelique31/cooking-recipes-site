@@ -23,6 +23,7 @@ export const MobileNavMenu = styled.div`
   @media screen and (max-width: 600px) {
     display: block;
     animation: ${slideInFromRight} 0.3s ease-out;
+    z-index: 20;
   }
 `;
 
@@ -77,7 +78,7 @@ export const Bar = styled.div``;
 
 export const MobileNavLink = styled(Link)`
   display: block;
-  padding: 12px 16px;
+  padding: 22px 16px;
   text-decoration: none;
   text-align: right;
   color: rgb(255, 66, 105);

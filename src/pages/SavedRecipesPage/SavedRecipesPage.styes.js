@@ -24,6 +24,7 @@ export const RecipeList = styled.div`
   @media screen and (max-width: 845px) {
     &.has-recipes {
       grid-template-columns: repeat(1, 1fr);
+      padding: 30px 100px 100px 30px;
     }
   }
 `;

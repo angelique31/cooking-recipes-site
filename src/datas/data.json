@@ -1424,7 +1424,7 @@
         },
         {
           "name": "Sel",
-          "quantity": "quantité suffisante"
+          "quantity": "1 pincée"
         }
       ],
       "prepTime": "20 min",
@@ -1457,7 +1457,7 @@
         },
         {
           "name": "Guanciale (joue de porc) ou pancetta",
-          "quantity": "Quantité suffisante"
+          "quantity": "200g"
         },
         {
           "name": "Jaunes d'œufs",
@@ -1469,7 +1469,7 @@
         },
         {
           "name": "Poivre",
-          "quantity": "Quantité suffisante"
+          "quantity": "1 cac"
         }
       ],
       "prepTime": "5 min",
@@ -1527,11 +1527,11 @@
         },
         {
           "name": "Sel",
-          "quantity": "Quantité suffisante"
+          "quantity": "1 pincée"
         },
         {
           "name": "Poivre",
-          "quantity": "Quantité suffisante"
+          "quantity": "1 pincée"
         }
       ],
       "prepTime": "5 min",
