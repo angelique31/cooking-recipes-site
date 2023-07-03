@@ -19,6 +19,7 @@ const RecipeArticle = ({
   flexDisplay = true,
   showTitle,
   enableCarousel = false,
+  showHeartButton = false,
 }) => {
   return (
     <CardSection
@@ -29,6 +30,7 @@ const RecipeArticle = ({
       flexDisplay={flexDisplay}
       showTitle={showTitle}
       enableCarousel={enableCarousel}
+      showHeartButton={showHeartButton}
     />
   );
 };

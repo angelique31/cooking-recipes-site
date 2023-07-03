@@ -28,6 +28,7 @@ const RecipeArticleContainer = () => {
         linkTo="/top-food"
         section="top-food"
         showTitle={true}
+        showHeartButton={true}
       />
       <RecipeArticle
         data={recipesData.newsData}

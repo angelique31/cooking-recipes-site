@@ -23,6 +23,7 @@ const Section = ({
   flexDisplay = true,
   showTitle,
   enableCarousel = false,
+  showHeartButton = false,
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -69,7 +70,6 @@ const Section = ({
 
       <CenteredContainer>
         {enableCarousel && currentIndex > 0 && (
-          // <ArrowLeftContainer onClick={handlePrev}>
           <ArrowLeftContainer onClick={(event) => handlePrev(event)}>
             <ArrowCarouselIcon
               color={isMobile ? "white" : "rgb(255, 66, 105)"}
@@ -90,6 +90,7 @@ const Section = ({
                       item={item}
                       linkTo={linkTo}
                       showTitle={showTitle}
+                      showHeartButton={showHeartButton}
                     />
                   ))
               : data.map((item) => (
@@ -98,12 +99,12 @@ const Section = ({
                     item={item}
                     linkTo={linkTo}
                     showTitle={showTitle}
+                    showHeartButton={showHeartButton}
                   />
                 ))}
           </CommonCardsContainer>
         </SwipeableContainer>
         {enableCarousel && currentIndex < data.length - cardsToShow && (
-          // <ArrowRightContainer onClick={handleNext}>
           <ArrowRightContainer onClick={(event) => handleNext(event)}>
             <ArrowCarouselIcon
               color={isMobile ? "white" : "rgb(255, 66, 105)"}

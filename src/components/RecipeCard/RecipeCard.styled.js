@@ -64,3 +64,32 @@ export const CardTitle = styled.h3`
   color: white;
   font-size: 1rem;
 `;
+
+export const StyledHeartButton = styled.button`
+  background: none;
+  border: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px; /* Taille du cercle */
+  height: 30px; /* Taille du cercle */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(255, 66, 105);
+  }
+`;
+
+export const HeartIcon = styled.img`
+  filter: invert(77%) sepia(55%) saturate(5000%) hue-rotate(327deg)
+    brightness(100%) contrast(89%);
+  transition: filter 0.3s ease, transform 0.5s ease;
+  &:hover {
+    filter: brightness(0) invert(1);
+    transform: scale(1.1);
+  }
+`;

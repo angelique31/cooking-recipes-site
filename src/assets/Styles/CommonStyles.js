@@ -104,20 +104,6 @@ export const StyledP = styled.p`
   cursor: pointer;
 `;
 
-// export const ArrowImg = styled.img`
-//   padding: 10px;
-//   cursor: pointer;
-//   @media screen and (max-width: 686px) {
-//     margin-top: 10px;
-//     color: white;
-//   }
-// `;
-
-// export const CenteredContainer = styled.div`
-//   display: flex;
-//   align-items: center;
-// `;
-
 export const Placeholder = styled.div`
   width= 20px; 
   height= 28px;

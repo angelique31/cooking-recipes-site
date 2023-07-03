@@ -51,11 +51,6 @@ const RecipeButton = ({ recipe, recipeType }) => {
 
   return (
     <div>
-      {/* <ModifiedButton type="submit" onClick={handleSaveRecipe}>
-        <img src={heartIcon} alt="heart" />
-        {isSaved ? "Sauvegardée" : "Mon carnet"}
-      </ModifiedButton> */}
-
       <MyRecipesButton type="submit" onClick={handleSaveRecipe}>
         <img src={heartIcon} alt="heart" />
         {isSaved ? "Sauvegardée" : "Mon carnet"}

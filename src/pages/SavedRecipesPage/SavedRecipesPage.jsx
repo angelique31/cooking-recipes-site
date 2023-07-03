@@ -99,6 +99,7 @@ const SavedRecipesPage = () => {
                   linkTo={getLinkPrefix(savedRecipe.recipeType)}
                   showTitle={false} // Ne pas afficher le titre sur l'image
                   isInSavedRecipesPage={true}
+                  showSaveStatusText={true}
                 />
                 <div>
                   <Title>{savedRecipe.recipe.name}</Title>

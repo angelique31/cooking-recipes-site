@@ -36,6 +36,9 @@ export const ModalContent = styled.div`
 export const ModalTitle = styled.h2`
   margin-bottom: 40px;
   margin-right: 50px;
+  @media screen and (max-width: 425px) {
+    font-size: 1.3rem;
+  }
 `;
 
 export const ModalParagraph = styled.p`
