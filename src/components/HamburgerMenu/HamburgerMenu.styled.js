@@ -28,10 +28,13 @@ export const MobileNavMenu = styled.div`
 
 export const HamburgerMenuContainer = styled.div`
   display: none;
-  margin-left: 60px;
+
   @media screen and (max-width: 600px) {
     display: block;
     cursor: pointer;
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
   }
 `;
 

@@ -1,5 +1,13 @@
 import styled from "styled-components";
 
+import { ModifiedButton } from "../RecipeButton/RecipeButton.styled";
+
+export const ModalButton = styled(ModifiedButton)`
+  @media screen and (max-width: 600px) {
+    display: block; // Cela annule le display: none; dans les styles de base
+  }
+`;
+
 export const ModalBackground = styled.div`
   position: fixed;
   top: 0;
@@ -21,11 +29,13 @@ export const ModalContent = styled.div`
   position: relative;
   @media screen and (max-width: 425px) {
     height: 250px;
+    margin: 20px;
   }
 `;
 
 export const ModalTitle = styled.h2`
   margin-bottom: 40px;
+  margin-right: 50px;
 `;
 
 export const ModalParagraph = styled.p`
@@ -34,12 +44,13 @@ export const ModalParagraph = styled.p`
 
 export const CloseButton = styled.button`
   position: absolute;
-  top: 6px;
+  top: 9px;
   right: 15px;
   background: none;
   border: none;
-  font-size: 2rem;
+  font-size: 2.5rem;
   cursor: pointer;
+  // color: rgb(255, 66, 105);
   &:hover {
     color: rgb(255, 66, 105);
   }

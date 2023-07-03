@@ -6,7 +6,7 @@ import {
   CloseButton,
 } from "./ConfirmationModal.styled";
 
-import { ModifiedButton } from "../RecipeButton/RecipeButton.styled";
+import { ModalButton } from "./ConfirmationModal.styled";
 
 const ConfirmationModal = ({ isVisible, onClose, onConfirm, recipeName }) => {
   if (!isVisible) {
@@ -23,8 +23,7 @@ const ConfirmationModal = ({ isVisible, onClose, onConfirm, recipeName }) => {
           Êtes-vous sûr de vouloir supprimer la recette{" "}
           <strong>{recipeName}</strong> de votre carnet ?
         </ModalParagraph>
-
-        <ModifiedButton onClick={onConfirm}>Supprimer</ModifiedButton>
+        <ModalButton onClick={onConfirm}>Supprimer</ModalButton>
       </ModalContent>
     </ModalBackground>
   );
