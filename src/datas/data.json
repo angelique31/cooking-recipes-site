@@ -1014,31 +1014,31 @@
       "servingSize": "6",
       "ingredients": [
         {
-          "name": "Beurre fondu",
+          "name": "beurre fondu",
           "quantity": "120g"
         },
         {
-          "name": "Oeufs",
+          "name": "oeufs",
           "quantity": "3"
         },
         {
-          "name": "Sucre en poudre",
+          "name": "sucre en poudre",
           "quantity": "200g"
         },
         {
-          "name": "Farine",
+          "name": "farine",
           "quantity": "150g"
         },
         {
-          "name": "Levure",
+          "name": "levure",
           "quantity": "1 cc"
         },
         {
-          "name": "Jus et zeste de citrons",
+          "name": "(jus et zeste)",
           "quantity": "2 citrons"
         },
         {
-          "name": "Sucre glaçe",
+          "name": "sucre glace",
           "quantity": "130g"
         }
       ],
@@ -1053,36 +1053,36 @@
         "Le gâteau doit être légèrement doré, pas trop gonflé.",
         "Démoulez à l'envers, sur une grille. Emballez-le immédiatement dans du film alimentaire pour qu'il garde toute son humidité.",
         "Laissez le cake refroidir dans son emballage.",
-        "Quand il est à température ambiante, préparez le glaçage en mélangeant le jus de citron avec le sucre glaçe. Déballez le cake puis versez le glaçage en posant le cake sur une grille. Avec un couteau ou une spatule, lissez le glaçage pour qu'il tombe de tous les côyés et surtout qu'il soit fin.",
+        "Quand il est à température ambiante, préparez le glaçage en mélangeant le jus de citron avec le sucre glaçe. Déballez le cake puis versez le glaçage en posant le cake sur une grille. Avec un couteau ou une spatule, lissez le glaçage pour qu'il tombe de tous les côtés et surtout qu'il soit fin.",
         "Remettre le cake au four à 100°C pendant 8 min pour sécher le glaçage."
       ]
     },
     {
       "id": "cheesecake",
       "name": "Cheesecake Vanille Et Caramel Beurre Salé (Sans Cuisson)",
-      "image": "/assets/sugar-recipe/cheesecake-caramel-beurre-sale.jpeg",
+      "image": "/assets/sugar-recipe/cheesecake-caramel-beurre-sale.jpg",
       "eventCategory": null,
       "category": ["dessert"],
       "servingSize": "8",
       "ingredients": [
         {
-          "name": "Palets bretons",
+          "name": "de palets bretons",
           "quantity": "250g"
         },
         {
-          "name": "Beurre",
+          "name": "de beurre",
           "quantity": "50g"
         },
         {
-          "name": "Sucre en poudre",
+          "name": "de sucre en poudre",
           "quantity": "160g"
         },
         {
-          "name": "Crème liquide",
+          "name": "de crème liquide",
           "quantity": "60cl (20cl pour le caramel et 40cl pour le cheesecake)"
         },
         {
-          "name": "Beurre",
+          "name": "de beurre",
           "quantity": "60g"
         },
         {
@@ -1090,15 +1090,15 @@
           "quantity": null
         },
         {
-          "name": "Philadelphia",
+          "name": "de Philadelphia",
           "quantity": "400g"
         },
         {
-          "name": "Feuilles de gélatine",
+          "name": "feuilles de gélatine",
           "quantity": "3"
         },
         {
-          "name": "Sucre glace",
+          "name": "de sucre glace",
           "quantity": "4 cs"
         }
       ],
@@ -1120,31 +1120,31 @@
       "servingSize": "12",
       "ingredients": [
         {
-          "name": "Chocolat blanc",
+          "name": "de chocolat blanc",
           "quantity": "300g"
         },
         {
-          "name": "Beurre",
+          "name": "de beurre",
           "quantity": "100g"
         },
         {
-          "name": "Oeufs",
+          "name": "oeufs",
           "quantity": "3"
         },
         {
-          "name": "Sucre en poudre",
+          "name": "de sucre en poudre",
           "quantity": "100g"
         },
         {
-          "name": "Farine",
+          "name": "de farine",
           "quantity": "150g"
         },
         {
-          "name": "Levure",
-          "quantity": "1 càc"
+          "name": "de levure",
+          "quantity": "1 cac"
         },
         {
-          "name": "Framboise",
+          "name": "de framboises",
           "quantity": "200g"
         }
       ],
@@ -1174,23 +1174,23 @@
           "name": "Crème pâtissière",
           "ingredients": [
             {
-              "name": "Jaunes d'oeufs",
+              "name": "jaunes d'oeufs",
               "quantity": "2"
             },
             {
-              "name": "Sucre",
+              "name": "de sucre",
               "quantity": "35g"
             },
             {
-              "name": "Farine",
+              "name": "de farine",
               "quantity": "20g"
             },
             {
-              "name": "Lait",
+              "name": "de lait",
               "quantity": "25cl"
             },
             {
-              "name": "Sucre vanillé",
+              "name": "de sucre vanillé",
               "quantity": "1 sachet"
             }
           ],
@@ -1207,23 +1207,23 @@
           "name": "Crème d'amande",
           "ingredients": [
             {
-              "name": "Jaunes d'oeufs",
+              "name": "jaunes d'oeufs",
               "quantity": "3"
             },
             {
-              "name": "Poudre d'amande",
+              "name": "de poudre d'amande",
               "quantity": "125g"
             },
             {
-              "name": "Sucre en poudre",
+              "name": "de sucre en poudre",
               "quantity": "100g"
             },
             {
-              "name": "Beurre pommade",
+              "name": "de beurre pommade",
               "quantity": "125g"
             },
             {
-              "name": "Pépites de chocolat",
+              "name": "de pépites de chocolat",
               "quantity": "50g"
             }
           ],
@@ -1236,11 +1236,11 @@
           "name": "Montage et cuisson",
           "ingredients": [
             {
-              "name": "Disques de pâte feuilletée",
+              "name": "disques de pâte feuilletée",
               "quantity": "2"
             },
             {
-              "name": "Jaune d'oeuf",
+              "name": "jaune d'oeuf",
               "quantity": "1"
             }
           ],
@@ -1268,35 +1268,35 @@
       "servingSize": "4",
       "ingredients": [
         {
-          "name": "Farine",
+          "name": "de farine",
           "quantity": "3 CS"
         },
         {
-          "name": "Sucre",
-          "quantity": "4 càc"
+          "name": "de sucre",
+          "quantity": "4 cc"
         },
         {
-          "name": "Abricots secs",
+          "name": "abricots secs",
           "quantity": "12"
         },
         {
-          "name": "Oeufs",
+          "name": "oeufs",
           "quantity": "3"
         },
         {
-          "name": "Levure",
-          "quantity": "1/2 sachet"
+          "name": "levure",
+          "quantity": "5g"
         },
         {
-          "name": "Yaourt nature",
+          "name": "yaourt nature",
           "quantity": "1 pot"
         },
         {
-          "name": "Lait 1/2 écrémé",
-          "quantity": "50ml"
+          "name": "de lait 1/2 écrémé",
+          "quantity": "50 ml"
         },
         {
-          "name": "Sucre vanillé",
+          "name": "de sucre vanillé",
           "quantity": "1 sachet"
         }
       ],
@@ -1316,37 +1316,37 @@
     {
       "id": "gateau_ananas_noix_coco",
       "name": "Gâteau à l'ananas et à la noix de coco",
-      "image": "/assets/sugar-recipe/gateau-a-l-ananas-et-noix-de-coco.jpeg",
+      "image": "/assets/sugar-recipe/gateau-a-l-ananas-et-noix-de-coco.jpg",
       "eventCategory": null,
       "category": ["dessert"],
       "servingSize": "8",
       "ingredients": [
         {
-          "name": "Farine",
+          "name": "de farine",
           "quantity": "80g"
         },
         {
-          "name": "Sucre",
+          "name": "de sucre",
           "quantity": "30g"
         },
         {
-          "name": "Crème épaisse à 4%",
+          "name": "de crème épaisse à 4%",
           "quantity": "100g"
         },
         {
-          "name": "Oeufs",
+          "name": "oeufs",
           "quantity": "3"
         },
         {
-          "name": "Levure",
+          "name": "de levure",
           "quantity": "1 sachet"
         },
         {
-          "name": "Noix de coco râpée",
+          "name": "de noix de coco râpée",
           "quantity": "25g (20g pour la préparation et 5g pour la présentation)"
         },
         {
-          "name": "Ananas frais",
+          "name": "d'ananas frais",
           "quantity": "600g"
         }
       ],
@@ -1366,21 +1366,21 @@
     {
       "id": "tarte_chocolat_noir",
       "name": "Tarte au chocolat noir",
-      "image": "/assets/sugar-recipe/tarte-au-chocolat.jpeg",
+      "image": "/assets/sugar-recipe/tarte-au-chocolat.jpg",
       "eventCategory": null,
       "category": ["dessert"],
       "servingSize": "10",
       "ingredients": [
         {
-          "name": "Chocolat noir",
+          "name": "de chocolat noir",
           "quantity": "200g"
         },
         {
-          "name": "Pâte sablée",
+          "name": "de pâte sablée",
           "quantity": "1 rouleau"
         },
         {
-          "name": "Crème liquide",
+          "name": "de crème liquide",
           "quantity": "20cl"
         }
       ],
@@ -1403,27 +1403,27 @@
       "servingSize": "6",
       "ingredients": [
         {
-          "name": "Pâte brisée",
+          "name": "pâte brisée",
           "quantity": "1"
         },
         {
-          "name": "Maïzena",
+          "name": "de maïzena",
           "quantity": "4 CS"
         },
         {
-          "name": "Oeufs",
+          "name": "oeufs",
           "quantity": "3"
         },
         {
-          "name": "Zeste râpé et jus de citrons non traités",
+          "name": "citrons non traités (recueillir le jus ainsi que le zeste râpé)",
           "quantity": "3"
         },
         {
-          "name": "Sucre",
+          "name": "de sucre",
           "quantity": "150g"
         },
         {
-          "name": "Sel",
+          "name": "de sel",
           "quantity": "1 pincée"
         }
       ],
