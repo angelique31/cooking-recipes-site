@@ -1,12 +1,54 @@
 import styled from "styled-components";
 
+export const StyledHeartButton = styled.button`
+  background: none;
+  border: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px; /* Taille du cercle */
+  height: 30px; /* Taille du cercle */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  cursor: pointer;
+  visibility: hidden; /* Cacher initialement le cœur */
+  opacity: 0;
+  transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  &:hover {
+    background-color: rgb(255, 66, 105);
+  }
+  @media (hover: none) and (pointer: coarse) {
+    /* Styles pour les appareils tactiles */
+    visibility: visible;
+    opacity: 1;
+  }
+`;
+
 export const StyledCard = styled.div`
   width: 300px;
   border-radius: 10px;
   margin: 10px;
   overflow: hidden;
   position: relative;
+  transition: 0.9s;
 
+  &:hover {
+    transform: scale(1.01); /* Agrandir légèrement la carte au survol */
+
+    ${StyledHeartButton} {
+      visibility: visible; /* Faire apparaître le cœur lorsque la carte est survolée */
+      opacity: 1; /* Transition de l'opacité */
+    }
+    @media (hover: none) and (pointer: coarse) {
+      /* Désactiver l'effet de mise à l'échelle sur les appareils tactiles */
+      &:hover {
+        transform: none;
+      }
+    }
+  }
   ${({ isInSavedRecipesPage }) =>
     isInSavedRecipesPage
       ? `
@@ -63,25 +105,6 @@ export const CardTitle = styled.h3`
   bottom: 0;
   color: white;
   font-size: 1rem;
-`;
-
-export const StyledHeartButton = styled.button`
-  background: none;
-  border: none;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 30px; /* Taille du cercle */
-  height: 30px; /* Taille du cercle */
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  cursor: pointer;
-  &:hover {
-    background-color: rgb(255, 66, 105);
-  }
 `;
 
 export const HeartIcon = styled.img`
