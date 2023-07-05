@@ -1,9 +1,19 @@
 import styled from "styled-components";
 import { keyframes } from "styled-components";
 
-const fadeIn = keyframes`
-0% { opacity: 0; }
-100% { opacity: 1; }
+// const slideDown = keyframes`
+//   0% { transform: translateY(-100%); }
+//   100% { transform: translateY(0); }
+// `;
+
+// const depthIn = keyframes`
+//   0% { transform: perspective(600px) rotateX(90deg); opacity: 0; }
+//   100% { transform: perspective(600px) rotateX(0deg); opacity: 1; }
+// `;
+
+const combinedMove = keyframes`
+  0% { transform: translate(-100%, -100%) scale(0); }
+  100% { transform: translate(0, 0) scale(1); }
 `;
 
 export const ModalWrapper = styled.div`
@@ -17,7 +27,6 @@ export const ModalWrapper = styled.div`
   justify-content: center;
   align-items: center;
   z-index: 1000;
-  animation: ${fadeIn} 1s ease-in-out;
 `;
 
 export const ModalContent = styled.div`
@@ -29,6 +38,7 @@ export const ModalContent = styled.div`
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
   position: relative;
+  animation: ${combinedMove} 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 `;
 
 export const Button = styled.button`
