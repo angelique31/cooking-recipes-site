@@ -10,23 +10,23 @@
       "cookTime": "0 min",
       "ingredients": [
         {
-          "name": "Chocolat noir (pâtissier)",
+          "name": "de chocolat noir (pâtissier)",
           "quantity": "150 g"
         },
         {
-          "name": "Crème entière",
+          "name": "de crème entière",
           "quantity": "25 cl"
         },
         {
-          "name": "Sucre",
+          "name": "de sucre",
           "quantity": "90 g"
         },
         {
-          "name": "Oeufs",
+          "name": "oeufs",
           "quantity": "2"
         },
         {
-          "name": "Jaune d'oeuf",
+          "name": "jaune d'oeuf",
           "quantity": "1"
         }
       ],
@@ -52,15 +52,15 @@
       "cookTime": "45 min",
       "ingredients": [
         {
-          "name": "Fraises fraîches",
+          "name": "de fraises fraîches",
           "quantity": "1 kg"
         },
         {
-          "name": "Sucre cristallisé",
+          "name": "de sucre cristallisé",
           "quantity": "250 g"
         },
         {
-          "name": "jus de citron",
+          "name": "de jus de citron",
           "quantity": "2 cuillères à soupe"
         }
       ],
@@ -86,19 +86,19 @@
           "name": "Pâte sablée",
           "ingredients": [
             {
-              "name": "Farine",
+              "name": "de farine",
               "quantity": "250g"
             },
             {
-              "name": "Beurre mou",
+              "name": "de beurre mou",
               "quantity": "125g"
             },
             {
-              "name": "Oeuf",
+              "name": "oeuf",
               "quantity": "1"
             },
             {
-              "name": "Sucre glace",
+              "name": "de ucre glace",
               "quantity": "60g"
             }
           ],
@@ -112,20 +112,20 @@
           "name": "Crème pâtissière",
           "ingredients": [
             {
-              "name": "Lait",
+              "name": "de lait",
               "quantity": "500 ml"
             },
             {
-              "name": "Jaunes d'oeufs",
+              "name": "jaunes d'oeufs",
               "quantity": "3"
             },
 
             {
-              "name": "Sucre en poudre",
+              "name": "de sucre en poudre",
               "quantity": "75g"
             },
             {
-              "name": "Farine",
+              "name": "de farine",
               "quantity": "40g"
             }
           ],
@@ -140,11 +140,11 @@
           "name": "Montage et cuisson",
           "ingredients": [
             {
-              "name": "Disques de pâte feuilletée",
+              "name": "disques de pâte feuilletée",
               "quantity": "2"
             },
             {
-              "name": "Jaune d'oeuf",
+              "name": "jaune d'oeuf",
               "quantity": "1"
             }
           ],
@@ -207,19 +207,19 @@
       "cookTime": "15 min",
       "ingredients": [
         {
-          "name": "Pavés de saumon frais",
+          "name": "pavés de saumon frais",
           "quantity": "4"
         },
         {
-          "name": "Beurre",
+          "name": "de beurre",
           "quantity": "2 cc"
         },
         {
-          "name": "Amandes effilées",
+          "name": "d'amandes effilées",
           "quantity": "20g"
         },
         {
-          "name": "Crème semi-épaisse",
+          "name": "de crème semi-épaisse",
           "quantity": "40g"
         }
       ],
@@ -244,31 +244,31 @@
           "name": "Fondant au chocolat",
           "ingredients": [
             {
-              "name": "Chocolat pâtisier",
+              "name": "de chocolat pâtisier",
               "quantity": "240g"
             },
             {
-              "name": "Beurre en parcelles",
+              "name": "de beurre en parcelles",
               "quantity": "200g"
             },
             {
-              "name": "Lait",
+              "name": "de lait",
               "quantity": "150 ml"
             },
             {
-              "name": "Farine",
+              "name": "de farine",
               "quantity": "100g"
             },
             {
-              "name": "Sucre en poudre",
+              "name": "de sucre en poudre",
               "quantity": "150g"
             },
             {
-              "name": "Oeufs",
+              "name": "oeufs",
               "quantity": "6"
             },
             {
-              "name": "Poudre d'amande",
+              "name": "de poudre d'amande",
               "quantity": "125g"
             }
           ],
@@ -284,11 +284,11 @@
           "name": "Ganache au chocolat",
           "ingredients": [
             {
-              "name": "Chocolat pâtisier",
+              "name": "de chocolat pâtisier",
               "quantity": "100g"
             },
             {
-              "name": "Crème fraîche",
+              "name": "de crème fraîche",
               "quantity": "25cl"
             }
           ],
@@ -438,19 +438,19 @@
       "cookTime": "25 min",
       "ingredients": [
         {
-          "name": "queues de fraises avec un peu de chair",
+          "name": "de queues de fraises avec un peu de chair",
           "quantity": "60 g"
         },
         {
-          "name": "sucre en poudre",
+          "name": "de sucre en poudre",
           "quantity": "80 g"
         },
         {
-          "name": "jus de citron",
+          "name": "de jus de citron",
           "quantity": "1 cuillère à soupe"
         },
         {
-          "name": "eau",
+          "name": "d'eau",
           "quantity": "125 ml"
         }
       ],
@@ -478,11 +478,11 @@
       "cookTime": "5 min",
       "ingredients": [
         {
-          "name": "queues de cerises",
+          "name": "de queues de cerises",
           "quantity": "4 cuillères à soupe"
         },
         {
-          "name": "eau",
+          "name": "d'eau",
           "quantity": "500 ml"
         }
       ],
@@ -610,27 +610,27 @@
       "servingSize": "6",
       "ingredients": [
         {
-          "name": "Beurre ramolli",
+          "name": "de beurre ramolli",
           "quantity": "75g"
         },
         {
-          "name": "Lait",
+          "name": "de lait",
           "quantity": "175ml"
         },
         {
-          "name": "Farine",
+          "name": "de farine",
           "quantity": "350g"
         },
         {
-          "name": "Sucre en poudre",
+          "name": "de sucre en poudre",
           "quantity": "40g"
         },
         {
-          "name": "Sucre vanillé",
+          "name": "de sucre vanillé",
           "quantity": "1 sachet"
         },
         {
-          "name": "Oeuf",
+          "name": "oeuf",
           "quantity": "1"
         },
         {
@@ -669,35 +669,35 @@
       "servingSize": "4",
       "ingredients": [
         {
-          "name": "Oeuf",
+          "name": "oeuf",
           "quantity": "1"
         },
         {
-          "name": "Vergeoise brune",
+          "name": "de vergeoise brune",
           "quantity": "85g"
         },
         {
-          "name": "Beurre",
+          "name": "de beurre",
           "quantity": "85g"
         },
         {
-          "name": "Farine",
+          "name": "de farine",
           "quantity": "150g"
         },
         {
-          "name": "Pépites de chocolat",
+          "name": "de pépites de chocolat",
           "quantity": "100g"
         },
         {
-          "name": "Sucre vanillé",
+          "name": "de sucre vanillé",
           "quantity": "1 sachet"
         },
         {
-          "name": "Levure chimique",
+          "name": "de levure chimique",
           "quantity": "1 cc"
         },
         {
-          "name": "Sel",
+          "name": "de sel",
           "quantity": "1 pincée"
         }
       ],
@@ -720,19 +720,19 @@
       "servingSize": "4",
       "ingredients": [
         {
-          "name": "Farine",
+          "name": "de farine",
           "quantity": "250g"
         },
         {
-          "name": "Lait demi-écrémé",
+          "name": "de lait demi-écrémé",
           "quantity": "50 cl"
         },
         {
-          "name": "Oeufs",
+          "name": "oeufs",
           "quantity": "3"
         },
         {
-          "name": "Sucre vanillé",
+          "name": "de sucre vanillé",
           "quantity": "1 sachet"
         }
       ],
@@ -756,23 +756,23 @@
       "servingSize": "8",
       "ingredients": [
         {
-          "name": "Farine",
+          "name": "de farine",
           "quantity": "125g"
         },
         {
-          "name": "Sucre",
+          "name": "de sucre",
           "quantity": "80g"
         },
         {
-          "name": "Lait demi-écrémé",
+          "name": "de lait demi-écrémé",
           "quantity": "50cl"
         },
         {
-          "name": "Oeufs",
+          "name": "oeufs",
           "quantity": "3"
         },
         {
-          "name": "Pruneaux dénoyautés",
+          "name": "pruneaux dénoyautés",
           "quantity": "12"
         }
       ],
@@ -796,15 +796,15 @@
       "servingSize": "4",
       "ingredients": [
         {
-          "name": "Carambars",
+          "name": "carambars",
           "quantity": "10"
         },
         {
-          "name": "Lait demi-écrémé",
+          "name": "de lait demi-écrémé",
           "quantity": "50cl"
         },
         {
-          "name": "Oeufs",
+          "name": "oeufs",
           "quantity": "2"
         }
       ],
@@ -829,15 +829,15 @@
       "servingSize": "4",
       "ingredients": [
         {
-          "name": "Chocolat noir pâtissier",
+          "name": "de chocolat noir pâtissier",
           "quantity": "100g"
         },
         {
-          "name": "Lait demi-écrémé",
+          "name": "de lait demi-écrémé",
           "quantity": "50cl"
         },
         {
-          "name": "Maïzena (fécule de maïs)",
+          "name": "de maïzena (fécule de maïs)",
           "quantity": "30g"
         }
       ],
@@ -859,19 +859,19 @@
       "servingSize": "4",
       "ingredients": [
         {
-          "name": "Lait",
+          "name": "de lait",
           "quantity": "500 ml"
         },
         {
-          "name": "Spéculos",
+          "name": "spéculos",
           "quantity": "8"
         },
         {
-          "name": "Maïzena",
+          "name": "de maïzena",
           "quantity": "4 CS"
         },
         {
-          "name": "Sucre en poudre",
+          "name": "de sucre en poudre",
           "quantity": "2 CS"
         }
       ],
@@ -896,19 +896,19 @@
       "servingSize": "4",
       "ingredients": [
         {
-          "name": "Lait",
+          "name": "de lait",
           "quantity": "500 ml"
         },
         {
-          "name": "Sucre vanillé",
+          "name": "de sucre vanillé",
           "quantity": "2 sachets"
         },
         {
-          "name": "Maïzena",
+          "name": "de maïzena",
           "quantity": "30g"
         },
         {
-          "name": "Sucre en poudre",
+          "name": "de sucre en poudre",
           "quantity": "60g"
         }
       ],
@@ -930,23 +930,23 @@
       "servingSize": "6",
       "ingredients": [
         {
-          "name": "Riz rond",
+          "name": "de riz rond",
           "quantity": "120g"
         },
         {
-          "name": "Lait demi-écrémé",
+          "name": "de lait demi-écrémé",
           "quantity": "1 litre"
         },
         {
-          "name": "Caramel liquide",
+          "name": "de caramel liquide",
           "quantity": "6 cc"
         },
         {
-          "name": "Sucre",
+          "name": "de sucre",
           "quantity": "50g"
         },
         {
-          "name": "Sucre vanillé",
+          "name": "de sucre vanillé",
           "quantity": "2 sachets"
         }
       ],
@@ -971,27 +971,27 @@
       "servingSize": "4",
       "ingredients": [
         {
-          "name": "Semoule fine",
+          "name": "de semoule fine",
           "quantity": "60g"
         },
         {
-          "name": "Jaune d'oeuf",
+          "name": "jaune d'oeuf",
           "quantity": "1"
         },
         {
-          "name": "Sucre",
+          "name": "de sucre",
           "quantity": "40g"
         },
         {
-          "name": "Sucre vanillé",
+          "name": "de sucre vanillé",
           "quantity": "2 sachets"
         },
         {
-          "name": "Lait",
+          "name": "de lait",
           "quantity": "500ml"
         },
         {
-          "name": "Caramel liquide",
+          "name": "de caramel liquide",
           "quantity": "4 cc"
         }
       ],
@@ -1014,7 +1014,7 @@
       "servingSize": "6",
       "ingredients": [
         {
-          "name": "beurre fondu",
+          "name": "de beurre fondu",
           "quantity": "120g"
         },
         {
@@ -1022,15 +1022,15 @@
           "quantity": "3"
         },
         {
-          "name": "sucre en poudre",
+          "name": "de sucre en poudre",
           "quantity": "200g"
         },
         {
-          "name": "farine",
+          "name": "de farine",
           "quantity": "150g"
         },
         {
-          "name": "levure",
+          "name": "de levure",
           "quantity": "1 cc"
         },
         {
@@ -1038,7 +1038,7 @@
           "quantity": "2 citrons"
         },
         {
-          "name": "sucre glace",
+          "name": "de sucre glace",
           "quantity": "130g"
         }
       ],
@@ -1494,23 +1494,23 @@
       "servingSize": "4",
       "ingredients": [
         {
-          "name": "Spaghettis",
+          "name": "de spaghettis",
           "quantity": "400g"
         },
         {
-          "name": "Boeuf hâché",
+          "name": "de boeuf hâché",
           "quantity": "300g"
         },
         {
-          "name": "Tomates pelées",
+          "name": "de tomates pelées",
           "quantity": "800g"
         },
         {
-          "name": "Coulis de tomate",
+          "name": "de coulis de tomate",
           "quantity": "200g"
         },
         {
-          "name": "Parmesan ou emmental râpé",
+          "name": "de parmesan ou emmental râpé",
           "quantity": "100g"
         },
         {
@@ -1518,19 +1518,19 @@
           "quantity": "1 petit"
         },
         {
-          "name": "Huile d'olive (ou tournesol)",
+          "name": "d'huile d'olive (ou tournesol)",
           "quantity": "1 cuillère à soupe"
         },
         {
-          "name": "Sucre en poudre",
-          "quantity": "1 càc"
+          "name": "de sucre en poudre",
+          "quantity": "1 cc"
         },
         {
-          "name": "Sel",
+          "name": "de sel",
           "quantity": "1 pincée"
         },
         {
-          "name": "Poivre",
+          "name": "de poivre",
           "quantity": "1 pincée"
         }
       ],
@@ -1650,7 +1650,7 @@
       "ingredients": [
         {
           "name": "Citron",
-          "quantity": "1/2"
+          "quantity": "1"
         },
         {
           "name": "Crème fraiche épaisse",
@@ -1663,6 +1663,14 @@
         {
           "name": "Tranches de saumon fumé",
           "quantity": "3"
+        },
+        {
+          "name": "de sel",
+          "quantity": "1 pincée"
+        },
+        {
+          "name": "de poivre",
+          "quantity": "1 pincée"
         }
       ],
       "prepTime": "15 min",
@@ -1682,23 +1690,23 @@
       "servingSize": "2",
       "ingredients": [
         {
-          "name": "Filets de cabillaud",
+          "name": "filets de cabillaud",
           "quantity": "2"
         },
         {
-          "name": "Poivron vert",
-          "quantity": "1/2 demi"
+          "name": "poivron vert",
+          "quantity": "1 demi"
         },
         {
-          "name": "Poivron rouge",
-          "quantity": "1/2"
+          "name": "poivron rouge",
+          "quantity": "1 demi"
         },
         {
-          "name": "Tomate",
+          "name": "tomate",
           "quantity": "1"
         },
         {
-          "name": "Branches de thym",
+          "name": "branches de thym",
           "quantity": "2"
         },
         {
@@ -1735,27 +1743,27 @@
       "servingSize": "4",
       "ingredients": [
         {
-          "name": "Filets de cabillaud",
+          "name": "filets de cabillaud",
           "quantity": "4"
         },
         {
-          "name": "Moutarde à l'ancienne",
+          "name": "moutarde à l'ancienne",
           "quantity": "20g"
         },
         {
-          "name": "Échalote",
+          "name": "échalote",
           "quantity": "1"
         },
         {
-          "name": "Beurre",
+          "name": "de beurre",
           "quantity": "10g"
         },
         {
-          "name": "Crème liquide",
+          "name": "de crème liquide",
           "quantity": "20cl"
         },
         {
-          "name": "Jus d'1/2 citron"
+          "name": "Jus de citron"
         },
         {
           "name": "Sel"
@@ -1785,19 +1793,19 @@
       "servingSize": "4",
       "ingredients": [
         {
-          "name": "Pavés de saumon frais",
+          "name": "pavés de saumon frais",
           "quantity": "4"
         },
         {
-          "name": "Beurre",
+          "name": "de beurre",
           "quantity": "2 cc"
         },
         {
-          "name": "Amandes effilées",
+          "name": "d'amandes effilées",
           "quantity": "20g"
         },
         {
-          "name": "Crème semi-épaisse",
+          "name": "de crème semi-épaisse",
           "quantity": "40g"
         },
         {
@@ -1826,15 +1834,15 @@
       "servingSize": "2",
       "ingredients": [
         {
-          "name": "Portions de saumon",
+          "name": "portions de saumon",
           "quantity": "2"
         },
         {
-          "name": "Carotte",
+          "name": "carotte",
           "quantity": "1"
         },
         {
-          "name": "Courgette",
+          "name": "courgette",
           "quantity": "1"
         },
         {
@@ -1844,7 +1852,7 @@
           "name": "Herbes de Provence"
         },
         {
-          "name": "Jus d'1/2 citron"
+          "name": "Jus de citron"
         },
         {
           "name": "Huile d'olive"
@@ -1875,34 +1883,35 @@
       "servingSize": "6",
       "ingredients": [
         {
-          "name": "Noix de Saint Jacques",
+          "name": "noix de Saint Jacques",
           "quantity": "12"
         },
         {
-          "name": "Champignons de Paris",
+          "name": "de champignons de Paris",
           "quantity": "300g"
         },
         {
-          "name": "Échalote"
+          "name": "échalote",
+          "quantity": "1"
         },
         {
-          "name": "Farine",
+          "name": "de farine",
           "quantity": "40g"
         },
         {
-          "name": "Beurre",
+          "name": "de beurre",
           "quantity": "60g"
         },
         {
-          "name": "Gruyère râpé",
+          "name": "de gruyère râpé",
           "quantity": "40g"
         },
         {
-          "name": "Vin blanc",
+          "name": "de vin blanc",
           "quantity": "10cl"
         },
         {
-          "name": "Lait",
+          "name": "de lait",
           "quantity": "50cl"
         },
         {
@@ -1933,14 +1942,15 @@
       "servingSize": "4",
       "ingredients": [
         {
-          "name": "Pommes de terre",
-          "quantity": "1,2 kg"
+          "name": "de pommes de terre",
+          "quantity": "1kg"
         },
         {
-          "name": "Gousse d'ail"
+          "name": "gousse d'ail",
+          "quantity": "1"
         },
         {
-          "name": "Lait",
+          "name": "de lait",
           "quantity": "80 cl"
         },
         {
@@ -1971,14 +1981,16 @@
       "servingSize": "4",
       "ingredients": [
         {
-          "name": "Pommes de terre",
+          "name": "pommes de terre",
           "quantity": "8"
         },
         {
-          "name": "Fromage à raclette"
+          "name": "de fromage à raclette",
+          "quantity": "8 tranches"
         },
         {
-          "name": "Lard fumé en tranches"
+          "name": "de lard fumé",
+          "quantity": "4 tranches"
         },
         {
           "name": "Sel"
@@ -2003,23 +2015,23 @@
       "image": "/assets/salty-recipe/veloute-de-butternut.jpg",
       "category": ["entrée"],
       "eventCategory": "hiver",
-      "servingSize": "3",
+      "servingSize": "4",
       "ingredients": [
         {
-          "name": "Butternut",
-          "quantity": "1/2"
-        },
-        {
-          "name": "Oignon",
+          "name": "butternut",
           "quantity": "1"
         },
         {
-          "name": "Bouillon de cube à la volaille",
+          "name": "oignon",
           "quantity": "1"
         },
         {
-          "name": "Crème liquide",
-          "quantity": "70ml"
+          "name": "bouillon de cube à la volaille",
+          "quantity": "1"
+        },
+        {
+          "name": "de crème liquide",
+          "quantity": "100ml"
         },
         {
           "name": "Sel"
@@ -2049,15 +2061,15 @@
       "servingSize": "6",
       "ingredients": [
         {
-          "name": "Lentilles corail",
+          "name": "de lentilles corail",
           "quantity": "250g"
         },
         {
-          "name": "Curry en poudre",
-          "quantity": "2 càc"
+          "name": "de curry en poudre",
+          "quantity": "2 cc"
         },
         {
-          "name": "Bouillon de cube à la volaille",
+          "name": "bouillon de cube à la volaille",
           "quantity": "1"
         }
       ],
@@ -2081,32 +2093,30 @@
       "servingSize": "2",
       "ingredients": [
         {
-          "name": "Escalopes de dinde",
+          "name": "escalopes de dinde",
           "quantity": "2"
         },
         {
-          "name": "Oignon",
+          "name": "oignon",
           "quantity": "1"
         },
         {
-          "name": "Curry",
+          "name": "de curry",
           "quantity": "1 cc"
         },
         {
-          "name": "Crème fraiche semi épaisse",
+          "name": "de crème fraiche semi épaisse",
           "quantity": "100g"
         },
         {
-          "name": "Champignons de Paris émincés (230g égouttés)",
+          "name": "de champignons de Paris émincés (230g égouttés)",
           "quantity": "1 boite"
         },
         {
-          "name": "Sel",
-          "quantity": "Sel"
+          "name": "Sel"
         },
         {
-          "name": "Poivre",
-          "quantity": "Poivre"
+          "name": "Poivre"
         }
       ],
       "prepTime": "10 min",
@@ -2128,36 +2138,33 @@
       "servingSize": "2",
       "ingredients": [
         {
-          "name": "Aiguillettes de poulet",
+          "name": "aiguillettes de poulet",
           "quantity": "2"
         },
         {
-          "name": "Vert d'eau",
-          "quantity": "1/2"
+          "name": "d'eau",
+          "quantity": "250ml"
         },
         {
-          "name": "Moutarde",
+          "name": "de moutarde",
           "quantity": "1 CS"
         },
         {
-          "name": "Carotte",
+          "name": "carotte",
           "quantity": "1"
         },
         {
-          "name": "Crème fraiche",
+          "name": "de crème fraiche",
           "quantity": "2 CS"
         },
         {
-          "name": "Huile d'olive",
-          "quantity": "Huile d'olive"
+          "name": "Huile d'olive"
         },
         {
-          "name": "Sel",
-          "quantity": "Sel"
+          "name": "Sel"
         },
         {
-          "name": "Poivre",
-          "quantity": "Poivre"
+          "name": "Poivre"
         }
       ],
       "prepTime": "10 min",
@@ -2179,40 +2186,38 @@
       "servingSize": "4",
       "ingredients": [
         {
-          "name": "Plaques à lasagnes",
+          "name": "plaques à lasagnes",
           "quantity": "12"
         },
         {
-          "name": "Boeuf haché",
+          "name": "de boeuf haché",
           "quantity": "300g"
         },
         {
-          "name": "Coulis de tomates",
+          "name": "de coulis de tomates",
           "quantity": "2 briques"
         },
         {
-          "name": "Emmental râpé",
+          "name": "d'emmental râpé",
           "quantity": "100g"
         },
         {
-          "name": "Lait",
+          "name": "de lait",
           "quantity": "50cl"
         },
         {
-          "name": "Farine",
+          "name": "de farine",
           "quantity": "70g"
         },
         {
-          "name": "Huile de tournesol",
+          "name": "d'huile de tournesol",
           "quantity": "1 CS"
         },
         {
-          "name": "Sel",
-          "quantity": "Sel"
+          "name": "Sel"
         },
         {
-          "name": "Poivre",
-          "quantity": "Poivre"
+          "name": "Poivre"
         }
       ],
       "prepTime": "20 min",
@@ -2235,44 +2240,42 @@
       "servingSize": "6",
       "ingredients": [
         {
-          "name": "Cuisses de poulet ou pilons de poulet",
+          "name": "de poulet",
           "quantity": "6 cuisses ou 12 pilons"
         },
         {
-          "name": "Tomates",
+          "name": "de tomates",
           "quantity": "1kg"
         },
         {
-          "name": "Poivrons (verts et rouges)",
+          "name": "poivrons (verts et rouges)",
           "quantity": "2"
         },
         {
-          "name": "Oignon émincé",
+          "name": "oignons émincés",
           "quantity": "2"
         },
         {
-          "name": "Gousse d'ail",
+          "name": "gousses d'ail",
           "quantity": "2"
         },
         {
-          "name": "Bouillon de volaille",
+          "name": "de bouillon de volaille",
           "quantity": "200ml"
         },
         {
-          "name": "Bouquet garni",
+          "name": "bouquet garni",
           "quantity": "1"
         },
         {
-          "name": "Huile d'olive",
+          "name": "d'huile d'olive",
           "quantity": "6 CS"
         },
         {
-          "name": "Sel",
-          "quantity": "Sel"
+          "name": "Sel"
         },
         {
-          "name": "Poivre",
-          "quantity": "Poivre"
+          "name": "Poivre"
         }
       ],
       "prepTime": "20 min",
@@ -2294,35 +2297,33 @@
       "image": "/assets/salty-recipe/Rôti-de-porc-à-la-moutarde.jpg",
       "category": ["plat"],
       "eventCategory": null,
-      "servingSize": "2",
+      "servingSize": "8",
       "ingredients": [
         {
-          "name": "Rôti de porc dans le filet",
+          "name": "de rôti de porc dans le filet",
           "quantity": "800g"
         },
         {
-          "name": "Miel (liquide)",
+          "name": "de miel (liquide)",
           "quantity": "3 CS"
         },
         {
-          "name": "Moutarde",
+          "name": "de moutarde",
           "quantity": "2 CS"
         },
         {
-          "name": "Thym",
-          "quantity": "2 càc"
+          "name": "de thym",
+          "quantity": "2 cc"
         },
         {
-          "name": "Crème fraîche",
+          "name": "de crème fraîche",
           "quantity": "2 CS"
         },
         {
-          "name": "Sel",
-          "quantity": "Sel"
+          "name": "Sel"
         },
         {
-          "name": "Poivre",
-          "quantity": "Poivre"
+          "name": "Poivre"
         }
       ],
       "prepTime": "10 min",
@@ -2343,64 +2344,72 @@
       "category": ["plat"],
       "eventCategory": null,
       "servingSize": "4",
-      "ingredients": [
+      "sections": [
         {
-          "name": "Escalope de poulet",
-          "quantity": "1"
+          "name": "Pâte à pizza",
+          "ingredients": [
+            {
+              "name": "de sel",
+              "quantity": "12g"
+            },
+            {
+              "name": "d'huile d'olive",
+              "quantity": "12g"
+            },
+            {
+              "name": "de farine",
+              "quantity": "300g"
+            },
+            {
+              "name": "d'eau",
+              "quantity": "200ml"
+            },
+            {
+              "name": "de levure fraîche de boulanger",
+              "quantity": "14g"
+            }
+          ],
+          "steps": [
+            "Mettre la farine dans le saladier, ajouter l'huile d'olive, le sel et l'eau. Commencer à pétrir puis ajouter la levure de boulanger (Attention : le sel et la levure ne doivent pas être en contact car sinon la pâte ne lèvera pas).",
+            "Pétrir pendant 5 min. Puis laisser poser la pâte 10 min.",
+            "Ensuite, pétrir la pâte une seconde fois, laisser poser 10 min, puis pétrir une troisième fois. Cette procédure donnera force et élasticité à la pâte.",
+            "Laisser reposer la pâte au réfrigérateur dans une boîte hermétique pendant au moins 24 h.",
+            "Après ce temps de repos, sortez la pâte et laissez-la poser à température ambiante pendant quelques h. Une fois que la pâte a doublé de volume, étalez-la au rouleau sur un plan de travail fariné puis déposez-la sur la plaque de cuisson."
+          ]
         },
         {
-          "name": "Crème semi-épaisse",
-          "quantity": "20cl"
-        },
-        {
-          "name": "Curry en poudre",
-          "quantity": "Curry en poudre"
-        },
-        {
-          "name": "Gruyère râpé",
-          "quantity": "50g"
-        },
-        {
-          "name": "Lardons fumés",
-          "quantity": "100g"
-        },
-        {
-          "name": "Sel",
-          "quantity": "12g"
-        },
-        {
-          "name": "Huile d'olive",
-          "quantity": "12g"
-        },
-        {
-          "name": "Farine",
-          "quantity": "300g"
-        },
-        {
-          "name": "Eau",
-          "quantity": "200ml"
-        },
-        {
-          "name": "Levure fraîche de boulanger",
-          "quantity": "14g"
+          "name": "Garniture",
+          "ingredients": [
+            {
+              "name": "escalope de poulet",
+              "quantity": "1"
+            },
+            {
+              "name": "de crème semi-épaisse",
+              "quantity": "20cl"
+            },
+            {
+              "name": "Curry en poudre"
+            },
+            {
+              "name": "de gruyère râpé",
+              "quantity": "50g"
+            },
+            {
+              "name": "de lardons fumés",
+              "quantity": "100g"
+            }
+          ],
+          "steps": [
+            "Découpez l'escalope de poulet en cubes et faites revenir les morceaux de poulet dans une poêle huilée.",
+            "Ajoutez le curry, mélangez, puis ajoutez la crème. Gardez un peu de crème pour la pâte.",
+            "Préchauffez le four à 230°C.",
+            "Étalez le reste de crème sur la pâte à l'aide d'un pinceau ou avec le dos d'une cuillère. Ajoutez la garniture au poulet, les lardons, puis parsemez de gruyère râpé ou de mozzarella.",
+            "Mettez la pizza au four pendant 15 min, puis baissez la température à 180°C pour le reste de la cuisson pendant environ 20 min.",
+            "À la sortie du four, laissez la pizza au poulet curry reposer pendant quelques min avant de la découper et de la déguster.",
+            "Savourez votre délicieuse pizza au poulet curry bien chaude !"
+          ]
         }
-      ],
-      "prepTime": "20 min",
-      "cookTime": "30 min",
-      "difficulty": "Facile",
-      "steps": [
-        "Pour la pâte à pizza : Mettre la farine dans le saladier, ajouter l'huile d'olive, le sel et l'eau. Commencer à pétrir puis ajouter la levure de boulanger (Attention : le sel et la levure ne doivent pas être en contact car sinon la pâte ne lèvera pas).",
-        "Pétrir pendant 5 min. Puis laisser poser la pâte 10 min.",
-        "Ensuite, pétrir la pâte une seconde fois, laisser poser 10 min, puis pétrir une troisième fois. Cette procédure donnera force et élasticité à la pâte.",
-        "Laisser reposer la pâte au réfrigérateur dans une boîte hermétique pendant au moins 24 h.",
-        "Après ce temps de repos, sortez la pâte et laissez-la poser à température ambiante pendant quelques h. Une fois que la pâte a doublé de volume, étalez-la au rouleau sur un plan de travail fariné puis déposez-la sur la plaque de cuisson.",
-        "Pour la garniture : Découpez l'escalope de poulet en cubes et faites revenir les morceaux de poulet dans une poêle huilée.",
-        "Ajoutez le curry, mélangez, puis ajoutez la crème. Gardez un peu de crème pour la pâte.",
-        "Préchauffez le four à 230°C.",
-        "Étalez le reste de crème sur la pâte à l'aide d'un pinceau ou avec le dos d'une cuillère. Ajoutez la garniture au poulet, les lardons, puis parsemez de gruyère râpé ou de mozzarella.",
-        "Mettez la pizza au four pendant 15 min, puis baissez la température à 180°C pour le reste de la cuisson pendant environ 20 min.",
-        "À la sortie du four, laissez la pizza au poulet curry reposer pendant quelques min avant de la découper et de la déguster.",
-        "Savourez votre délicieuse pizza au poulet curry bien chaude !"
       ]
     }
   ]
