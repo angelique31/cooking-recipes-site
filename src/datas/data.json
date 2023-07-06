@@ -1551,7 +1551,7 @@
       "name": "Mini bûches au saumon",
       "image": "/assets/salty-recipe/mini-buche-saumon.jpg",
       "eventCategory": "plat de fête",
-      "category": ["entrée"],
+      "category": ["entrée", "aperitif"],
       "servingSize": "2",
       "ingredients": [
         {
