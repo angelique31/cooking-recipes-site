@@ -27,7 +27,7 @@ export const StyledInput = styled.input`
   background: white;
   position: relative;
   font-size: 1.2rem;
-  cursor: pointer;
+
   padding-left: 75px;
   @media screen and (max-width: 556px) {
     font-size: 1rem;

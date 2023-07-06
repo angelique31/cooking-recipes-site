@@ -98,7 +98,7 @@
               "quantity": "1"
             },
             {
-              "name": "de ucre glace",
+              "name": "de sucre glace",
               "quantity": "60g"
             }
           ],
@@ -424,6 +424,37 @@
           "A vous de choisir la méthode qui vous convient le mieux. Une fois bien maîtrisée, elle vous permettra d’obtenir des œufs cuits à la perfection !"
         ]
       ]
+    },
+    {
+      "id": "melon",
+      "image": "/assets/newsCard/melon.jpg",
+      "name": "Comment cuisiner un melon fade et sans goût?",
+      "summaryTitle": [
+        "Votre melon est fade ou sans goût ?",
+        "Salade de Melon et Jambon de Parme",
+        "Smoothie au Melon",
+        "Sorbet au Melon",
+        "Gaspacho de Melon",
+        "Brochettes de Fruits",
+        "Salade de Melon et Feta",
+        "Melon Grillé",
+        "Salsa de Melon",
+        "Infusion d'eau au Melon",
+        "Confiture de Melon"
+      ],
+      "summaryText": [
+        "Pas la peine de le jeter ! Voici des astuces simples et gourmandes pour lui redonner du peps et tout un tas de saveurs !",
+        "Découpez le melon en morceaux et servez-le avec du jambon de Parme. La combinaison de la douceur du melon et de la salinité du jambon peut améliorer le goût du melon.",
+        "Mélangez le melon avec d'autres fruits (comme des fraises, des bananes ou des pêches), du yaourt, et un peu de miel ou de sirop d'érable pour ajouter de la douceur.",
+        "Réduisez le melon en purée avec un peu de jus de citron, de sucre et d'eau. Congelez le mélange, en remuant de temps en temps pour casser les cristaux de glace, jusqu'à ce qu'il soit ferme.",
+        "Créez une variation rafraîchissante du gaspacho traditionnel en utilisant du melon, des concombres, de l'huile d'olive, du vinaigre et des herbes.",
+        "Utilisez le melon comme ingrédient dans des brochettes de fruits. Mélangez-le avec d'autres fruits et arrosez de jus de citron ou de lime, et un peu de miel.",
+        "Combiner le melon avec de la feta émiettée, de la menthe fraîche, du jus de citron et un filet d'huile d'olive. La feta ajoutera du sel qui peut aider à rehausser la saveur du melon.",
+        "Coupez le melon en tranches épaisses et grillez-le rapidement de chaque côté. Cela peut caraméliser certains des sucres naturels et ajouter de la profondeur de saveur.",
+        "Faites une salsa avec du melon, de la tomate, de l'oignon, du jus de citron vert, de la coriandre et des piments. Servez avec des chips ou comme garniture pour des tacos ou du poisson grillé.",
+        "Ajoutez des morceaux de melon dans une carafe d'eau avec des tranches de citron, de concombre et des feuilles de menthe pour une eau aromatisée.",
+        "Faites une confiture en mélangeant le melon avec du sucre et du jus de citron, puis en le cuisant à feu doux jusqu'à ce qu'il épaississe."
+      ]
     }
   ],
   "antiWasteTipsData": [
@@ -590,7 +621,7 @@
 
       "steps": [
         "Laver avec une brosse les légumes.",
-        "Les éplucher puis ettez les épluchures et les restes de légumes dans une grande casserole.",
+        "Les éplucher puis mettez les épluchures et les restes de légumes dans une grande casserole.",
         "Ajoutez l'eau.",
         "Portez à ébullition, puis réduisez le feu et laissez mijoter pendant 1 heure.",
         "Filtrez le bouillon à travers une passoire fine et assaisonnez avec du sel et du poivre.",
@@ -2344,6 +2375,8 @@
       "category": ["plat"],
       "eventCategory": null,
       "servingSize": "4",
+      "prepTime": "20 min",
+      "cookTime": "30 min",
       "sections": [
         {
           "name": "Pâte à pizza",
@@ -2400,6 +2433,7 @@
               "quantity": "100g"
             }
           ],
+
           "steps": [
             "Découpez l'escalope de poulet en cubes et faites revenir les morceaux de poulet dans une poêle huilée.",
             "Ajoutez le curry, mélangez, puis ajoutez la crème. Gardez un peu de crème pour la pâte.",
@@ -2408,6 +2442,236 @@
             "Mettez la pizza au four pendant 15 min, puis baissez la température à 180°C pour le reste de la cuisson pendant environ 20 min.",
             "À la sortie du four, laissez la pizza au poulet curry reposer pendant quelques min avant de la découper et de la déguster.",
             "Savourez votre délicieuse pizza au poulet curry bien chaude !"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glace_au_chocolat",
+      "image": "/assets/current-recipe/glace-au-chocolat.jpg",
+      "name": "Glace au chocolat sans sorbetière",
+      "eventCategory": "summer",
+      "servingSize": "4",
+      "prepTime": "30 min",
+      "cookTime": "0 min",
+      "ingredients": [
+        {
+          "name": "de chocolat noir (pâtissier)",
+          "quantity": "150 g"
+        },
+        {
+          "name": "de crème entière",
+          "quantity": "25 cl"
+        },
+        {
+          "name": "de sucre",
+          "quantity": "90 g"
+        },
+        {
+          "name": "oeufs",
+          "quantity": "2"
+        },
+        {
+          "name": "jaune d'oeuf",
+          "quantity": "1"
+        }
+      ],
+      "steps": [
+        "Mettre la crème dans un récipient pour la monter en chantilly plus tard, et mettre le tout dans le réfrigérateur, avec les fouets du batteur électrique, pendant au moins 20 min. Cela permettra à la crème de monter plus facilement.",
+        "Pendant ce temps, faire fondre le chocolat au bain-marie. Laisser refroidir hors du feu",
+        "Battre les jaunes d'œufs et le sucre quelques minutes.",
+        "Ajouter le chocolat fondu à la préparation et mélanger",
+        "Monter la crème liquide en chantilly puis l’incorporer à la préparation",
+        "Battre les 2 blancs d’œufs en neige, puis les ajouter à l'ensemble de la préparation",
+        "Ajouter des pépites de chocolat selon vos envies",
+        "Placer au congélateur pendant au moins 4 heures, en remuant toutes les 30 minutes pour éviter la formation de cristaux de glace.",
+        "Servez et dégustez votre glace au chocolat maison!"
+      ]
+    },
+    {
+      "id": "confiture_de_fraise",
+      "image": "/assets/current-recipe/confiture-de-fraises.jpg",
+      "name": "Confiture de fraises",
+      "eventCategory": "summer",
+      "servingSize": "4",
+      "prepTime": "10 min",
+      "cookTime": "45 min",
+      "ingredients": [
+        {
+          "name": "de fraises fraîches",
+          "quantity": "1 kg"
+        },
+        {
+          "name": "de sucre cristallisé",
+          "quantity": "250 g"
+        },
+        {
+          "name": "de jus de citron",
+          "quantity": "2 cuillères à soupe"
+        }
+      ],
+      "steps": [
+        "Lavez, équeutez et coupez les fraises en morceaux.",
+        "Dans une marmite, mélangez les fraises avec le sucre et le jus de citron.",
+        "Faites cuire en maintenant l'ébullition 30 min environ, en remuant de temps en temps.",
+        "Faites le test de l'assiette froide : sortir une assiette de réfrigérateur et y mettre quelques gouttes de confiture. Placer l'assiette à la verticale. Si la confiture ne coule pas, cela veut dire qu'elle est cuite.",
+        "Versez la confiture dans des pots stérilisés et fermez-les hermétiquement. Les retourner jusqu'à complet refroidissement.",
+        "Les pots se conservent ainsi 2-3 ans dans un endroit sec et à l'abri de la lumière."
+      ]
+    },
+    {
+      "id": "tarte_aux_fraise",
+      "image": "/assets/current-recipe/tarte-aux-fraises.jpg",
+      "name": "Tarte aux fraises",
+      "eventCategory": "summer",
+      "servingSize": "8",
+      "prepTime": "30 min",
+      "cookTime": "25 min",
+      "sections": [
+        {
+          "name": "Pâte sablée",
+          "ingredients": [
+            {
+              "name": "de farine",
+              "quantity": "250g"
+            },
+            {
+              "name": "de beurre mou",
+              "quantity": "125g"
+            },
+            {
+              "name": "oeuf",
+              "quantity": "1"
+            },
+            {
+              "name": "de sucre glace",
+              "quantity": "60g"
+            }
+          ],
+          "steps": [
+            "Incorporez le beurre coupé en dés à la farine en mélangeant avec les doigts de façon à obtenir un sable grossier. Attention à ne pas trop travailler la pâte sinon elle devient élastique. Il faut juste incorporer les ingrédients.",
+            "Ajoutez l'oeuf tout en continuant de mélanger avec les mains. Versez progressivement le sucre glace et pétrissez jusuq'à obtenir une pâte homogène.",
+            "Formez une boule, enveloppez-la dans du film alimentaire et laissez reposer au réfrigérateur pendant environ 2 heures."
+          ]
+        },
+        {
+          "name": "Crème pâtissière",
+          "ingredients": [
+            {
+              "name": "de lait",
+              "quantity": "500 ml"
+            },
+            {
+              "name": "jaunes d'oeufs",
+              "quantity": "3"
+            },
+
+            {
+              "name": "de sucre en poudre",
+              "quantity": "75g"
+            },
+            {
+              "name": "de farine",
+              "quantity": "40g"
+            }
+          ],
+          "steps": [
+            "Faire chauffer le lait.",
+            "Travailler les jaunes d'oeufs avec le sucre jusqu'à ce que le mélange blanchisse et devienne mousseux.",
+            "Ajouter la farine en pluie. Bien mélanger. Verser le lait bouillant petit à petit sur le mélange.",
+            "Remettre le tout sur feu doux et porter doucement à ébullition 5 minutes, en tournant sans cesse."
+          ]
+        },
+        {
+          "name": "Montage et cuisson",
+          "ingredients": [
+            {
+              "name": "disques de pâte feuilletée",
+              "quantity": "2"
+            },
+            {
+              "name": "jaune d'oeuf",
+              "quantity": "1"
+            }
+          ],
+          "steps": [
+            "Préchauffer le four à 180°C.",
+            "Étaler la pâte sur un plan fariné. La pâte étant fragile, on peut l'étaler entre 2 feuilles de papier sulfurisé.",
+            "Garnir le moule à tarte de la pâte en épousant bien le fond du moule et recouper les bords.",
+            "Cuire la pâte à blanc pendant 15 min environ à 180° en mettant dessus un papier sulfurisé avec des noyaux ou des légumes secs (pour éviter les gonflements de la pâte). Avant la fin de la cuisson, retirer le papier pour que le fond cuise aussi. Bien surveiller la cuisson pour que la pâte ne cuise pas trop et reste couleur blond.",
+            "Laver les fraises rapidement, les égoutter puis les équeuter.",
+            "Quand le fond de tarte est refroidi étaler dessus la crème pâtissière refroidie et déposer par dessus les fraises en rang serré.",
+            "Dans une petite casserole, sur feu doux, délayer 2 cuillerées de gelée de fruits (ou de confiture sans les fruits) avec 1 cuillerée d'eau. Faire briller la tarte en passant ce nappage au pinceau sur les fruits."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gateau_chocolat",
+      "image": "/assets/sugar-recipe/gateau-au-chocolat.jpeg",
+      "name": "Gâteau au chocolat",
+      "eventCategory": null,
+      "servingSize": "6",
+      "prepTime": "30 min",
+      "cookTime": "40 min",
+      "sections": [
+        {
+          "name": "Fondant au chocolat",
+          "ingredients": [
+            {
+              "name": "de chocolat pâtisier",
+              "quantity": "240g"
+            },
+            {
+              "name": "de beurre en parcelles",
+              "quantity": "200g"
+            },
+            {
+              "name": "de lait",
+              "quantity": "150 ml"
+            },
+            {
+              "name": "de farine",
+              "quantity": "100g"
+            },
+            {
+              "name": "de sucre en poudre",
+              "quantity": "150g"
+            },
+            {
+              "name": "oeufs",
+              "quantity": "6"
+            },
+            {
+              "name": "de poudre d'amande",
+              "quantity": "125g"
+            }
+          ],
+          "steps": [
+            "Préchauffez le four à 160°C (th.5/6). Dans une casserole, faites fondre le chocolat avec le beurre et le lait sur feu très doux.",
+            "Hors du feu, incorporez la farine et le sucre en poudre en fouettant.",
+            "Fouettez les jaunes d'oeufs avec les amandes en poudre. Incorporez au mélange précédent.",
+            "Fouettez les blancs en neige avec une pincée de sel. Incorporez les délicatement à la préparation précédente. Versez dans un moule à manquer beurré.",
+            "Enfournez pour 1 heure."
+          ]
+        },
+        {
+          "name": "Ganache au chocolat",
+          "ingredients": [
+            {
+              "name": "de chocolat pâtisier",
+              "quantity": "100g"
+            },
+            {
+              "name": "de crème fraîche",
+              "quantity": "25cl"
+            }
+          ],
+          "steps": [
+            "Faire fondre le chocolat au bain-marie.",
+            "Ajouter la crème faîche tout en mélangeant.",
+            "Napper le gâteau avec une spatule dès que le mélange est homogène.",
+            "Astuce: Pour un aspect bien brillant, nappez votre gâteau encore chaud."
           ]
         }
       ]
