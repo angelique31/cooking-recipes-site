@@ -20,8 +20,7 @@ export const StyledHeartButton = styled.button`
   &:hover {
     background-color: rgb(255, 66, 105);
   }
-  @media (hover: none) and (pointer: coarse) {
-    /* Styles pour les appareils tactiles */
+  @media screen and (max-width: 768px) {
     visibility: visible;
     opacity: 1;
   }
@@ -41,12 +40,6 @@ export const StyledCard = styled.div`
     ${StyledHeartButton} {
       visibility: visible; /* Faire apparaître le cœur lorsque la carte est survolée */
       opacity: 1; /* Transition de l'opacité */
-    }
-    @media (hover: none) and (pointer: coarse) {
-      /* Désactiver l'effet de mise à l'échelle sur les appareils tactiles */
-      &:hover {
-        transform: none;
-      }
     }
   }
   ${({ isInSavedRecipesPage }) =>
