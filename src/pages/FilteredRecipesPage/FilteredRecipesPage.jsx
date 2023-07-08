@@ -28,7 +28,21 @@ const FilteredRecipesPage = () => {
 
   // Filtrage par catégorie
   if (categoryName && !searchValue) {
+    // filteredRecipes = recipesData.filter((recipe) => {
+    //   return recipe.category.some((cat) => {
+    //     let cleanCat = removeAccents(cat).toLowerCase();
+    //     let cleanCategoryName = removeAccents(categoryName).toLowerCase();
+    //     return (
+    //       cleanCat === cleanCategoryName || cleanCat + "s" === cleanCategoryName
+    //     );
+    //   });
+    // });
+
     filteredRecipes = recipesData.filter((recipe) => {
+      // Vérifier que la recette a une catégorie avant de continuer
+      if (!recipe.category) {
+        return false;
+      }
       return recipe.category.some((cat) => {
         let cleanCat = removeAccents(cat).toLowerCase();
         let cleanCategoryName = removeAccents(categoryName).toLowerCase();

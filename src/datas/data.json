@@ -431,16 +431,16 @@
       "name": "Comment cuisiner un melon fade et sans goût?",
       "summaryTitle": [
         "Votre melon est fade ou sans goût ?",
-        "Salade de Melon et Jambon de Parme",
-        "Smoothie au Melon",
-        "Sorbet au Melon",
-        "Gaspacho de Melon",
-        "Brochettes de Fruits",
-        "Salade de Melon et Feta",
-        "Melon Grillé",
-        "Salsa de Melon",
-        "Infusion d'eau au Melon",
-        "Confiture de Melon"
+        "1. Salade de melon et jambon de Parme",
+        "2. Smoothie au melon",
+        "3. Sorbet au melon",
+        "4. Gaspacho de melon",
+        "5. Brochettes de fruits",
+        "6. Salade de melon et feta",
+        "7. Melon grillé",
+        "8. Salsa de melon",
+        "9. Infusion d'eau au melon",
+        "10. Confiture de melon"
       ],
       "summaryText": [
         "Pas la peine de le jeter ! Voici des astuces simples et gourmandes pour lui redonner du peps et tout un tas de saveurs !",
@@ -2674,6 +2674,112 @@
             "Astuce: Pour un aspect bien brillant, nappez votre gâteau encore chaud."
           ]
         }
+      ]
+    },
+    {
+      "id": "mini_pizza_tortilla",
+      "name": "Mini pizza tortilla",
+      "image": "/assets/salty-recipe/mini-pizzas.jpg",
+      "category": ["entrée"],
+      "eventCategory": null,
+      "servingSize": "4",
+      "ingredients": [
+        {
+          "name": "tortillas de blé ou mais",
+          "quantity": "2"
+        },
+        {
+          "name": "petite brique de coulis de tomates",
+          "quantity": "1"
+        },
+        {
+          "name": "de jambon",
+          "quantity": "1 tranche"
+        },
+        {
+          "name": "de champignons",
+          "quantity": "1 petite boite"
+        },
+        {
+          "name": "Gruyère rapé"
+        },
+        {
+          "name": "Sel"
+        },
+        {
+          "name": "Poivre"
+        }
+      ],
+      "prepTime": "20 min",
+      "cookTime": "15 min",
+      "difficulty": "Facile",
+      "steps": [
+        "Préchauffer le four à 180°C.",
+        "Détaillez des petits cercles dans les tortillas à l'aide d'un emporte-pièce (si votre emporte pièce n'est pas assez tranchant, aidez vous d'une paire de ciseaux de cuisine pour les découper.",
+        "Disposez les cercles de tortillas sur du papier sulfurisé sur une plaque de cuisson, puis étalez une couche de coulis de tomates à l'aide d'une petite cuillère (on utilisera pas toute la brique).",
+        "Découpez le jambon en petits morceaux et le disposer sur les pizzas, parsemez de gruyère râpé, puis terminez en disposant des lamelles de champignon.",
+        "Enfourner 10 à 15 minutes "
+      ]
+    },
+    {
+      "id": "samossas_poulet",
+      "name": "Samossas au poulet et poivron",
+      "image": "/assets/salty-recipe/samossas.jpg",
+      "category": ["entrée"],
+      "eventCategory": null,
+      "servingSize": "4",
+      "ingredients": [
+        {
+          "name": "feuilles de brick",
+          "quantity": "8"
+        },
+        {
+          "name": " de blanc de poulet",
+          "quantity": "250 g"
+        },
+        {
+          "name": "poivron rouge",
+          "quantity": "1"
+        },
+        {
+          "name": "oignon",
+          "quantity": "1"
+        },
+        {
+          "name": "de paprika en poudre",
+          "quantity": "2 cc"
+        },
+        {
+          "name": "de curry en poudre",
+          "quantity": "2 cc"
+        },
+        {
+          "name": "de concentré de tomate",
+          "quantity": "3 CS"
+        },
+        {
+          "name": "persil ciselé",
+          "quantity": "1 CS"
+        },
+        {
+          "name": "Huile d'olive"
+        },
+        {
+          "name": "Sel"
+        },
+        {
+          "name": "Poivre"
+        }
+      ],
+      "prepTime": "1h 20 min",
+      "cookTime": "10 min",
+      "difficulty": "Moyenne",
+      "steps": [
+        "Couper le poulet en petits dés et le faire mariner dans un bol avec 3 cuillères à soupe d'huile d'olive, le paprika, le curry, du sel et du poivre. Placer au réfrigérateur 1h.",
+        "Laver, épépiner et couper le poivron en petits dés, peler et émincer finement l'oignon.",
+        "Dans une poêle légèrement huilée, faire revenir le poivron et l'oignon jusqu'à coloration, ajouter le concentré de tomate et le persil et mélanger. Ajouter ensuite le poulet avec la marinade et faire cuire sur feu doux jusqu'à ce que le poulet soit cuit.",
+        "Couper les feuilles de brick en deux et procéder au premier pliage: ramener le bord arrondi vers le bord droit, afin d’avoir comme une bande de 7-8 cm de large. Dans le coin de l'arrondi déposer la préparation puis replier le coin gauche sur la garniture de sorte à faire un triangle, puis replier à nouveau de la même façon jusqu’à la fin de la feuille (s'il reste un petit bout de feuille à la fin du pliage couper au ciseau). Humecter d'un peu d'huile pour maintenir fermer le samoussa si besoin.",
+        "Faire cuire les samoussas 10 minutes à 220°C dans un four préalablement préchauffé ou à la poêle sur feux doux en retournant régulièrement les samoussas jusqu'à ce qu'ils soient bien dorés."
       ]
     }
   ]
