@@ -2781,6 +2781,107 @@
         "Couper les feuilles de brick en deux et procéder au premier pliage: ramener le bord arrondi vers le bord droit, afin d’avoir comme une bande de 7-8 cm de large. Dans le coin de l'arrondi déposer la préparation puis replier le coin gauche sur la garniture de sorte à faire un triangle, puis replier à nouveau de la même façon jusqu’à la fin de la feuille (s'il reste un petit bout de feuille à la fin du pliage couper au ciseau). Humecter d'un peu d'huile pour maintenir fermer le samoussa si besoin.",
         "Faire cuire les samoussas 10 minutes à 220°C dans un four préalablement préchauffé ou à la poêle sur feux doux en retournant régulièrement les samoussas jusqu'à ce qu'ils soient bien dorés."
       ]
+    },
+    {
+      "id": "courgette_tarte",
+      "name": "Tarte aux courgettes et lardons",
+      "image": "/assets/salty-recipe/tarte_courgettes.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "6",
+      "ingredients": [
+        {
+          "name": "courgettes",
+          "quantity": "2"
+        },
+        {
+          "name": "pâte brisée",
+          "quantity": "1"
+        },
+        {
+          "name": "de lardons",
+          "quantity": "200g"
+        },
+        {
+          "name": "de curry",
+          "quantity": "1 cc"
+        },
+        {
+          "name": "sel",
+          "quantity": ""
+        },
+        {
+          "name": "poivre",
+          "quantity": ""
+        },
+        {
+          "name": "de lait ou de crème liquide",
+          "quantity": "100ml"
+        },
+        {
+          "name": "oeufs",
+          "quantity": "2"
+        }
+      ],
+      "prepTime": "25 min",
+      "cookTime": "30 min",
+      "steps": [
+        "Préchauffer le four thermostat 7 (220°C).",
+        "Faire rissoler les lardons et l'oignon dans une poêle, mélanger ensuite les rondelles de courgettes.",
+        "Battre les oeufs et la crème, poivrer et ajouter le curry.",
+        "Répartir le mélange de lardons, courgettes et oignons sur le fond de tarte, puis verser les oeufs battus et la crème mélangés, salés et poivrés.",
+        "Cuire une demi-heure (retirer du four lorsque le dessus est bien doré)."
+      ]
+    },
+    {
+      "id": "courgette_viande_hachee",
+      "name": "Courgettes à la viande hachée",
+      "image": "/assets/salty-recipe/courgettes_bolognaise.jpg",
+      "eventCategory": null,
+      "category": ["plat", "rapide"],
+      "servingSize": "4",
+      "ingredients": [
+        {
+          "name": "courgette",
+          "quantity": "1"
+        },
+        {
+          "name": "persil",
+          "quantity": ""
+        },
+        {
+          "name": "poivre",
+          "quantity": ""
+        },
+        {
+          "name": "sel",
+          "quantity": ""
+        },
+        {
+          "name": "de gruyère râpé",
+          "quantity": "50g"
+        },
+        {
+          "name": "de viande hachée",
+          "quantity": "500g"
+        },
+        {
+          "name": "de coulis de tomates",
+          "quantity": "400g"
+        },
+        {
+          "name": "gousse d'ail",
+          "quantity": "1"
+        }
+      ],
+      "prepTime": "20 min",
+      "cookTime": "20 min",
+      "steps": [
+        "Couper les courgettes en rondelles et les faire cuire 20 mn à la vapeur.",
+        "Pendant ce temps, faire revenir 10 mn la viande hachée dans un peu de matière grasse. Ajouter le coulis de tomate, l'ail, le persil, le sel et le poivre. Laisser cuire encore 5 mn.",
+        "Mélanger le tout. Saupoudrer de gruyère râpé.",
+        "Peut s'accompagner de pâtes."
+      ]
     }
   ]
 }
