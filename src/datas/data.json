@@ -395,7 +395,7 @@
         "Que faire pour bien s’alimenter en été ?"
       ],
       "summaryText": [
-        "Durant les fortes chaleurs, le corps humain a tendance à être plus inactif et à conserver son énergie, car les activités et l’agitation peuvent augmenter la sensation de chaleur. En été, le corps n’a pas besoin de dépenser beaucoup d'énergie pour maintenir sa température interne, contrairement à l'hiver où il lutte pour se réchauffer. De ce fait, les besoins énergétiques diminuent et, par un mécanisme d'auto-régulation, l'appétit se réduit naturellement, ce qui rend les repas copieux moins attrayants. Ce phénomène est particulièrement notable chez les enfants, qui ont tendance à être moins actifs et donc à ressentir moins la faim lorsque les températures sont élevées.",
+        "Durant les fortes chaleurs, le corps humain a tendance à être plus inactif et à conserver son énergie, car les activités et l’agitation peuvent augmenter la sensation de chaleur. En été, le corps n’a pas besoin de dépenser beaucoup d'énergie pour maintenir sa température interne, contrairement à l'winter où il lutte pour se réchauffer. De ce fait, les besoins énergétiques diminuent et, par un mécanisme d'auto-régulation, l'appétit se réduit naturellement, ce qui rend les repas copieux moins attrayants. Ce phénomène est particulièrement notable chez les enfants, qui ont tendance à être moins actifs et donc à ressentir moins la faim lorsque les températures sont élevées.",
         "Pour assurer un régime alimentaire équilibré sans carences pendant les jours chauds, optez pour des repas froids et rafraîchissants. Les salades variées, les crudités et les sandwichs froids sont d'excellentes options pour toute la famille. Pour satisfaire les enfants ou les amateurs de sucreries, envisagez des desserts glacés, comme la glace au yaourt et aux framboises fait maison.En outre, il est crucial de ne pas négliger l'hydratation. Consommer suffisamment d'eau est essentiel, surtout pendant les périodes de chaleur."
       ]
     },
@@ -1969,7 +1969,7 @@
       "name": "Gratin dauphinois",
       "image": "/assets/salty-recipe/gratin_dauphinois.jpg",
       "category": ["plat"],
-      "eventCategory": "hiver",
+      "eventCategory": "winter",
       "servingSize": "4",
       "ingredients": [
         {
@@ -2008,7 +2008,7 @@
       "name": "Pommes de terre raclette et lard fumé",
       "image": "/assets/salty-recipe/Pommes-de-terre-au-fromage-a-raclette-et-lard-fume.jpg",
       "category": ["plat"],
-      "eventCategory": "hiver",
+      "eventCategory": "winter",
       "servingSize": "4",
       "ingredients": [
         {
@@ -2045,7 +2045,7 @@
       "name": "Velouté de butternut",
       "image": "/assets/salty-recipe/veloute-de-butternut.jpg",
       "category": ["entrée"],
-      "eventCategory": "hiver",
+      "eventCategory": "winter",
       "servingSize": "4",
       "ingredients": [
         {
@@ -2088,7 +2088,7 @@
       "name": "Velouté de lentilles corail",
       "image": "/assets/salty-recipe/velouté-lentilles-corail.jpg",
       "category": ["entrée"],
-      "eventCategory": "hiver",
+      "eventCategory": "winter",
       "servingSize": "6",
       "ingredients": [
         {
@@ -2881,6 +2881,183 @@
         "Pendant ce temps, faire revenir 10 mn la viande hachée dans un peu de matière grasse. Ajouter le coulis de tomate, l'ail, le persil, le sel et le poivre. Laisser cuire encore 5 mn.",
         "Mélanger le tout. Saupoudrer de gruyère râpé.",
         "Peut s'accompagner de pâtes."
+      ]
+    },
+    {
+      "id": "soupe_courgette_curry",
+      "name": "Soupe à la courgette et au curry",
+      "image": "/assets/salty-recipe/soupe à la courgette et au curry.jpg",
+      "eventCategory": "winter",
+      "category": ["entrée", "rapide"],
+      "servingSize": "6",
+      "ingredients": [
+        {
+          "name": "de courgette",
+          "quantity": "1 kg"
+        },
+        {
+          "name": "oignon",
+          "quantity": "1"
+        },
+        {
+          "name": "curry",
+          "quantity": ""
+        },
+        {
+          "name": "poivre",
+          "quantity": ""
+        },
+        {
+          "name": "sel",
+          "quantity": ""
+        },
+        {
+          "name": "huile",
+          "quantity": ""
+        },
+        {
+          "name": "de pomme de terre",
+          "quantity": "300 g"
+        },
+        {
+          "name": "gousse d'ail",
+          "quantity": "1"
+        },
+        {
+          "name": "bouillon de volaille",
+          "quantity": "1 cube"
+        }
+      ],
+      "prepTime": "30 min",
+      "cookTime": "30 min",
+      "steps": [
+        "Découpez en cubes les courgettes et les pommes de terre épluchées. Coupez les oignons grossièrement.",
+        "Préparez du bouillon de volaille (frais ou lyophilisé).",
+        "Dans une cocotte, faites chauffez 2 cuillères à soupe d'huile. Quand celle ci est bien chaude, versez les oignons et l'ail et saupoudrez de curry.",
+        "Remuez constamment, le temps que les oignons s'imprègnent de curry. Versez 1 l d'eau (y compris le bouillon).",
+        "Ajoutez les pommes de terre et 5 à 10 mn plus tard, les dés de courgettes.",
+        "Laissez cuire 20 min. La soupe ne doit pas bouillir. Salez et poivrez.",
+        "Mixez (de préférence le plus possible, cette soupe est meilleure lisse). C'est prêt!"
+      ]
+    },
+    {
+      "id": "gateau_chocolat_miel_courgette",
+      "name": "Gâteau au chocolat (avec miel et courgettes)",
+      "image": "/assets/sugar-recipe/gateau_chocolat_sans_beurre.jpg",
+      "eventCategory": null,
+      "category": ["dessert"],
+      "servingSize": "6",
+      "ingredients": [
+        {
+          "name": "de chocolat",
+          "quantity": "200 g"
+        },
+        {
+          "name": "",
+          "quantity": "180 g de courgettes cuites et mixées"
+        },
+        {
+          "name": "miel",
+          "quantity": "60 g"
+        },
+        {
+          "name": "de farine",
+          "quantity": "100 g"
+        },
+        {
+          "name": "de levure",
+          "quantity": "1 sachet"
+        },
+        {
+          "name": "oeufs",
+          "quantity": "3"
+        }
+      ],
+      "prepTime": "30 min",
+      "cookTime": "30 min",
+      "steps": [
+        "Faire cuire les courgettes coupées en morceaux dans de l'eau bouillante durant 12 minutes puis les égoutter et les mixer.",
+        "Préchauffer le four à 180°C (thermostat 6).",
+        "Faire fondre le chocolat puis y ajouter les courgettes.",
+        "Pendant ce temps, mélanger les œufs et le miel.",
+        "Y incorporer le mélange chocolat/courgettes, puis la farine et la levure.",
+        "Faire cuire 30 minutes au four dans un moule avec du papier cuisson au fond."
+      ]
+    },
+    {
+      "id": "muffins_au_chorizo",
+      "image": "/assets/salty-recipe/muffins-au-chorizo.jpg",
+      "name": "Muffins au chorizo",
+      "eventCategory": null,
+      "category": ["aperitif"],
+      "servingSize": "10",
+      "prepTime": "30 min",
+      "cookTime": "25 min",
+      "sections": [
+        {
+          "name": "Garniture",
+          "ingredients": [
+            {
+              "name": "poivron",
+              "quantity": "1"
+            },
+            {
+              "name": "d'huile d'olive",
+              "quantity": "2 c.à.s"
+            },
+            {
+              "name": "poivre",
+              "quantity": null
+            },
+            {
+              "name": "sel",
+              "quantity": null
+            },
+            {
+              "name": "de chorizo fort",
+              "quantity": "200 g"
+            },
+            {
+              "name": "d'ail",
+              "quantity": "4 gousses"
+            }
+          ],
+          "steps": [
+            "Couper le poivron en petits dés. Dans une poêle, le faire fondre à feu moyen dans l'huile d'olive.",
+            "Pendant ce temps, couper le chorizo en rondelles puis en dés. Réserver.",
+            "Peler et couper les gousses d'ail en petits morceaux. Les ajouter aux dés de poivrons. Assaisonner et continuer la cuisson à feu doux pour faire suer et ramollir l'ail."
+          ]
+        },
+        {
+          "name": "Pâte",
+          "ingredients": [
+            {
+              "name": "de farine",
+              "quantity": "250 g"
+            },
+            {
+              "name": "de levure chimique",
+              "quantity": "1 sachet"
+            },
+            {
+              "name": "de sel",
+              "quantity": "1 pincée"
+            },
+            {
+              "name": "oeufs",
+              "quantity": "3"
+            },
+            {
+              "name": "de lait",
+              "quantity": "10 cl"
+            }
+          ],
+          "steps": [
+            "Préparer la pâte : mélanger la farine au sachet de levure. Battre les oeufs, rajouter le lait et la farine en pluie. Saler.",
+            "La pâte doit être légèrement épaisse : rectifier avec un peu de farine ou d'eau selon le résultat.",
+            "Quand la garniture est cuite, bien la mélanger à la pâte, avec le chorizo. Remplir les moules à muffins aux 2/3. Cuire au four à 180°C (thermostat 6) pendant 25 min."
+          ]
+        }
       ]
     }
   ]
