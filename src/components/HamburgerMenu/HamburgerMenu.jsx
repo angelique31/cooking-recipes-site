@@ -8,13 +8,7 @@ import {
   SpecialNavLink,
 } from "./HamburgerMenu.styled";
 
-const categories = [
-  "Recettes rapides",
-  "Entrées",
-  "Plats",
-  "Desserts",
-  "Apéritifs",
-];
+const categories = ["Rapide", "Entrées", "Plats", "Desserts", "Apéritifs"];
 
 const HamburgerMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -52,7 +46,8 @@ const HamburgerMenu = () => {
           <SpecialNavLink to="/mes-recettes">Carnet de Recettes</SpecialNavLink>
           {categories.map((category, index) => (
             <MobileNavLink to={`/category/${category}`} key={index}>
-              {category}
+              {/* {category} */}
+              {category === "Rapide" ? "Recettes rapides" : category}
             </MobileNavLink>
           ))}
         </MobileNavMenu>
