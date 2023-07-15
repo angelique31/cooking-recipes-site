@@ -5,11 +5,38 @@ import {
   Bar,
   MobileNavMenu,
   MobileNavLink,
+  SpecialNavLink,
 } from "./HamburgerMenu.styled";
+
+const categories = [
+  "Recettes rapides",
+  "Entrées",
+  "Plats",
+  "Desserts",
+  "Apéritifs",
+];
 
 const HamburgerMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  // return (
+  //   <>
+  //     <HamburgerMenuContainer onClick={() => setIsMenuOpen(!isMenuOpen)}>
+  //       <Icon isMenuOpen={isMenuOpen}>
+  //         <Bar />
+  //         <Bar />
+  //         <Bar />
+  //       </Icon>
+  //     </HamburgerMenuContainer>
+
+  //     {isMenuOpen && (
+  //       <MobileNavMenu>
+  //         <MobileNavLink to="/mes-recettes">Carnet de Recettes</MobileNavLink>
+  //         {/* Ajoutez d'autres liens ici si nécessaire */}
+  //       </MobileNavMenu>
+  //     )}
+  //   </>
+  // );
   return (
     <>
       <HamburgerMenuContainer onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -22,8 +49,12 @@ const HamburgerMenu = () => {
 
       {isMenuOpen && (
         <MobileNavMenu>
-          <MobileNavLink to="/mes-recettes">Carnet de Recettes</MobileNavLink>
-          {/* Ajoutez d'autres liens ici si nécessaire */}
+          <SpecialNavLink to="/mes-recettes">Carnet de Recettes</SpecialNavLink>
+          {categories.map((category, index) => (
+            <MobileNavLink to={`/category/${category}`} key={index}>
+              {category}
+            </MobileNavLink>
+          ))}
         </MobileNavMenu>
       )}
     </>

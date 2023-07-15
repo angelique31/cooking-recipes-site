@@ -21,9 +21,13 @@ export const MobileNavMenu = styled.div`
   background-color: white;
 
   @media screen and (max-width: 600px) {
-    display: block;
+    // display: block;
     animation: ${slideInFromRight} 0.3s ease-out;
     z-index: 20;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
 `;
 
@@ -42,7 +46,6 @@ export const HamburgerMenuContainer = styled.div`
 export const Icon = styled.div`
   position: relative;
   display: inline-block;
-
   width: 30px;
   height: 24px;
 
@@ -78,7 +81,7 @@ export const Bar = styled.div``;
 
 export const MobileNavLink = styled(Link)`
   display: block;
-  padding: 22px 16px;
+  padding: 5px 16px;
   text-decoration: none;
   text-align: right;
   color: rgb(255, 66, 105);
@@ -86,4 +89,12 @@ export const MobileNavLink = styled(Link)`
   &:hover {
     background-color: #f1f1f1;
   }
+`;
+
+export const SpecialNavLink = styled(MobileNavLink)`
+  color: rgb(255, 66, 105);
+  border: 2px solid rgb(255, 66, 105);
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
 `;

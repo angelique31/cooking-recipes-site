@@ -21,7 +21,7 @@ import { useSelector, useDispatch } from "react-redux";
 
 import { setNumberOfPeople } from "../../store/actions/recipeActions.js";
 import HeaderWithBackButton from "../HeaderWithBackButton/HeaderWithBackButton.jsx";
-
+// import CategoryCard from "../../components/RecipeCategoryMenu/CategoryCard/CategoryCard.jsx";
 const RecipeJsonDetails = ({ recipeType }) => {
   const dispatch = useDispatch();
   const { recipeId } = useParams();
@@ -104,6 +104,7 @@ const RecipeJsonDetails = ({ recipeType }) => {
   return (
     <div>
       <NavBar isRecipePage={true} />
+      {/* <CategoryCard /> */}
       <HeaderWithBackButton recipeName={recipe.name} />
       <ContentWrapper>
         <ImageInfoWrapper>
