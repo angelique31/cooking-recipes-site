@@ -4,7 +4,7 @@ export const ContentWrapper = styled.div`
   margin: 30px 50px 50px 20px;
   line-height: 28px;
   @media screen and (max-width: 670px) {
-    margin: 30px auto; /* Centrer horizontalement */
+    margin: 100px auto; /* Centrer horizontalement */
     max-width: calc(100% - 20px); /* Empêcher le débordement horizontal */
   }
 `;

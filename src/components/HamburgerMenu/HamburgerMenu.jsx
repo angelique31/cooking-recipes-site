@@ -46,7 +46,6 @@ const HamburgerMenu = () => {
           <SpecialNavLink to="/mes-recettes">Carnet de Recettes</SpecialNavLink>
           {categories.map((category, index) => (
             <MobileNavLink to={`/category/${category}`} key={index}>
-              {/* {category} */}
               {category === "Rapide" ? "Recettes rapides" : category}
             </MobileNavLink>
           ))}
