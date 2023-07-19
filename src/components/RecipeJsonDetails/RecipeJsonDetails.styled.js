@@ -63,3 +63,8 @@ export const ImageInfoWrapper = styled.div`
     max-width: calc(100% - 20px); /* Empêcher le débordement horizontal */
   }
 `;
+
+export const StyledDiv = styled.div`
+  margin-left: 20px;
+  margin-top: 50px;
+`;

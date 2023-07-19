@@ -7,8 +7,11 @@ export const StyleDiv = styled.div`
   line-height: 28px;
   width: 50%;
   @media screen and (max-width: 1158px) {
-    margin: 100px 50px 0 20px;
+    margin: 100px 50px 0 55px;
     width: auto;
+  }
+  @media screen and (max-width: 560px) {
+    margin: 0 30px 0 30px;
   }
 `;
 
@@ -67,5 +70,8 @@ export const FlexItem = styled.div`
 export const StyledDivLineHeight = styled.div`
   line-height: 28px;
   text-align: justify;
-  margin: 0 50px 0 20px;
+  margin: 0 50px 0 55px;
+  @media screen and (max-width: 560px) {
+    margin: 0 30px 0 30px;
+  }
 `;

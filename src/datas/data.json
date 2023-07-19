@@ -400,28 +400,42 @@
       ]
     },
     {
-      "id": "cuisson_oeufs",
-      "image": "/assets/newsCard/oeufs.jpg",
-      "name": "Faut-il commencer la cuisson des œufs durs à l'eau froide ou dans l'eau bouillante?",
+      "id": "bienfaits_eau_citronnee",
+      "image": "/assets/newsCard/eau_citron.jpg",
+      "name": "L'eau citronnée : un trésor pour votre santé",
       "summaryTitle": [
-        "Cuire l’œuf dur à l’eau chaude, une bonne méthode ?",
-        "Quels sont les avantage d’un départ à l’eau froide ?",
-        "A vous de choisir la méthode que vous préférez!"
+        "1. L’eau citronnée favorise l’hydratation",
+        "2. L’eau citronnée est une bonne source de vitamine C",
+        "3. L’eau citronnée peut favoriser la perte de poids",
+        "4. L’eau citronnée peut aider à la digestion",
+        "5. L’eau citronnée purifie et détoxifie l’organisme",
+        "6. Astuce avec du curcuma"
       ],
       "summaryText": [
         [
-          "Pour cuire des œufs durs sans risque de choc thermique, commencez par les laisser à température ambiante en les sortant du réfrigérateur une heure avant la cuisson.",
-          "Ensuite, portez de l’eau à ébullition dans une casserole. Utilisez une cuillère ou une écumoire pour y déposer les œufs délicatement, puis laissez-les cuire pendant environ 10 minutes.",
-          "Une fois la cuisson terminée, retirez la casserole du feu, extrayez les œufs et plongez-les dans un saladier d'eau froide pour les refroidir avant de les écaler.",
-          "L'avantage de cette méthode est que le temps de cuisson est facile à surveiller, car il démarre dès que les œufs sont immergés dans l'eau bouillante."
+          "L'eau citronnée est un moyen délicieux et rafraîchissant pour augmenter votre apport en eau et assurer une hydratation optimale de votre corps.",
+          "L'ajout de jus de citron à votre eau pour en rehausser le goût peut vous inciter à boire plus.",
+          "Elle fournit à votre corps le liquide essentiel ainsi que des minéraux tels que le potassium, le calcium, le magnésium, et des éléments comme le fer et la vitamine A."
         ],
         [
-          "- Cette méthode consiste à cuire les œufs en les démarrant dans de l'eau froide, ce qui réduit les risques de brisures et de brûlures. Pour ce faire, placez les œufs dans une casserole et ajoutez suffisamment d'eau froide pour qu'ils soient entièrement submergés. Amenez l'eau à ébullition, puis réduisez la chaleur et laissez cuire pendant 9 à 10 minutes selon la taille des œufs.",
-          "- Cependant, cette méthode présente l’inconvénient de rendre difficile la détermination du moment exact pour commencer à chronométrer la cuisson : faut-il le faire dès que l'eau commence à frémir ou lorsqu'elle bout ? Ceci peut entraîner des œufs insuffisamment cuits ou trop cuits, ce qui peut rendre le blanc caoutchouteux et foncé.",
-          "- Pour éviter les erreurs, commencez à chronométrer dès que l'eau atteint l'ébullition, et veillez à ne pas cuire les œufs pendant plus de 10 minutes afin d'éviter la sur-cuisson."
+          "Les fruits citriques comme le citron sont riches en vitamine C, un antioxydant qui protège les cellules contre les radicaux libres.",
+          "L'eau citronnée possède des propriétés antibactériennes et anti-inflammatoires et renforce le système immunitaire."
         ],
         [
-          "A vous de choisir la méthode qui vous convient le mieux. Une fois bien maîtrisée, elle vous permettra d’obtenir des œufs cuits à la perfection !"
+          "Le jus de citron peut aider à la perte de poids grâce à ses multiples propriétés, notamment en aidant à la détoxification du corps et en favorisant la digestion.",
+          "Plusieurs études ont démontré que boire de l'eau citronnée avant les repas peut être une stratégie efficace pour la perte de poids."
+        ],
+        [
+          "Consommer de l'eau citronnée avant les repas peut stimuler et améliorer la digestion.",
+          "Des recherches ont révélé que l'acide citrique dans le jus de citron stimule la production d'acide gastrique, un liquide digestif sécrété dans l'estomac qui aide le corps à décomposer et à digérer plus efficacement les aliments."
+        ],
+        [
+          "L'eau citronnée aide à maintenir l'équilibre acido-basique, c'est-à-dire à réguler le pH de notre corps.",
+          "Cela signifie que si vous avez consommé une grande quantité de viande ou d'autres aliments acides récemment, l'eau citronnée peut vous aider à rétablir l'équilibre acido-basique de votre corps.",
+          "Elle a un léger effet diurétique qui favorise l'élimination des substances toxiques via l'urine."
+        ],
+        [
+          "Ajoutez à votre jus de citron chaud ½ cuiller à café de curcuma en poudre puis dégustez.."
         ]
       ]
     },

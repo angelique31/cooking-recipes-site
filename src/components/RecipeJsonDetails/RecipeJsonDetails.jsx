@@ -10,6 +10,7 @@ import {
   ImageTextWrapper,
   ContentSection,
   ImageInfoWrapper,
+  StyledDiv,
 } from "./RecipeJsonDetails.styled";
 import RecipeButton from "../RecipeButton/RecipeButton.jsx";
 import CounterButton from "../CounterButton/CounterButton.jsx";
@@ -119,67 +120,69 @@ const RecipeJsonDetails = ({ recipeType }) => {
 
         <ContentSection>
           <RecipeButton recipe={recipe} recipeType={recipeType} />
-          <StyledH2>Ingrédients</StyledH2>
-          <CounterButton servingSize={recipe.servingSize} />
-          {/* Vérifier si l'attribut "sections" existe */}
-          {recipe.sections ? (
-            // Affichage pour les recettes avec sections
-            recipe.sections.map((section, sectionIndex) => (
-              <div key={sectionIndex}>
-                <StyledH3>{section.name}</StyledH3>
-                <ul>
-                  {section.ingredients.map((ingredient, index) => (
-                    <li key={index}>
-                      {adjustIngredientQuantity(
-                        ingredient.quantity,
-                        recipe.servingSize
-                      )}{" "}
-                      {ingredient.name}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))
-          ) : (
-            // Affichage pour les recettes sans sections (ancienne méthode)
-            <ul>
-              {recipe.ingredients.map((ingredient, index) => (
-                <li key={index}>
-                  {adjustIngredientQuantity(
-                    ingredient.quantity,
-                    recipe.servingSize
-                  )}{" "}
-                  {ingredient.name}
-                </li>
-              ))}
-            </ul>
-          )}
-          <StyledH2>Préparation</StyledH2>
-          {/* Vérifier à nouveau si l'attribut "sections" existe pour les étapes */}
-          {recipe.sections ? (
-            recipe.sections.map((section, sectionIndex) => (
-              <div key={sectionIndex}>
-                <StyledH3>{section.name}</StyledH3>
-                <ol>
-                  {section.steps.map((step, index) => (
-                    <li key={index}>
-                      <strong>{index + 1}. </strong>
-                      {step}
-                    </li>
-                  ))}
-                </ol>
-              </div>
-            ))
-          ) : (
-            <ol>
-              {recipe.steps.map((step, index) => (
-                <li key={index}>
-                  <strong>{index + 1}. </strong>
-                  {step}
-                </li>
-              ))}
-            </ol>
-          )}
+          <StyledDiv>
+            <StyledH2>Ingrédients</StyledH2>
+            <CounterButton servingSize={recipe.servingSize} />
+            {/* Vérifier si l'attribut "sections" existe */}
+            {recipe.sections ? (
+              // Affichage pour les recettes avec sections
+              recipe.sections.map((section, sectionIndex) => (
+                <div key={sectionIndex}>
+                  <StyledH3>{section.name}</StyledH3>
+                  <ul>
+                    {section.ingredients.map((ingredient, index) => (
+                      <li key={index}>
+                        {adjustIngredientQuantity(
+                          ingredient.quantity,
+                          recipe.servingSize
+                        )}{" "}
+                        {ingredient.name}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))
+            ) : (
+              // Affichage pour les recettes sans sections (ancienne méthode)
+              <ul>
+                {recipe.ingredients.map((ingredient, index) => (
+                  <li key={index}>
+                    {adjustIngredientQuantity(
+                      ingredient.quantity,
+                      recipe.servingSize
+                    )}{" "}
+                    {ingredient.name}
+                  </li>
+                ))}
+              </ul>
+            )}
+            <StyledH2>Préparation</StyledH2>
+            {/* Vérifier à nouveau si l'attribut "sections" existe pour les étapes */}
+            {recipe.sections ? (
+              recipe.sections.map((section, sectionIndex) => (
+                <div key={sectionIndex}>
+                  <StyledH3>{section.name}</StyledH3>
+                  <ol>
+                    {section.steps.map((step, index) => (
+                      <li key={index}>
+                        <strong>{index + 1}. </strong>
+                        {step}
+                      </li>
+                    ))}
+                  </ol>
+                </div>
+              ))
+            ) : (
+              <ol>
+                {recipe.steps.map((step, index) => (
+                  <li key={index}>
+                    <strong>{index + 1}. </strong>
+                    {step}
+                  </li>
+                ))}
+              </ol>
+            )}
+          </StyledDiv>
         </ContentSection>
       </ContentWrapper>
     </div>
