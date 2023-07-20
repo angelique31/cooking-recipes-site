@@ -2930,7 +2930,7 @@
           "quantity": ""
         },
         {
-          "name": "de pomme de terre",
+          "name": "de pommes de terre",
           "quantity": "300 g"
         },
         {
@@ -3072,6 +3072,37 @@
             "Quand la garniture est cuite, bien la mélanger à la pâte, avec le chorizo. Remplir les moules à muffins aux 2/3. Cuire au four à 180°C (thermostat 6) pendant 25 min."
           ]
         }
+      ]
+    },
+    {
+      "id": "pommes_de_terre_gros_sel",
+      "name": "Pommes de terre au gros sel",
+      "image": "/assets/salty-recipe/pommes-de-terre-gros-sel.jpg",
+      "category": ["plat"],
+      "eventCategory": null,
+      "servingSize": "4",
+      "ingredients": [
+        {
+          "name": "pommes de terre pour cuisson au four",
+          "quantity": "8"
+        },
+        {
+          "name": "de beurre",
+          "quantity": "100g"
+        },
+        {
+          "name": "Gros sel",
+          "quantity": null
+        }
+      ],
+      "prepTime": "5 min",
+      "cookTime": "50 min",
+      "difficulty": "Facile",
+      "steps": [
+        "Lavez et brossez les pommes de terre.",
+        "Dans un four préchauffé à 180°C (th.6), faites-les cuire sur un lit de gros sel pendant 50 minutes environ. Ajustez le temps de cuisson selon la taille des pommes de terre. En fin de cuisson, la pointe d'un couteau doit s'enfoncer facilement et la peau doit être croustillante.",
+        "Une fois les pommes de terre cuites, coupez-les en deux dans le sens de la longueur après les avoir débarrassées de l'excédent de sel.",
+        "Servez-les avec une noisette de beurre."
       ]
     }
   ]
