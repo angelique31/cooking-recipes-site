@@ -1,4 +1,5 @@
 // import Carousel from "../../components/Carousel/Carousel";
+import Footer from "../../components/Footer/Footer";
 import NavBar from "../../components/NavBar/NavBar";
 import RecipeArticleContainer from "../../components/RecipeArticleContainer/RecipeArticleContainer";
 import CategoryCard from "../../components/RecipeCategoryMenu/CategoryCard/CategoryCard";
@@ -14,6 +15,7 @@ const HomePage = () => {
       </HomePageWrapper>
       {/* <Carousel /> */}
       <RecipeArticleContainer />
+      <Footer />
     </div>
   );
 };

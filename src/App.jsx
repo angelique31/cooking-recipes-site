@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage/HomePage";
 import GlobalStyles from "./assets/Styles/GlobalStyle";
 import NewsDetails from "./components/NewsDetails/NewsDetails";
-// import RecipeDetails from "./components/RecipeDetails/RecipeDetails";
 import RecipeJsonDetails from "./components/RecipeJsonDetails/RecipeJsonDetails";
 import FilteredRecipesPage from "./pages/FilteredRecipesPage/FilteredRecipesPage";
 import SavedRecipesPage from "./pages/SavedRecipesPage/SavedRecipesPage";
