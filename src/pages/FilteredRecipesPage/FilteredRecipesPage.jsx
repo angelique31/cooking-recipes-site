@@ -11,6 +11,7 @@ import {
 } from "./FilteredRecipesPage.styled";
 import { CommonSection } from "../../assets/Styles/CommonStyles";
 import RecipeListFilter from "../../components/RecipeListFilter/RecipeListFilter";
+import Footer from "../../components/Footer/Footer";
 
 const FilteredRecipesPage = () => {
   const { categoryName } = useParams();
@@ -69,6 +70,7 @@ const FilteredRecipesPage = () => {
           ))}
         </RecipesWrapper>
       </CommonSection>
+      <Footer />
     </div>
   );
 };

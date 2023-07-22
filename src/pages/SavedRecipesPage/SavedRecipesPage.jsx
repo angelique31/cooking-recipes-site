@@ -23,6 +23,7 @@ import { ItemWrapper } from "../../assets/Styles/CommonStyles";
 import { deleteRecipe } from "../../store/actions/recipeActions";
 
 import ConfirmationModal from "../../components/ConfirmationModal/ConfirmationModal";
+import Footer from "../../components/Footer/Footer";
 
 const getLinkPrefix = (recipeType) => {
   switch (recipeType) {
@@ -142,6 +143,7 @@ const SavedRecipesPage = () => {
         onConfirm={() => handleDelete(selectedRecipeId)}
         recipeName={selectedRecipeName}
       />
+      <Footer />
     </div>
   );
 };

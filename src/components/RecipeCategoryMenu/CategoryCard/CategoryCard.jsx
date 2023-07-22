@@ -1,18 +1,18 @@
 import IconWithTitle from "../IconWithTitle/IconWithTitle";
-import QuicklyIcon from "../../../assets/Icons/QuicklyIcon.svg";
-import StarterIcon from "../../../assets/Icons/StarterIcon.svg";
-import MainCourseIcon from "../../../assets/Icons/MainCourseIcon.svg";
-import CakeIcon from "../../../assets/Icons/CakeIcon.svg";
-import AperitifIcon from "../../../assets/Icons/AperitifIcon.svg";
+import quicklyIcon from "../../../assets/Icons/quicklyIcon.svg";
+import starterIcon from "../../../assets/Icons/starterIcon.svg";
+import mainCourseIcon from "../../../assets/Icons/mainCourseIcon.svg";
+import cakeIcon from "../../../assets/Icons/cakeIcon.svg";
+import aperitifIcon from "../../../assets/Icons/aperitifIcon.svg";
 import { Link } from "react-router-dom";
 import { CategoryCardContainer } from "./CategoryCard.styled";
 
 const categories = [
-  { icon: QuicklyIcon, title: "Rapide" },
-  { icon: StarterIcon, title: "Entrées" },
-  { icon: MainCourseIcon, title: "Plats" },
-  { icon: CakeIcon, title: "Desserts" },
-  { icon: AperitifIcon, title: "Apéritifs" },
+  { icon: quicklyIcon, title: "Rapide" },
+  { icon: starterIcon, title: "Entrées" },
+  { icon: mainCourseIcon, title: "Plats" },
+  { icon: cakeIcon, title: "Desserts" },
+  { icon: aperitifIcon, title: "Apéritifs" },
 ];
 
 function CategoryCard() {
