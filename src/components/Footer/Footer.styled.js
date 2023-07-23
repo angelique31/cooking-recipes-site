@@ -4,6 +4,8 @@ export const FooterContainer = styled.footer`
   padding: 20px;
   background-color: #f8f9fa;
   text-align: center;
+  color: rgb(255, 66, 105);
+  font-weight: 600;
 `;
 
 export const FooterParagraph = styled.p`
