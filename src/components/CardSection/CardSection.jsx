@@ -1,6 +1,10 @@
 import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
+
 import RecipeCard from "../RecipeCard/RecipeCard";
+import ArrowCarouselIcon from "../ArrowCarouselIcon/ArrowCarouselIcon";
+import SwipeableContainer from "../SwipeableContainer/SwipeableContainer";
+
 import {
   CommonSection,
   CommonCardsContainer,
@@ -11,15 +15,23 @@ import {
   ArrowLeftContainer,
 } from "../../assets/Styles/CommonStyles";
 
-import ArrowCarouselIcon from "../ArrowCarouselIcon/ArrowCarouselIcon";
-
-import SwipeableContainer from "../SwipeableContainer/SwipeableContainer";
-
-const Section = ({
+/**
+ * Section is a component that displays a section with carousel functionality
+ *
+ * @component
+ * @param {Array} data - Array of objects, each object contains information for a recipe card
+ * @param {string} name - The name to display as the title of the section
+ * @param {string} linkTo - The path for the router to navigate when a card is clicked
+ * @param {bool} [flexDisplay=true] - Whether to use flex display for the cards
+ * @param {bool} [showTitle=false] - Whether to show the title on the recipe cards
+ * @param {bool} [enableCarousel=false] - Whether to enable the carousel functionality
+ * @param {bool} [showHeartButton=false] - Whether to show the heart button on the recipe cards
+ * @returns {JSX.Element} - Rendered Section component
+ */
+const CardSection = ({
   data,
   name,
   linkTo,
-  section,
   flexDisplay = true,
   showTitle,
   enableCarousel = false,
@@ -47,12 +59,10 @@ const Section = ({
   }, []);
 
   const handlePrev = () => {
-    event.stopPropagation();
     setCurrentIndex((oldIndex) => Math.max(oldIndex - 1, 0));
   };
 
   const handleNext = () => {
-    event.stopPropagation();
     setCurrentIndex((oldIndex) =>
       Math.min(oldIndex + 1, data.length - cardsToShow)
     );
@@ -118,7 +128,7 @@ const Section = ({
   );
 };
 
-Section.propTypes = {
+CardSection.propTypes = {
   data: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,
@@ -130,6 +140,8 @@ Section.propTypes = {
   linkTo: PropTypes.string.isRequired,
   flexDisplay: PropTypes.bool,
   showTitle: PropTypes.bool,
+  enableCarousel: PropTypes.bool,
+  showHeartButton: PropTypes.bool,
 };
 
-export default Section;
+export default CardSection;
