@@ -1,5 +1,5 @@
 import IconWithTitle from "../IconWithTitle/IconWithTitle";
-import quicklyIcon from "../../../assets/Icons/quicklyIcon.svg";
+import QuicklyIcon from "../../../assets/Icons/QuicklyIcon.svg";
 import starterIcon from "../../../assets/Icons/starterIcon.svg";
 import mainCourseIcon from "../../../assets/Icons/mainCourseIcon.svg";
 import cakeIcon from "../../../assets/Icons/cakeIcon.svg";
@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import { CategoryCardContainer } from "./CategoryCard.styled";
 
 const categories = [
-  { icon: quicklyIcon, title: "Rapide" },
+  { icon: QuicklyIcon, title: "Rapide" },
   { icon: starterIcon, title: "Entrées" },
   { icon: mainCourseIcon, title: "Plats" },
   { icon: cakeIcon, title: "Desserts" },
