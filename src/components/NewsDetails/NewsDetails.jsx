@@ -11,6 +11,7 @@ import {
 } from "./NewsDetails.styled.js";
 import NavBar from "../NavBar/NavBar.jsx";
 import HeaderWithBackButton from "../HeaderWithBackButton/HeaderWithBackButton.jsx";
+import Footer from "../Footer/Footer.jsx";
 
 const NewsDetails = () => {
   const { newsId } = useParams();
@@ -68,6 +69,7 @@ const NewsDetails = () => {
           }
         })}
       </FlexContainer>
+      <Footer />
     </div>
   );
 };
