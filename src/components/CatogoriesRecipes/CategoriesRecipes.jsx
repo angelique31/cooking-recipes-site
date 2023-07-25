@@ -1,5 +1,11 @@
 import { useSelector } from "react-redux";
 
+/**
+ * Renders a list of recipes for each predefined category.
+ *
+ * It retrieves the recipe data from the Redux store and then filters and displays the recipes
+ * for each category in separate lists
+ */
 const CategoriesRecipes = () => {
   // Récupérer les données des recettes à partir du store Redux
   const recipesData = useSelector((state) => state.recipes.recipeData);

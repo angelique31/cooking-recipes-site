@@ -1,5 +1,13 @@
 import { useSelector } from "react-redux";
+import PropTypes from "prop-types";
 
+/**
+ * Renders a list of recipes filtered by category
+ *
+ * @component
+ * @param {string} category - The category to filter recipes
+ * @returns {JSX.Element} Rendered CategoriesRecipesList component
+ */
 const CategoriesRecipesList = ({ category }) => {
   // Récupérer les données des recettes à partir du store Redux
   const recipesData = useSelector((state) => state.recipes.recipeData);
@@ -20,6 +28,10 @@ const CategoriesRecipesList = ({ category }) => {
       ))}
     </ul>
   );
+};
+
+CategoriesRecipesList.propTypes = {
+  category: PropTypes.string.isRequired,
 };
 
 export default CategoriesRecipesList;

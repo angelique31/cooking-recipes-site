@@ -3104,6 +3104,126 @@
         "Une fois les pommes de terre cuites, coupez-les en deux dans le sens de la longueur après les avoir débarrassées de l'excédent de sel.",
         "Servez-les avec une noisette de beurre."
       ]
+    },
+    {
+      "id": "mousse_chocolat",
+      "name": "Mousse au chocolat",
+      "image": "/assets/sugar-recipe/mousse-chocolat.jpg",
+      "eventCategory": null,
+      "category": ["dessert"],
+      "servingSize": "6",
+      "ingredients": [
+        {
+          "name": "de chocolat noir",
+          "quantity": "200g"
+        },
+        {
+          "name": "œufs",
+          "quantity": "6"
+        },
+        {
+          "name": "Sel",
+          "quantity": "1 pincée"
+        },
+        {
+          "name": "Copeaux de chocolat (facultatif)"
+        }
+      ],
+      "prepTime": "20 min",
+      "cookTime": null,
+      "steps": [
+        "Séparez les jaunes des blancs d’œufs.",
+        "Briser le chocolat en morceaux et le mettre dans un bol. Faites-le fondre au bain-marie. Mélangez jusqu'à obtenir une consistance lisse sans grumeaux. Laissez refroidir un peu.",
+        "Ajoutez les jaunes d’œufs au chocolat fondu et mélangez bien.",
+        "Battez les blancs d’œufs avec une pincée de sel jusqu'à ce qu'ils deviennent fermes.",
+        "Incorporez doucement les blancs d’œufs au mélange de chocolat et de jaunes d’œufs. Veillez à ne pas trop mélanger pour éviter de liquéfier la préparation.",
+        "Répartissez la préparation équitablement dans 6 ramequins ou verrines.",
+        "Placez les ramequins au réfrigérateur pendant au moins 3 heures pour que la mousse prenne.",
+        "Pour une présentation plus élégante, vous pouvez saupoudrer les mousses de copeaux de chocolat (faites à l'aide d'un économe, assurez-vous que le chocolat soit bien froid)."
+      ]
+    },
+    {
+      "id": "tarte_miel_amande",
+      "image": "/assets/sugar-recipe/tarte-miel-amande.jpg",
+      "name": "Tarte miel et amande",
+      "eventCategory": "dessert",
+      "servingSize": "8",
+      "prepTime": "1 h 30 min",
+      "cookTime": "40 min",
+      "sections": [
+        {
+          "name": "Pâte sucrée",
+          "ingredients": [
+            {
+              "name": "de farine T55",
+              "quantity": "200g"
+            },
+            {
+              "name": "de beurre",
+              "quantity": "110g"
+            },
+            {
+              "name": "de sucre glace",
+              "quantity": "70g"
+            },
+            {
+              "name": "de poudre d’amandes",
+              "quantity": "20g"
+            },
+            {
+              "name": "Sel",
+              "quantity": "1 pincée"
+            },
+            {
+              "name": "œuf",
+              "quantity": "1"
+            },
+            {
+              "name": "zeste de citron",
+              "quantity": "1"
+            }
+          ],
+          "steps": [
+            "Mélangez tous les ingrédients pour la pâte sucrée.Puis laissez reposer dans du film une heure au réfrigérateur.",
+            "Foncez un moule à tarte à fond amovible avec la pâte sucrée.",
+            "Préchauffez le four à 160 °C. Piquez le fond de la pâte à l'aide d'une fourchette pour éviter qu'elle gonfle. Faites cuire la pâte à blanc pendant 20 minutes."
+          ]
+        },
+        {
+          "name": "Garniture",
+          "ingredients": [
+            {
+              "name": "de sucre blond de canne",
+              "quantity": "100g"
+            },
+            {
+              "name": "d’amandes effilées",
+              "quantity": "165g"
+            },
+            {
+              "name": "de beurre",
+              "quantity": "120g"
+            },
+            {
+              "name": "de miel",
+              "quantity": "100g"
+            },
+            {
+              "name": "de crème épaisse",
+              "quantity": "50g"
+            },
+            {
+              "name": "de cranberries séchées",
+              "quantity": "100g"
+            }
+          ],
+          "steps": [
+            "Mettez tous les ingrédients de la garniture dans une casserole puis portez à ébullition.",
+            "Versez ensuite l’appareil dans le fond de tarte précuit et enfournez à nouveau pour 20 minutes.",
+            "La tarte est cuite lorsqu’elle est légèrement dorée. Laissez refroidir avant de couper et de déguster."
+          ]
+        }
+      ]
     }
   ]
 }
