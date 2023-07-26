@@ -21,7 +21,6 @@ export const MobileNavMenu = styled.div`
   background-color: white;
 
   @media screen and (max-width: 600px) {
-    // display: block;
     animation: ${slideInFromRight} 0.3s ease-out;
     z-index: 20;
     margin-top: 10px;

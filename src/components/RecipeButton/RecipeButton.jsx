@@ -1,14 +1,30 @@
+import PropTypes from 'prop-types';
 import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {
   addSavedRecipe,
   toggleSavedStatus,
 } from "../../store/actions/recipeActions";
-// import { ModifiedButton } from "./RecipeButton.styled.js";
+
 import heartIcon from "../../assets/Icons/heartIcon.svg";
 
 import { MyRecipesButton } from "../RecipeButton/RecipeButton.styled";
 
+/**
+ * Component that provides the functionality to save a recipe.
+ *
+ * It allows a user to save a recipe to their personal recipe collection.
+ * It maintains a local state to check whether the recipe is saved or not.
+ * When the component mounts, it checks if the recipe is already saved and updates the local state accordingly.
+ * On clicking the button, it dispatches actions to save the recipe to the Redux store and also stores it to the local storage.
+ *
+ * @component
+ * @param {Object} props - Properties passed to the component
+ * @param {Object} props.recipe - The recipe to be saved
+ * @param {string} props.recipeType - The type of recipe (e.g. 'current', 'top-food', 'news', etc.)
+ *
+ * @returns {JSX.Element} A button component that saves the recipe on click and shows the saved status of the recipe
+ */
 const RecipeButton = ({ recipe, recipeType }) => {
   const dispatch = useDispatch();
   const savedRecipes = useSelector((state) => state.recipes.savedRecipes);
@@ -59,4 +75,8 @@ const RecipeButton = ({ recipe, recipeType }) => {
   );
 };
 
+RecipeButton.propTypes = {
+  recipe: PropTypes.object.isRequired,
+  recipeType: PropTypes.string.isRequired,
+};
 export default RecipeButton;

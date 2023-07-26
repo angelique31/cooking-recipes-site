@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { useNavigate } from "react-router-dom";
 import arrowLeftIcon from "../../assets/Icons/arrowLeftIcon.svg";
 import {
@@ -5,13 +6,19 @@ import {
   StyledDivH1,
   StyledH1,
   ArrowImg,
-} from "./HeaderWithBackButton.styled"; // Mettez à jour le chemin de votre icône
+} from "./HeaderWithBackButton.styled"; 
 
+/**
+ * Renders a header with a back button.
+ *
+ * @param {Object} props - Component props.
+ * @param {string} props.recipeName - Name of the recipe to be displayed in the header.
+ */
 const HeaderWithBackButton = ({ recipeName }) => {
   const navigate = useNavigate();
 
   const handleArrowClick = () => {
-    navigate(-1); // Ceci ramènera l'utilisateur à la page précédente
+    navigate(-1); 
   };
 
   return (
@@ -26,6 +33,10 @@ const HeaderWithBackButton = ({ recipeName }) => {
       />
     </StyledDiv>
   );
+};
+
+HeaderWithBackButton.propTypes = {
+  recipeName: PropTypes.string.isRequired,
 };
 
 export default HeaderWithBackButton;

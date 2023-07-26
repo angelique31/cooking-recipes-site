@@ -1,4 +1,6 @@
+import PropTypes from "prop-types";
 import { useEffect, useState } from "react";
+import { useSelector, useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
 
 import NavBar from "../NavBar/NavBar.jsx";
@@ -12,18 +14,26 @@ import {
   ImageInfoWrapper,
   StyledDiv,
 } from "./RecipeJsonDetails.styled";
+
 import RecipeButton from "../RecipeButton/RecipeButton.jsx";
 import CounterButton from "../CounterButton/CounterButton.jsx";
 import RecipeInfoBox from "../RecipeInfoBox/RecipeInfoBox.jsx";
-
-import PropTypes from "prop-types";
-
-import { useSelector, useDispatch } from "react-redux";
-
 import { setNumberOfPeople } from "../../store/actions/recipeActions.js";
 import HeaderWithBackButton from "../HeaderWithBackButton/HeaderWithBackButton.jsx";
 import Footer from "../Footer/Footer.jsx";
-// import CategoryCard from "../../components/RecipeCategoryMenu/CategoryCard/CategoryCard.jsx";
+
+/**
+ * Displays the detailed information of a selected recipe. The information includes
+ * the recipe name, image, preparation time, cooking time, ingredients with their quantities
+ * adjusted to the number of people, and cooking steps. 
+ * The recipe data is fetched from a Redux store based on the recipe ID from the route parameters.
+ * 
+ * @component
+ * @param {Object} props - The properties passed to the component.
+ * @param {string} props.recipeType - The type of the recipe, used to determine the data set 
+ * in the Redux store to fetch the recipe from.
+ */
+
 const RecipeJsonDetails = ({ recipeType }) => {
   const dispatch = useDispatch();
   const { recipeId } = useParams();
@@ -144,7 +154,7 @@ const RecipeJsonDetails = ({ recipeType }) => {
                 </div>
               ))
             ) : (
-              // Affichage pour les recettes sans sections (ancienne méthode)
+              // Affichage pour les recettes sans sections
               <ul>
                 {recipe.ingredients.map((ingredient, index) => (
                   <li key={index}>

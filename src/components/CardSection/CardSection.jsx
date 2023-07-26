@@ -16,7 +16,7 @@ import {
 } from "../../assets/Styles/CommonStyles";
 
 /**
- * Section is a component that displays a section with carousel functionality
+ * Display a section with carousel functionality
  *
  * @component
  * @param {Array} data - Array of objects, each object contains information for a recipe card

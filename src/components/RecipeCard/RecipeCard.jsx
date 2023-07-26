@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -9,7 +10,6 @@ import heartIcon from "../../assets/Icons/heartIcon.svg";
 
 import { Link } from "react-router-dom";
 
-// import filledHeartIcon from "../../assets/Icons/filledHeartIcon.svg"; // Ajouter une icône de cœur remplie si disponible
 import {
   StyledCard,
   CardImage,
@@ -20,8 +20,22 @@ import {
 
 import ConfirmationModalHeartSaveRecipe from "../../components/ConfirmationModalHeartSaveRecipe/ConfirmationModalHeartSaveRecipe.jsx";
 
-import PropTypes from "prop-types";
-
+/**
+ * A card component to display a single recipe.
+ * The card displays a recipe image, name, and a save button.
+ * It checks if the recipe is already saved and updates the save button accordingly.
+ * When the save button is clicked, it saves the recipe and shows a confirmation modal.
+ * The card also links to the detailed view of the recipe.
+ *
+ * @component
+ * @param {Object} props - Properties passed to the component
+ * @param {Object} props.item - The recipe item to be displayed
+ * @param {string} props.linkTo - The URL to link to the detailed view of the recipe
+ * @param {boolean} props.showTitle - A flag to determine whether to show the recipe name or not
+ * @param {boolean} props.isInSavedRecipesPage - A flag to determine if the component is used in the Saved Recipes page
+ * @param {boolean} props.showHeartButton - A flag to determine whether to show the save button or not
+ * @returns {JSX.Element} A card component that shows a single recipe
+ */
 const RecipeCard = ({
   item,
   linkTo,
@@ -44,11 +58,10 @@ const RecipeCard = ({
   }, [savedRecipes, item.id]);
 
   const handleSaveRecipe = (e) => {
-    // event.stopPropagation();
     e.preventDefault();
 
     if (!isSaved) {
-      dispatch(addSavedRecipe(item, "someRecipeType")); // Note: you need to provide recipeType
+      dispatch(addSavedRecipe(item, "someRecipeType"));
       setIsSaved(true);
       dispatch(toggleSavedStatus(item.id, true));
 
@@ -107,7 +120,8 @@ RecipeCard.propTypes = {
   }).isRequired,
   linkTo: PropTypes.string.isRequired,
   showTitle: PropTypes.bool,
-  showSaveStatusText: PropTypes.bool, // Ajoutez ceci dans PropTypes
+  isInSavedRecipesPage: PropTypes.bool,
+  showHeartButton: PropTypes.bool,
 };
 
 export default RecipeCard;

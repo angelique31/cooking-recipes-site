@@ -1,7 +1,17 @@
+import { useSelector } from "react-redux";
 import RecipeArticle from "../RecipeArticle/RecipeArticle";
 import RecipeListFilter from "../RecipeListFilter/RecipeListFilter";
-import { useSelector } from "react-redux";
 
+/**
+ * Container component that wraps multiple RecipeArticle components.
+ * It fetches the recipe data from the Redux store and applies filtering using the RecipeListFilter function.
+ * The filtered recipes are then displayed in individual RecipeArticle components with different properties.
+ *
+ * The flexDisplay property is determined based on the length of the filteredRecipes array.
+ *
+ * @component
+ * @returns {JSX.Element} A collection of RecipeArticle components with filtered recipe data.
+ */
 const RecipeArticleContainer = () => {
   // const recipesData = useSelector((state) => state.regularRecipes);
   const recipesData = useSelector((state) => state.recipes.recipeData);

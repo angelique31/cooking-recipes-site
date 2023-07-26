@@ -1,6 +1,11 @@
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
+
+import NavBar from "../NavBar/NavBar.jsx";
+import HeaderWithBackButton from "../HeaderWithBackButton/HeaderWithBackButton.jsx";
+import Footer from "../Footer/Footer.jsx";
+
 import {
   StyledImage,
   StyledH2,
@@ -9,10 +14,12 @@ import {
   FlexItem,
   StyledDivLineHeight,
 } from "./NewsDetails.styled.js";
-import NavBar from "../NavBar/NavBar.jsx";
-import HeaderWithBackButton from "../HeaderWithBackButton/HeaderWithBackButton.jsx";
-import Footer from "../Footer/Footer.jsx";
 
+/**
+ * Component to display details of a single news item.
+ * Fetches news item using a URL parameter, and presents its details.
+ * Includes navigation bar, back button, and footer. On mount, scrolls to the top of the page.
+ */
 const NewsDetails = () => {
   const { newsId } = useParams();
 

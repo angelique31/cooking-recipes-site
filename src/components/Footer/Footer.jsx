@@ -1,22 +1,3 @@
-// const Footer = () => (
-//   <footer>
-//     <p>© 2023 - Angélique Rosin</p>
-//     <p>Retrouvez-moi sur :</p>
-//     <ul>
-//       <li>
-//         <a href="https://www.linkedin.com/in/ang%C3%A9lique-rosin-5163a9231/">
-//           LinkedIn
-//         </a>
-//       </li>
-//       <li>
-//         <a href="https://github.com/angelique31?tab=repositories">Github</a>
-//       </li>
-//     </ul>
-//   </footer>
-// );
-
-// export default Footer;
-
 import {
   FooterContainer,
   FooterParagraph,

@@ -1,16 +1,6 @@
 import styled from "styled-components";
 import { keyframes } from "styled-components";
 
-// const slideDown = keyframes`
-//   0% { transform: translateY(-100%); }
-//   100% { transform: translateY(0); }
-// `;
-
-// const depthIn = keyframes`
-//   0% { transform: perspective(600px) rotateX(90deg); opacity: 0; }
-//   100% { transform: perspective(600px) rotateX(0deg); opacity: 1; }
-// `;
-
 const combinedMove = keyframes`
   0% { transform: translate(-100%, -100%) scale(0); }
   100% { transform: translate(0, 0) scale(1); }
@@ -60,7 +50,6 @@ export const CloseButton = styled.button`
   border: none;
   font-size: 2.5rem;
   cursor: pointer;
-  // color: rgb(255, 66, 105);
   &:hover {
     color: rgb(255, 66, 105);
   }

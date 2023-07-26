@@ -1,16 +1,26 @@
+import PropTypes from "prop-types";
 import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import LogoItem from "../../components/NavBar/LogoItem/LogoItem";
 import SearchInput from "./SearchInput/SearchInput";
+import NotBookButton from "../NoteBookButton/NoteBookButton";
+import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
+
 import {
   NavBarContainer,
   NavBarWrapper,
   LogoAndButtonWrapper,
 } from "../NavBar/NavBar.styled";
-import { useLocation } from "react-router-dom";
-import PropTypes from "prop-types";
-import NotBookButton from "../NoteBookButton/NoteBookButton";
-import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
 
+/**
+ *
+ * This component renders a navigation bar. The navigation bar contains a logo,
+ * a hamburger menu button, and a notebook button. When the user scrolls down,
+ * the navigation bar is hidden. When the user scrolls up or is at the top of the page,
+ * the navigation bar is shown. The component also checks the current location path to
+ * modify the navigation bar style if necessary.
+ *
+ */
 const NavBar = () => {
   const [lastScrollTop, setLastScrollTop] = useState(0);
   const [isNavBarVisible, setIsNavBarVisible] = useState(true);

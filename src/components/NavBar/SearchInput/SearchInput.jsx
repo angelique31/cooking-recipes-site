@@ -1,3 +1,9 @@
+import PropTypes from "prop-types";
+import { useState, useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { setSearchValue } from "../../../store/actions/recipeActions.js";
+
+import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -6,14 +12,17 @@ import {
   IconWrapper,
   StyledForm,
 } from "./SearchInput.styled.js";
+
 import SearchButton from "../SearchButton/SearchButton.jsx";
 
-import { useState, useEffect } from "react";
-import { useDispatch } from "react-redux";
-import { setSearchValue } from "../../../store/actions/recipeActions.js";
-
-import { useNavigate } from "react-router-dom";
-
+/**
+ * This component renders a search input field and submit button. The search is triggered
+ * when the user clicks the "Rechercher" button. The component also manages responsive
+ * behavior of the placeholder text.
+ *
+ * @component
+ * @param {boolean} isRecipePage - Prop that determines if the current page is a recipe page.
+ */
 const SearchInput = ({ isRecipePage }) => {
   const [tempSearchValue, setTempSearchValue] = useState("");
   const [placeholderText, setPlaceholderText] = useState(
@@ -53,7 +62,6 @@ const SearchInput = ({ isRecipePage }) => {
     // Mise à jour initiale
     updatePlaceholder();
 
-    // Nettoyage
     return () => window.removeEventListener("resize", updatePlaceholder);
   }, []);
 
@@ -77,4 +85,7 @@ const SearchInput = ({ isRecipePage }) => {
   );
 };
 
+SearchInput.propTypes = {
+  isRecipePage: PropTypes.bool.isRequired,
+};
 export default SearchInput;

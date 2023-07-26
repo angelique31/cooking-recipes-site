@@ -4,14 +4,14 @@ import cookingIcon from "../../assets/Icons/cookingIcon.svg";
 import timerIcon from "../../assets/Icons/timerIcon.svg";
 
 /**
- * Affiche une boîte d'informations sur la recette, contenant le nombre de portions,
- * le temps de préparation, et éventuellement le temps de cuisson.
+ * Displays a recipe information box, containing the number of servings,
+ * the preparation time, and the cooking time.
  *
- * @param {Object} props - Les propriétés du composant.
- * @param {number} props.servings - Le nombre de portions que la recette produit.
- * @param {string} props.prepTime - Le temps nécessaire à la préparation de la recette.
- * @param {string} [props.cookTime] - Le temps de cuisson de la recette, si applicable.
- * @returns {JSX.Element} Un élément JSX représentant la boîte d'informations de la recette.
+ * @param {Object} props - The properties of the component.
+ * @param {number} props.servings - The number of servings that the recipe makes.
+ * @param {string} props.prepTime - The time it takes to prepare the recipe.
+ * @param {string} [props.cookTime] - The cooking time of the recipe, if applicable.
+ * @returns {JSX.Element} A JSX element representing the recipe information box.
  */
 const RecipeInfoBox = ({ prepTime, cookTime }) => {
   return (
