@@ -2,14 +2,6 @@
 
 This project is a web application for recipes, developed using React, a JavaScript library for building user interfaces. The styling of the application is done using styled-components, a library that allows writing actual CSS in JavaScript.
 
-## Table of Contents
-
-1. [Features](#Features)
-2. [Installation](#Installation)
-3. [Running](#Running)
-4. [Technologies Used](#Technologies-used)
-5. [Screenshots](#Screenshots)
-
 ## Features
 
 Here are some of the features built into the application:
@@ -32,6 +24,14 @@ cd interface
 
 # Install dependencies
 npm install
+```
+
+## Running
+
+Once the dependencies are installed, you can start the application by running:
+
+```bash
+npm run dev
 ```
 
 ## Technologies Used
