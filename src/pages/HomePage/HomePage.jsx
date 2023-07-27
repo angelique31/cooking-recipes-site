@@ -1,4 +1,3 @@
-// import Carousel from "../../components/Carousel/Carousel";
 import Footer from "../../components/Footer/Footer";
 import NavBar from "../../components/NavBar/NavBar";
 import RecipeArticleContainer from "../../components/RecipeArticleContainer/RecipeArticleContainer";
@@ -13,7 +12,6 @@ const HomePage = () => {
         <NavBar showSearchBar={true} /> {/* Activer la barre de recherche */}
         <CategoryCard />
       </HomePageWrapper>
-      {/* <Carousel /> */}
       <RecipeArticleContainer />
       <Footer />
     </div>

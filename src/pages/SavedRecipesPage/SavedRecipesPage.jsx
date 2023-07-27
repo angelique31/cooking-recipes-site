@@ -36,6 +36,10 @@ const getLinkPrefix = (recipeType) => {
   }
 };
 
+/**
+ * Displays a list of saved recipes or a message if no recipes are saved.
+ * Allows the user to delete a saved recipe with a confirmation modal.
+ */
 const SavedRecipesPage = () => {
   const dispatch = useDispatch();
   const savedRecipes = useSelector((state) => state.recipes.savedRecipes);
@@ -72,7 +76,7 @@ const SavedRecipesPage = () => {
           "savedRecipes",
           JSON.stringify(updatedSavedRecipes)
         );
-      }, 500); // 500ms to match the duration of the transition.
+      }, 500); //duration of the transition.
     }
 
     // Close the modal.

@@ -32,7 +32,7 @@ export const RecipeList = styled.div`
 export const RecipeItem = styled.div`
   align-items: center;
   max-width: 80%;
-  transition: all 0.5s ease-out; /* Ajoute une transition douce */
+  transition: all 0.5s ease-out;
   opacity: 1; /* Opacité initiale de 1 */
   transition: 0.8s;
   /* Le code suivant sera utilisé pour l'effet de disparition */

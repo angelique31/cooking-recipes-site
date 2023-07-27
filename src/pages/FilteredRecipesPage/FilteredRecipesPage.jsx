@@ -13,6 +13,10 @@ import { CommonSection } from "../../assets/Styles/CommonStyles";
 import RecipeListFilter from "../../components/RecipeListFilter/RecipeListFilter";
 import Footer from "../../components/Footer/Footer";
 
+/**
+ * Shows a list of recipe cards filtered by category or search value.
+ * The list is limited by an initial value, unless a search is being conducted.
+ */
 const FilteredRecipesPage = () => {
   const { categoryName } = useParams();
   const searchValue = useSelector((state) => state.recipes.searchValue);
