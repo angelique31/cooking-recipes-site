@@ -3225,6 +3225,163 @@
           ]
         }
       ]
+    },
+    {
+      "id": "couscous",
+      "name": "Couscous poulet et merguez",
+      "image": "/assets/salty-recipe/couscous.jpg",
+      "category": ["plat"],
+      "eventCategory": null,
+      "servingSize": "6",
+      "ingredients": [
+        {
+          "name": "merguez",
+          "quantity": "12"
+        },
+        {
+          "name": "Huile d'olive",
+          "quantity": null
+        },
+        {
+          "name": "de harissa",
+          "quantity": "1 cc"
+        },
+        {
+          "name": "cubes de bouillon de boeuf",
+          "quantity": "2"
+        },
+        {
+          "name": "tomates",
+          "quantity": "3"
+        },
+        {
+          "name": "carottes",
+          "quantity": "5"
+        },
+        {
+          "name": "courgettes",
+          "quantity": "2"
+        },
+        {
+          "name": "de pois chiches",
+          "quantity": "400g"
+        },
+        {
+          "name": "pilons de poulet (fermier de préférence)",
+          "quantity": "8"
+        },
+        {
+          "name": "de concentré de tomates",
+          "quantity": "2 boîtes"
+        },
+        {
+          "name": "d'épices à couscous",
+          "quantity": "3 CS"
+        },
+        {
+          "name": "navets",
+          "quantity": "2"
+        }
+      ],
+      "prepTime": "30 min",
+      "cookTime": "55 min",
+      "steps": [
+        "Lavez et épluchez les carottes, les navets et les tomates et les couper en cubes.",
+        "Dans une cocotte, versez 3 cuillères à soupe d'huile d'olive. Mettez à chauffer et faites-y dorer les pilons de poulet. Quand ils sont dorés, versez l'équivalent d'1 litre d'eau et ajouter les cubes de bouillon de boeuf, le concentré de tomate, les carottes, navets et tomates, les épices à couscous et l'harissa.",
+        "Compter 45 mn de cuisson à couvert.",
+        "En attendant, lavez et coupez les courgettes en cubes et égouttez les pois chiches.",
+        "Une fois les 45 mn écoulées, ouvrez et rajouter les courgettes et les pois chiches.",
+        "Remettez au feu : comptez 20 mn de cuisson supplémentaire.",
+        "Faites cuire vos merguez sur un grill ou à la poêle, mais pas avec les légumes.",
+        "Servez accompagné d'une semoule fine."
+      ]
+    },
+    {
+      "id": "poulet_antillais",
+      "name": "Poulet antillais",
+      "image": "/assets/salty-recipe/poulet-antillais.jpg",
+      "category": ["plat"],
+      "eventCategory": null,
+      "servingSize": "4",
+      "ingredients": [
+        {
+          "name": "oignon",
+          "quantity": "1"
+        },
+        {
+          "name": "de beurre",
+          "quantity": "20g"
+        },
+        {
+          "name": "cuisses de poulet",
+          "quantity": "4"
+        },
+        {
+          "name": "ananas",
+          "quantity": "1⁄2"
+        },
+        {
+          "name": "muscade",
+          "quantity": null
+        },
+        {
+          "name": "citron",
+          "quantity": "1⁄2"
+        }
+      ],
+      "prepTime": "1 h",
+      "cookTime": "1 h",
+      "difficulty": "Moyenne",
+      "steps": [
+        "Dans une sauteuse, faire revenir dans le beurre le gros oignon haché.",
+        "Les faire légèrement dorer, puis incorporer les cuisses de poulet. Laisser dorer les cuisses pour quelles prennent une belle couleur à feu moyen, puis baisser le feu pour cuire les cuisses à l'intérieur.",
+        "Couvrir et laisser mijoter 45 mn, vérifier toutes les 5 mn.",
+        "Ajouter ensuite l'ananas coupé en morceaux, puis cuire 5 mn à feu doux.",
+        "Incorporer la muscade et le jus du citron sur les cuisses, laisser mijoter pendant 40 mn à feu doux.",
+        "Servir bien chaud, avec du riz parfumé à la noix de coco."
+      ]
+    },
+    {
+      "id": "frita",
+      "name": "Frita",
+      "image": "/assets/salty-recipe/frita.jpg",
+      "category": ["plat"],
+      "eventCategory": null,
+      "servingSize": "6",
+      "ingredients": [
+        {
+          "name": "tomates (mûres)",
+          "quantity": "6"
+        },
+        {
+          "name": "poivrons verts",
+          "quantity": "4"
+        },
+        {
+          "name": "poivre",
+          "quantity": null
+        },
+        {
+          "name": "sel",
+          "quantity": null
+        },
+        {
+          "name": "gousses d'ail",
+          "quantity": "2"
+        }
+      ],
+      "prepTime": "20 min",
+      "cookTime": "1 h",
+      "difficulty": "Facile",
+      "steps": [
+        "Couper les poivrons en petits morceaux, une fois nettoyés et débarrassés de leurs graines.",
+        "Les faire revenir dans de l'huile d'olive à feu fort dans un faitout.",
+        "Rajouter l'ail coupé très finement, remuer le tout pour roussir un peu. Baisser le feu et rajouter les tomates en petits morceaux (pelées si possible car c'est meilleur, après les avoir ébouillantées).",
+        "Laisser mijoter le tout à feu très doux en couvrant un peu : plus on laisse mijoter, meilleur c'est(2 heures de cuisson à feu très doux c'est encore mieux!).",
+        "Les légumes fondent, le temps de cuisson long est vraiment le secret de la réussite.",
+        "Saler et poivrer à votre convenance.",
+        "Cette préparation à base de légumes peut se manger en accompagnement d'une viande ou d'un poisson, de riz ou de semoule."
+      ]
     }
   ]
 }
