@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 export const RecipesWrapper = styled.div`
   display: grid;
@@ -34,4 +34,18 @@ export const StyledH3 = styled.h3`
 
 export const HeadingWrapper = styled.div`
   margin-left: 16px;
+`;
+
+const fadeIn = keyframes`
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+`;
+
+export const AnimatedH2 = styled.h2`
+  animation: 2s ${fadeIn} ease-out;
+  text-align: center;
 `;

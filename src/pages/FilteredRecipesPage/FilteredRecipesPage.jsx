@@ -8,6 +8,7 @@ import {
   RecipeCount,
   StyledH3,
   HeadingWrapper,
+  AnimatedH2,
 } from "./FilteredRecipesPage.styled";
 import { CommonSection } from "../../assets/Styles/CommonStyles";
 import RecipeListFilter from "../../components/RecipeListFilter/RecipeListFilter";
@@ -46,6 +47,23 @@ const FilteredRecipesPage = () => {
         );
       });
     });
+  }
+
+  if (filteredRecipes.length === 0) {
+    return (
+      <div>
+        <NavBar />
+        <CommonSection>
+          <HeadingWrapper>
+            <AnimatedH2>
+              {`Aucun résultat trouvé pour ${searchValue}. Vérifiez l'orthographe
+              et essayez à nouveau.`}
+            </AnimatedH2>
+          </HeadingWrapper>
+        </CommonSection>
+        <Footer />
+      </div>
+    );
   }
 
   return (

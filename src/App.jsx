@@ -5,6 +5,7 @@ import NewsDetails from "./components/NewsDetails/NewsDetails";
 import RecipeJsonDetails from "./components/RecipeJsonDetails/RecipeJsonDetails";
 import FilteredRecipesPage from "./pages/FilteredRecipesPage/FilteredRecipesPage";
 import SavedRecipesPage from "./pages/SavedRecipesPage/SavedRecipesPage";
+import NotFoundPage from "./pages/NotFounfPage/NotFoundPage";
 
 const App = () => {
   return (
@@ -41,7 +42,7 @@ const App = () => {
           />
           <Route path="/filtered-recipes" element={<FilteredRecipesPage />} />
           <Route path="/mes-recettes" element={<SavedRecipesPage />} />
-          {/* <Route path="*" element={<NotFoundPage />} /> */}
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </BrowserRouter>
     </>
