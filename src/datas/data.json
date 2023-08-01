@@ -642,6 +642,52 @@
         "Utilisez-le comme base pour des soupes ou des ragoûts, ou congelez-le pour une utilisation ultérieure.",
         "Astuce : Si on cuit les ingrédients, départ au froide, ils donneront tous leurs nutriments au bouillon. Il est donc préférable de mettre les ingrédients dans l’eau froide."
       ]
+    },
+    {
+      "id": "hachi_parmentier_pot_au_feu",
+      "image": "/assets/antiWasteTips/hachi-parmentier-pot-au-feu.jpg",
+      "name": "Hachi-parmentier avec restes de pot-au-feu",
+      "detailText": "Une délicieuse façon de réutiliser les restes de votre pot-au-feu.",
+      "servingSize": "6",
+      "prepTime": "20 min",
+      "cookTime": "40 min",
+      "ingredients": [
+        {
+          "name": "de reste de viande de pot au feu hâché grossièrement",
+          "quantity": "400 g"
+        },
+        {
+          "name": "cube de bouillon pour pot-au-feu",
+          "quantity": "1"
+        },
+        {
+          "name": "de pommes de terre à chaire farineuse",
+          "quantity": "1.3 kg"
+        },
+        {
+          "name": "de beurre",
+          "quantity": "40 g"
+        },
+        {
+          "name": "gruyère râpé",
+          "quantity": null
+        },
+        {
+          "name": "sel",
+          "quantity": null
+        },
+        {
+          "name": "poivre",
+          "quantity": null
+        }
+      ],
+      "steps": [
+        "Cuire les pommes de terre. Les égoutter puis les éplucher.",
+        "Les écraser au presse-purée puis les remettre dans la casserole pour les dessécher un peu. Ajouter le beurre ainsi que 2 louches de bouillon.",
+        "Chauffer la viande dans une grande poêle avec un peu de bouillon.",
+        "Étaler la viande dans un plat allant au four. Répartir la purée par-dessus et parsemer de gruyère râpé.",
+        "Faire gratiner au four."
+      ]
     }
   ],
 
@@ -703,6 +749,57 @@
         "Une fois que la brioche a triplé de volume, badigeonnez-la de lait puis recouvrez de grains de sucre.",
         "Enfournez dans un four bien chaud (180°C) pendant 30min. La brioche est cuite lorsqu'elle est bien dorée",
         "Variante : Vous pouvez ajouter des pépites de chocolat dans la pâte"
+      ]
+    },
+    {
+      "id": "chouquettes",
+      "name": "Chouquettes au sucre perlé",
+      "image": "/assets/sugar-recipe/chouquettes.webp",
+      "eventCategory": null,
+      "category": ["dessert"],
+      "servingSize": "4",
+      "ingredients": [
+        {
+          "name": "de farine",
+          "quantity": "150g"
+        },
+        {
+          "name": "de beurre",
+          "quantity": "100g"
+        },
+        {
+          "name": "de sucre en poudre",
+          "quantity": "15g"
+        },
+        {
+          "name": "de sel",
+          "quantity": "1 pincée"
+        },
+        {
+          "name": "oeufs",
+          "quantity": "4"
+        },
+        {
+          "name": "d'eau",
+          "quantity": "25 cl"
+        },
+        {
+          "name": "de sucre en grain",
+          "quantity": "150g"
+        }
+      ],
+      "prepTime": "30 min",
+      "cookTime": "30 min",
+      "steps": [
+        "Porter à ébullition l'eau avec le beurre, le sucre et le sel dans une casserole.",
+        "Retirer du feu et ajouter la farine d'un sel coup, mélanger énergiquement pour obtenir un mélange homogène.",
+        "Remettre la pâte sur le feu pour l'assécher, elle doit se décoller des bords de la casserole.",
+        "Incorporer alors les oeufs un à un en remuant bien entre chaque.",
+        "Déposer des petits tas de pâte espacés sur la plaque à pâtisserie beurrée à l'aide d'une poche à douille ou de 2 cuillères.",
+        "Saupoudrer de sucre perlé et secouer la plaque pour retirer l'excédent de sucre.",
+        "Recommencer l'opération, et laisser de côté le sucre qui n'a pas accroché aux choux.",
+        "Faire cuire les chouquettes environ 30 min dans le four à 210°C (thermostat 7), dans le bas du four.",
+        "Laissez-les refroidir dans le four éteint et déguster."
       ]
     },
     {
@@ -3298,8 +3395,8 @@
     },
     {
       "id": "poulet_antillais",
-      "name": "Poulet antillais",
-      "image": "/assets/salty-recipe/poulet-antillais.jpg",
+      "name": "Poulet antillais (à l'ananas)",
+      "image": "/assets/salty-recipe/poulet-ananas.jpg",
       "category": ["plat"],
       "eventCategory": null,
       "servingSize": "4",
@@ -3329,9 +3426,8 @@
           "quantity": "1⁄2"
         }
       ],
-      "prepTime": "1 h",
+      "prepTime": "15 min",
       "cookTime": "1 h",
-      "difficulty": "Moyenne",
       "steps": [
         "Dans une sauteuse, faire revenir dans le beurre le gros oignon haché.",
         "Les faire légèrement dorer, puis incorporer les cuisses de poulet. Laisser dorer les cuisses pour quelles prennent une belle couleur à feu moyen, puis baisser le feu pour cuire les cuisses à l'intérieur.",
@@ -3381,6 +3477,61 @@
         "Les légumes fondent, le temps de cuisson long est vraiment le secret de la réussite.",
         "Saler et poivrer à votre convenance.",
         "Cette préparation à base de légumes peut se manger en accompagnement d'une viande ou d'un poisson, de riz ou de semoule."
+      ]
+    },
+    {
+      "id": "saucisses_epicees",
+      "name": "Rougail saucisses réunionnais",
+      "image": "/assets/salty-recipe/rougail-saucisses.jpg",
+      "category": ["plat"],
+      "eventCategory": null,
+      "servingSize": "6",
+      "ingredients": [
+        {
+          "name": "de saucisses",
+          "quantity": "1 kg"
+        },
+        {
+          "name": "d'huile",
+          "quantity": "3 CS"
+        },
+        {
+          "name": "gros oignons émincés",
+          "quantity": "2"
+        },
+        {
+          "name": "d'ail",
+          "quantity": "2 gousses"
+        },
+        {
+          "name": "Gingembre",
+          "quantity": null
+        },
+        {
+          "name": "tomates hachées finement",
+          "quantity": "5"
+        },
+        {
+          "name": "de thym",
+          "quantity": "1 branche"
+        },
+        {
+          "name": "de curcuma",
+          "quantity": "2 pincées"
+        },
+        {
+          "name": "Piment fort ou 1 pincée de piment en poudre de Cayenne selon votre goût",
+          "quantity": "1"
+        }
+      ],
+      "prepTime": "15 min",
+      "cookTime": "30 min",
+      "steps": [
+        "Dans une cocotte, faites dorer les oignons avec l'huile et ajoutez les saucisses coupées en morceaux.",
+        "Puis ajoutez l'ail, le gingembre et les tomates. Mélangez bien.",
+        "Ajoutez le thym et le curcuma, plus le piment et un petit peu d'eau.",
+        "Couvrez et laissez cuire à feu doux pendant 1/2 heure environ.",
+        "La sauce devra être très rouge et épaisse, ce qui indiquera la fin de la cuisson."
       ]
     }
   ]
