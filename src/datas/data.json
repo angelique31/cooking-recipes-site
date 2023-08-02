@@ -22,7 +22,7 @@
           "quantity": "90 g"
         },
         {
-          "name": "oeufs",
+          "name": "oeuf",
           "quantity": "2"
         },
         {
@@ -116,7 +116,7 @@
               "quantity": "500 ml"
             },
             {
-              "name": "jaunes d'oeufs",
+              "name": "jaune d'oeuf",
               "quantity": "3"
             },
 
@@ -772,11 +772,11 @@
           "quantity": "15g"
         },
         {
-          "name": "de sel",
-          "quantity": "1 pincée"
+          "name": "sel",
+          "quantity": null
         },
         {
-          "name": "oeufs",
+          "name": "oeuf",
           "quantity": "4"
         },
         {
@@ -3407,7 +3407,7 @@
         },
         {
           "name": "de beurre",
-          "quantity": "20g"
+          "quantity": "20 g"
         },
         {
           "name": "cuisses de poulet",
@@ -3415,7 +3415,7 @@
         },
         {
           "name": "ananas",
-          "quantity": "1⁄2"
+          "quantity": "200g"
         },
         {
           "name": "muscade",
@@ -3423,7 +3423,7 @@
         },
         {
           "name": "citron",
-          "quantity": "1⁄2"
+          "quantity": "0.5"
         }
       ],
       "prepTime": "15 min",

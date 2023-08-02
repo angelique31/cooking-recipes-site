@@ -21,16 +21,16 @@ import RecipeInfoBox from "../RecipeInfoBox/RecipeInfoBox.jsx";
 import { setNumberOfPeople } from "../../store/actions/recipeActions.js";
 import HeaderWithBackButton from "../HeaderWithBackButton/HeaderWithBackButton.jsx";
 import Footer from "../Footer/Footer.jsx";
-
+import IngredientItem from "../IngredientItem/IngredientItem.jsx";
 /**
  * Displays the detailed information of a selected recipe. The information includes
  * the recipe name, image, preparation time, cooking time, ingredients with their quantities
- * adjusted to the number of people, and cooking steps. 
+ * adjusted to the number of people, and cooking steps.
  * The recipe data is fetched from a Redux store based on the recipe ID from the route parameters.
- * 
+ *
  * @component
  * @param {Object} props - The properties passed to the component.
- * @param {string} props.recipeType - The type of the recipe, used to determine the data set 
+ * @param {string} props.recipeType - The type of the recipe, used to determine the data set
  * in the Redux store to fetch the recipe from.
  */
 
@@ -142,12 +142,21 @@ const RecipeJsonDetails = ({ recipeType }) => {
                   <StyledH3>{section.name}</StyledH3>
                   <ul>
                     {section.ingredients.map((ingredient, index) => (
+                      // <li key={index}>
+                      //   {adjustIngredientQuantity(
+                      //     ingredient.quantity,
+                      //     recipe.servingSize
+                      //   )}{" "}
+                      //   {ingredient.name}
+                      // </li>
                       <li key={index}>
-                        {adjustIngredientQuantity(
-                          ingredient.quantity,
-                          recipe.servingSize
-                        )}{" "}
-                        {ingredient.name}
+                        <IngredientItem
+                          name={ingredient.name}
+                          quantity={adjustIngredientQuantity(
+                            ingredient.quantity,
+                            recipe.servingSize
+                          )}
+                        />
                       </li>
                     ))}
                   </ul>
@@ -158,11 +167,18 @@ const RecipeJsonDetails = ({ recipeType }) => {
               <ul>
                 {recipe.ingredients.map((ingredient, index) => (
                   <li key={index}>
-                    {adjustIngredientQuantity(
+                    {/* {adjustIngredientQuantity(
                       ingredient.quantity,
                       recipe.servingSize
                     )}{" "}
-                    {ingredient.name}
+                    {ingredient.name} */}
+                    <IngredientItem
+                      name={ingredient.name}
+                      quantity={adjustIngredientQuantity(
+                        ingredient.quantity,
+                        recipe.servingSize
+                      )}
+                    />
                   </li>
                 ))}
               </ul>

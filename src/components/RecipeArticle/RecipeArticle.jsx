@@ -39,7 +39,7 @@ RecipeArticle.propTypes = {
   data: PropTypes.array.isRequired,
   name: PropTypes.string.isRequired,
   linkTo: PropTypes.string.isRequired,
-  section: PropTypes.string.isRequired,
+  section: PropTypes.string,
   flexDisplay: PropTypes.bool,
   showTitle: PropTypes.bool,
   enableCarousel: PropTypes.bool,
