@@ -1,5 +1,6 @@
 import { useSelector } from "react-redux";
 import PropTypes from "prop-types";
+import LoaderComponent from "../LoaderComponent/LoaderComponent";
 
 /**
  * Renders a list of recipes filtered by category
@@ -13,7 +14,8 @@ const CategoriesRecipesList = ({ category }) => {
   const recipesData = useSelector((state) => state.recipes.recipeData);
   // S'assurer que recipesData.regularRecipes existe avant de l'utiliser
   if (!recipesData || !recipesData.regularRecipes) {
-    return <div>Chargement...</div>;
+    // return <div>Chargement...</div>;
+    return <LoaderComponent />;
   }
 
   // Filtrer les recettes par catégorie, seulement si recipesData existe
