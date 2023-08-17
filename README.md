@@ -40,5 +40,3 @@ npm run dev
 - [Vite](https://vitejs.dev/)
 - [styled-components](https://styled-components.com/)
 - [Redux](https://redux.js.org/)
-
-## Screenshots project

@@ -8,7 +8,6 @@ const GlobalStyles = createGlobalStyle`
     list-style-type: none;
     text-decoration: none;
     font-family: "Source Sans Pro", sans-serif;
-    // font-family: Montserrat,sans-serif;
   }
 `;
 
