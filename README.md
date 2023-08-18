@@ -6,10 +6,10 @@ This project is a web application for recipes, developed using React, a JavaScri
 
 Here are some of the features built into the application:
 
-- Display a list of recipes
-- Search recipes by name or ingredients
-- Filter recipes by category
-- Save favorite recipes
+- Display a list of recipes.
+- Search recipes by name or ingredients.
+- Filter recipes by category.
+- Save favorite recipes.
 
 ## Installation
 
