@@ -1,6 +1,7 @@
 import {
   FooterContainer,
   FooterParagraph,
+  FooterParagraphFind,
   SocialLink,
   SocialList,
   SocialListItem,
@@ -11,8 +12,9 @@ import github from "../../assets/Icons/github.svg";
 
 const Footer = () => (
   <FooterContainer>
+    <FooterParagraph>Mijoté avec ❤️ par Angélique Rosin</FooterParagraph>
     <FooterParagraph>© 2023 - Angélique Rosin</FooterParagraph>
-    <FooterParagraph>Retrouvez-moi sur :</FooterParagraph>
+    <FooterParagraphFind>Retrouvez-moi sur :</FooterParagraphFind>
     <SocialList>
       <SocialListItem>
         <SocialLink href="https://www.linkedin.com/in/ang%C3%A9lique-rosin-5163a9231/">

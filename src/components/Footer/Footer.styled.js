@@ -12,6 +12,11 @@ export const FooterParagraph = styled.p`
   margin-bottom: 10px;
 `;
 
+export const FooterParagraphFind = styled.p`
+  margin-bottom: 10px;
+  color: black;
+`;
+
 export const SocialLink = styled.a`
   color: #007bff;
   text-decoration: none;
