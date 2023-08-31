@@ -101,6 +101,7 @@ export const CardTitle = styled.h3`
 `;
 
 export const HeartIcon = styled.img`
+  width: 60%;
   filter: invert(77%) sepia(55%) saturate(5000%) hue-rotate(327deg)
     brightness(100%) contrast(89%);
   transition: filter 0.3s ease, transform 0.5s ease;

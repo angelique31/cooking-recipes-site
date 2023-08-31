@@ -44,3 +44,8 @@ export const IconContainer = styled.div`
     transform: scale(1.2);
   }
 `;
+
+export const StyledImage = styled.img`
+  width: 100%;
+  height: auto;
+`;

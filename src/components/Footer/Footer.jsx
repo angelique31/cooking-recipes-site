@@ -6,6 +6,7 @@ import {
   SocialList,
   SocialListItem,
   IconContainer,
+  StyledImage,
 } from "./Footer.styled";
 import linkedin from "../../assets/Icons/linkedin.svg";
 import github from "../../assets/Icons/github.svg";
@@ -19,14 +20,14 @@ const Footer = () => (
       <SocialListItem>
         <SocialLink href="https://www.linkedin.com/in/ang%C3%A9lique-rosin-5163a9231/">
           <IconContainer>
-            <img src={linkedin} alt="LinkedIn" />
+            <StyledImage src={linkedin} alt="LinkedIn" />
           </IconContainer>
         </SocialLink>
       </SocialListItem>
       <SocialListItem>
         <SocialLink href="https://github.com/angelique31?tab=repositories">
           <IconContainer>
-            <img src={github} alt="Github" />
+            <StyledImage src={github} alt="Github" />
           </IconContainer>
         </SocialLink>
       </SocialListItem>
