@@ -13,7 +13,6 @@ function SearchButton({ isRecipePage }) {
   return (
     <div>
       <StyledButton isRecipePage={isRecipePage} type="submit">
-        {/* Rechercher */}
         <span className="text">Rechercher</span>
         <FontAwesomeIcon className="icon" icon={faMagnifyingGlass} />
       </StyledButton>

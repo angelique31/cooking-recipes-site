@@ -17,7 +17,7 @@ export const SearchInputWrapper = styled.div`
 `;
 
 export const StyledInput = styled.input`
-  color: rgb(182, 182, 241);
+  color: #6868df;
   font-size: 0.8rem;
   width: 100%;
   height: 50px;

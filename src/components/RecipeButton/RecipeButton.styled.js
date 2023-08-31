@@ -13,7 +13,7 @@ export const ModifiedButton = styled(SearchButton)`
   left: 48%;
   transform: translateX(-50%) translateY(0);
   padding: 0px 20px;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   border-radius: 15px;
 
   &:hover {
