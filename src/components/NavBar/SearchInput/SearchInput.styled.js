@@ -17,6 +17,10 @@ export const SearchInputWrapper = styled.div`
 `;
 
 export const StyledInput = styled.input`
+  &::placeholder {
+    // color: #7d7473;
+    color: #2a2828;
+  }
   color: #6868df;
   font-size: 0.8rem;
   width: 100%;
@@ -27,7 +31,6 @@ export const StyledInput = styled.input`
   background: white;
   position: relative;
   font-size: 1.2rem;
-
   padding-left: 75px;
   @media screen and (max-width: 556px) {
     font-size: 1rem;
@@ -37,16 +40,51 @@ export const StyledInput = styled.input`
   ${(props) =>
     props.isRecipePage
       ? `
-        height: 40px;
-        font-size: 1rem;
-        
-      `
+            height: 40px;
+            font-size: 1rem;
+    
+          `
       : ""}
   &:focus {
     box-shadow: 0 0 10px 0 rgb(255, 111, 97);
     outline: none;
   }
 `;
+
+// export const StyledInput = styled.input`
+//   color: #6868df;
+//   font-size: 0.8rem;
+//   width: 100%;
+//   height: 50px;
+//   border-radius: 25px;
+//   border-radius: 25px 0 0 25px;
+//   border: solid 1px #dee2e6;
+//   background: white;
+//   position: relative;
+//   font-size: 1.2rem;
+//   padding-left: 75px;
+//   &::placeholder {
+//     color: #7a7a7a;
+//     opacity: 1;
+//   }
+//   @media screen and (max-width: 556px) {
+//     font-size: 1rem;
+//     height: 40px;
+//     padding-left: 10px;
+//   }
+//   ${(props) =>
+//     props.isRecipePage
+//       ? `
+//         height: 40px;
+//         font-size: 1rem;
+
+//       `
+//       : ""}
+//   &:focus {
+//     box-shadow: 0 0 10px 0 rgb(255, 111, 97);
+//     outline: none;
+//   }
+// `;
 
 export const IconWrapper = styled.div`
   position: absolute;

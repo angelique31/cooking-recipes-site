@@ -55,7 +55,7 @@ export const NavBarWrapper = styled.div`
     width: 70%;
     background-color: white;
     align-items: center;
-    opacity: 0.9;
+    // opacity: 0.9;
     margin: auto;
     padding: ${(props) =>
       props.isRecipePage ? " 0px 50px 10px 50px;" : "50px"};
