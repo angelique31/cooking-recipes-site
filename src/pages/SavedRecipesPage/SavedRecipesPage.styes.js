@@ -97,6 +97,7 @@ export const NoRecipesMessage = styled.div`
   font-weight: 600;
   font-size: 1.5rem;
   padding: 0 20px;
+  margin-top: 95px;
   span {
     display: block;
     opacity: 0;
