@@ -169,39 +169,44 @@
 
   "topFoodData": [
     {
-      "id": "verrines_avocat_saumon",
-      "image": "/assets/salty-recipe/avocat-saumon-fume-en-verrines.jpeg",
-      "name": "Verrines avocat et saumon fumé",
-      "eventCategory": "party",
-      "servingSize": "4",
-      "prepTime": "15 min",
-      "cookTime": "0 min",
+      "id": "tarte_aux_pommes",
+      "name": "Tarte aux pommes",
+      "image": "/assets/sugar-recipe/tarte-pommes.jpg",
+      "eventCategory": null,
+      "category": ["dessert"],
+      "servingSize": "6",
       "ingredients": [
         {
-          "name": "avocats",
-          "quantity": "2"
+          "name": "pâte brisée",
+          "quantity": "1"
         },
         {
-          "name": "saumon fumé",
-          "quantity": "3 tranches"
+          "name": "de sucre vanillé",
+          "quantity": "1 sachet"
         },
         {
-          "name": "jus de citron",
-          "quantity": "2 cuillères à soupe"
+          "name": "de beurre",
+          "quantity": "30 g"
         },
         {
-          "name": "crème fraîche épaisse",
-          "quantity": "25 cl"
+          "name": "pommes Golden",
+          "quantity": "6"
         }
       ],
+      "prepTime": "25 min",
+      "cookTime": "30 min",
       "steps": [
-        "Coupez les avocats en deux, enlevez le noyau et récupérez la chair.",
-        "Dans un bol, mélangez la chair d'avocat avec le jus de citron afin d'éviter que les avocats noircissent.",
-        "Coupez le saumon fumé en petits morceaux.",
-        "Mettre au fond de chaque verrine : la purée d'avocat au citron, puis quelques cuillères à café de crème fraîche, et terminer par quelques lanières de saumon fumé en les enroulant sur elles-mêmes. Ajouter une rondelle de citron pour décorer.",
-        "Se déguste bien frais."
+        "Éplucher et découper en morceaux les pomme.",
+        "Faire une compote : les mettre dans une casserole avec un peu d'eau (1 verre ou 2). Bien remuer. Quand les pommes commencent à ramollir, ajouter un sachet ou un sachet et demi de sucre vanillé. Ajouter un peu d'eau si nécessaire.",
+        "Vous saurez si la compote est prête une fois que les pommes ne seront plus dures du tout. Ce n'est pas grave s'il reste quelques morceaux.",
+        "Pendant que la compote cuit, éplucher et couper en quatre les deux dernières pommes, puis, couper les quartiers en fines lamelles (elles serviront à être posées sur la compote).",
+        "Préchauffer le four à 210°C (thermostat 7).",
+        "Laisser un peu refroidir la compote et étaler la pâte brisée dans un moule et la piquer avec une fourchette.",
+        "Verser la compote sur la pâte et placer les lamelles de pommes en formant une spirale ou plusieurs cercles, au choix ! Disposer des lamelles de beurre dessus.",
+        "Mettre au four et laisser cuire pendant 30 min. Surveiller la cuisson. Vous pouvez ajouter un peu de sucre vanillé sur la tarte pendant que çà cuit pour caraméliser un peu."
       ]
     },
+
     {
       "id": "saumon_amandes",
       "image": "/assets/salty-recipe/saumon-papillotte_2.jpg",
@@ -2637,7 +2642,7 @@
     },
     {
       "id": "tarte_aux_fraise",
-      "image": "/assets/current-recipe/tarte-aux-fraises.jpg",
+      "image": "/assets/current-recipe/tarte-aux-fraises.webp",
       "name": "Tarte aux fraises",
       "eventCategory": "summer",
       "servingSize": "8",
