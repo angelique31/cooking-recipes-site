@@ -140,7 +140,7 @@ export const NoRecipesMessage = styled.div`
 `;
 
 export const NoRecipesBackground = styled.div`
-  background-image: url("/assets/navBarRecipe2.jpg");
+  background-image: url("/assets/navBarRecipe3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -1,5 +1,5 @@
 import Footer from "../../components/Footer/Footer";
-import LoaderComponent from "../../components/LoaderComponent/LoaderComponent";
+
 import NavBar from "../../components/NavBar/NavBar";
 import RecipeArticleContainer from "../../components/RecipeArticleContainer/RecipeArticleContainer";
 import CategoryCard from "../../components/RecipeCategoryMenu/CategoryCard/CategoryCard";

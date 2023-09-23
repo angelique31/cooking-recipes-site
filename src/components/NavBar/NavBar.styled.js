@@ -37,8 +37,10 @@ export const NavBarWrapper = styled.div`
   gap: 50px;
   padding: ${(props) => (props.isRecipePage ? "0 50px" : "50px")};
   // background-image: url("/assets/navBarRecipe.jpg");
+
   background-image: ${(props) =>
-    props.isRecipePage ? "none" : 'url("/assets/navBarRecipe2.jpg")'};
+    props.isRecipePage ? "none" : 'url("/assets/navBarRecipe3.jpg")'};
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

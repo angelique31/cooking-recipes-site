@@ -1,163 +1,168 @@
 {
   "currentRecipeData": [
     {
-      "id": "glace_au_chocolat",
-      "image": "/assets/current-recipe/glace-au-chocolat.jpg",
-      "name": "Glace au chocolat sans sorbetière",
-      "eventCategory": "summer",
-      "servingSize": "4",
-      "prepTime": "30 min",
-      "cookTime": "0 min",
+      "id": "veloute_patates_douces_curry",
+      "name": "Velouté de patates douces au curry",
+      "image": "/assets/salty-recipe/veloute-patates-douces.jpg",
+      "eventCategory": "winter",
+      "category": ["soupe", "entrée"],
+      "servingSize": "6",
       "ingredients": [
         {
-          "name": "de chocolat noir (pâtissier)",
-          "quantity": "150 g"
+          "name": "d'huile",
+          "quantity": "1 CS"
         },
         {
-          "name": "de crème entière",
-          "quantity": "25 cl"
-        },
-        {
-          "name": "de sucre",
-          "quantity": "90 g"
-        },
-        {
-          "name": "oeuf",
-          "quantity": "2"
-        },
-        {
-          "name": "jaune d'oeuf",
+          "name": "oignon coupé en fines tranches",
           "quantity": "1"
-        }
-      ],
-      "steps": [
-        "Mettre la crème dans un récipient pour la monter en chantilly plus tard, et mettre le tout dans le réfrigérateur, avec les fouets du batteur électrique, pendant au moins 20 min. Cela permettra à la crème de monter plus facilement.",
-        "Pendant ce temps, faire fondre le chocolat au bain-marie. Laisser refroidir hors du feu",
-        "Battre les jaunes d'œufs et le sucre quelques minutes.",
-        "Ajouter le chocolat fondu à la préparation et mélanger",
-        "Monter la crème liquide en chantilly puis l’incorporer à la préparation",
-        "Battre les 2 blancs d’œufs en neige, puis les ajouter à l'ensemble de la préparation",
-        "Ajouter des pépites de chocolat selon vos envies",
-        "Placer au congélateur pendant au moins 4 heures, en remuant toutes les 30 minutes pour éviter la formation de cristaux de glace.",
-        "Servez et dégustez votre glace au chocolat maison!"
-      ]
-    },
-    {
-      "id": "confiture_de_fraise",
-      "image": "/assets/current-recipe/confiture-de-fraises.jpg",
-      "name": "Confiture de fraises",
-      "eventCategory": "summer",
-      "servingSize": "4",
-      "prepTime": "10 min",
-      "cookTime": "45 min",
-      "ingredients": [
+        },
         {
-          "name": "de fraises fraîches",
+          "name": "de gingembre râpé (pas en poudre, c'est important pour le goût)",
+          "quantity": "1 CS"
+        },
+        {
+          "name": "de curry en poudre ",
+          "quantity": "1 CS"
+        },
+        {
+          "name": "de coriandre fraîche ciselée",
+          "quantity": "1 petite poignée"
+        },
+        {
+          "name": "d'ail écrasées",
+          "quantity": "4 gousses"
+        },
+        {
+          "name": "de patate douce pelées et coupées en petits cubes",
           "quantity": "1 kg"
         },
         {
-          "name": "de sucre cristallisé",
-          "quantity": "250 g"
+          "name": "de bouillon de volaille",
+          "quantity": "1 litre"
         },
         {
-          "name": "de jus de citron",
-          "quantity": "2 cuillères à soupe"
+          "name": "de lait de coco",
+          "quantity": "40 cl"
         }
       ],
+      "prepTime": "10 min",
+      "cookTime": "30 min",
       "steps": [
-        "Lavez, équeutez et coupez les fraises en morceaux.",
-        "Dans une marmite, mélangez les fraises avec le sucre et le jus de citron.",
-        "Faites cuire en maintenant l'ébullition 30 min environ, en remuant de temps en temps.",
-        "Faites le test de l'assiette froide : sortir une assiette de réfrigérateur et y mettre quelques gouttes de confiture. Placer l'assiette à la verticale. Si la confiture ne coule pas, cela veut dire qu'elle est cuite.",
-        "Versez la confiture dans des pots stérilisés et fermez-les hermétiquement. Les retourner jusqu'à complet refroidissement.",
-        "Les pots se conservent ainsi 2-3 ans dans un endroit sec et à l'abri de la lumière."
+        "Faire revenir l'oignon quelques minutes dans l'huile.",
+        "Ajouter l'ail, le gingembre et la poudre de curry. Remuer.",
+        "Mettre les morceaux de patates douces dans ce mélange.",
+        "Verser le bouillon.",
+        "Porter à ébullition puis laisser mijoter à couvert pendant 20 à 30 min (jusqu'à ce que les patates soient cuites, vérifier avec la pointe d'un couteau).",
+        "Enlever la casserole du feu.",
+        "Laisser un peu refroidir.",
+        "Mixer.",
+        "Remettre sur le feu.",
+        "Mettre le lait de coco et ajouter la coriandre ciselée (en garder pour mettre dans les bols au moment de servir, en décoration)."
       ]
     },
     {
-      "id": "tarte_aux_fraise",
-      "image": "/assets/current-recipe/tarte-aux-fraises.webp",
-      "name": "Tarte aux fraises",
-      "eventCategory": "summer",
-      "servingSize": "8",
-      "prepTime": "30 min",
-      "cookTime": "25 min",
-      "sections": [
+      "id": "cocos_paimpol_tomate",
+      "name": "Cocos de Paimpol à la tomate",
+      "image": "/assets/salty-recipe/haricots-blancs-sauce-tomate.jpg",
+      "eventCategory": "winter",
+      "category": ["plat"],
+      "servingSize": "4",
+      "ingredients": [
         {
-          "name": "Pâte sablée",
-          "ingredients": [
-            {
-              "name": "de farine",
-              "quantity": "250g"
-            },
-            {
-              "name": "de beurre mou",
-              "quantity": "125g"
-            },
-            {
-              "name": "oeuf",
-              "quantity": "1"
-            },
-            {
-              "name": "de sucre glace",
-              "quantity": "60g"
-            }
-          ],
-          "steps": [
-            "Incorporez le beurre coupé en dés à la farine en mélangeant avec les doigts de façon à obtenir un sable grossier. Attention à ne pas trop travailler la pâte sinon elle devient élastique. Il faut juste incorporer les ingrédients.",
-            "Ajoutez l'oeuf tout en continuant de mélanger avec les mains. Versez progressivement le sucre glace et pétrissez jusuq'à obtenir une pâte homogène.",
-            "Formez une boule, enveloppez-la dans du film alimentaire et laissez reposer au réfrigérateur pendant environ 2 heures."
-          ]
+          "name": "d'haricots coco de Paimpol écossés",
+          "quantity": "500g"
         },
         {
-          "name": "Crème pâtissière",
-          "ingredients": [
-            {
-              "name": "de lait",
-              "quantity": "500 ml"
-            },
-            {
-              "name": "jaune d'oeuf",
-              "quantity": "3"
-            },
-
-            {
-              "name": "de sucre en poudre",
-              "quantity": "75g"
-            },
-            {
-              "name": "de farine",
-              "quantity": "40g"
-            }
-          ],
-          "steps": [
-            "Faire chauffer le lait.",
-            "Travailler les jaunes d'oeufs avec le sucre jusqu'à ce que le mélange blanchisse et devienne mousseux.",
-            "Ajouter la farine en pluie. Bien mélanger. Verser le lait bouillant petit à petit sur le mélange.",
-            "Remettre le tout sur feu doux et porter doucement à ébullition 5 minutes, en tournant sans cesse."
-          ]
+          "name": "d'uile d’olive",
+          "quantity": "2 cuillères à soupe"
         },
         {
-          "name": "Montage et cuisson",
-          "ingredients": [
-            {
-              "name": "disques de pâte feuilletée",
-              "quantity": "2"
-            },
-            {
-              "name": "jaune d'oeuf",
-              "quantity": "1"
-            }
-          ],
-          "steps": [
-            "Préchauffer le four à 180°C.",
-            "Étaler la pâte sur un plan fariné. La pâte étant fragile, on peut l'étaler entre 2 feuilles de papier sulfurisé.",
-            "Garnir le moule à tarte de la pâte en épousant bien le fond du moule et recouper les bords.",
-            "Cuire la pâte à blanc pendant 15 min environ à 180° en mettant dessus un papier sulfurisé avec des noyaux ou des légumes secs (pour éviter les gonflements de la pâte). Avant la fin de la cuisson, retirer le papier pour que le fond cuise aussi. Bien surveiller la cuisson pour que la pâte ne cuise pas trop et reste couleur blond.",
-            "Laver les fraises rapidement, les égoutter puis les équeuter.",
-            "Quand le fond de tarte est refroidi étaler dessus la crème pâtissière refroidie et déposer par dessus les fraises en rang serré.",
-            "Dans une petite casserole, sur feu doux, délayer 2 cuillerées de gelée de fruits (ou de confiture sans les fruits) avec 1 cuillerée d'eau. Faire briller la tarte en passant ce nappage au pinceau sur les fruits."
-          ]
+          "name": "oignon",
+          "quantity": "1"
+        },
+        {
+          "name": "gousses d’ail",
+          "quantity": "2"
+        },
+        {
+          "name": "tomates",
+          "quantity": "2"
+        },
+        {
+          "name": "de céleri branche",
+          "quantity": "1 brin"
+        },
+        {
+          "name": "de curcuma",
+          "quantity": "1 pincée"
+        },
+        {
+          "name": "de thym",
+          "quantity": "3 brins"
+        },
+        {
+          "name": "de laurier",
+          "quantity": "2 feuilles"
+        },
+        {
+          "name": "d'eau",
+          "quantity": "700ml"
+        },
+        {
+          "name": "de sel",
+          "quantity": "1 pincée"
         }
+      ],
+      "prepTime": "15 min",
+      "cookTime": "45 min",
+      "steps": [
+        "Ecossez les haricots, rincez les cocos sous l’eau froide et égouttez-les.",
+        "Pelez l’oignon et les gousses d’ail, et coupez-les en dés. Lavez les tomates, pelez-les et coupez-les également en dés.",
+        "Ôtez les extrémités de la branche de céleri, lavez-la puis ciselez-la. Lavez le thym et le laurier.",
+        "Versez l’huile d’olive dans une cocotte. Faites la chauffer puis, quand elle est chaude, ajoutez les cubes d’ail, d’oignon et de céleri.",
+        "Laissez cuire 5 minutes en remuant de temps en temps puis ajoutez les tomates, le thym, le laurier et la pincée de curcuma.",
+        "Mélangez et laissez légèrement compoter 5 minutes.",
+        "Ajoutez ensuite les cocos égouttés et mouillez avec 700 ml d’eau.",
+        "Portez à ébullition et faites cuire 30 minutes à frémissement (comptez les 30 minutes à partir du moment où cela bout).",
+        "Au bout de 30 minutes, salez puis laissez cuire 10 minutes de plus."
+      ]
+    },
+
+    {
+      "id": "mousse_chocolat",
+      "name": "Mousse au chocolat",
+      "image": "/assets/sugar-recipe/mousse-chocolat.jpg",
+      "eventCategory": null,
+      "category": ["dessert"],
+      "servingSize": "6",
+      "ingredients": [
+        {
+          "name": "de chocolat noir",
+          "quantity": "200g"
+        },
+        {
+          "name": "œufs",
+          "quantity": "6"
+        },
+        {
+          "name": "Sel",
+          "quantity": "1 pincée"
+        },
+        {
+          "name": "Copeaux de chocolat (facultatif)"
+        }
+      ],
+      "prepTime": "20 min",
+      "cookTime": null,
+      "steps": [
+        "Séparez les jaunes des blancs d’œufs.",
+        "Briser le chocolat en morceaux et le mettre dans un bol. Faites-le fondre au bain-marie. Mélangez jusqu'à obtenir une consistance lisse sans grumeaux. Laissez refroidir un peu.",
+        "Ajoutez les jaunes d’œufs au chocolat fondu et mélangez bien.",
+        "Battez les blancs d’œufs avec une pincée de sel jusqu'à ce qu'ils deviennent fermes.",
+        "Incorporez doucement les blancs d’œufs au mélange de chocolat et de jaunes d’œufs. Veillez à ne pas trop mélanger pour éviter de liquéfier la préparation.",
+        "Répartissez la préparation équitablement dans 6 ramequins ou verrines.",
+        "Placez les ramequins au réfrigérateur pendant au moins 3 heures pour que la mousse prenne.",
+        "Pour une présentation plus élégante, vous pouvez saupoudrer les mousses de copeaux de chocolat (faites à l'aide d'un économe, assurez-vous que le chocolat soit bien froid)."
       ]
     }
   ],
@@ -2197,7 +2202,7 @@
     {
       "id": "veloute_de_lentilles_corail",
       "name": "Velouté de lentilles corail",
-      "image": "/assets/salty-recipe/velouté-lentilles-corail.jpg",
+      "image": "/assets/salty-recipe/veloute-lentilles-corail.jpg",
       "category": ["entrée"],
       "eventCategory": "winter",
       "servingSize": "6",
@@ -3532,6 +3537,273 @@
         "Ajoutez le thym et le curcuma, plus le piment et un petit peu d'eau.",
         "Couvrez et laissez cuire à feu doux pendant 1/2 heure environ.",
         "La sauce devra être très rouge et épaisse, ce qui indiquera la fin de la cuisson."
+      ]
+    },
+    {
+      "id": "cocos_paimpol_tomate",
+      "name": "Cocos de Paimpol à la tomate",
+      "image": "/assets/salty-recipe/haricots-blancs-sauce-tomate.jpg",
+      "eventCategory": "winter",
+      "category": ["plat"],
+      "servingSize": "4",
+      "ingredients": [
+        {
+          "name": "d'haricots coco de Paimpol écossés",
+          "quantity": "500g"
+        },
+        {
+          "name": "d'uile d’olive",
+          "quantity": "2 cuillères à soupe"
+        },
+        {
+          "name": "oignon",
+          "quantity": "1"
+        },
+        {
+          "name": "gousses d’ail",
+          "quantity": "2"
+        },
+        {
+          "name": "tomates",
+          "quantity": "2"
+        },
+        {
+          "name": "de céleri branche",
+          "quantity": "1 brin"
+        },
+        {
+          "name": "de curcuma",
+          "quantity": "1 pincée"
+        },
+        {
+          "name": "de thym",
+          "quantity": "3 brins"
+        },
+        {
+          "name": "de laurier",
+          "quantity": "2 feuilles"
+        },
+        {
+          "name": "d'au",
+          "quantity": "700ml"
+        },
+        {
+          "name": "de sel",
+          "quantity": "1 pincée"
+        }
+      ],
+      "prepTime": "15 min",
+      "cookTime": "45 min",
+      "steps": [
+        "Ecossez les haricots, rincez les cocos sous l’eau froide et égouttez-les.",
+        "Pelez l’oignon et les gousses d’ail, et coupez-les en dés. Lavez les tomates, pelez-les et coupez-les également en dés.",
+        "Ôtez les extrémités de la branche de céleri, lavez-la puis ciselez-la. Lavez le thym et le laurier.",
+        "Versez l’huile d’olive dans une cocotte. Faites la chauffer puis, quand elle est chaude, ajoutez les cubes d’ail, d’oignon et de céleri.",
+        "Laissez cuire 5 minutes en remuant de temps en temps puis ajoutez les tomates, le thym, le laurier et la pincée de curcuma.",
+        "Mélangez et laissez légèrement compoter 5 minutes.",
+        "Ajoutez ensuite les cocos égouttés et mouillez avec 700 ml d’eau.",
+        "Portez à ébullition et faites cuire 30 minutes à frémissement (comptez les 30 minutes à partir du moment où cela bout).",
+        "Au bout de 30 minutes, salez puis laissez cuire 10 minutes de plus."
+      ]
+    },
+    {
+      "id": "coco_paimpol_saucisse",
+      "name": "Coco de Paimpol à la saucisse",
+      "image": "/assets/salty-recipe/haricots-blancs-saucisse.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "4",
+      "ingredients": [
+        {
+          "name": "d'oignon émincés",
+          "quantity": "100g"
+        },
+        {
+          "name": "de bouillon",
+          "quantity": "250ml"
+        },
+        {
+          "name": "de tomate en boîtes",
+          "quantity": "250g"
+        },
+        {
+          "name": "de coco de paimpol",
+          "quantity": "500g"
+        },
+        {
+          "name": "d'ail",
+          "quantity": "4 gousses"
+        },
+        {
+          "name": "échalote",
+          "quantity": null
+        },
+        {
+          "name": "saucisses fumées",
+          "quantity": "4"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "50 min",
+      "steps": [
+        "Faire rissoler à l'huile d'olive les oignons, arroser avec 1/4 de litre de bouillon.",
+        "Faire bouillir et ajouter 4 ou 5 gousses d'ail et 2 échalotes, le tout épluchées et entières.",
+        "Mettre les saucisses et les faire revenir quelques minutes.",
+        "Ajouter la boîte de tomates et les cocos, saler peu mais poivrer.",
+        "Ajouter de l'eau si nécessaire afin que le tout soit recouvert.",
+        "Laisser cuire pendant 50 minutes à couvert.",
+        "Astuce : Vous pouvez ajouter quelques rondelles de chorizo en cours de cuisson"
+      ]
+    },
+    {
+      "id": "puree_patates_douces",
+      "name": "Purée de patates douces",
+      "image": "/assets/salty-recipe/puree-patates-douces.jpg",
+      "eventCategory": "winter",
+      "category": ["plat"],
+      "servingSize": "4",
+      "ingredients": [
+        {
+          "name": "de crème fraîche",
+          "quantity": "20 cl"
+        },
+        {
+          "name": "d'huile d'olive",
+          "quantity": "1CS"
+        },
+        {
+          "name": "de sel",
+          "quantity": "1 pincée"
+        },
+        {
+          "name": "de poivre ou piment de cayenne",
+          "quantity": "1 pincée"
+        },
+        {
+          "name": "d'orange ou de citron pour parfumer",
+          "quantity": "1 zeste"
+        },
+        {
+          "name": "de patate douce",
+          "quantity": "800 g"
+        }
+      ],
+      "prepTime": "15 min",
+      "cookTime": "10 min",
+      "steps": [
+        "Mettre une grande quantité d'eau à chauffer. Eplucher les patates douces et les couper en petits morceaux.",
+        "Les faire cuire dans l'eau à ébullition pendant 10 min.",
+        "Passer les patates cuites au mixer avec la crème et de l'huile d'olive à volonté.",
+        "Saler poivrer et parfumer de zestes d'agrumes à volonté.",
+        "Cette purée accompagne  toutes vos viandes et poissons un peu épicés."
+      ]
+    },
+    {
+      "id": "veloute_patates_douces_curry",
+      "name": "Velouté de patates douces au curry",
+      "image": "/assets/salty-recipe/veloute-patates-douces.jpg",
+      "eventCategory": "winter",
+      "category": ["soupe", "entrée"],
+      "servingSize": "6",
+      "ingredients": [
+        {
+          "name": "d'huile",
+          "quantity": "1 CS"
+        },
+        {
+          "name": "oignon coupé en fines tranches",
+          "quantity": "1"
+        },
+        {
+          "name": "de gingembre râpé (pas en poudre, c'est important pour le goût)",
+          "quantity": "1 CS"
+        },
+        {
+          "name": "de curry en poudre ",
+          "quantity": "1 CS"
+        },
+        {
+          "name": "de coriandre fraîche ciselée",
+          "quantity": "1 petite poignée"
+        },
+        {
+          "name": "d'ail écrasées",
+          "quantity": "4 gousses"
+        },
+        {
+          "name": "de patate douce pelées et coupées en petits cubes",
+          "quantity": "1 kg"
+        },
+        {
+          "name": "de bouillon de volaille",
+          "quantity": "1 litre"
+        },
+        {
+          "name": "de lait de coco",
+          "quantity": "40 cl"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "30 min",
+      "steps": [
+        "Faire revenir l'oignon quelques minutes dans l'huile.",
+        "Ajouter l'ail, le gingembre et la poudre de curry. Remuer.",
+        "Mettre les morceaux de patates douces dans ce mélange.",
+        "Verser le bouillon.",
+        "Porter à ébullition puis laisser mijoter à couvert pendant 20 à 30 min (jusqu'à ce que les patates soient cuites, vérifier avec la pointe d'un couteau).",
+        "Enlever la casserole du feu.",
+        "Laisser un peu refroidir.",
+        "Mixer.",
+        "Remettre sur le feu.",
+        "Mettre le lait de coco et ajouter la coriandre ciselée (en garder pour mettre dans les bols au moment de servir, en décoration)."
+      ]
+    },
+    {
+      "id": "gratin_patates_douces_pommes_terre",
+      "name": "Gratin de patates douces et pommes de terre",
+      "image": "/assets/salty-recipe/gratin-patates-douces.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "6",
+      "ingredients": [
+        {
+          "name": "d'emmental râpé",
+          "quantity": "40 g"
+        },
+        {
+          "name": "poivre",
+          "quantity": "1 pincée"
+        },
+        {
+          "name": "sel",
+          "quantity": "1 pincée"
+        },
+        {
+          "name": "patates douces",
+          "quantity": "4"
+        },
+        {
+          "name": "pommes de terre",
+          "quantity": "4"
+        },
+        {
+          "name": "de crème liquide (épaisse de préférence)",
+          "quantity": "20 cl"
+        },
+        {
+          "name": "muscade",
+          "quantity": "1 pincée"
+        }
+      ],
+      "prepTime": "30 min",
+      "cookTime": "30 min",
+      "steps": [
+        "Éplucher et couper les pommes de terre et les patates douces.",
+        "Les faire cuire dans de l'eau. Pour vérifier la cuisson, plonger un couteau dans les pommes de terre et dans les patates douces.",
+        "Lorsqu'elles sont cuites, bien les égoutter.",
+        "Préparer l'appareil avec la crème, le sel, le poivre et la muscade.",
+        "Prendre un plat à gratin, y mettre les légumes, verser l'appareil dessus et l'emmental.",
+        "Faire cuire le gratin à 180° (thermostat 6) pendant 30 min environ."
       ]
     }
   ]
