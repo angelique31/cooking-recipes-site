@@ -3171,10 +3171,14 @@
             {
               "name": "de lait",
               "quantity": "10 cl"
+            },
+            {
+              "name": "d'huile de tournesol",
+              "quantity": "10 cl"
             }
           ],
           "steps": [
-            "Préparer la pâte : mélanger la farine au sachet de levure. Battre les oeufs, rajouter le lait et la farine en pluie. Saler.",
+            "Préparer la pâte : mélanger la farine au sachet de levure. Battre les oeufs, rajouter le lait, l'huile et la farine en pluie. Saler.",
             "La pâte doit être légèrement épaisse : rectifier avec un peu de farine ou d'eau selon le résultat.",
             "Quand la garniture est cuite, bien la mélanger à la pâte, avec le chorizo. Remplir les moules à muffins aux 2/3. Cuire au four à 180°C (thermostat 6) pendant 25 min."
           ]
@@ -3557,7 +3561,7 @@
           "quantity": "500g"
         },
         {
-          "name": "d'uile d’olive",
+          "name": "d'huile d’olive",
           "quantity": "2 cuillères à soupe"
         },
         {
@@ -3589,7 +3593,7 @@
           "quantity": "2 feuilles"
         },
         {
-          "name": "d'au",
+          "name": "d'eau",
           "quantity": "700ml"
         },
         {
@@ -3608,12 +3612,15 @@
         "Mélangez et laissez légèrement compoter 5 minutes.",
         "Ajoutez ensuite les cocos égouttés et mouillez avec 700 ml d’eau.",
         "Portez à ébullition et faites cuire 30 minutes à frémissement (comptez les 30 minutes à partir du moment où cela bout).",
-        "Au bout de 30 minutes, salez puis laissez cuire 10 minutes de plus."
+        "Au bout de 30 minutes, salez puis laissez cuire 10 minutes de plus.",
+        "Astuces : Ne pas saler l’eau de cuisson, cela durcit les légumes secs.",
+        "Saler environ 10 minutes avant la fin de la cuisson.",
+        "Ajouter l’ingrédient qui  les rend plus digestes : une pincée de bicarbonate alimentaire."
       ]
     },
     {
       "id": "coco_paimpol_saucisse",
-      "name": "Coco de Paimpol à la saucisse",
+      "name": "Cocos de Paimpol à la saucisse",
       "image": "/assets/salty-recipe/haricots-blancs-saucisse.jpg",
       "eventCategory": null,
       "category": ["plat"],
@@ -3628,7 +3635,7 @@
           "quantity": "250ml"
         },
         {
-          "name": "de tomate en boîtes",
+          "name": "de coulis de tomates",
           "quantity": "250g"
         },
         {
@@ -3641,7 +3648,7 @@
         },
         {
           "name": "échalote",
-          "quantity": null
+          "quantity": "2"
         },
         {
           "name": "saucisses fumées",
@@ -3651,13 +3658,16 @@
       "prepTime": "10 min",
       "cookTime": "50 min",
       "steps": [
-        "Faire rissoler à l'huile d'olive les oignons, arroser avec 1/4 de litre de bouillon.",
-        "Faire bouillir et ajouter 4 ou 5 gousses d'ail et 2 échalotes, le tout épluchées et entières.",
+        "Faire rissoler à l'huile d'olive les oignons.",
+        "Ajouter 4 ou 5 gousses d'ail et 2 échalotes, le tout épluchées et entières.",
         "Mettre les saucisses et les faire revenir quelques minutes.",
-        "Ajouter la boîte de tomates et les cocos, saler peu mais poivrer.",
+        "Ajouter le coulis de tomates et les cocos, poivrer.",
         "Ajouter de l'eau si nécessaire afin que le tout soit recouvert.",
         "Laisser cuire pendant 50 minutes à couvert.",
-        "Astuce : Vous pouvez ajouter quelques rondelles de chorizo en cours de cuisson"
+        "Astuces : - Vous pouvez ajouter quelques rondelles de chorizo en cours de cuisson",
+        "- Ne pas saler l’eau de cuisson, cela durcit les légumes secs.",
+        "- Ajouter le bouillon environ 10 minutes avant la fin de la cuisson.",
+        "- Ajouter l’ingrédient qui  les rend plus digestes : une pincée de bicarbonate alimentaire."
       ]
     },
     {

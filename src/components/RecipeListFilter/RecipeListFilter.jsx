@@ -5,13 +5,12 @@ const normalizeString = (input) => {
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
-    .replace(/\s/g, "") // supprime les espaces en double
+    .replace(/\s+/g, " ") // remplace les espaces multiples par un seul espace
     .trim(); // supprime les espaces en début et fin de chaîne
 };
 
 const RecipeListFilter = () => {
   const searchValue = useSelector((state) => state.recipes.searchValue);
-  // const recipes = useSelector((state) => state.recipes.recipes.regularRecipes);
   const recipes = useSelector(
     (state) => state.recipes.recipeData.regularRecipes
   );
@@ -26,7 +25,7 @@ const RecipeListFilter = () => {
     initialLimit = recipes.length;
   }
 
-  const normalizedSearchValue = normalizeString(searchValue);
+  const normalizedSearchValues = normalizeString(searchValue).split(" ");
   return recipes
     .filter((recipe) => {
       if (!searchValue) {
@@ -41,9 +40,10 @@ const RecipeListFilter = () => {
 
       const normalizedRecipeName = normalizeString(recipe.name);
 
-      return (
-        normalizedRecipeName.includes(normalizedSearchValue) ||
-        ingredients.includes(normalizedSearchValue)
+      // Check if every word in the searchValue exists in the recipe name or ingredients
+      return normalizedSearchValues.every(
+        (value) =>
+          normalizedRecipeName.includes(value) || ingredients.includes(value)
       );
     })
     .slice(0, initialLimit);
