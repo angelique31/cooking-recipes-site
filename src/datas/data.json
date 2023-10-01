@@ -243,7 +243,7 @@
     },
     {
       "id": "gateau_chocolat",
-      "image": "/assets/sugar-recipe/gateau-au-chocolat.jpeg",
+      "image": "/assets/sugar-recipe/gateau-au-chocolat2.jpeg",
       "name": "Gâteau au chocolat",
       "eventCategory": null,
       "servingSize": "6",
@@ -815,7 +815,7 @@
     {
       "id": "cookie",
       "name": "Cookies aux pépites de chocolat",
-      "image": "/assets/sugar-recipe/cookies.webp",
+      "image": "/assets/sugar-recipe/cookies.jpg",
       "eventCategory": null,
       "category": ["dessert"],
       "servingSize": "4",
@@ -3819,6 +3819,44 @@
         "Préparer l'appareil avec la crème, le sel, le poivre et la muscade.",
         "Prendre un plat à gratin, y mettre les légumes, verser l'appareil dessus et l'emmental.",
         "Faire cuire le gratin à 180° (thermostat 6) pendant 30 min environ."
+      ]
+    },
+    {
+      "id": "tarte_aux_pommes",
+      "name": "Tarte aux pommes",
+      "image": "/assets/sugar-recipe/tarte-pommes.jpg",
+      "eventCategory": null,
+      "category": ["dessert"],
+      "servingSize": "6",
+      "ingredients": [
+        {
+          "name": "pâte brisée",
+          "quantity": "1"
+        },
+        {
+          "name": "de sucre vanillé",
+          "quantity": "1 sachet"
+        },
+        {
+          "name": "de beurre",
+          "quantity": "30 g"
+        },
+        {
+          "name": "pommes Golden",
+          "quantity": "6"
+        }
+      ],
+      "prepTime": "25 min",
+      "cookTime": "30 min",
+      "steps": [
+        "Éplucher et découper en morceaux les pomme.",
+        "Faire une compote : les mettre dans une casserole avec un peu d'eau (1 verre ou 2). Bien remuer. Quand les pommes commencent à ramollir, ajouter un sachet ou un sachet et demi de sucre vanillé. Ajouter un peu d'eau si nécessaire.",
+        "Vous saurez si la compote est prête une fois que les pommes ne seront plus dures du tout. Ce n'est pas grave s'il reste quelques morceaux.",
+        "Pendant que la compote cuit, éplucher et couper en quatre les deux dernières pommes, puis, couper les quartiers en fines lamelles (elles serviront à être posées sur la compote).",
+        "Préchauffer le four à 210°C (thermostat 7).",
+        "Laisser un peu refroidir la compote et étaler la pâte brisée dans un moule et la piquer avec une fourchette.",
+        "Verser la compote sur la pâte et placer les lamelles de pommes en formant une spirale ou plusieurs cercles, au choix ! Disposer des lamelles de beurre dessus.",
+        "Mettre au four et laisser cuire pendant 30 min. Surveiller la cuisson. Vous pouvez ajouter un peu de sucre vanillé sur la tarte pendant que çà cuit pour caraméliser un peu."
       ]
     }
   ]
