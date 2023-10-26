@@ -2208,7 +2208,7 @@
       "id": "veloute_de_lentilles_corail",
       "name": "Velouté de lentilles corail",
       "image": "/assets/salty-recipe/veloute-lentilles-corail.jpg",
-      "category": ["entrée"],
+      "category": ["entrée", "rapide"],
       "eventCategory": "winter",
       "servingSize": "6",
       "ingredients": [
@@ -3857,6 +3857,112 @@
         "Laisser un peu refroidir la compote et étaler la pâte brisée dans un moule et la piquer avec une fourchette.",
         "Verser la compote sur la pâte et placer les lamelles de pommes en formant une spirale ou plusieurs cercles, au choix ! Disposer des lamelles de beurre dessus.",
         "Mettre au four et laisser cuire pendant 30 min. Surveiller la cuisson. Vous pouvez ajouter un peu de sucre vanillé sur la tarte pendant que çà cuit pour caraméliser un peu."
+      ]
+    },
+    {
+      "id": "gaufres",
+      "name": "Gaufres",
+      "image": "/assets/sugar-recipe/gaufres.jpg",
+      "eventCategory": null,
+      "category": ["dessert"],
+      "servingSize": "6",
+      "ingredients": [
+        {
+          "name": "de farine",
+          "quantity": "250g"
+        },
+        {
+          "name": "de levure chimique",
+          "quantity": "1 sachet"
+        },
+        {
+          "name": "de sucre",
+          "quantity": "40g"
+        },
+        {
+          "name": "oeufs",
+          "quantity": "2"
+        },
+        {
+          "name": "de lait",
+          "quantity": "50cl"
+        },
+        {
+          "name": "de beurre fondu",
+          "quantity": "100g"
+        },
+        {
+          "name": "de sel",
+          "quantity": "1 pincée"
+        }
+      ],
+      "prepTime": "15 min",
+      "cookTime": "30 min",
+      "steps": [
+        "Mélangez la farine, la levure et le sucre.",
+        "Ajoutez les œufs battus et mélangez bien.",
+        "Ajoutez peu à peu le lait, en remuant avec un fouet, pour éviter les grumeaux.",
+        "Incorporez le beurre fondu, une pincée de sel et mélangez bien.",
+        "Laissez reposer la pâte à gaufres 1h au réfrigérateur avant de les cuire (la pâte sera plus épaisse mais celle-ci restera liquide).",
+        "Confectionnez les gaufres dans un gaufrier chauffé, en les cuisant 3 à 5 minutes."
+      ]
+    },
+    {
+      "id": "shumpot",
+      "name": "Shumpot",
+      "image": "/assets/sugar-recipe/shumpot(2).jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "6",
+      "ingredients": [
+        {
+          "name": "farine",
+          "quantity": "450g"
+        },
+        {
+          "name": "œufs",
+          "quantity": "2"
+        },
+        {
+          "name": "yaourt nature",
+          "quantity": "1"
+        },
+        {
+          "name": "crème fraîche",
+          "quantity": "20 cl"
+        },
+        {
+          "name": "de vergeoise brune",
+          "quantity": "1/2 paquet"
+        },
+        {
+          "name": "beurre",
+          "quantity": "100g"
+        },
+
+        {
+          "name": "raisins secs",
+          "quantity": "1 poignée"
+        }
+      ],
+      "prepTime": "30 min",
+      "cookTime": "30 min",
+      "steps": [
+        "Faire bouillir l'eau dans une gamelle.",
+        "Dans un saladier, faire un puit avec la farine, ajouter les œufs, le yaourt nature et la crème fraîche.",
+        "Mélanger un peu (1 mn). Il faut juste incorporer les ingrédients, ne pas travailler la pâte.",
+        "Puis fariner le torchon. Mettre la pâte sur le torchon.",
+        "Étaler la pâte avec les mains préalablement farinées.",
+        "Attention à ne pas mettre de farine sur les bords de la pâte.",
+        "Ajouter le sucre au centre de la pâte étalée.",
+        "Recouvrir le sucre de lamelles de beurre. Ajouter les raisins.",
+        "Fermer la pâte grâce au torchon (un côté, puis l'autre). Il faut que le sucre soit bien recouvert. Rabattre les bouts de chaque côté le plus haut possible sur le dessus du 'boudin'.",
+        "Refermer le torchon (le 'boudin' doit être bien serré).",
+        "Reserrer la pâte grâce au torchon (un côté, puis l'autre) rabattre le torchon le plus haut possible sur le dessus.",
+        "Le 'boudin' doit être bien serré. Refermer le torchon sur le 'boudin' en tournant ce dernier, en alternant dessus, dessous, dessus ... La jointure du shumpot doit être au dessus une fois qu'il est fermé avec le torchon.",
+        "Ficeler les coins le plus raz possible du 'boudin' (comme un bonbon)",
+        "Mettre le shumpot dans l'eau bouillante. Cuisson : 45 minutes environ.",
+        "Astuce : Se déguste à merveille le lendemain, réchauffé à la poêle, en ajoutant de la vergeoise brune."
       ]
     }
   ]
