@@ -242,9 +242,9 @@
       ]
     },
     {
-      "id": "gateau_chocolat",
+      "id": "fondant_chocolat",
       "image": "/assets/sugar-recipe/gateau-au-chocolat2.jpeg",
-      "name": "Gâteau au chocolat",
+      "name": "Fondant au chocolat",
       "eventCategory": null,
       "servingSize": "6",
       "prepTime": "30 min",
@@ -2728,9 +2728,9 @@
       ]
     },
     {
-      "id": "gateau_chocolat",
-      "image": "/assets/sugar-recipe/gateau-au-chocolat.jpeg",
-      "name": "Gâteau au chocolat",
+      "id": "fondant_chocolat",
+      "image": "/assets/sugar-recipe/gateau-au-chocolat2.jpeg",
+      "name": "Fondant au chocolat",
       "eventCategory": null,
       "servingSize": "6",
       "prepTime": "30 min",
