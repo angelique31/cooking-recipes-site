@@ -3964,6 +3964,54 @@
         "Mettre le shumpot dans l'eau bouillante. Cuisson : 45 minutes environ.",
         "Astuce : Se déguste à merveille le lendemain, réchauffé à la poêle, en ajoutant de la vergeoise brune."
       ]
+    },
+    {
+      "id": "gateau_moelleux_aux_pommes",
+      "name": "Gâteau moelleux aux pommes",
+      "image": "/assets/sugar-recipe/gateau_pommes.jpg",
+      "eventCategory": null,
+      "category": ["dessert"],
+      "servingSize": "6",
+      "ingredients": [
+        {
+          "name": "de farine",
+          "quantity": "125g"
+        },
+        {
+          "name": "de levure",
+          "quantity": "1 sachet"
+        },
+        {
+          "name": "de sucre",
+          "quantity": "80g"
+        },
+        {
+          "name": "de beurre",
+          "quantity": "60g"
+        },
+        {
+          "name": "de sucre vanillé",
+          "quantity": "1 sachet"
+        },
+        {
+          "name": "pommes jaunes",
+          "quantity": "3"
+        },
+        {
+          "name": "oeufs",
+          "quantity": "3"
+        }
+      ],
+      "prepTime": "15 min",
+      "cookTime": "40 min",
+      "steps": [
+        "Faire cuire à la poêle les pommes épluchées et coupées en lamelles avec le beurre et le sucre vanillé.",
+        "Pendant ce temps, mélanger les oeufs, le sucre, le beurre fondu et en dernier la farine avec la levure.",
+        "Mélanger le tout à l'aide d'un fouet.",
+        "Rajouter les pommes caramélisées.",
+        "Bien mélanger le tout et répartir le mélange dans un moule beurré.",
+        "Faire cuire à 130-140°C pendant 40 min."
+      ]
     }
   ]
 }
