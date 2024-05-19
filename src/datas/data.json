@@ -1210,6 +1210,110 @@
       ]
     },
     {
+      "id": "cake_chocolat_vanille",
+      "name": "Cake au chocolat et à la vanille",
+      "image": "/assets/sugar-recipe/marbre_chocolat_vanille.webp",
+      "eventCategory": null,
+      "category": ["dessert"],
+      "servingSize": "6",
+      "ingredients": [
+        {
+          "name": "de beurre fondu",
+          "quantity": "125g"
+        },
+        {
+          "name": "oeufs",
+          "quantity": "5"
+        },
+        {
+          "name": "de sucre en poudre",
+          "quantity": "125g"
+        },
+        {
+          "name": "de farine",
+          "quantity": "125g"
+        },
+        {
+          "name": "de levure",
+          "quantity": "1 sachet"
+        },
+        {
+          "name": "de sucre vanillé",
+          "quantity": "1 sachet"
+        },
+        {
+          "name": "de chocolat noir fondu",
+          "quantity": "125g"
+        }
+      ],
+      "prepTime": "20 min",
+      "cookTime": "30 min",
+      "steps": [
+        "Préchauffez le four à 180°C.",
+        "Séparez les blancs des jaunes de 4 œufs. Battez les jaunes avec le sucre jusqu'à ce que le mélange blanchisse. (Vous pouvez mettre 80 ou 100g de sucre à la place des 125g si vous aimez les préparations moins sucrées.)",
+        "Ajoutez l'œuf entier au mélange, bien mélanger, puis incorporez le beurre fondu et la farine tamisée avec la levure.",
+        "Séparez la pâte dans deux récipients : dans l'un, ajoutez le sucre vanillé. Dans l'autre, ajoutez le chocolat fondu au bain-marie.",
+        "Montez les blancs en neige puis les incorporez équitablement aux 2 préparations. Faites-le délicatement sans casser les blancs de façon à ce que la préparation garde une texture mousseuse.",
+        "Beurrez un moule à cake. Versez successivement une couche de pâte blanche, une couche de pâte au chocolat, une couche de pâte blanche, une couche de pâte au chocolat, etc. (Ce n'est pas grave si les couches ne sont pas parfaites et si les 2 préparations se mélangent).",
+        "Enfournez pour 35 minutes environ (plus ou moins selon les fours et la taille du moule utilisé). Pour vérifier la cuisson, enfoncez la pointe d'un couteau, retirez le cake dès qu'elle ressort propre (il faut bien surveiller la cuisson pour ne pas que le gâteau devienne sec).",
+        "Laissez refroidir, dégustez !"
+      ]
+    },
+    {
+      "id": "madeleines",
+      "name": "Madeleines en coque de chocolat",
+      "image": "/assets/sugar-recipe/madeleines.webp",
+      "eventCategory": null,
+      "category": ["dessert"],
+      "servingSize": "36",
+      "ingredients": [
+        {
+          "name": "gros oeufs",
+          "quantity": "3"
+        },
+        {
+          "name": "de farine",
+          "quantity": "200g"
+        },
+        {
+          "name": "de sucre",
+          "quantity": "150g"
+        },
+        {
+          "name": "de beurre fondu",
+          "quantity": "200g"
+        },
+        {
+          "name": "de poudre à lever",
+          "quantity": "1/2 sachet"
+        },
+        {
+          "name": "de lait",
+          "quantity": "5cl"
+        },
+        {
+          "name": "quelques râpures de citron ou de bergamote",
+          "quantity": "selon votre choix"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "5-8 min",
+      "steps": [
+        "Beurrez et farinez les moules à madeleines.",
+        "Dans un récipient, mettez la farine en fontaine et ajoutez la levure chimique.",
+        "Ajoutez les œufs. Débrouillez légèrement les œufs et ajoutez le sucre.",
+        "Mélangez à nouveau et ajoutez le lait.",
+        "Continuez de mélanger au fouet et ajoutez le beurre fondu et le zeste de citron ou la vanille selon votre choix. Vous obtenez une pâte bien lisse qui fait le ruban.",
+        "Versez dans les moules à la cuiller, aux trois quarts de la hauteur, et laissez reposer 10 minutes.",
+        "Cuire au four préchauffé à 200°C entre 5 et 8 minutes.",
+        "Enlevez les madeleines des moules avant le refroidissement.",
+        "Une fois les madeleines refroidies, faire fondre au bain marie le chocolat jusqu’à ce qu’il soit liquide et brillant.",
+        "A l’aide d’un pinceau, étaler généreusement et uniformément le chocolat dans une empreinte et y déposer la madeleine en appuyant pour qu’elle adhère parfaitement. Renouveler l’opération pour toutes les autres empreintes.",
+        "Réserver le tout au réfrigérateur pendant 2h."
+      ]
+    },
+
+    {
       "id": "cheesecake",
       "name": "Cheesecake Vanille Et Caramel Beurre Salé (Sans Cuisson)",
       "image": "/assets/sugar-recipe/cheesecake-caramel-beurre-sale.jpg",
