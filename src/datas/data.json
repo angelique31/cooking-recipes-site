@@ -1368,6 +1368,107 @@
       ]
     },
     {
+      "id": "financiers",
+      "name": "Financiers",
+      "image": "/assets/sugar-recipe/financiers.jpg",
+      "eventCategory": null,
+      "category": ["dessert"],
+      "servingSize": "30",
+      "ingredients": [
+        {
+          "name": "de sucre glace",
+          "quantity": "340g"
+        },
+        {
+          "name": "d'amandes en poudre",
+          "quantity": "120g"
+        },
+        {
+          "name": "de farine type 55",
+          "quantity": "125g"
+        },
+        {
+          "name": "de levure chimique",
+          "quantity": "3g"
+        },
+        {
+          "name": "de blancs d'œufs",
+          "quantity": "335g"
+        },
+        {
+          "name": "de beurre noisette",
+          "quantity": "180g"
+        },
+        {
+          "name": "de vanille liquide",
+          "quantity": "3g"
+        },
+        {
+          "name": "Amandes caramélisées concassées (facultatif)",
+          "quantity": ""
+        }
+      ],
+      "prepTime": "20 min",
+      "cookTime": "10 à 15 min",
+      "steps": [
+        "Préparer tous les ingrédients.",
+        "Tamiser la farine, le sucre glace et la poudre d'amandes ensemble.",
+        "Ajouter la levure chimique et mélanger.",
+        "Incorporer les blancs d'œufs à la spatule.",
+        "Ajouter le beurre noisette tiède, puis la vanille liquide. Mélanger délicatement.",
+        "Verser la pâte dans une poche à douille sans douille, et couper l'extrémité (0,5 à 1 cm).",
+        "Pocher la pâte dans des moules à financiers en silicone.",
+        "Parsemer éventuellement d'amandes caramélisées concassées.",
+        "Cuire à 230°C jusqu'à ce qu'ils soient bien gonflés et dorés.",
+        "Laisser tiédir avant de démouler."
+      ]
+    },
+    {
+      "id": "gateau_breton",
+      "name": "Gâteau breton",
+      "image": "/assets/sugar-recipe/gateau-breton.jpg",
+      "eventCategory": null,
+      "category": ["dessert"],
+      "servingSize": "6",
+      "ingredients": [
+        {
+          "name": "jaunes d'œufs",
+          "quantity": "2"
+        },
+        {
+          "name": "œuf entier",
+          "quantity": "1"
+        },
+        {
+          "name": "farine",
+          "quantity": "300 g"
+        },
+        {
+          "name": "sucre",
+          "quantity": "200 g"
+        },
+        {
+          "name": "beurre demi-sel",
+          "quantity": "250 g"
+        }
+      ],
+      "prepTime": "15 min",
+      "cookTime": "30 min",
+      "steps": [
+        "Préchauffer le four à 170°C (thermostat 5/6).",
+        "Dans un saladier, battre les 2 jaunes d'œufs avec le sucre jusqu'à ce que le mélange blanchisse.",
+        "Ajouter le beurre ramolli, puis incorporer la farine. Mélanger pour obtenir une pâte homogène.",
+        "Filmer la pâte et la placer au réfrigérateur (+4°C) pendant un moment.",
+        "Étaler la pâte dans un moule rond.",
+        "Lisser le dessus avec une cuillère.",
+        "Dorer avec un jaune d'œuf à l'aide d’un pinceau, puis tracer un motif avec une fourchette.",
+        "Cuire 30 minutes à 170°C.",
+        "Laisser refroidir complètement avant de déguster.",
+        "Conseil : préparer le gâteau la veille pour qu’il repose, car il est très friable à la sortie du four."
+      ]
+    },
+
+    {
       "id": "fondant_chocolat_blanc",
       "name": "Fondant au chocolat blanc et à la framboise",
       "image": "/assets/sugar-recipe/fondant-chocolat-blanc-framboises.jpg",
