@@ -1433,12 +1433,9 @@
       "ingredients": [
         {
           "name": "jaunes d'œufs",
-          "quantity": "5"
+          "quantity": "5 + 1"
         },
-        {
-          "name": "œuf entier",
-          "quantity": "1"
-        },
+
         {
           "name": "farine",
           "quantity": "300 g"
@@ -1456,7 +1453,7 @@
       "cookTime": "30 min",
       "steps": [
         "Préchauffer le four à 170°C (thermostat 5/6).",
-        "Dans un saladier, battre les 2 jaunes d'œufs avec le sucre jusqu'à ce que le mélange blanchisse.",
+        "Dans un saladier, battre les 5 jaunes d'œufs avec le sucre jusqu'à ce que le mélange blanchisse.",
         "Ajouter le beurre ramolli, puis incorporer la farine. Mélanger pour obtenir une pâte homogène.",
         "Filmer la pâte et la placer au réfrigérateur (+4°C) pendant un moment.",
         "Étaler la pâte dans un moule rond.",
