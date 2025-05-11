@@ -1464,7 +1464,482 @@
         "Conseil : préparer le gâteau la veille pour qu’il repose, car il est très friable à la sortie du four."
       ]
     },
-
+    {
+      "id": "invisible_aux_pommes",
+      "name": "L’invisible aux pommes WW",
+      "image": "/assets/sugar-recipe/invisible-aux-pommes.jpg",
+      "eventCategory": null,
+      "category": ["dessert"],
+      "servingSize": "8",
+      "wwPointsPerServing": 3,
+      "ingredients": [
+        {
+          "name": "pommes",
+          "quantity": "6"
+        },
+        {
+          "name": "œufs",
+          "quantity": "2"
+        },
+        {
+          "name": "lait écrémé",
+          "quantity": "10 cl"
+        },
+        {
+          "name": "farine",
+          "quantity": "70 g"
+        },
+        {
+          "name": "sucre",
+          "quantity": "40 g"
+        },
+        {
+          "name": "beurre à 41%",
+          "quantity": "20 g"
+        },
+        {
+          "name": "levure chimique",
+          "quantity": "1 sachet"
+        },
+        {
+          "name": "arôme vanille",
+          "quantity": "1 cuillère à café"
+        },
+        {
+          "name": "sel",
+          "quantity": "1 pincée"
+        }
+      ],
+      "prepTime": "20 min",
+      "cookTime": "35 min",
+      "steps": [
+        "Préchauffer le four à 200°C.",
+        "Battre les œufs avec le sucre dans un saladier.",
+        "Ajouter le beurre fondu, le lait et l’arôme vanille, puis bien fouetter.",
+        "Incorporer la farine, la levure et le sel. Bien mélanger.",
+        "Émincer les pommes en fines lamelles, idéalement à la mandoline.",
+        "Ajouter les pommes dans la préparation et mélanger délicatement.",
+        "Verser la préparation dans un moule de 20 cm (type moule tablette silicone 20x20).",
+        "Enfourner pour 35 minutes à 200°C.",
+        "Laisser refroidir complètement. Servir bien froid.",
+        "3 points/part"
+      ]
+    },
+    {
+      "id": "gateau_skyr_pepites_choco",
+      "name": "Gâteau léger au skyr et pépites de chocolat WW",
+      "image": "/assets/sugar-recipe/gateau-skyr-choco.jpg",
+      "eventCategory": null,
+      "category": ["dessert", "léger"],
+      "servingSize": "8",
+      "wwPointsPerServing": 3,
+      "ingredients": [
+        {
+          "name": "œufs",
+          "quantity": "4"
+        },
+        {
+          "name": "sucre de canne (ou complet)",
+          "quantity": "50 g"
+        },
+        {
+          "name": "extrait de vanille liquide",
+          "quantity": "1 cuillère à café"
+        },
+        {
+          "name": "skyr ou fromage blanc 0%",
+          "quantity": "500 g"
+        },
+        {
+          "name": "maïzena ou farine",
+          "quantity": "60 g"
+        },
+        {
+          "name": "pépites de chocolat",
+          "quantity": "50 g"
+        }
+      ],
+      "prepTime": "15 min",
+      "cookTime": "30 min",
+      "steps": [
+        "Préchauffer le four à 180°C en chaleur tournante.",
+        "Séparer les blancs et les jaunes d'œufs.",
+        "Battre les jaunes avec le sucre jusqu'à ce que la préparation devienne mousseuse.",
+        "Ajouter le skyr et l’extrait de vanille, mélanger.",
+        "Incorporer la maïzena.",
+        "Monter les blancs en neige et les incorporer délicatement à la préparation.",
+        "Ajouter les pépites de chocolat et mélanger délicatement.",
+        "Beurrer un moule à charnière de 20 cm (ou utiliser un moule silicone).",
+        "Verser la préparation dans le moule et enfourner pour 30 minutes.",
+        "Éteindre le four, entrouvrir la porte et laisser le gâteau refroidir à l’intérieur.",
+        "Sortir le gâteau une fois le four refroidi. Laisser complètement refroidir avant de démouler.",
+        "Conserver au réfrigérateur 3 à 4 jours.",
+        "3 points/part."
+      ]
+    },
+    {
+      "id": "gateau_leger_citron",
+      "name": "Gâteau léger au citron WW",
+      "image": "/assets/sugar-recipe/gateau-leger-citron.jpg",
+      "eventCategory": null,
+      "category": ["dessert", "léger"],
+      "servingSize": "8",
+      "wwPointsPerServing": 3,
+      "ingredients": [
+        {
+          "name": "œufs",
+          "quantity": "4"
+        },
+        {
+          "name": "sucre",
+          "quantity": "80 g"
+        },
+        {
+          "name": "petit-suisse",
+          "quantity": "3"
+        },
+        {
+          "name": "citron bio non traité",
+          "quantity": "1"
+        },
+        {
+          "name": "farine",
+          "quantity": "140 g"
+        },
+        {
+          "name": "levure chimique",
+          "quantity": "1/2 sachet"
+        }
+      ],
+      "prepTime": "15 min",
+      "cookTime": "30 min",
+      "steps": [
+        "Préchauffer le four à 180°C (chaleur traditionnelle).",
+        "Fouetter les œufs avec le sucre jusqu'à ce que la préparation double de volume (idéalement avec un batteur électrique).",
+        "Ajouter les petits-suisses et bien mélanger.",
+        "Zester le citron et ajouter les zestes à la préparation, puis presser et incorporer le jus de la moitié du citron.",
+        "Ajouter la farine et la levure tamisée, et mélanger jusqu'à obtenir une pâte homogène.",
+        "Verser la pâte dans un moule de contenance moyenne (type moule couronne, ~140 cl).",
+        "Enfourner pendant environ 30 minutes.",
+        "Laisser tiédir quelques minutes puis démouler. Laisser refroidir avant de servir.",
+        "3 points/part."
+      ]
+    },
+    {
+      "id": "gateau_semoule_pate_tartiner",
+      "name": "Gâteau de semoule à la pâte à tartiner WW",
+      "image": "/assets/sugar-recipe/gateau-semoule-nocciolata.jpg",
+      "eventCategory": null,
+      "category": ["dessert", "gourmand"],
+      "servingSize": "10",
+      "wwPointsPerServing": 5,
+      "ingredients": [
+        {
+          "name": "œufs",
+          "quantity": "4"
+        },
+        {
+          "name": "yaourts nature",
+          "quantity": "2"
+        },
+        {
+          "name": "pâte à tartiner (nocciolata)",
+          "quantity": "80 g"
+        },
+        {
+          "name": "semoule de blé fine",
+          "quantity": "120 g"
+        }
+      ],
+      "topping": [
+        {
+          "name": "pâte à tartiner",
+          "quantity": "40 g"
+        },
+        {
+          "name": "lait",
+          "quantity": "2 cuillères à soupe"
+        },
+        {
+          "name": "pralin",
+          "quantity": "à saupoudrer (facultatif)"
+        }
+      ],
+      "prepTime": "15 min",
+      "cookTime": "30 min",
+      "steps": [
+        "Préchauffer le four à 180°C.",
+        "Séparer les blancs des jaunes d’œufs.",
+        "Mélanger les jaunes avec les yaourts et les 80 g de pâte à tartiner.",
+        "Incorporer la semoule.",
+        "Monter les blancs en neige ferme, puis les incorporer délicatement.",
+        "Verser la préparation dans un moule en silicone (type couronne).",
+        "Enfourner pour 30 minutes.",
+        "Laisser refroidir puis démouler sur un plat de service.",
+        "Pour le coulis : faire fondre 40 g de pâte à tartiner avec 2 cuillères à soupe de lait à feu doux.",
+        "Napper le gâteau de ce coulis avant de servir et parsemer de pralin si souhaité.",
+        "5 points/part."
+      ]
+    },
+    {
+      "id": "gateau_yaourt_chocolat_ganache",
+      "name": "Gâteau au yaourt au chocolat et sa ganache WW",
+      "image": "/assets/sugar-recipe/gateau-chocolat-ganache.jpg",
+      "eventCategory": null,
+      "category": ["dessert", "chocolat"],
+      "servingSize": "10",
+      "wwPointsPerServing": 7,
+      "ingredients": [
+        {
+          "name": "chocolat noir",
+          "quantity": "200 g"
+        },
+        {
+          "name": "yaourt nature",
+          "quantity": "250 g"
+        },
+        {
+          "name": "cassonade ou sucre complet",
+          "quantity": "80 g"
+        },
+        {
+          "name": "œufs",
+          "quantity": "4"
+        },
+        {
+          "name": "farine",
+          "quantity": "120 g"
+        },
+        {
+          "name": "levure chimique",
+          "quantity": "1/2 sachet"
+        }
+      ],
+      "topping": [
+        {
+          "name": "chocolat noir",
+          "quantity": "150 g"
+        },
+        {
+          "name": "crème liquide (15% possible)",
+          "quantity": "120 g"
+        }
+      ],
+      "prepTime": "20 min",
+      "cookTime": "30 min",
+      "steps": [
+        "Préchauffer le four à 180°C.",
+        "Faire fondre le chocolat au bain marie (ou au Thermomix si utilisé).",
+        "Dans un saladier, battre les œufs, puis ajouter le yaourt et le chocolat fondu.",
+        "Incorporer la cassonade, la farine et la levure chimique. Bien mélanger.",
+        "Verser la pâte dans un moule à gâteau (idéalement type moule tarte renversée de 24 cm).",
+        "Cuire 30 minutes à 180°C. Laisser tiédir puis démouler.",
+        "Pour la ganache : chauffer la crème liquide, ajouter le chocolat en morceaux hors du feu.",
+        "Attendre 2-3 minutes, puis mélanger doucement du centre vers l’extérieur jusqu’à obtenir une ganache lisse.",
+        "Verser la ganache dans le creux du gâteau. Laisser figer 1h à température ambiante avant de servir.",
+        "7 points/part."
+      ]
+    },
+    {
+      "id": "gateau_semoule_pommes",
+      "name": "Gâteau de semoule aux pommes WW",
+      "image": "/assets/sugar-recipe/gateau-semoule-pommes.jpg",
+      "eventCategory": null,
+      "category": ["dessert", "léger"],
+      "servingSize": "10",
+      "wwPointsPerServing": 3,
+      "ingredients": [
+        {
+          "name": "œufs",
+          "quantity": "3"
+        },
+        {
+          "name": "sucre de canne",
+          "quantity": "40 g"
+        },
+        {
+          "name": "yaourts nature",
+          "quantity": "2 (250 g)"
+        },
+        {
+          "name": "semoule de blé fine",
+          "quantity": "90 g"
+        },
+        {
+          "name": "pommes",
+          "quantity": "3"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "30 min",
+      "steps": [
+        "Préchauffer le four à 180°C.",
+        "Battre les œufs avec le sucre.",
+        "Incorporer les yaourts, puis la semoule.",
+        "Peler, épépiner et couper les pommes en petits dés, puis les ajouter à la pâte.",
+        "Verser la préparation dans un moule (par exemple, le moule 12 Flower Power de Guy Demarle).",
+        "Enfourner pour 30 minutes.",
+        "Laisser refroidir avant de déguster.",
+        "2 points/part."
+      ]
+    },
+    {
+      "id": "cake_framboises_chocolat",
+      "name": "Cake aux framboises et pépites de chocolat",
+      "image": "/assets/sugar-recipe/cake-framboises-choco.jpg",
+      "eventCategory": null,
+      "category": ["dessert", "gâteau", "healthy"],
+      "servingSize": "12",
+      "wwPointsPerServing": 3,
+      "ingredients": [
+        {
+          "name": "œufs",
+          "quantity": "4"
+        },
+        {
+          "name": "sucre complet (fleur de coco)",
+          "quantity": "50 g"
+        },
+        {
+          "name": "fromage blanc",
+          "quantity": "100 g"
+        },
+        {
+          "name": "farine",
+          "quantity": "150 g"
+        },
+        {
+          "name": "levure chimique",
+          "quantity": "1/2 sachet"
+        },
+        {
+          "name": "framboises",
+          "quantity": "150 g"
+        },
+        {
+          "name": "pépites de chocolat",
+          "quantity": "50 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "35 min",
+      "steps": [
+        "Préchauffer le four à 180°C (chaleur traditionnelle).",
+        "Battre les œufs avec le sucre jusqu'à ce que le mélange blanchisse.",
+        "Incorporer le fromage blanc, puis la farine et la levure.",
+        "Ajouter les framboises et les pépites de chocolat, mélanger une dernière fois.",
+        "Verser la préparation dans un moule à cake ou dans des moules à petits cakes.",
+        "Cuire 35-40 minutes pour un grand cake, ou 25 minutes pour des petits formats.",
+        "Laisser refroidir avant de démouler et déguster.",
+        "3 points/part."
+      ]
+    },
+    {
+      "id": "cake_carambars",
+      "name": "Cake aux carambars WW",
+      "image": "/assets/sugar-recipe/cake-carambar.jpg",
+      "eventCategory": null,
+      "category": ["dessert", "gâteau", "gourmand"],
+      "servingSize": "12",
+      "wwPointsPerServing": 5,
+      "ingredients": [
+        {
+          "name": "crème liquide",
+          "quantity": "250 g"
+        },
+        {
+          "name": "beurre",
+          "quantity": "40 g"
+        },
+        {
+          "name": "carambars",
+          "quantity": "20"
+        },
+        {
+          "name": "œufs",
+          "quantity": "3"
+        },
+        {
+          "name": "cassonade",
+          "quantity": "30 g"
+        },
+        {
+          "name": "farine",
+          "quantity": "200 g"
+        },
+        {
+          "name": "levure chimique",
+          "quantity": "1/2 sachet"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "35 min",
+      "steps": [
+        "Préchauffer le four à 180°C.",
+        "Verser la crème dans une casserole, ajouter les carambars et le beurre coupé en morceaux. Faire fondre à feu doux en mélangeant régulièrement.",
+        "Fouetter les œufs avec la cassonade, puis incorporer le mélange crème/carambars/beurre.",
+        "Ajouter la farine et la levure. Mélanger pour obtenir une pâte homogène.",
+        "Verser la préparation dans des moules individuels en silicone (oursons, muffins...).",
+        "Enfourner pour 35 minutes.",
+        "Laisser tiédir avant de démouler, puis refroidir complètement sur une grille.",
+        "3 points/part."
+      ]
+    },
+    {
+      "id": "mini_cakes_chocolat",
+      "name": "Mini cakes tout chocolat WW",
+      "image": "/assets/sugar-recipe/mini-cakes-chocolat.jpg",
+      "eventCategory": null,
+      "category": ["dessert", "goûter", "chocolat"],
+      "servingSize": "12",
+      "wwPointsPerServing": 5,
+      "ingredients": [
+        {
+          "name": "farine",
+          "quantity": "180 g"
+        },
+        {
+          "name": "levure chimique",
+          "quantity": "2 cc rases"
+        },
+        {
+          "name": "sucre complet",
+          "quantity": "50 g"
+        },
+        {
+          "name": "œufs",
+          "quantity": "3"
+        },
+        {
+          "name": "yaourt nature",
+          "quantity": "1"
+        },
+        {
+          "name": "huile de noisette (ou autre)",
+          "quantity": "5 cl"
+        },
+        {
+          "name": "chocolat noir ou au lait",
+          "quantity": "120 g"
+        },
+        {
+          "name": "pépites de chocolat",
+          "quantity": "80 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "25 min",
+      "steps": [
+        "Faire fondre le chocolat au bain-marie.",
+        "Préchauffer le four à 180°C.",
+        "Dans un saladier, mélanger la farine, la levure et le sucre.",
+        "Ajouter les œufs, le yaourt et l'huile, bien fouetter.",
+        "Incorporer le chocolat fondu puis les pépites de chocolat.",
+        "Répartir la pâte dans un moule à mini cakes (ou à muffins).",
+        "Cuire environ 25 minutes. Laisser tiédir avant de démouler.",
+        "6 points/part."
+      ]
+    },
     {
       "id": "fondant_chocolat_blanc",
       "name": "Fondant au chocolat blanc et à la framboise",
