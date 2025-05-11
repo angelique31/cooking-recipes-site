@@ -3007,6 +3007,670 @@
       ]
     },
     {
+      "id": "curry_poulet_pois_chiches",
+      "name": "Curry de poulet et pois chiches à l'indienne WW",
+      "image": "/assets/salty-recipe/curry-poulet-pois-chiches.jpg",
+      "category": ["plat", "saveurs indiennes", "sans gluten"],
+      "eventCategory": null,
+      "servingSize": "4",
+      "ingredients": [
+        {
+          "name": "blanc de poulet",
+          "quantity": "450g"
+        },
+        {
+          "name": "pois chiches cuits",
+          "quantity": "130g"
+        },
+        {
+          "name": "oignons jaunes",
+          "quantity": "2"
+        },
+        {
+          "name": "concassée de tomates en boîte",
+          "quantity": "400g"
+        },
+        {
+          "name": "curry en poudre",
+          "quantity": "1 cc"
+        },
+        {
+          "name": "massale",
+          "quantity": "1 cc"
+        },
+        {
+          "name": "gingembre moulu",
+          "quantity": "1 cc"
+        },
+        {
+          "name": "coriandre",
+          "quantity": "1 cc"
+        },
+        {
+          "name": "yaourt nature",
+          "quantity": "1"
+        },
+        {
+          "name": "huile végétale"
+        },
+        {
+          "name": "sel"
+        },
+        {
+          "name": "poivre"
+        }
+      ],
+      "prepTime": "15 min",
+      "cookTime": "25 min",
+      "difficulty": "Facile",
+      "steps": [
+        "Peler et émincer finement les oignons. Couper le poulet en petits cubes.",
+        "Dans une cocotte, faire chauffer un filet d'huile puis faire dorer le poulet sur feu vif sur toutes ses faces. Réserver dans une assiette.",
+        "Ajouter les oignons dans la cocotte et les faire suer jusqu'à ce qu'ils deviennent translucides (environ 5 minutes).",
+        "Ajouter ensuite toutes les épices et un filet d'eau, cuire une minute en mélangeant.",
+        "Remettre le poulet et son jus dans la cocotte, ajouter la concassée de tomates et la coriandre. Porter à ébullition, puis baisser le feu, couvrir et laisser mijoter 15 minutes.",
+        "Ajouter les pois chiches, le yaourt, saler et poivrer. Poursuivre la cuisson 10 minutes à découvert.",
+        "Servir chaud, accompagné de riz.",
+        "3 points WW par part."
+      ]
+    },
+    {
+      "id": "blanquette_de_poulet",
+      "name": "Blanquette de poulet WW",
+      "image": "/assets/salty-recipe/blanquette-poulet.jpg",
+      "category": ["plat", "mijoté", "traditionnel"],
+      "eventCategory": null,
+      "servingSize": "4",
+      "wwPointsPerServing": 6,
+      "ingredients": [
+        {
+          "name": "filet de poulet",
+          "quantity": "750g"
+        },
+        {
+          "name": "gros oignon",
+          "quantity": "1"
+        },
+        {
+          "name": "carottes",
+          "quantity": "2"
+        },
+        {
+          "name": "champignons de Paris",
+          "quantity": "200g"
+        },
+        {
+          "name": "feuilles de laurier",
+          "quantity": "2"
+        },
+        {
+          "name": "beurre",
+          "quantity": "20g"
+        },
+        {
+          "name": "maïzena",
+          "quantity": "30g"
+        },
+        {
+          "name": "vin blanc",
+          "quantity": "25cl"
+        },
+        {
+          "name": "eau",
+          "quantity": "20cl"
+        },
+        {
+          "name": "cube de bouillon de volaille",
+          "quantity": "1"
+        },
+        {
+          "name": "crème liquide",
+          "quantity": "20cl"
+        },
+        {
+          "name": "jaunes d’œufs",
+          "quantity": "2"
+        },
+        {
+          "name": "sel"
+        },
+        {
+          "name": "poivre"
+        }
+      ],
+      "prepTime": "15 min",
+      "cookTime": "35 min",
+      "difficulty": "Facile",
+      "steps": [
+        "Couper le poulet en gros dés (3-4 cm) et l’enrober de maïzena.",
+        "Peler et couper les carottes en rondelles, brosser et trancher les champignons, émincer l'oignon.",
+        "Faire fondre le beurre dans une cocotte, ajouter l’oignon et faire revenir quelques minutes.",
+        "Ajouter les champignons et faire colorer légèrement.",
+        "Ajouter les carottes, cuire 5 minutes.",
+        "Verser le vin blanc, l’eau, le bouillon, le laurier, le poulet, sel et poivre. Mélanger et mijoter 30 minutes à couvert en remuant de temps en temps.",
+        "Ajouter la crème et les jaunes d’œufs battus ensemble, cuire encore quelques minutes à découvert pour épaissir.",
+        "6 points WW par part."
+      ]
+    },
+    {
+      "id": "poisson_sauce_curcuma_citron",
+      "name": "Poisson sauce curcuma-citron, purée carottes & patate douce WW",
+      "image": "/assets/salty-recipe/poisson-curcuma-citron.jpg",
+      "category": ["plat", "équilibré", "hello fresh"],
+      "eventCategory": null,
+      "servingSize": "4",
+      "wwPointsPerServing": 7,
+      "ingredients": [
+        {
+          "name": "carottes",
+          "quantity": "600g"
+        },
+        {
+          "name": "patate douce",
+          "quantity": "400g"
+        },
+        {
+          "name": "lait demi-écrémé",
+          "quantity": "1 verre"
+        },
+        {
+          "name": "filets de poisson blanc",
+          "quantity": "4"
+        },
+        {
+          "name": "crème liquide 15%",
+          "quantity": "20cl"
+        },
+        {
+          "name": "citron jaune",
+          "quantity": "1"
+        },
+        {
+          "name": "maïzena",
+          "quantity": "1 cc"
+        },
+        {
+          "name": "gousses d'ail",
+          "quantity": "2"
+        },
+        {
+          "name": "curcuma",
+          "quantity": "1 CS rase"
+        },
+        {
+          "name": "cumin",
+          "quantity": "2 cc"
+        },
+        {
+          "name": "beurre",
+          "quantity": "1 noisette"
+        },
+        {
+          "name": "sel"
+        },
+        {
+          "name": "poivre"
+        }
+      ],
+      "prepTime": "15 min",
+      "cookTime": "20 min",
+      "difficulty": "Facile",
+      "steps": [
+        "Peler et couper les carottes et la patate douce. Les cuire à l’eau environ 20 minutes jusqu’à ce qu’elles soient tendres.",
+        "Zester le citron et le couper en 4.",
+        "Délayer la maïzena dans un peu de crème, ajouter le reste de crème, le curcuma, le cumin et l’ail dans une casserole. Porter à ébullition, puis laisser mijoter avec les zestes.",
+        "Faire fondre une noisette de beurre dans une poêle, saler/poivrer le poisson et le faire cuire 2-3 min de chaque côté.",
+        "Réduire les légumes en purée avec le lait, assaisonner avec du sel, poivre et cumin.",
+        "Ajouter un peu de jus de citron à la sauce, napper le poisson, et servir avec la purée.",
+        "7 points WW par part."
+      ]
+    },
+    {
+      "id": "riz_paella",
+      "name": "Riz façon paëlla WW",
+      "image": "/assets/salty-recipe/paella.jpg",
+      "category": ["plat", "one pot", "rapide"],
+      "eventCategory": null,
+      "servingSize": "4",
+      "wwPointsPerServing": 8,
+      "ingredients": [
+        {
+          "name": "crevettes",
+          "quantity": "16"
+        },
+        {
+          "name": "filet de poulet",
+          "quantity": "300g"
+        },
+        {
+          "name": "oignon",
+          "quantity": "1"
+        },
+        {
+          "name": "poivron rouge",
+          "quantity": "1"
+        },
+        {
+          "name": "poivron vert",
+          "quantity": "1"
+        },
+        {
+          "name": "tomates",
+          "quantity": "2"
+        },
+        {
+          "name": "petits pois frais écossés",
+          "quantity": "100g"
+        },
+        {
+          "name": "chorizo",
+          "quantity": "80g"
+        },
+        {
+          "name": "riz",
+          "quantity": "240g"
+        },
+        {
+          "name": "eau",
+          "quantity": "50cl"
+        },
+        {
+          "name": "riz d'or (ou curcuma)",
+          "quantity": "1 sachet ou 1 cc"
+        },
+        {
+          "name": "huile d'olive",
+          "quantity": "1 CS"
+        },
+        {
+          "name": "sel"
+        },
+        {
+          "name": "poivre"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "20 min",
+      "difficulty": "Facile",
+      "steps": [
+        "Décortiquer les crevettes et couper le poulet en morceaux réguliers.",
+        "Émincer l'oignon, couper les poivrons et tomates en petits dés, trancher le chorizo.",
+        "Faire chauffer l’huile d’olive dans une sauteuse, faire dorer les crevettes puis les réserver.",
+        "Faire revenir l’oignon puis le poulet. Ajouter ensuite tous les autres ingrédients sauf les crevettes.",
+        "Couvrir et cuire à petits bouillons pendant 15 minutes.",
+        "Rectifier l’assaisonnement, ajouter les crevettes pour les réchauffer 2 minutes avant de servir.",
+        "7 points WW par part."
+      ]
+    },
+    {
+      "id": "boulettes_poulet_mexicaine WW",
+      "name": "Boulettes de poulet, sauce à la mexicaine",
+      "image": "/assets/salty-recipe/boulettes-poulet-mexicain.jpg",
+      "category": ["plat", "équilibré", "light"],
+      "eventCategory": null,
+      "servingSize": "4",
+      "wwPointsPerServing": 5,
+      "ingredients": [
+        {
+          "name": "filet de poulet",
+          "quantity": "600g"
+        },
+        {
+          "name": "pain de mie complet",
+          "quantity": "1 tranche"
+        },
+        {
+          "name": "œuf",
+          "quantity": "1"
+        },
+        {
+          "name": "piment doux ou paprika",
+          "quantity": "1 CS"
+        },
+        {
+          "name": "ail en poudre",
+          "quantity": "1 CS"
+        },
+        {
+          "name": "concassée de tomates",
+          "quantity": "600g"
+        },
+        {
+          "name": "haricots rouges cuits",
+          "quantity": "100g"
+        },
+        {
+          "name": "maïs",
+          "quantity": "80g"
+        },
+        {
+          "name": "épices mexicaines",
+          "quantity": "1 CS"
+        },
+        {
+          "name": "huile d'olive",
+          "quantity": "1 CS"
+        },
+        {
+          "name": "sel"
+        },
+        {
+          "name": "poivre"
+        }
+      ],
+      "prepTime": "15 min",
+      "cookTime": "20 min",
+      "difficulty": "Facile",
+      "steps": [
+        "Hacher le poulet avec le pain de mie, l’œuf, l’ail, le piment doux, le sel et le poivre.",
+        "Former des boulettes entre les mains légèrement humidifiées.",
+        "Faire dorer les boulettes dans une grande sauteuse avec l’huile d’olive, puis réserver.",
+        "Verser la concassée de tomates, les haricots rouges, le maïs, les épices mexicaines, saler et poivrer.",
+        "Laisser mijoter la sauce 5 minutes.",
+        "Ajouter les boulettes sur la sauce, couvrir et cuire à feu doux pendant 10 minutes en les retournant à mi-cuisson.",
+        "Servir chaud, avec du riz ou un autre féculent si désiré.",
+        "5 points WW par part (sans féculent)."
+      ]
+    },
+    {
+      "id": "poulet_riz_champignons_moutarde",
+      "name": "Poulet et riz crémeux aux champignons et moutarde WW",
+      "image": "/assets/salty-recipe/poulet-riz-champignons.jpg",
+      "category": ["plat", "rapide", "équilibré"],
+      "eventCategory": null,
+      "servingSize": "2",
+      "wwPointsPerServing": 8,
+      "ingredients": [
+        {
+          "name": "escalopes de poulet",
+          "quantity": "2"
+        },
+        {
+          "name": "champignons de Paris",
+          "quantity": "250g"
+        },
+        {
+          "name": "ail semoule",
+          "quantity": "1 cc"
+        },
+        {
+          "name": "moutarde",
+          "quantity": "1 CS"
+        },
+        {
+          "name": "moutarde à l'ancienne",
+          "quantity": "1 cc bombée"
+        },
+        {
+          "name": "crème semi-épaisse 12%",
+          "quantity": "10cl"
+        },
+        {
+          "name": "riz basmati",
+          "quantity": "100g"
+        },
+        {
+          "name": "huile d'olive",
+          "quantity": "1 CS"
+        },
+        {
+          "name": "sel"
+        },
+        {
+          "name": "poivre"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "20 min",
+      "difficulty": "Facile",
+      "steps": [
+        "Émincer les champignons.",
+        "Faire cuire le riz dans de l’eau bouillante salée selon les instructions du paquet.",
+        "Faire revenir les champignons 2 à 3 minutes dans une poêle avec un peu d’huile.",
+        "Ajouter l’ail, la crème, les deux moutardes, saler et poivrer. Cuire à feu doux.",
+        "Dans une autre poêle, faire dorer les escalopes de poulet avec un peu d’huile. Saler et poivrer, puis poursuivre la cuisson à feu doux.",
+        "Servir le poulet avec le riz mélangé aux champignons à la crème.",
+        "8 points WW par part."
+      ]
+    },
+    {
+      "id": "onepot_riz_boeuf_petitpois_carottes",
+      "name": "Riz, bœuf haché, petit-pois et carottes WW",
+      "image": "/assets/salty-recipe/riz-boeuf-petit-pois.jpg",
+      "category": ["plat", "one pot", "batch cooking"],
+      "eventCategory": null,
+      "servingSize": "4",
+      "wwPointsPerServing": 10,
+      "ingredients": [
+        {
+          "name": "oignon",
+          "quantity": "1"
+        },
+        {
+          "name": "carottes",
+          "quantity": "2"
+        },
+        {
+          "name": "petit-pois frais écossés",
+          "quantity": "150g"
+        },
+        {
+          "name": "bœuf haché 5%",
+          "quantity": "400g"
+        },
+        {
+          "name": "riz",
+          "quantity": "240g"
+        },
+        {
+          "name": "bouillon de légumes ou de bœuf",
+          "quantity": "1/2 cube"
+        },
+        {
+          "name": "huile d'olive",
+          "quantity": "1 CS"
+        },
+        {
+          "name": "sel"
+        },
+        {
+          "name": "poivre"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "20 min",
+      "difficulty": "Facile",
+      "steps": [
+        "Peler et émincer l’oignon, couper les carottes en fines rondelles.",
+        "Dans une grande casserole, faire revenir l’oignon avec l’huile d’olive.",
+        "Ajouter la viande hachée et les carottes, laisser cuire 2-3 minutes.",
+        "Ajouter les petits pois, le riz, le demi-cube de bouillon, sel et poivre, puis 60cl d’eau.",
+        "Laisser cuire à petits bouillons pendant 15 minutes en remuant régulièrement.",
+        "Servir chaud. Option : ajouter un peu de sauce tomate au moment de réchauffer.",
+        "6 points WW par part."
+      ]
+    },
+    {
+      "id": "cassolette_poulet_champignons",
+      "name": "Cassolette de poulet aux champignons WW",
+      "image": "/assets/salty-recipe/cassolette-poulet-champignons.jpg",
+      "category": ["plat", "four", "léger"],
+      "eventCategory": null,
+      "servingSize": "2",
+      "wwPointsPerServing": 6,
+      "ingredients": [
+        {
+          "name": "filets de poulet",
+          "quantity": "2"
+        },
+        {
+          "name": "champignons de Paris",
+          "quantity": "200g"
+        },
+        {
+          "name": "échalote",
+          "quantity": "1"
+        },
+        {
+          "name": "vin blanc",
+          "quantity": "5cl"
+        },
+        {
+          "name": "lait demi-écrémé",
+          "quantity": "30cl"
+        },
+        {
+          "name": "maïzena",
+          "quantity": "15g"
+        },
+        {
+          "name": "parmesan râpé",
+          "quantity": "2 CS"
+        },
+        {
+          "name": "huile d'olive",
+          "quantity": "1 cc"
+        },
+        {
+          "name": "sel"
+        },
+        {
+          "name": "poivre"
+        }
+      ],
+      "prepTime": "15 min",
+      "cookTime": "20 min",
+      "difficulty": "Facile",
+      "steps": [
+        "Émincer les champignons et les faire revenir dans un peu d'huile jusqu'à ce qu'ils aient bien réduit.",
+        "Couper le poulet en cubes et émincer l’échalote.",
+        "Faire revenir l’échalote, ajouter le poulet et le faire dorer. Déglacer avec le vin blanc, saler, poivrer et cuire 5 minutes à feu doux.",
+        "Préparer une béchamel légère : délayer la maïzena dans le lait froid, chauffer jusqu’à épaississement, puis assaisonner.",
+        "Préchauffer le four en mode grill.",
+        "Répartir le mélange poulet-champignons dans des mini cocottes, napper de béchamel, saupoudrer de parmesan.",
+        "Gratiner 5 minutes au four et servir chaud.",
+        "6 points WW par part."
+      ]
+    },
+    {
+      "id": "poelee_pommes_champignons_bacon",
+      "name": "Poêlée de pommes de terre, champignons et bacon WW",
+      "image": "/assets/salty-recipe/poelee-pommes-champignons-bacon.jpg",
+      "category": ["plat", "poêlée", "rapide"],
+      "eventCategory": null,
+      "servingSize": "4",
+      "wwPointsPerServing": 6,
+      "ingredients": [
+        {
+          "name": "pommes de terre",
+          "quantity": "600g"
+        },
+        {
+          "name": "champignons de Paris",
+          "quantity": "300g"
+        },
+        {
+          "name": "allumettes de bacon",
+          "quantity": "200g"
+        },
+        {
+          "name": "oignon",
+          "quantity": "1"
+        },
+        {
+          "name": "gousses d'ail",
+          "quantity": "2"
+        },
+        {
+          "name": "persil ciselé",
+          "quantity": "2 CS"
+        },
+        {
+          "name": "beurre ou huile de cuisson",
+          "quantity": "1 cc"
+        },
+        {
+          "name": "sel"
+        },
+        {
+          "name": "poivre"
+        }
+      ],
+      "prepTime": "15 min",
+      "cookTime": "30 min",
+      "difficulty": "Facile",
+      "steps": [
+        "Peler et couper les pommes de terre en fines tranches. Émincer les champignons et l'oignon. Hacher l'ail.",
+        "Faire revenir l’oignon dans une noisette de beurre jusqu'à ce qu’il soit fondant, puis réserver.",
+        "Dans la même poêle, faire revenir les champignons pour qu’ils perdent leur eau, réserver également.",
+        "Faire dorer les pommes de terre sur feu moyen/vif avec un peu de beurre, ajouter l’ail et le persil. Réduire le feu, couvrir, et cuire 20 minutes en remuant de temps en temps.",
+        "Ajouter le bacon, les champignons et l’oignon. Mélanger et poursuivre la cuisson 5 minutes.",
+        "Saler, poivrer et servir chaud.",
+        "6 points WW par part."
+      ]
+    },
+    {
+      "id": "pates_cremeuses_poulet_champignons",
+      "name": "Pâtes crémeuses au poulet et champignons WW",
+      "image": "/assets/salty-recipe/pates-poulet-champignons.jpg",
+      "category": ["plat", "rapide"],
+      "eventCategory": null,
+      "servingSize": "4",
+      "wwPointsPerServing": 12,
+      "ingredients": [
+        {
+          "name": "pâtes",
+          "quantity": "240g"
+        },
+        {
+          "name": "filet de poulet",
+          "quantity": "400g"
+        },
+        {
+          "name": "champignons de Paris",
+          "quantity": "300g"
+        },
+        {
+          "name": "gousses d'ail",
+          "quantity": "2"
+        },
+        {
+          "name": "moutarde",
+          "quantity": "1 à 2 CS"
+        },
+        {
+          "name": "crème semi-épaisse 12%",
+          "quantity": "20cl"
+        },
+        {
+          "name": "persil ciselé",
+          "quantity": "1 CS"
+        },
+        {
+          "name": "huile d'olive",
+          "quantity": "1 CS"
+        },
+        {
+          "name": "sel"
+        },
+        {
+          "name": "poivre"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "20 min",
+      "difficulty": "Facile",
+      "steps": [
+        "Couper le poulet en dés. Couper les champignons en tranches. Peler et hacher les gousses d'ail.",
+        "Faire bouillir une casserole d'eau salée et y cuire les pâtes selon les indications sur l'emballage.",
+        "Dans une sauteuse, faire revenir les champignons avec l'huile d'olive jusqu'à coloration, puis réserver.",
+        "Dans la même sauteuse, faire dorer le poulet.",
+        "Ajouter les champignons, l'ail, la crème, la moutarde, le persil, du sel et du poivre. Laisser mijoter 10 minutes à feu doux.",
+        "Égoutter les pâtes, les incorporer à la préparation et servir aussitôt.",
+        "12 points WW par part."
+      ]
+    },
+    {
       "id": "lasagnes_a_la_bolognaise",
       "name": "Lasagnes à la bolognaise",
       "image": "/assets/salty-recipe/lasagnes-a-la-bolognaise.jpg",
