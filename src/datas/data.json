@@ -1784,6 +1784,102 @@
       ]
     },
     {
+      "id": "cake_chocolat_blancs_oeufs",
+      "name": "Cake au chocolat (aux blancs d'œufs) WW",
+      "image": "/assets/sugar-recipe/cake_chocolat_blancs_oeufs.jpg",
+      "eventCategory": null,
+      "category": ["dessert"],
+      "servingSize": "12",
+      "ingredients": [
+        {
+          "name": "blancs d'œufs",
+          "quantity": "7"
+        },
+        {
+          "name": "de sucre en poudre ou sucre de coco",
+          "quantity": "100g"
+        },
+        {
+          "name": "de farine",
+          "quantity": "60g"
+        },
+        {
+          "name": "de cacao en poudre non sucré",
+          "quantity": "40g"
+        },
+        {
+          "name": "pincée de sel",
+          "quantity": "1"
+        }
+      ],
+      "prepTime": "20 min",
+      "cookTime": "25 min",
+      "steps": [
+        "Préchauffez le four à 190°C.",
+        "Tamisez ensemble la farine et le cacao en poudre.",
+        "Montez les blancs d'œufs en neige ferme avec une pincée de sel : commencez à vitesse lente pendant 1 à 2 minutes, puis augmentez progressivement. Ajoutez le sucre en pluie tout en continuant de battre jusqu’à obtenir une meringue ferme (bec d’oiseau).",
+        "Incorporez délicatement le mélange farine/cacao aux blancs montés, en trois fois, à l’aide d’une maryse.",
+        "Versez la préparation dans un moule avec ouverture centrale (type moule à brioche).",
+        "Enfournez pour 20 à 25 minutes. Vérifiez la cuisson en plantant la lame d’un couteau : elle doit ressortir sèche.",
+        "Laissez refroidir, puis démoulez.",
+        "5 points par part."
+      ]
+    },
+    {
+      "id": "barres_proteinees_avoine_amande",
+      "name": "Barres de céréales protéinées avoine WW",
+      "image": "/assets/sugar-recipe/barres_proteinees.jpg",
+      "eventCategory": null,
+      "category": ["encas", "sans cuisson"],
+      "servingSize": "10",
+      "wwPointsPerServing": 5.3,
+      "ingredients": [
+        {
+          "name": "flocons d’avoine",
+          "quantity": "100g"
+        },
+        {
+          "name": "whey nature ou vanille",
+          "quantity": "40g"
+        },
+        {
+          "name": "purée d’amande",
+          "quantity": "60g"
+        },
+        {
+          "name": "beurre de cacahuète",
+          "quantity": "4 c. à café"
+        },
+        {
+          "name": "sirop d’agave",
+          "quantity": "2 c. à soupe"
+        },
+        {
+          "name": "graines de chia",
+          "quantity": "2 c. à soupe"
+        },
+        {
+          "name": "fruits secs hachés (abricots, raisins, cranberries...)",
+          "quantity": "40g"
+        },
+        {
+          "name": "lait végétal ou eau",
+          "quantity": "2 à 4 c. à soupe"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "15–18 min (optionnel)",
+      "steps": [
+        "Dans un saladier, mélangez les flocons d’avoine, la whey et les graines de chia.",
+        "Ajoutez la purée d’amande, le sirop d’agave, le beurre de cacahuète et les fruits secs hachés.",
+        "Mélangez bien, puis ajoutez progressivement le lait végétal ou l’eau jusqu’à obtenir une pâte souple et homogène.",
+        "Étalez la préparation dans un moule ou une boîte tapissée de papier cuisson.",
+        "Option crue : placez 1h au réfrigérateur avant de découper en barres.",
+        "Option cuisson : enfournez quelques minutes à 170°C pour des barres plus fermes.",
+        "4 points par part."
+      ]
+    },
+    {
       "id": "cake_framboises_chocolat",
       "name": "Cake aux framboises et pépites de chocolat",
       "image": "/assets/sugar-recipe/cake-framboises-choco.jpg",
