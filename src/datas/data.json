@@ -5259,6 +5259,43 @@
       ]
     },
     {
+      "id": "lentilles_corail_coco_legumes",
+      "name": "Lentilles corail au lait de coco et légumes",
+      "image": "/assets/salty-recipe/lentilles-corail-coco.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "lentilles corail crues",
+          "quantity": "70 g"
+        },
+        {
+          "name": "courgette",
+          "quantity": "150 g"
+        },
+        {
+          "name": "carottes",
+          "quantity": "90 g"
+        },
+        {
+          "name": "lait de coco",
+          "quantity": "40 ml"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "12 min",
+      "steps": [
+        "Faites revenir les légumes avec l’huile.",
+        "Ajoutez les lentilles corail et le lait de coco.",
+        "Laissez mijoter pendant 12 minutes."
+      ]
+    },
+    {
       "id": "tarte_aux_pommes",
       "name": "Tarte aux pommes",
       "image": "/assets/sugar-recipe/tarte-pommes.jpg",
