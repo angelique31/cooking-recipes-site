@@ -5334,6 +5334,1038 @@
       ]
     },
     {
+      "id": "dinde_legumes_riz_complet",
+      "name": "Dinde aux légumes et riz complet [MYF]",
+      "image": "/assets/salty-recipe/dinde-legumes-riz.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "dinde",
+          "quantity": "200 g"
+        },
+        {
+          "name": "courgette",
+          "quantity": "150 g"
+        },
+        {
+          "name": "poivron",
+          "quantity": "90 g"
+        },
+        {
+          "name": "riz complet cru",
+          "quantity": "50 g"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "15 min",
+      "steps": [
+        "Faites cuire le riz complet.",
+        "Faites revenir la dinde pendant 5 minutes dans une poêle chaude.",
+        "Ajoutez les légumes et poursuivez la cuisson pendant 6 minutes.",
+        "Servez avec le riz complet."
+      ]
+    },
+    {
+      "id": "salade_crevettes_quinoa",
+      "name": "Salade de crevettes au quinoa [MYF]",
+      "image": "/assets/salty-recipe/crevettes-quinoa.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "crevettes",
+          "quantity": "200 g"
+        },
+        {
+          "name": "quinoa cru",
+          "quantity": "50 g"
+        },
+        {
+          "name": "concombre",
+          "quantity": "150 g"
+        },
+        {
+          "name": "tomates",
+          "quantity": "90 g"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "10 min",
+      "steps": [
+        "Faites cuire le quinoa.",
+        "Faites cuire les crevettes pendant 3 minutes à la poêle.",
+        "Coupez les légumes en morceaux.",
+        "Mélangez le tout dans un saladier et servez.",
+        "Astuce : Ajouter un filet de cotron pour plus de fraicheur."
+      ]
+    },
+    {
+      "id": "poulet_courgettes_pates_completes",
+      "name": "Poulet aux courgettes et pâtes complètes [MYF]",
+      "image": "/assets/salty-recipe/poulet-courgettes-pates.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "poulet",
+          "quantity": "200 g"
+        },
+        {
+          "name": "courgettes",
+          "quantity": "150 g"
+        },
+        {
+          "name": "pâtes complètes crues",
+          "quantity": "50 g"
+        },
+        {
+          "name": "parmesan",
+          "quantity": "15 g"
+        },
+        {
+          "name": "huile d’olive",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "15 min",
+      "steps": [
+        "Faites cuire les pâtes complètes dans une grande casserole d’eau bouillante salée selon les indications du paquet.",
+        "Pendant ce temps, coupez les courgettes en demi-rondelles puis faites-les revenir dans une poêle avec l’huile d’olive pendant 6 à 8 minutes, jusqu’à ce qu’elles soient tendres et légèrement dorées.",
+        "Ajoutez le poulet coupé en morceaux et poursuivez la cuisson 6 minutes, jusqu’à ce qu’il soit bien cuit et joliment coloré.",
+        "Égouttez les pâtes, ajoutez-les dans la poêle et mélangez délicatement.",
+        "Terminez avec le parmesan juste avant de servir.",
+        "Astuces : Ajoutez un peu de basilic ou de citron pour apporter une touche plus fraîche. Si vous aimez les plats plus crémeux, ajoutez 1 cuillère à soupe de fromage blanc hors du feu."
+      ]
+    },
+    {
+      "id": "poulet_carottes_petits_pois_riz",
+      "name": "Poulet aux carottes, petits pois et riz [MYF]",
+      "image": "/assets/salty-recipe/poulet-carottes-riz.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "poulet",
+          "quantity": "200 g"
+        },
+        {
+          "name": "carottes",
+          "quantity": "120 g"
+        },
+        {
+          "name": "petits pois",
+          "quantity": "90 g"
+        },
+        {
+          "name": "riz basmati cru",
+          "quantity": "50 g"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "15 min",
+      "steps": [
+        "Faites cuire le riz basmati dans une casserole d’eau bouillante salée, puis égouttez-le.",
+        "Épluchez les carottes et coupez-les en petits dés pour une cuisson plus rapide et plus agréable à manger.",
+        "Faites chauffer l’huile dans une poêle, ajoutez les carottes et laissez cuire 5 minutes en remuant régulièrement.",
+        "Ajoutez le poulet en morceaux, laissez cuire 6 minutes, puis ajoutez les petits pois pour 3 minutes supplémentaires.",
+        "Servez le tout avec le riz bien chaud.",
+        "Astuce : Ajoutez un peu de curry doux ou de paprika pour varier les saveurs. Quelques herbes fraîches au moment de servir feront aussi toute la différence."
+      ]
+    },
+    {
+      "id": "saumon_courgettes_pommes_de_terre",
+      "name": "Saumon aux courgettes et pommes de terre [MYF]",
+      "image": "/assets/salty-recipe/saumon-courgettes-pommes.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "saumon",
+          "quantity": "200 g"
+        },
+        {
+          "name": "courgettes",
+          "quantity": "150 g"
+        },
+        {
+          "name": "pommes de terre crues",
+          "quantity": "180 g"
+        },
+        {
+          "name": "huile d’olive",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "20 min",
+      "steps": [
+        "Épluchez les pommes de terre, coupez-les en petits cubes, puis faites-les cuire dans l’eau bouillante ou à la vapeur jusqu’à ce qu’elles soient tendres.",
+        "Pendant ce temps, coupez les courgettes en demi-rondelles et faites-les revenir dans une poêle avec l’huile pendant 6 à 8 minutes.",
+        "Dans une autre poêle, faites cuire le saumon 4 minutes sur la première face puis 3 à 4 minutes sur l’autre, selon son épaisseur.",
+        "Assemblez les pommes de terre, les courgettes et le saumon dans l’assiette.",
+        "Servez bien chaud.",
+        "Astuce : Ajoutez un filet de citron et un peu d’aneth pour un résultat encore plus frais. Vous pouvez aussi remplacer les courgettes par des haricots verts selon la saison."
+      ]
+    },
+    {
+      "id": "steak_hache_haricots_semoule",
+      "name": "Steak haché, haricots verts et semoule [MYF]",
+      "image": "/assets/salty-recipe/steak-haricots-semoule.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "steak haché 5%",
+          "quantity": "200 g"
+        },
+        {
+          "name": "haricots verts",
+          "quantity": "150 g"
+        },
+        {
+          "name": "semoule crue",
+          "quantity": "50 g"
+        },
+        {
+          "name": "huile d’olive",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "15 min",
+      "steps": [
+        "Préparez la semoule selon les indications du paquet, puis couvrez-la pour qu’elle reste bien moelleuse.",
+        "Faites cuire les haricots verts dans l’eau bouillante salée pendant 8 minutes, puis égouttez-les.",
+        "Faites chauffer une poêle et faites cuire le steak haché 4 à 5 minutes par face, selon la cuisson souhaitée.",
+        "Servez avec la semoule et les haricots verts bien chauds.",
+        "Ajoutez un petit filet d’huile d’olive au moment de servir si besoin.",
+        "Astuce : Ajoutez un peu de moutarde ou quelques herbes pour relever le plat."
+      ]
+    },
+    {
+      "id": "cabillaud_courgettes_tomates_riz",
+      "name": "Cabillaud aux courgettes, tomates et riz [MYF]",
+      "image": "/assets/salty-recipe/cabillaud-courgettes-riz.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "cabillaud",
+          "quantity": "200 g"
+        },
+        {
+          "name": "courgettes",
+          "quantity": "120 g"
+        },
+        {
+          "name": "tomates",
+          "quantity": "100 g"
+        },
+        {
+          "name": "riz basmati cru",
+          "quantity": "50 g"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "15 min",
+      "steps": [
+        "Faites cuire le riz basmati dans une casserole d’eau bouillante salée.",
+        "Coupez les courgettes et les tomates en morceaux réguliers.",
+        "Faites revenir les courgettes dans une poêle avec l’huile pendant 5 minutes, puis ajoutez les tomates et laissez cuire encore 3 minutes.",
+        "Faites cuire le cabillaud dans une autre poêle 4 minutes par face, à feu moyen, pour qu’il reste moelleux.",
+        "Servez avec le riz bien chaud.",
+        "Astuce : Ajoutez du basilic frais ou un peu d’ail pour accentuer le côté méditerranéen. Cette recette fonctionne aussi très bien avec du colin."
+      ]
+    },
+    {
+      "id": "poulet_poivrons_riz",
+      "name": "Poulet aux poivrons et riz [MYF]",
+      "image": "/assets/salty-recipe/poulet-poivrons-riz.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "poulet",
+          "quantity": "200 g"
+        },
+        {
+          "name": "poivrons",
+          "quantity": "150 g"
+        },
+        {
+          "name": "riz cru",
+          "quantity": "50 g"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "15 min",
+      "steps": [
+        "Faites cuire le riz dans une casserole d’eau bouillante salée, puis réservez-le au chaud.",
+        "Coupez les poivrons en fines lamelles pour qu’ils cuisent rapidement et restent agréables en bouche.",
+        "Faites chauffer l’huile dans une grande poêle ou un wok, puis faites revenir les poivrons 5 minutes.",
+        "Ajoutez le poulet coupé en morceaux et poursuivez la cuisson 6 minutes en remuant régulièrement.",
+        "Servez avec le riz.",
+        "Astuce : Ajoutez un peu de sauce soja ou de gingembre pour une version plus parfumée. Quelques graines de sésame apportent aussi un petit plus sympa."
+      ]
+    },
+    {
+      "id": "omelette_pommes_terre_courgettes_jambon",
+      "name": "Omelette pommes de terre, courgettes et jambon [MYF]",
+      "image": "/assets/salty-recipe/omelette-pdt-courgettes-jambon.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "œufs",
+          "quantity": "4"
+        },
+        {
+          "name": "jambon blanc",
+          "quantity": "120 g"
+        },
+        {
+          "name": "courgettes",
+          "quantity": "120 g"
+        },
+        {
+          "name": "pommes de terre crues",
+          "quantity": "180 g"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "15 min",
+      "steps": [
+        "Épluchez les pommes de terre, coupez-les en petits dés et faites-les cuire dans une poêle avec un fond d’eau ou à la vapeur jusqu’à ce qu’elles soient tendres.",
+        "Faites revenir les courgettes 5 minutes dans une poêle avec l’huile.",
+        "Ajoutez le jambon coupé en lanières.",
+        "Battez les œufs dans un bol puis versez-les sur les légumes et le jambon.",
+        "Laissez cuire doucement jusqu’à ce que l’omelette soit prise, puis servez bien chaud.",
+        "Astuce : Ajoutez un peu de ciboulette ou de persil pour apporter plus de fraîcheur. Cette recette peut aussi se faire en version tortilla épaisse."
+      ]
+    },
+    {
+      "id": "dinde_courgettes_tomates_pates_completes",
+      "name": "Dinde aux courgettes, tomates et pâtes complètes [MYF]",
+      "image": "/assets/salty-recipe/dinde-courgettes-tomates-pates.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "dinde",
+          "quantity": "200 g"
+        },
+        {
+          "name": "courgettes",
+          "quantity": "130 g"
+        },
+        {
+          "name": "tomates",
+          "quantity": "100 g"
+        },
+        {
+          "name": "pâtes complètes crues",
+          "quantity": "50 g"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "15 min",
+      "steps": [
+        "Faites cuire les pâtes complètes dans une casserole d’eau bouillante salée, puis égouttez-les.",
+        "Coupez les courgettes et les tomates en petits morceaux.",
+        "Faites revenir les courgettes dans une poêle avec l’huile pendant 5 minutes.",
+        "Ajoutez la dinde en morceaux, laissez cuire 6 minutes, puis ajoutez les tomates pour 2 à 3 minutes supplémentaires.",
+        "Mélangez avec les pâtes et servez aussitôt.",
+        "Astuce : Ajoutez un peu d’origan ou de basilic pour renforcer le côté “plat maison”. Une touche de parmesan est possible si vous voulez un rendu plus gourmand."
+      ]
+    },
+    {
+      "id": "boulettes_boeuf_ratatouille_semoule",
+      "name": "Boulettes de bœuf et ratatouille avec semoule [MYF]",
+      "image": "/assets/salty-recipe/boulettes-boeuf-ratatouille.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "boulettes de bœuf 5%",
+          "quantity": "200 g"
+        },
+        {
+          "name": "courgettes",
+          "quantity": "90 g"
+        },
+        {
+          "name": "aubergine",
+          "quantity": "80 g"
+        },
+        {
+          "name": "tomates",
+          "quantity": "80 g"
+        },
+        {
+          "name": "semoule crue",
+          "quantity": "50 g"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "15 min",
+      "steps": [
+        "Préparez la semoule selon les indications du paquet.",
+        "Coupez les légumes en petits morceaux pour obtenir une ratatouille plus rapide à cuire.",
+        "Faites revenir les légumes dans une poêle avec l’huile pendant 8 à 10 minutes, jusqu’à ce qu’ils soient bien tendres.",
+        "Dans une autre poêle, faites dorer les boulettes 8 minutes en les retournant régulièrement.",
+        "Servez les boulettes avec la ratatouille et la semoule.",
+        "Astuce : Ajoutez un peu de thym ou d’herbes de Provence pour un goût encore plus ensoleillé. Cette recette marche aussi très bien avec des boulettes de dinde."
+      ]
+    },
+    {
+      "id": "gratin_poulet_courgettes_pommes_terre",
+      "name": "Gratin de poulet, courgettes et pommes de terre [MYF]",
+      "image": "/assets/salty-recipe/gratin-poulet-courgettes.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "poulet",
+          "quantity": "200 g"
+        },
+        {
+          "name": "courgettes",
+          "quantity": "150 g"
+        },
+        {
+          "name": "pommes de terre crues",
+          "quantity": "180 g"
+        },
+        {
+          "name": "fromage râpé",
+          "quantity": "20 g"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "25 min",
+      "steps": [
+        "Préchauffez le four à 200°C.",
+        "Coupez les pommes de terre en fines rondelles et les courgettes en demi-rondelles.",
+        "Disposez les légumes dans un plat avec le poulet coupé en morceaux.",
+        "Ajoutez un filet d’huile, mélangez puis recouvrez de fromage râpé.",
+        "Enfournez environ 25 minutes jusqu’à ce que le gratin soit bien doré.",
+        "Astuce : Ajoutez un peu de thym ou d’herbes de Provence pour un goût encore plus familial."
+      ]
+    },
+    {
+      "id": "lasagnes_poulet_legumes",
+      "name": "Lasagnes poulet et légumes [MYF]",
+      "image": "/assets/salty-recipe/lasagnes-poulet-legumes.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "poulet",
+          "quantity": "200 g"
+        },
+        {
+          "name": "courgettes",
+          "quantity": "150 g"
+        },
+        {
+          "name": "carottes",
+          "quantity": "90 g"
+        },
+        {
+          "name": "feuilles de lasagnes crues",
+          "quantity": "50 g"
+        },
+        {
+          "name": "fromage râpé",
+          "quantity": "20 g"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "15 min",
+      "cookTime": "25 min",
+      "steps": [
+        "Préchauffez le four à 200°C.",
+        "Faites revenir les légumes coupés en petits morceaux dans une poêle avec l’huile pendant 6 minutes.",
+        "Ajoutez le poulet et laissez cuire 5 minutes.",
+        "Montez les lasagnes avec les feuilles et la garniture.",
+        "Ajoutez le fromage râpé et enfournez 25 minutes.",
+        "Astuce : Ajoutez un peu de sauce tomate pour un résultat encore plus gourmand."
+      ]
+    },
+    {
+      "id": "poulet_carottes_pois_riz",
+      "name": "Poulet aux carottes, petits pois et riz [MYF]",
+      "image": "/assets/salty-recipe/poulet-carottes-pois-riz.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "poulet",
+          "quantity": "200 g"
+        },
+        {
+          "name": "carottes",
+          "quantity": "120 g"
+        },
+        {
+          "name": "petits pois",
+          "quantity": "90 g"
+        },
+        {
+          "name": "riz basmati cru",
+          "quantity": "50 g"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "15 min",
+      "steps": [
+        "Faites cuire le riz dans une casserole d’eau bouillante salée.",
+        "Coupez les légumes en petits dés.",
+        "Faites revenir les légumes dans une poêle avec l’huile pendant 6 minutes.",
+        "Ajoutez le poulet puis le riz et mélangez 3 minutes.",
+        "Servez bien chaud.",
+        "Astuce : Un peu de sauce soja ou de gingembre peut apporter plus de saveur."
+      ]
+    },
+    {
+      "id": "poulet_courgettes_carottes_semoule",
+      "name": "Poulet aux courgettes, carottes et semoule [MYF]",
+      "image": "/assets/salty-recipe/poulet-courgettes-carottes-semoule.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "poulet",
+          "quantity": "200 g"
+        },
+        {
+          "name": "courgettes",
+          "quantity": "120 g"
+        },
+        {
+          "name": "carottes",
+          "quantity": "120 g"
+        },
+        {
+          "name": "semoule crue",
+          "quantity": "50 g"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "25 min",
+      "steps": [
+        "Préchauffez le four à 200°C.",
+        "Coupez les légumes et mélangez-les avec le poulet et l’huile.",
+        "Enfournez environ 25 minutes.",
+        "Préparez la semoule selon les instructions du paquet.",
+        "Servez bien chaud.",
+        "Astuce : Un peu de paprika ou de cumin donne un goût très agréable."
+      ]
+    },
+    {
+      "id": "salade_thon_riz_mais_concombre",
+      "name": "Salade de thon, riz, maïs et concombre [MYF]",
+      "image": "/assets/salty-recipe/salade-thon-riz.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "thon nature",
+          "quantity": "200 g"
+        },
+        {
+          "name": "concombre",
+          "quantity": "150 g"
+        },
+        {
+          "name": "maïs",
+          "quantity": "60 g"
+        },
+        {
+          "name": "riz basmati cru",
+          "quantity": "50 g"
+        },
+        {
+          "name": "huile d’olive",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "10 min",
+      "steps": [
+        "Faites cuire le riz dans une casserole d’eau bouillante salée puis laissez-le refroidir.",
+        "Coupez le concombre en petits dés.",
+        "Égouttez le thon et le maïs.",
+        "Mélangez tous les ingrédients dans un saladier avec l’huile d’olive.",
+        "Conservez au frais jusqu’au repas.",
+        "Astuce : Un peu de citron et de ciboulette apportent beaucoup de fraîcheur."
+      ]
+    },
+    {
+      "id": "salade_quinoa_legumes_feta",
+      "name": "Salade de quinoa, légumes et feta [MYF]",
+      "image": "/assets/salty-recipe/salade-quinoa-legumes-feta.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "quinoa cru",
+          "quantity": "50 g"
+        },
+        {
+          "name": "courgettes",
+          "quantity": "150 g"
+        },
+        {
+          "name": "poivron",
+          "quantity": "90 g"
+        },
+        {
+          "name": "feta",
+          "quantity": "70 g"
+        },
+        {
+          "name": "huile d’olive",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "12 min",
+      "steps": [
+        "Faites cuire le quinoa dans une casserole d’eau bouillante pendant environ 12 minutes puis laissez-le refroidir.",
+        "Coupez les légumes en petits morceaux.",
+        "Faites-les revenir dans une poêle avec l’huile pendant 6 minutes puis laissez refroidir.",
+        "Mélangez le quinoa, les légumes et la feta émiettée.",
+        "Conservez au frais avant de déguster.",
+        "Astuce : Ajoutez quelques olives ou un peu de menthe fraîche pour un goût méditerranéen."
+      ]
+    },
+    {
+      "id": "salade_oeufs_haricots_pommes_terre",
+      "name": "Salade pommes de terre oeufs haricots verts [MYF]",
+      "image": "/assets/salty-recipe/salade-oeufs-haricots-pommes-terre.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "œufs",
+          "quantity": "4 (200 g)"
+        },
+        {
+          "name": "haricots verts",
+          "quantity": "150 g"
+        },
+        {
+          "name": "pommes de terre crues",
+          "quantity": "180 g"
+        },
+        {
+          "name": "huile d’olive",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "15 min",
+      "cookTime": "20 min",
+      "steps": [
+        "Faites cuire les pommes de terre dans l’eau bouillante puis laissez-les refroidir avant de les couper en morceaux.",
+        "Faites cuire les haricots verts 8 minutes dans l’eau bouillante.",
+        "Faites cuire les œufs durs environ 9 minutes puis écalez-les.",
+        "Coupez les œufs et mélangez tous les ingrédients avec l’huile.",
+        "Réservez au frais.",
+        "Astuce : Ajoutez un peu de moutarde dans la vinaigrette pour plus de goût."
+      ]
+    },
+    {
+      "id": "omelette_jambon_courgettes_riz",
+      "name": "Omelette jambon, courgettes et riz [MYF]",
+      "image": "/assets/salty-recipe/omelette-jambon-courgettes-riz.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "œufs",
+          "quantity": "4 (200 g)"
+        },
+        {
+          "name": "jambon blanc",
+          "quantity": "120 g"
+        },
+        {
+          "name": "courgettes",
+          "quantity": "150 g"
+        },
+        {
+          "name": "riz basmati cru",
+          "quantity": "50 g"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "15 min",
+      "steps": [
+        "Faites cuire le riz dans une casserole d’eau bouillante salée.",
+        "Coupez les courgettes en petits morceaux et faites-les revenir dans une poêle avec l’huile pendant 5 minutes.",
+        "Ajoutez le jambon coupé en lanières.",
+        "Battez les œufs puis versez-les dans la poêle.",
+        "Laissez cuire doucement l’omelette puis servez avec le riz.",
+        "Astuce : Un peu de ciboulette ou de persil apporte beaucoup de fraîcheur."
+      ]
+    },
+    {
+      "id": "poulet_legumes_pates_completes",
+      "name": "Poêlée poulet légumes pâtes complètes [MYF]",
+      "image": "/assets/salty-recipe/poulet-legumes-pates.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "poulet",
+          "quantity": "200 g"
+        },
+        {
+          "name": "courgettes",
+          "quantity": "150 g"
+        },
+        {
+          "name": "carottes",
+          "quantity": "90 g"
+        },
+        {
+          "name": "pâtes complètes crues",
+          "quantity": "50 g"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "15 min",
+      "steps": [
+        "Faites cuire les pâtes dans une casserole d’eau bouillante salée.",
+        "Coupez les légumes en petits morceaux.",
+        "Faites revenir les légumes dans une poêle avec l’huile pendant 6 minutes.",
+        "Ajoutez le poulet puis laissez cuire encore 5 minutes.",
+        "Mélangez avec les pâtes et servez.",
+        "Astuce : Ajoutez un peu de paprika ou de basilic pour relever le plat."
+      ]
+    },
+    {
+      "id": "saumon_courgettes_semoule",
+      "name": "Saumon poêlé semoule légumes [MYF]",
+      "image": "/assets/salty-recipe/saumon-courgettes-semoule.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "saumon",
+          "quantity": "200 g"
+        },
+        {
+          "name": "courgettes",
+          "quantity": "150 g"
+        },
+        {
+          "name": "semoule crue",
+          "quantity": "50 g"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "10 min",
+      "steps": [
+        "Préparez la semoule selon les instructions du paquet.",
+        "Coupez les courgettes en demi-rondelles et faites-les revenir dans une poêle avec l’huile pendant 6 minutes.",
+        "Faites cuire le saumon dans une autre poêle environ 4 minutes par face.",
+        "Servez le poisson avec les légumes et la semoule.",
+        "Astuce : Un peu de citron et d’aneth rendent le plat encore plus savoureux."
+      ]
+    },
+    {
+      "id": "salade_thon_riz_avocat",
+      "name": "Bowl thon riz tomates avocat [MYF]",
+      "image": "/assets/salty-recipe/salade-thon-riz-avocat.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "thon nature",
+          "quantity": "200 g"
+        },
+        {
+          "name": "riz basmati cru",
+          "quantity": "50 g"
+        },
+        {
+          "name": "tomates",
+          "quantity": "150 g"
+        },
+        {
+          "name": "avocat",
+          "quantity": "30 g"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "10 min",
+      "steps": [
+        "Faites cuire le riz dans une casserole d’eau bouillante salée puis laissez-le tiédir.",
+        "Coupez les tomates et l’avocat en morceaux.",
+        "Égouttez le thon.",
+        "Mélangez tous les ingrédients dans un bol avec l’huile.",
+        "Servez immédiatement.",
+        "Astuce : Un filet de citron et quelques herbes fraîches apportent encore plus de fraîcheur."
+      ]
+    },
+    {
+      "id": "poulet_poireaux_pommes_terre",
+      "name": "Poireaux fondants poulet moutarde [MYF]",
+      "image": "/assets/salty-recipe/poulet-poireaux.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "poulet",
+          "quantity": "200 g"
+        },
+        {
+          "name": "poireaux",
+          "quantity": "160 g"
+        },
+        {
+          "name": "pommes de terre crues",
+          "quantity": "180 g"
+        },
+        {
+          "name": "moutarde",
+          "quantity": "10 g"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "20 min",
+      "steps": [
+        "Épluchez les pommes de terre, coupez-les en cubes puis faites-les cuire dans l’eau bouillante.",
+        "Coupez les poireaux en rondelles et faites-les revenir dans une poêle avec l’huile pendant 8 minutes jusqu’à ce qu’ils deviennent bien fondants.",
+        "Ajoutez le poulet coupé en morceaux et laissez cuire 6 minutes.",
+        "Ajoutez la moutarde et mélangez doucement.",
+        "Servez avec les pommes de terre.",
+        "Astuce : Un peu de crème légère peut rendre la sauce encore plus onctueuse."
+      ]
+    },
+    {
+      "id": "poulet_endives_riz_noix",
+      "name": "Poulet aux endives caramélisées, riz et noix [MYF]",
+      "image": "/assets/salty-recipe/poulet-endives.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "poulet",
+          "quantity": "200 g"
+        },
+        {
+          "name": "endives",
+          "quantity": "160 g"
+        },
+        {
+          "name": "riz basmati cru",
+          "quantity": "50 g"
+        },
+        {
+          "name": "noix",
+          "quantity": "20 g"
+        },
+        {
+          "name": "miel",
+          "quantity": "5 g"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "20 min",
+      "steps": [
+        "Coupez les endives en deux dans la longueur.",
+        "Faites-les revenir dans une poêle avec l’huile pendant 5 minutes.",
+        "Ajoutez le miel et laissez caraméliser doucement 5 minutes : elles deviennent fondantes et moins amères.",
+        "Faites cuire le poulet à la poêle environ 6 minutes.",
+        "Servez avec le riz chaud et les noix concassées.",
+        "Astuce : Les endives deviennent beaucoup plus douces une fois caramélisées. Un filet de citron peut aussi équilibrer l’amertume."
+      ]
+    },
+    {
+      "id": "poulet_quinoa_legumes",
+      "name": "Bowl poulet quinoa légumes rôtis [MYF]",
+      "image": "/assets/salty-recipe/poulet-quinoa-legumes.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "blanc de poulet",
+          "quantity": "150 g"
+        },
+        {
+          "name": "quinoa cru",
+          "quantity": "40 g"
+        },
+        {
+          "name": "courgette",
+          "quantity": "150 g"
+        },
+        {
+          "name": "poivron",
+          "quantity": "120 g"
+        },
+        {
+          "name": "huile d’olive",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "20 min",
+      "steps": [
+        "Faites cuire le quinoa dans de l’eau frémissante pendant environ 12 minutes.",
+        "Coupez la courgette et le poivron en morceaux.",
+        "Faites-les rôtir à la poêle ou au four avec un filet d’huile d’olive.",
+        "Faites cuire le poulet à la poêle jusqu’à ce qu’il soit bien doré.",
+        "Assemblez le quinoa, les légumes et le poulet dans un grand bol et dégustez.",
+        "Astuce : Ajoutez quelques graines de courge pour plus de croquant. Remplacez le quinoa par du boulgour ou du riz basmati selon vos envies."
+      ]
+    },
+    {
+      "id": "haricots_rouges_riz_mexicain",
+      "name": "Chili végétarien rapide [MYF]",
+      "image": "/assets/salty-recipe/haricots-rouges-riz.jpg",
+      "eventCategory": null,
+      "category": ["plat", "rapide"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "haricots rouges",
+          "quantity": "180 g"
+        },
+        {
+          "name": "riz basmati cru",
+          "quantity": "40 g"
+        },
+        {
+          "name": "tomates concassées",
+          "quantity": "150 g"
+        },
+        {
+          "name": "maïs",
+          "quantity": "60 g"
+        },
+        {
+          "name": "oignon",
+          "quantity": "80 g"
+        },
+        {
+          "name": "huile d’olive",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "20 min",
+      "steps": [
+        "Faites cuire le riz dans une casserole d’eau bouillante.",
+        "Faites revenir l’oignon émincé dans l’huile d’olive.",
+        "Ajoutez les haricots rouges, le maïs et les tomates concassées.",
+        "Laissez mijoter quelques minutes.",
+        "Servez avec le riz.",
+        "Astuce : Ajoutez du paprika fumé pour relever le plat. Parsemez de coriandre fraîche avant de servir."
+      ]
+    },
+    {
       "id": "gaufres",
       "name": "Gaufres",
       "image": "/assets/sugar-recipe/gaufres.jpg",
