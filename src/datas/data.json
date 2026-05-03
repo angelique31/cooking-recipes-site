@@ -7823,19 +7823,19 @@
       "servingSize": "1",
       "ingredients": [
         {
-          "name": "cabillaud",
+          "name": "de cabillaud",
           "quantity": "150 g"
         },
         {
-          "name": "riz basmati ou quinoa",
+          "name": "de riz basmati ou quinoa",
           "quantity": "30 g"
         },
         {
-          "name": "courgette",
+          "name": "de courgettes",
           "quantity": "240 g"
         },
         {
-          "name": "huile d’olive",
+          "name": "d'huile d’olive",
           "quantity": "10 g"
         }
       ],
@@ -8031,7 +8031,7 @@
       "servingSize": "6",
       "ingredients": [
         {
-          "name": "farine",
+          "name": "de farine",
           "quantity": "450g"
         },
         {
@@ -8043,7 +8043,7 @@
           "quantity": "1"
         },
         {
-          "name": "crème fraîche",
+          "name": "de crème fraîche",
           "quantity": "20 cl"
         },
         {
@@ -8078,6 +8078,221 @@
         "Ficeler les coins le plus raz possible du 'boudin' (comme un bonbon)",
         "Mettre le shumpot dans l'eau bouillante. Cuisson : 45 minutes environ.",
         "Astuce : Se déguste à merveille le lendemain, réchauffé à la poêle, en ajoutant de la vergeoise brune."
+      ]
+    },
+    {
+      "id": "glace_proteinee_chocolat",
+      "name": "Glace protéinée chocolat",
+      "image": "/assets/sugar-recipe/glace-proteinee-chocolat.jpg",
+      "eventCategory": null,
+      "category": ["dessert"],
+      "servingSize": "4",
+      "ingredients": [
+        {
+          "name": "de skyr",
+          "quantity": "300g"
+        },
+        {
+          "name": "de whey (vanille ou chocolat)",
+          "quantity": "25g"
+        },
+        {
+          "name": "de lait",
+          "quantity": "80ml"
+        },
+        {
+          "name": "de fromage blanc 3–4% ",
+          "quantity": "100g"
+        },
+        {
+          "name": "de miel",
+          "quantity": "10g"
+        },
+        {
+          "name": "de cacao (option)",
+          "quantity": "1 c. à café"
+        },
+        {
+          "name": "de chocolat noir",
+          "quantity": "80g"
+        },
+        {
+          "name": "d’huile de coco",
+          "quantity": "10g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "0 min",
+      "steps": [
+        "Mixez le skyr, la whey, le lait, le miel et le cacao jusqu’à obtenir une texture bien lisse.",
+        "Versez la préparation dans des moules à glace.",
+        "Placez au congélateur pendant 4 à 6 heures.",
+        "Faites fondre le chocolat noir avec l’huile de coco.",
+        "Démoulez les glaces puis trempez-les dans le chocolat fondu pour les enrober.",
+        "Replacez au congélateur 5 minutes pour figer l’enrobage.",
+        "Astuce : le fromage blanc améliore l'onctuosité"
+      ]
+    },
+    {
+      "id": "glace_proteinee_cacahuete",
+      "name": "Glace protéinée au beurre de cacahuète",
+      "image": "/assets/sugar-recipe/glace-proteinee-cacahuete.jpg",
+      "eventCategory": null,
+      "category": ["dessert"],
+      "servingSize": "4",
+      "ingredients": [
+        {
+          "name": "de yaourt végétal ou 2 petits suisses",
+          "quantity": "250g"
+        },
+        {
+          "name": "de whey (vanille)",
+          "quantity": "40g"
+        },
+        {
+          "name": "de beurre de cacahuète",
+          "quantity": "80ml"
+        },
+        {
+          "name": "de miel",
+          "quantity": "10g"
+        },
+        {
+          "name": "de chocolat noir",
+          "quantity": "1 carré"
+        },
+        {
+          "name": "d’huile de coco",
+          "quantity": "10g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "0 min",
+      "steps": [
+        "Mélanger le yaourt végétal, la whey, le miel jusqu’à obtenir une texture bien lisse.",
+        "Versez la moitié de la préparation dans des moules à glace. Ajouter le beurre de cacahuète, puis mettre au congélateur.",
+        "Verser le reste de la préparation",
+        "Placez au congélateur pendant 4 à 6 heures.",
+        "Faites fondre le chocolat noir avec l’huile de coco.",
+        "Démoulez les glaces puis trempez-les dans le chocolat fondu pour les enrober.",
+        "Replacez au congélateur 5 minutes pour figer l’enrobage."
+      ]
+    },
+    {
+      "id": "cookie_pomme_skyr",
+      "name": "Cookie pomme skyr",
+      "image": "/assets/sugar-recipe/cookie-pomme-skyr.jpg",
+      "eventCategory": null,
+      "category": ["dessert"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "de skyr",
+          "quantity": "220g"
+        },
+        {
+          "name": "de flocons d’avoine",
+          "quantity": "15g"
+        },
+        {
+          "name": "de noix",
+          "quantity": "10g"
+        },
+        {
+          "name": "de pomme",
+          "quantity": "90g"
+        }
+      ],
+      "prepTime": "5 min",
+      "cookTime": "12 min",
+      "steps": [
+        "Préchauffez le four à 180°C.",
+        "Mélangez le skyr et les flocons d’avoine.",
+        "Ajoutez la pomme râpée et mélangez.",
+        "Formez un cookie sur une plaque recouverte de papier cuisson.",
+        "Enfournez 12 minutes jusqu’à ce que le dessus soit légèrement doré."
+      ]
+    },
+    {
+      "id": "brownie_skyr_cacao_compote",
+      "name": "Brownie protéiné au cacao",
+      "image": "/assets/sugar-recipe/brownie-skyr-cacao.jpg",
+      "eventCategory": null,
+      "category": ["dessert"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "de skyr",
+          "quantity": "220g"
+        },
+        {
+          "name": "de flocons d’avoine",
+          "quantity": "15g"
+        },
+        {
+          "name": "de compote de pomme ou de banane",
+          "quantity": "60g"
+        },
+        {
+          "name": "d’amandes concassées",
+          "quantity": "10g"
+        },
+        {
+          "name": "de cacao",
+          "quantity": "5g"
+        }
+      ],
+      "prepTime": "5 min",
+      "cookTime": "12 min",
+      "steps": [
+        "Préchauffez le four à 180°C.",
+        "Mélangez le skyr, la compote de pomme, les flocons d’avoine et le cacao.",
+        "Remuez jusqu’à obtenir une pâte homogène et assez épaisse.",
+        "Ajoutez les amandes concassées.",
+        "Versez dans un petit moule ou formez un brownie sur une plaque recouverte de papier cuisson.",
+        "Enfournez environ 12 minutes."
+      ]
+    },
+    {
+      "id": "bowlcake_choco_framboise",
+      "name": "Bowlcake chocolat framboise",
+      "image": "/assets/sugar-recipe/bowlcake-choco-framboise.jpg",
+      "eventCategory": "breakfast",
+      "category": ["dessert", "petit-dejeuner"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "oeufs",
+          "quantity": "3"
+        },
+        {
+          "name": "de fromage blanc",
+          "quantity": "350g"
+        },
+        {
+          "name": "de flocons d’avoine",
+          "quantity": "15g"
+        },
+        {
+          "name": "de framboises",
+          "quantity": "80g"
+        },
+        {
+          "name": "de cacao",
+          "quantity": "10g"
+        },
+        {
+          "name": "de noisettes",
+          "quantity": "10g"
+        }
+      ],
+      "prepTime": "5 min",
+      "cookTime": "2 min",
+      "steps": [
+        "Mélangez les œufs, le fromage blanc, les flocons d’avoine et le cacao.",
+        "Versez dans un bol adapté et faites cuire 2 minutes au micro-ondes.",
+        "Ajoutez les framboises et les noisettes concassées sur le dessus.",
+        "Servez immédiatement."
       ]
     },
     {
