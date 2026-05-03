@@ -6428,22 +6428,22 @@
       "ingredients": [
         {
           "name": "compote de pommes",
-          "quantity": "100 g"
-        },
-        {
-          "name": "beurre de cacahuètes",
           "quantity": "80 g"
         },
         {
+          "name": "beurre de cacahuètes",
+          "quantity": "60 g"
+        },
+        {
           "name": "sirop d’érable",
-          "quantity": "50 g"
+          "quantity": "1 CàS"
         },
         {
           "name": "flocons d’avoine",
           "quantity": "200 g"
         },
         {
-          "name": "graines de tournesol",
+          "name": "graines de courge",
           "quantity": "40 g"
         },
         {
@@ -6451,11 +6451,7 @@
           "quantity": "40 g"
         },
         {
-          "name": "graines de sésame",
-          "quantity": "20 g"
-        },
-        {
-          "name": "chocolat noir (option)",
+          "name": "chocolat noir ou cranberry (option)",
           "quantity": "40 g"
         }
       ],
@@ -6469,7 +6465,7 @@
         "Laissez refroidir légèrement puis cassez le granola en morceaux avec les mains.",
         "Remettez au four 5 minutes pour obtenir un granola bien croustillant.",
         "Ajoutez les morceaux de chocolat noir une fois le granola refroidi.",
-        "Astuce : Surveillez bien la cuisson pour éviter que le granola ne brûle. Vous pouvez remplacer le sirop d’érable par du miel selon vos préférences."
+        "Astuce : Vous pouvez remplacer le sirop d’érable par du miel selon vos préférences."
       ]
     },
     {
@@ -7189,6 +7185,793 @@
         "Ajoutez les champignons émincés et poursuivez la cuisson 6 minutes.",
         "Mélangez avec le quinoa chaud, parsemez de persil et servez aussitôt.",
         "Astuce : Ajoutez un peu d’ail ou une échalote finement émincée pour renforcer le goût du plat. Vous pouvez remplacer la dinde par du poulet."
+      ]
+    },
+    {
+      "id": "gratin_poulet_courgette_riz",
+      "name": "Gratin de poulet, courgettes & riz [MYF]",
+      "image": "/assets/salty-recipe/gratin-poulet-courgette.jpg",
+      "eventCategory": null,
+      "category": ["plat", "rapide"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "poulet",
+          "quantity": "220 g"
+        },
+        {
+          "name": "courgettes",
+          "quantity": "180 g"
+        },
+        {
+          "name": "riz",
+          "quantity": "60 g"
+        },
+        {
+          "name": "fromage râpé",
+          "quantity": "25 g"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "15 min",
+      "steps": [
+        "Préchauffez le four à 200°C.",
+        "Faites cuire le riz dans une casserole d’eau bouillante salée puis égouttez-le.",
+        "Pendant ce temps, faites revenir le poulet coupé en morceaux avec les courgettes émincées dans une poêle avec l’huile pendant 8 minutes.",
+        "Disposez le riz, le poulet et les courgettes dans un petit plat à gratin.",
+        "Parsemez de fromage râpé et enfournez 8 minutes, juste le temps de faire gratiner légèrement.",
+        "Astuce : Ajoutez une belle pincée d’herbes de Provence pour un parfum du sud. Vous pouvez remplacer le poulet par de la dinde."
+      ]
+    },
+    {
+      "id": "lasagnes_boef_courgette",
+      "name": "Lasagnes bœuf & courgettes [MYF]",
+      "image": "/assets/salty-recipe/lasagnes-boeuf-courgette.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "bœuf",
+          "quantity": "220 g"
+        },
+        {
+          "name": "courgettes",
+          "quantity": "170 g"
+        },
+        {
+          "name": "feuilles de lasagnes",
+          "quantity": "60 g"
+        },
+        {
+          "name": "tomates",
+          "quantity": "120 g"
+        },
+        {
+          "name": "fromage râpé",
+          "quantity": "25 g"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "20 min",
+      "steps": [
+        "Préchauffez le four à 200°C.",
+        "Faites chauffer l’huile dans une poêle et faites revenir le bœuf haché 5 minutes.",
+        "Ajoutez les tomates et laissez mijoter quelques minutes pour obtenir une sauce simple et parfumée.",
+        "Coupez les courgettes en fines lamelles.",
+        "Dans un plat à gratin, alternez courgettes, feuilles de lasagnes et sauce.",
+        "Terminez avec le fromage râpé puis enfournez 15 minutes jusqu’à ce que le dessus soit bien gratiné.",
+        "Astuce : Ajoutez quelques feuilles de basilic frais juste avant de servir pour plus de fraîcheur."
+      ]
+    },
+    {
+      "id": "cabillaud_curry_coco_riz",
+      "name": "Cabillaud au curry coco & riz [MYF]",
+      "image": "/assets/salty-recipe/cabillaud-curry-coco.jpg",
+      "eventCategory": null,
+      "category": ["plat", "rapide"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "cabillaud",
+          "quantity": "220 g"
+        },
+        {
+          "name": "courgettes",
+          "quantity": "140 g"
+        },
+        {
+          "name": "carottes",
+          "quantity": "50 g"
+        },
+        {
+          "name": "riz",
+          "quantity": "60 g"
+        },
+        {
+          "name": "lait de coco",
+          "quantity": "60 ml"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "15 min",
+      "steps": [
+        "Faites cuire le riz dans une casserole d’eau bouillante salée puis égouttez-le.",
+        "Dans une poêle, faites chauffer l’huile et ajoutez les légumes coupés en petits morceaux.",
+        "Laissez cuire 5 minutes à feu moyen.",
+        "Ajoutez le curry et le lait de coco, puis mélangez bien.",
+        "Ajoutez le cabillaud coupé en morceaux et laissez cuire environ 6 minutes.",
+        "Servez bien chaud avec le riz.",
+        "Astuce : Ajoutez quelques feuilles de coriandre fraîche pour apporter une belle note parfumée. Vous pouvez remplacer le poisson par des crevettes."
+      ]
+    },
+    {
+      "id": "curry_pois_chiches_coco_riz",
+      "name": "Curry de pois chiches coco & riz [MYF]",
+      "image": "/assets/salty-recipe/curry-pois-chiches.jpg",
+      "eventCategory": null,
+      "category": ["plat", "rapide", "vegetarien"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "pois chiches cuits",
+          "quantity": "200 g"
+        },
+        {
+          "name": "courgettes",
+          "quantity": "130 g"
+        },
+        {
+          "name": "carottes",
+          "quantity": "70 g"
+        },
+        {
+          "name": "riz",
+          "quantity": "60 g"
+        },
+        {
+          "name": "lait de coco",
+          "quantity": "60 ml"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "15 min",
+      "steps": [
+        "Faites cuire le riz dans une casserole d’eau bouillante salée puis gardez-le au chaud.",
+        "Faites chauffer l’huile dans une poêle et ajoutez les légumes coupés en morceaux.",
+        "Laissez cuire 5 minutes à feu moyen.",
+        "Ajoutez les pois chiches, le curry et le lait de coco, puis mélangez bien.",
+        "Laissez mijoter environ 8 minutes à feu doux jusqu’à ce que les légumes soient tendres.",
+        "Servez bien chaud avec le riz.",
+        "Astuce : Ajoutez un peu de coriandre fraîche ou un filet de citron vert pour apporter de la fraîcheur. Vous pouvez remplacer les pois chiches par des haricots rouges."
+      ]
+    },
+    {
+      "id": "curry_lentilles_corail_epinards",
+      "name": "Curry de lentilles corail & épinards [MYF]",
+      "image": "/assets/salty-recipe/curry-lentilles-epinards.jpg",
+      "eventCategory": null,
+      "category": ["plat", "vegetarien", "rapide"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "lentilles corail",
+          "quantity": "80 g"
+        },
+        {
+          "name": "carottes",
+          "quantity": "100 g"
+        },
+        {
+          "name": "épinards",
+          "quantity": "100 g"
+        },
+        {
+          "name": "lait de coco",
+          "quantity": "60 ml"
+        },
+        {
+          "name": "curry",
+          "quantity": "3 g"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "15 min",
+      "steps": [
+        "Faites chauffer l’huile dans une casserole puis ajoutez les carottes coupées en petits dés.",
+        "Laissez cuire 4 minutes à feu moyen.",
+        "Ajoutez les lentilles corail, le curry, le lait de coco et un peu d’eau.",
+        "Laissez mijoter environ 10 minutes jusqu’à ce que les lentilles soient tendres et la préparation crémeuse.",
+        "Ajoutez les épinards en fin de cuisson, mélangez délicatement et servez bien chaud.",
+        "Astuce : Ajoutez de la coriandre fraîche ou un filet de citron vert avant de servir. Vous pouvez remplacer les lentilles par des pois chiches."
+      ]
+    },
+    {
+      "id": "boeuf_quinoa_legumes",
+      "name": "Bœuf au quinoa et légumes croquants [MYF]",
+      "image": "/assets/salty-recipe/boeuf-quinoa-legumes.jpg",
+      "eventCategory": null,
+      "category": ["plat", "rapide"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "bœuf",
+          "quantity": "220 g"
+        },
+        {
+          "name": "courgettes",
+          "quantity": "130 g"
+        },
+        {
+          "name": "poivron",
+          "quantity": "70 g"
+        },
+        {
+          "name": "quinoa cru",
+          "quantity": "60 g"
+        },
+        {
+          "name": "huile",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "20 min",
+      "steps": [
+        "Faites cuire le quinoa dans une casserole avec deux fois son volume d’eau pendant environ 12 minutes, puis égouttez-le si besoin.",
+        "Coupez les légumes en fines lamelles.",
+        "Faites chauffer l’huile dans une poêle et faites revenir le bœuf coupé en morceaux pendant 5 minutes.",
+        "Ajoutez les légumes et poursuivez la cuisson 6 minutes, jusqu’à ce qu’ils soient tendres mais encore légèrement croquants.",
+        "Servez avec le quinoa chaud.",
+        "Astuce : Ajoutez de l’ail ou du gingembre pour relever le plat. Vous pouvez remplacer le bœuf par de la dinde."
+      ]
+    },
+    {
+      "id": "pates_completes_boeuf_legumes",
+      "name": "Pâtes complètes au bœuf et légumes [MYF]",
+      "image": "/assets/salty-recipe/pates-boeuf-legumes.jpg",
+      "eventCategory": null,
+      "category": ["plat", "rapide"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "bœuf haché 5%",
+          "quantity": "280 g"
+        },
+        {
+          "name": "pâtes complètes (type penne)",
+          "quantity": "60 g"
+        },
+        {
+          "name": "carottes",
+          "quantity": "110 g"
+        },
+        {
+          "name": "courgette",
+          "quantity": "110 g"
+        },
+        {
+          "name": "tomates concassées",
+          "quantity": "120 g"
+        },
+        {
+          "name": "huile d’olive",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "20 min",
+      "steps": [
+        "Faites cuire les pâtes complètes dans une casserole d’eau bouillante salée selon le temps indiqué sur le paquet, puis égouttez-les.",
+        "Épluchez les carottes et coupez-les en petits dés. Coupez également la courgette en petits morceaux.",
+        "Faites chauffer l’huile d’olive dans une grande poêle, puis ajoutez les légumes et laissez-les cuire 5 minutes à feu moyen en remuant.",
+        "Ajoutez le bœuf haché, émiettez-le bien et laissez cuire 5 minutes jusqu’à ce qu’il soit doré.",
+        "Versez les tomates concassées, mélangez puis laissez mijoter 8 à 10 minutes pour obtenir une sauce épaisse.",
+        "Ajoutez les pâtes dans la sauce, mélangez délicatement et servez bien chaud.",
+        "Astuce : Pour une texture plus douce, mixez une partie des légumes avant de les remettre dans la poêle. Vous pouvez ajouter un peu de parmesan juste avant de servir."
+      ]
+    },
+    {
+      "id": "pates_poulet_petits_pois_creme",
+      "name": "Pâtes complètes au poulet, petits pois et sauce crémeuse [MYF]",
+      "image": "/assets/salty-recipe/pates-poulet-petits-pois.jpg",
+      "eventCategory": null,
+      "category": ["plat", "rapide"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "poulet",
+          "quantity": "280 g"
+        },
+        {
+          "name": "pâtes complètes (type fusilli)",
+          "quantity": "60 g"
+        },
+        {
+          "name": "petits pois",
+          "quantity": "125 g"
+        },
+        {
+          "name": "champignons",
+          "quantity": "110 g"
+        },
+        {
+          "name": "fromage blanc",
+          "quantity": "140 g"
+        },
+        {
+          "name": "huile d’olive",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "20 min",
+      "steps": [
+        "Faites cuire les pâtes complètes dans une casserole d’eau bouillante salée selon le temps indiqué sur le paquet, puis égouttez-les en conservant un peu d’eau de cuisson.",
+        "Coupez le poulet en petits morceaux réguliers et émincez les champignons.",
+        "Faites chauffer l’huile d’olive dans une poêle, ajoutez les champignons et laissez cuire 4 minutes.",
+        "Ajoutez le poulet et poursuivez la cuisson 6 minutes jusqu’à ce qu’il soit bien cuit et légèrement doré.",
+        "Ajoutez les petits pois et laissez chauffer encore 2 à 3 minutes.",
+        "Hors du feu, ajoutez le fromage blanc, un peu de poivre et un peu d’eau de cuisson des pâtes, puis mélangez pour obtenir une sauce crémeuse.",
+        "Ajoutez les pâtes, mélangez délicatement et servez aussitôt.",
+        "Astuce : Pour une texture plus douce, coupez très finement les champignons ou remplacez-les par de la courgette râpée. Pour une version plus gourmande, ajoutez un jaune d’œuf hors du feu."
+      ]
+    },
+    {
+      "id": "pates_lentilles_corail_legumes",
+      "name": "Pâtes complètes aux lentilles corail et légumes [MYF]",
+      "image": "/assets/salty-recipe/pates-lentilles-corail.jpg",
+      "eventCategory": null,
+      "category": ["plat", "vegetarien"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "lentilles corail",
+          "quantity": "75 g"
+        },
+        {
+          "name": "pâtes complètes (type macaroni)",
+          "quantity": "50 g"
+        },
+        {
+          "name": "carottes",
+          "quantity": "110 g"
+        },
+        {
+          "name": "courgette",
+          "quantity": "110 g"
+        },
+        {
+          "name": "tomates concassées",
+          "quantity": "140 g"
+        },
+        {
+          "name": "huile d’olive",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "20 min",
+      "steps": [
+        "Faites cuire les pâtes complètes dans une casserole d’eau bouillante salée selon le temps indiqué sur le paquet, puis égouttez-les.",
+        "Rincez rapidement les lentilles corail.",
+        "Épluchez les carottes et coupez-les en petits dés. Coupez également la courgette en petits morceaux.",
+        "Faites chauffer l’huile d’olive dans une grande poêle ou une sauteuse, puis faites revenir les légumes 5 minutes à feu moyen.",
+        "Ajoutez les lentilles corail, les tomates concassées et environ 200 ml d’eau, puis mélangez bien.",
+        "Laissez mijoter 12 à 15 minutes en remuant régulièrement jusqu’à ce que les lentilles soient tendres et la sauce bien liée.",
+        "Ajoutez les pâtes dans la sauce, mélangez délicatement et servez bien chaud.",
+        "Astuce : Mixez légèrement la sauce pour une texture plus lisse façon bolognaise. Vous pouvez ajouter un peu de basilic ou de parmesan au moment de servir."
+      ]
+    },
+    {
+      "id": "boulettes_boeuf_puree_legumes",
+      "name": "Boulettes de bœuf et purée de légumes [MYF]",
+      "image": "/assets/salty-recipe/boulettes-boeuf-puree.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "boulettes de bœuf 5%",
+          "quantity": "280 g"
+        },
+        {
+          "name": "pommes de terre",
+          "quantity": "220 g"
+        },
+        {
+          "name": "petits pois",
+          "quantity": "120 g"
+        },
+        {
+          "name": "carottes",
+          "quantity": "120 g"
+        },
+        {
+          "name": "fromage blanc",
+          "quantity": "100 g"
+        },
+        {
+          "name": "huile d’olive",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "25 min",
+      "steps": [
+        "Épluchez les pommes de terre, coupez-les en morceaux et faites-les cuire dans une casserole d’eau bouillante salée pendant environ 15 minutes jusqu’à ce qu’elles soient bien tendres.",
+        "Égouttez-les, puis écrasez-les avec le fromage blanc pour obtenir une purée douce et onctueuse.",
+        "Pendant ce temps, épluchez les carottes et coupez-les en petits dés. Faites-les cuire environ 6 minutes à la vapeur ou dans un peu d’eau bouillante.",
+        "Faites chauffer l’huile d’olive dans une poêle et faites dorer les boulettes 8 à 10 minutes en les retournant régulièrement.",
+        "Ajoutez les petits pois dans la poêle ou réchauffez-les à part pendant 2 minutes.",
+        "Servez la purée bien chaude avec les boulettes, les carottes et les petits pois.",
+        "Astuce : Pour une texture encore plus lisse, écrasez aussi les carottes avec la purée. Ajoutez un peu d’eau de cuisson pour plus d’onctuosité."
+      ]
+    },
+    {
+      "id": "coquillettes_jambon_petits_pois",
+      "name": "Pâtes complètes jambon, petits pois et sauce crémeuse [MYF]",
+      "image": "/assets/salty-recipe/coquillettes-jambon-petits-pois.jpg",
+      "eventCategory": null,
+      "category": ["plat", "rapide"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "jambon blanc",
+          "quantity": "280 g"
+        },
+        {
+          "name": "coquillettes complètes",
+          "quantity": "60 g"
+        },
+        {
+          "name": "petits pois",
+          "quantity": "120 g"
+        },
+        {
+          "name": "courgette",
+          "quantity": "150 g"
+        },
+        {
+          "name": "fromage frais",
+          "quantity": "80 g"
+        },
+        {
+          "name": "huile d’olive",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "15 min",
+      "steps": [
+        "Faites cuire les coquillettes complètes dans une casserole d’eau bouillante salée selon le temps indiqué sur le paquet, puis égouttez-les.",
+        "Coupez la courgette en petits dés.",
+        "Faites chauffer l’huile d’olive dans une poêle et faites cuire la courgette 5 à 6 minutes à feu moyen jusqu’à ce qu’elle soit tendre.",
+        "Ajoutez les petits pois et laissez chauffer encore 2 minutes.",
+        "Ajoutez le jambon coupé en petites lanières ainsi que le fromage frais, puis mélangez pour obtenir une sauce crémeuse.",
+        "Ajoutez les coquillettes, mélangez bien pour enrober et servez aussitôt.",
+        "Astuce : Râpez la courgette pour une texture plus discrète. Ajoutez un peu de fromage râpé au moment de servir pour plus de gourmandise."
+      ]
+    },
+    {
+      "id": "riz_cantonais_poulet",
+      "name": "Riz cantonais au poulet [MYF]",
+      "image": "/assets/salty-recipe/riz-cantonais-poulet.jpg",
+      "eventCategory": null,
+      "category": ["plat", "rapide"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "poulet",
+          "quantity": "280 g"
+        },
+        {
+          "name": "riz cru",
+          "quantity": "60 g"
+        },
+        {
+          "name": "œufs",
+          "quantity": "3"
+        },
+        {
+          "name": "petits pois",
+          "quantity": "120 g"
+        },
+        {
+          "name": "carottes",
+          "quantity": "110 g"
+        },
+        {
+          "name": "huile d’olive",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "20 min",
+      "steps": [
+        "Faites cuire le riz dans une casserole d’eau bouillante salée, puis égouttez-le et laissez-le tiédir pour qu’il reste bien séparé.",
+        "Épluchez les carottes et coupez-les en petits dés.",
+        "Faites chauffer l’huile dans une grande poêle ou un wok, ajoutez les carottes et laissez cuire 4 minutes.",
+        "Ajoutez le poulet coupé en petits morceaux et poursuivez la cuisson 5 à 6 minutes jusqu’à ce qu’il soit bien cuit.",
+        "Ajoutez les petits pois et mélangez 2 minutes.",
+        "Poussez la garniture sur un côté de la poêle, cassez les œufs dans l’espace libre et brouillez-les doucement.",
+        "Ajoutez le riz cuit, mélangez bien l’ensemble 2 minutes à feu moyen et servez bien chaud.",
+        "Astuce : Remplacez le poulet par du jambon blanc pour une version plus classique. Pour un résultat plus fondant, prolongez la cuisson des carottes."
+      ]
+    },
+    {
+      "id": "gratin_coquillettes_poulet",
+      "name": "Gratin de pâtes au poulet [MYF]",
+      "image": "/assets/salty-recipe/gratin-coquillettes-poulet.jpg",
+      "eventCategory": null,
+      "category": ["plat", "gratin"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "poulet",
+          "quantity": "280 g"
+        },
+        {
+          "name": "coquillettes complètes crues",
+          "quantity": "60 g"
+        },
+        {
+          "name": "courgette",
+          "quantity": "150 g"
+        },
+        {
+          "name": "petits pois",
+          "quantity": "100 g"
+        },
+        {
+          "name": "fromage blanc",
+          "quantity": "120 g"
+        },
+        {
+          "name": "fromage râpé",
+          "quantity": "25 g"
+        },
+        {
+          "name": "huile d’olive",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "25 min",
+      "steps": [
+        "Préchauffez le four à 200°C.",
+        "Faites cuire les coquillettes complètes dans une casserole d’eau bouillante salée selon les indications du paquet, puis égouttez-les.",
+        "Coupez la courgette en petits dés et le poulet en morceaux réguliers.",
+        "Faites chauffer l’huile dans une poêle et faites cuire le poulet 5 minutes.",
+        "Ajoutez la courgette et les petits pois, puis poursuivez la cuisson 4 à 5 minutes jusqu’à ce que les légumes soient tendres.",
+        "Dans un saladier, mélangez les pâtes, le poulet, les légumes et le fromage blanc. Salez et poivrez si besoin.",
+        "Versez dans un plat à gratin, ajoutez le fromage râpé et enfournez 10 minutes pour faire gratiner.",
+        "Astuce : Ajoutez un peu d’eau de cuisson des pâtes pour un gratin plus moelleux. Vous pouvez râper la courgette pour une texture plus fondante."
+      ]
+    },
+    {
+      "id": "soupe_pois_chiches_riz",
+      "name": "Soupe veloutée pois chiches, légumes et riz [MYF]",
+      "image": "/assets/salty-recipe/soupe-pois-chiches-riz.jpg",
+      "eventCategory": null,
+      "category": ["plat", "soupe"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "pois chiches cuits",
+          "quantity": "200 g"
+        },
+        {
+          "name": "courgette",
+          "quantity": "220 g"
+        },
+        {
+          "name": "carottes",
+          "quantity": "110 g"
+        },
+        {
+          "name": "riz cru",
+          "quantity": "45 g"
+        },
+        {
+          "name": "bouillon",
+          "quantity": "450 ml"
+        },
+        {
+          "name": "huile d’olive",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "20 min",
+      "steps": [
+        "Coupez la courgette et les carottes en petits morceaux.",
+        "Faites chauffer l’huile dans une casserole et faites revenir les légumes 3 minutes.",
+        "Ajoutez le riz cru et mélangez pendant 1 minute.",
+        "Versez le bouillon et laissez cuire environ 15 minutes jusqu’à ce que les légumes soient tendres.",
+        "Ajoutez les pois chiches et poursuivez la cuisson 3 minutes pour les réchauffer.",
+        "Mixez pour obtenir une soupe bien veloutée puis servez bien chaud.",
+        "Astuce : Ajoutez une pincée de cumin ou de paprika doux et un filet de citron pour relever le goût."
+      ]
+    },
+    {
+      "id": "cabillaud_riz_courgette",
+      "name": "Cabillaud, riz basmati et courgettes [MYF]",
+      "image": "/assets/salty-recipe/cabillaud-riz-courgette.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "cabillaud",
+          "quantity": "150 g"
+        },
+        {
+          "name": "riz basmati ou quinoa",
+          "quantity": "30 g"
+        },
+        {
+          "name": "courgette",
+          "quantity": "240 g"
+        },
+        {
+          "name": "huile d’olive",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "15 min",
+      "steps": [
+        "Faites cuire le riz dans une casserole d’eau bouillante salée selon les indications du paquet.",
+        "Coupez la courgette en rondelles.",
+        "Faites revenir la courgette dans une poêle avec l’huile d’olive pendant quelques minutes jusqu’à ce qu’elle soit tendre.",
+        "Faites cuire le cabillaud à la poêle ou au four jusqu’à ce qu’il soit bien cuit et fondant.",
+        "Servez le tout ensemble dans l’assiette.",
+        "Astuce : Ajoutez un filet de citron pour plus de fraîcheur. Vous pouvez remplacer le riz par du quinoa."
+      ]
+    },
+    {
+      "id": "chili_vegetarien_riz",
+      "name": "Chili végétarien aux haricots rouges et riz [MYF]",
+      "image": "/assets/salty-recipe/chili-vegetarien-riz.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "haricots rouges",
+          "quantity": "180 g"
+        },
+        {
+          "name": "tomates concassées",
+          "quantity": "150 g"
+        },
+        {
+          "name": "maïs",
+          "quantity": "60 g"
+        },
+        {
+          "name": "poivron",
+          "quantity": "150 g"
+        },
+        {
+          "name": "riz basmati",
+          "quantity": "20 g"
+        },
+        {
+          "name": "huile d’olive",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "20 min",
+      "steps": [
+        "Faites cuire le riz dans une casserole d’eau bouillante salée selon les indications du paquet.",
+        "Faites revenir le poivron coupé en morceaux dans une poêle avec l’huile d’olive.",
+        "Ajoutez les haricots rouges, le maïs et les tomates concassées.",
+        "Laissez mijoter quelques minutes pour que les saveurs se mélangent.",
+        "Servez avec le riz chaud.",
+        "Astuce : Ajoutez du paprika fumé et parsemez de coriandre fraîche pour relever le goût."
+      ]
+    },
+    {
+      "id": "crevettes_legumes_riz",
+      "name": "Crevettes sautées aux légumes et riz [MYF]",
+      "image": "/assets/salty-recipe/crevettes-legumes-riz.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "crevettes",
+          "quantity": "180 g"
+        },
+        {
+          "name": "courgette",
+          "quantity": "180 g"
+        },
+        {
+          "name": "poivron",
+          "quantity": "150 g"
+        },
+        {
+          "name": "riz basmati",
+          "quantity": "20 g"
+        },
+        {
+          "name": "huile d’olive",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "15 min",
+      "steps": [
+        "Faites cuire le riz dans une casserole d’eau bouillante salée selon les indications du paquet.",
+        "Coupez les légumes en morceaux.",
+        "Faites revenir les légumes dans une poêle avec l’huile d’olive pendant quelques minutes.",
+        "Ajoutez les crevettes et poursuivez la cuisson quelques minutes jusqu’à ce qu’elles soient bien roses et cuites.",
+        "Servez avec le riz chaud.",
+        "Astuce : Ajoutez un peu de gingembre frais râpé pour relever le plat. Vous pouvez remplacer les crevettes par du poulet."
+      ]
+    },
+    {
+      "id": "poivron_farcis_quinoa_pois_chiches",
+      "name": "Poivrons farcis quinoa et pois chiches [MYF]",
+      "image": "/assets/salty-recipe/poivron-farci-quinoa.jpg",
+      "eventCategory": null,
+      "category": ["plat", "vegetarien"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "poivron",
+          "quantity": "240 g"
+        },
+        {
+          "name": "quinoa",
+          "quantity": "40 g"
+        },
+        {
+          "name": "pois chiches",
+          "quantity": "150 g"
+        },
+        {
+          "name": "tomates concassées",
+          "quantity": "120 g"
+        },
+        {
+          "name": "huile d’olive",
+          "quantity": "10 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "25 min",
+      "steps": [
+        "Faites cuire le quinoa dans de l’eau frémissante selon les indications du paquet, puis égouttez si nécessaire.",
+        "Mélangez le quinoa avec les pois chiches et les tomates concassées.",
+        "Coupez le poivron en deux et garnissez-le avec la préparation.",
+        "Disposez dans un plat et faites cuire au four environ 20 minutes.",
+        "Servez chaud.",
+        "Astuce : Ajoutez un peu de feta émiettée avant cuisson. Vous pouvez remplacer les pois chiches par des lentilles."
       ]
     },
     {
