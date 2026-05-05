@@ -6370,8 +6370,8 @@
       "name": "Pain protéiné au fromage blanc et graines [MYF]",
       "image": "/assets/salty-recipe/pain-proteine.jpg",
       "eventCategory": null,
-      "category": ["petit-dejeuner", "collation"],
-      "servingSize": "16 tranches",
+      "category": [],
+      "servingSize": "16",
       "ingredients": [
         {
           "name": "fromage blanc 3,3% ou skyr",
@@ -6399,11 +6399,7 @@
         },
         {
           "name": "sel",
-          "quantity": "1 c. à soupe"
-        },
-        {
-          "name": "levure chimique",
-          "quantity": "1 c. à soupe"
+          "quantity": "10 g"
         }
       ],
       "prepTime": "10 min",
@@ -6465,7 +6461,7 @@
         "Laissez refroidir légèrement puis cassez le granola en morceaux avec les mains.",
         "Remettez au four 5 minutes pour obtenir un granola bien croustillant.",
         "Ajoutez les morceaux de chocolat noir une fois le granola refroidi.",
-        "Astuce : Vous pouvez remplacer le sirop d’érable par du miel selon vos préférences."
+        "Astuce : Vous pouvez remplacer le sirop d’érable par du miel."
       ]
     },
     {
