@@ -6374,7 +6374,7 @@
       "servingSize": "16",
       "ingredients": [
         {
-          "name": "fromage blanc 3,3% ou skyr",
+          "name": "de skyr (compléter avec du fromage blanc si la quantité de skyr n'est pas suffisante)",
           "quantity": "600 g"
         },
         {
@@ -6386,26 +6386,30 @@
           "quantity": "325 g"
         },
         {
-          "name": "graines de courge",
+          "name": "de graines de courge",
           "quantity": "50 g"
         },
         {
-          "name": "graines de tournesol",
+          "name": "de cacahuètes",
           "quantity": "50 g"
         },
         {
-          "name": "graines de pavot",
-          "quantity": "30 g"
+          "name": "de beurre de cacahuètes",
+          "quantity": "50 g"
         },
         {
-          "name": "sel",
+          "name": "de sel",
+          "quantity": "10 g"
+        }, 
+         {
+          "name": "de levure",
           "quantity": "10 g"
         }
       ],
       "prepTime": "10 min",
       "cookTime": "45 min",
       "steps": [
-        "Dans un plat, mélangez le fromage blanc avec les œufs.",
+        "Dans un plat, mélangez le skyr avec les œufs.",
         "Ajoutez tous les autres ingrédients et mélangez afin d’obtenir une pâte homogène.",
         "Déposez la pâte sur une plaque avec une feuille de papier cuisson et donnez-lui la forme souhaitée.",
         "Ajoutez quelques graines sur le dessus pour le visuel.",
@@ -7935,7 +7939,7 @@
       "name": "Poivrons farcis quinoa et pois chiches [MYF]",
       "image": "/assets/salty-recipe/poivron-farci-quinoa.jpg",
       "eventCategory": null,
-      "category": ["plat", "vegetarien"],
+      "category": ["plat"],
       "servingSize": "1",
       "ingredients": [
         {
@@ -7968,6 +7972,442 @@
         "Disposez dans un plat et faites cuire au four environ 20 minutes.",
         "Servez chaud.",
         "Astuce : Ajoutez un peu de feta émiettée avant cuisson. Vous pouvez remplacer les pois chiches par des lentilles."
+      ]
+    },
+    {
+      "id": "poulet_lentilles_corail_curry",
+      "name": "Meal prep poulet aux lentilles corail",
+      "image": "/assets/salty-recipe/poulet-lentilles-curry.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "lentilles corail",
+          "quantity": "50 g"
+        },
+        {
+          "name": "blanc de poulet",
+          "quantity": "150 g"
+        },
+        {
+          "name": "curry",
+          "quantity": "2 càc"
+        },
+        {
+          "name": "bouillon de légumes",
+          "quantity": "100 ml"
+        },
+        {
+          "name": "courgettes",
+          "quantity": "80 g"
+        },
+        {
+          "name": "carottes",
+          "quantity": "50 g"
+        },
+        {
+          "name": "poivrons",
+          "quantity": "50 g"
+        },
+        {
+          "name": "coulis de tomates",
+          "quantity": "100 g"
+        },
+        {
+          "name": "cheddar",
+          "quantity": "20 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "35 à 40 min",
+      "steps": [
+        "Préchauffez le four à 180°C.",
+        "Coupez le blanc de poulet et les légumes en petits morceaux.",
+        "Dans un contenant de 800 ml, ajoutez les lentilles corail, le poulet, les légumes, le curry, le bouillon de légumes et le coulis de tomates.",
+        "Mélangez bien l’ensemble afin de répartir les ingrédients uniformément.",
+        "Ajoutez le cheddar sur le dessus de la préparation.",
+        "Recouvrez le contenant avec du papier sulfurisé.",
+        "Faites cuire au four pendant 35 à 40 minutes jusqu’à ce que les lentilles soient fondantes et le poulet bien cuit.",
+        "Servez chaud.",
+        "Astuce : Vous pouvez ajouter 20 g de feta directement dans la préparation pour un résultat plus crémeux."
+      ]
+    },
+    {
+      "id": "quinoa_viande_hachee_paprika",
+      "name": "Meal prep quinoa à la viande hachée",
+      "image": "/assets/salty-recipe/quinoa-viande-paprika.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "quinoa",
+          "quantity": "50 g"
+        },
+        {
+          "name": "viande hachée",
+          "quantity": "150 g"
+        },
+        {
+          "name": "paprika",
+          "quantity": "2 càc"
+        },
+        {
+          "name": "bouillon de légumes",
+          "quantity": "100 ml"
+        },
+        {
+          "name": "courgettes",
+          "quantity": "80 g"
+        },
+        {
+          "name": "carottes",
+          "quantity": "50 g"
+        },
+        {
+          "name": "poivrons",
+          "quantity": "50 g"
+        },
+        {
+          "name": "coulis de tomates",
+          "quantity": "100 g"
+        },
+        {
+          "name": "cheddar",
+          "quantity": "20 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "35 à 40 min",
+      "steps": [
+        "Préchauffez le four à 180°C.",
+        "Coupez les légumes en petits morceaux.",
+        "Dans un contenant de 800 ml, ajoutez le quinoa, la viande hachée, les légumes, le paprika, le bouillon de légumes et le coulis de tomates.",
+        "Mélangez bien l’ensemble pour répartir uniformément les ingrédients.",
+        "Ajoutez le cheddar sur le dessus de la préparation.",
+        "Recouvrez le contenant avec du papier sulfurisé.",
+        "Faites cuire au four pendant 35 à 40 minutes jusqu’à ce que le quinoa soit tendre et la viande bien cuite.",
+        "Servez chaud.",
+        "Astuce : Vous pouvez ajouter 20 g de feta directement dans la préparation pour un résultat plus crémeux."
+      ]
+    },
+    {
+      "id": "riz_basmati_viande_hachee_paprika",
+      "name": "Meal prep riz basmati à la viande hachée",
+      "image": "/assets/salty-recipe/riz-basmati-viande-paprika.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "riz basmati",
+          "quantity": "50 g"
+        },
+        {
+          "name": "viande hachée",
+          "quantity": "150 g"
+        },
+        {
+          "name": "paprika",
+          "quantity": "2 càc"
+        },
+        {
+          "name": "bouillon de légumes",
+          "quantity": "100 ml"
+        },
+        {
+          "name": "courgettes",
+          "quantity": "80 g"
+        },
+        {
+          "name": "carottes",
+          "quantity": "50 g"
+        },
+        {
+          "name": "poivrons",
+          "quantity": "50 g"
+        },
+        {
+          "name": "coulis de tomates",
+          "quantity": "100 g"
+        },
+        {
+          "name": "cheddar",
+          "quantity": "20 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "35 à 40 min",
+      "steps": [
+        "Préchauffez le four à 180°C.",
+        "Coupez les légumes en petits morceaux.",
+        "Dans un contenant de 800 ml, ajoutez le riz basmati, la viande hachée, les légumes, le paprika, le bouillon de légumes et le coulis de tomates.",
+        "Mélangez bien l’ensemble afin de répartir uniformément les ingrédients.",
+        "Ajoutez le cheddar sur le dessus de la préparation.",
+        "Recouvrez le contenant avec du papier sulfurisé.",
+        "Faites cuire au four pendant 35 à 40 minutes jusqu’à ce que le riz soit tendre et la viande bien cuite.",
+        "Servez chaud.",
+        "Astuce : Vous pouvez ajouter quelques olives noires ou des herbes de Provence pour varier les saveurs."
+      ]
+    },
+    {
+      "id": "pates_completes_poulet_coco_feta",
+      "name": "Meal prep pâtes complètes au poulet",
+      "image": "/assets/salty-recipe/pates-poulet-coco-feta.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "pâtes au blé complet",
+          "quantity": "60 g"
+        },
+        {
+          "name": "blanc de poulet",
+          "quantity": "150 g"
+        },
+        {
+          "name": "courgettes",
+          "quantity": "80 g"
+        },
+        {
+          "name": "carottes",
+          "quantity": "50 g"
+        },
+        {
+          "name": "poivrons",
+          "quantity": "50 g"
+        },
+        {
+          "name": "champignons",
+          "quantity": "100 g"
+        },
+        {
+          "name": "bouillon de légumes",
+          "quantity": "200 ml"
+        },
+        {
+          "name": "coulis de tomates",
+          "quantity": "100 g"
+        },
+        {
+          "name": "lait de coco",
+          "quantity": "60 ml"
+        },
+        {
+          "name": "feta",
+          "quantity": "30 g"
+        },
+        {
+          "name": "cheddar",
+          "quantity": "20 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "35 à 40 min",
+      "steps": [
+        "Préchauffez le four à 180°C.",
+        "Coupez le blanc de poulet et les légumes en petits morceaux.",
+        "Dans un contenant de 800 ml, ajoutez les pâtes complètes, le poulet, les légumes, les champignons, le bouillon de légumes, le coulis de tomates et le lait de coco.",
+        "Mélangez bien l’ensemble afin de répartir uniformément les ingrédients.",
+        "Ajoutez la feta émiettée puis le cheddar sur le dessus.",
+        "Recouvrez le contenant avec du papier sulfurisé.",
+        "Faites cuire au four pendant 35 à 40 minutes jusqu’à ce que les pâtes soient tendres et le poulet bien cuit.",
+        "Servez chaud.",
+        "Astuce : Vous pouvez remplacer le poulet par 120 g de saumon pour une version plus fondante et riche en oméga-3.",
+        "Astuce 2 : Vous pouvez ajouter des haricots rouges ou des pois chiches pour plus de protéines"
+      ]
+    },
+    {
+      "id": "bagel_truite_avocat_oeuf",
+      "name": "Bagel brioché à la truite fumée et avocat",
+      "image": "/assets/salty-recipe/bagel-truite-avocat.jpg",
+      "eventCategory": null,
+      "category": ["plat", "rapide"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "pain bagel brioché",
+          "quantity": "1"
+        },
+        {
+          "name": "fromage frais",
+          "quantity": "30 g"
+        },
+        {
+          "name": "truite fumée",
+          "quantity": "60 g"
+        },
+        {
+          "name": "avocat",
+          "quantity": "1/2"
+        },
+        {
+          "name": "œuf",
+          "quantity": "1"
+        },
+        {
+          "name": "jus de citron",
+          "quantity": "1 càc"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "5 min",
+      "steps": [
+        "Coupez le bagel brioché en deux puis faites-le légèrement toaster si souhaité.",
+        "Coupez l’avocat en morceaux et le mélanger avec avec un filet de citron.",
+        "Faites cuire l’œuf brouillé dans une poêle à feu doux.",
+        "Tartinez le bagel avec le fromage frais.",
+        "Ajoutez l’avocat, la truite fumée puis l’œuf brouillé.",
+        "Servez immédiatement.",
+        "Astuce : Vous pouvez ajouter quelques rondelles de concombre ou un peu de roquette pour apporter plus de fraîcheur."
+      ]
+    },
+    {
+      "id": "quiche_proteinee_poulet_courgette",
+      "name": "Quiche protéinée au poulet et courgette [MYF]",
+      "image": "/assets/salty-recipe/quiche-proteinee-poulet.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "œuf",
+          "quantity": "1"
+        },
+        {
+          "name": "skyr ou fromage blanc",
+          "quantity": "120 g"
+        },
+        {
+          "name": "fromage râpé",
+          "quantity": "30 g"
+        },
+        {
+          "name": "curry",
+          "quantity": "1 à 2 càc"
+        },
+        {
+          "name": "blanc de poulet",
+          "quantity": "120 g"
+        },
+        {
+          "name": "courgette",
+          "quantity": "150 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "25 min",
+      "steps": [
+        "Préchauffez le four à 180°C.",
+        "Coupez le blanc de poulet et la courgette en petits morceaux.",
+        "Dans un saladier, mélangez l’œuf avec le skyr ou le fromage blanc.",
+        "Ajoutez le fromage râpé et le curry puis mélangez à nouveau.",
+        "Incorporez le poulet et la courgette à la préparation.",
+        "Mélanger",
+        "Versez le tout dans un plat de 800ml.",
+        "Faites cuire au four pendant environ 25 minutes jusqu’à ce que la quiche soit bien dorée.",
+        "Servez chaud.",
+        "Astuce : Vous pouvez ajouter quelques herbes fraîches ou remplacer le curry par du paprika fumé pour varier les saveurs."
+      ]
+    },
+    {
+      "id": "quiche_proteinee_thon_feta",
+      "name": "Quiche protéinée au thon, tomates et feta",
+      "image": "/assets/salty-recipe/quiche-proteinee-thon.jpg",
+      "eventCategory": null,
+      "category": ["plat"],
+      "servingSize": "1",
+      "ingredients": [
+        {
+          "name": "œuf",
+          "quantity": "1"
+        },
+        {
+          "name": "skyr ou fromage blanc",
+          "quantity": "120 g"
+        },
+        {
+          "name": "fromage râpé",
+          "quantity": "30 g"
+        },
+        {
+          "name": "thon ou saumon",
+          "quantity": "120 g"
+        },
+        {
+          "name": "tomates",
+          "quantity": "80 g"
+        },
+        {
+          "name": "feta",
+          "quantity": "30 g"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "25 min",
+      "steps": [
+        "Préchauffez le four à 180°C.",
+        "Coupez les tomates en petits morceaux.",
+        "Dans un saladier, mélangez l’œuf avec le skyr ou le fromage blanc.",
+        "Ajoutez le fromage râpé puis mélangez à nouveau.",
+        "Incorporez le thon ou le saumon, les tomates et la feta émiettée à la préparation.",
+        "Mélangez bien l’ensemble.",
+        "Versez le tout dans un plat de 800 ml.",
+        "Faites cuire au four pendant environ 25 minutes jusqu’à ce que la quiche soit bien dorée.",
+        "Servez chaud.",
+        "Astuce : Vous pouvez ajouter du basilic, de l’origan ou quelques olives noires pour une version méditerranéenne."
+      ]
+    },
+    {
+      "id": "couscous_poulet_pois_chiches_orientale",
+      "name": "Couscous poulet pois chiches à l’orientale Ferrero",
+      "image": "/assets/salty-recipe/couscous-poulet-orientale.jpg",
+      "eventCategory": null,
+      "category": ["plat", "rapide"],
+      "servingSize": "2",
+      "ingredients": [
+        {
+          "name": "couscous Ferrero",
+          "quantity": "1 sachet"
+        },
+        {
+          "name": "pois chiches",
+          "quantity": "150 g"
+        },
+        {
+          "name": "pulpe de tomates",
+          "quantity": "250 g"
+        },
+        {
+          "name": "raz-el-hanout",
+          "quantity": "3 c. à soupe"
+        },
+        {
+          "name": "blancs de poulet",
+          "quantity": "2"
+        },
+        {
+          "name": "huile d’olive",
+          "quantity": "2 c. à soupe"
+        },
+        {
+          "name": "persil frais",
+          "quantity": "1 poignée"
+        }
+      ],
+      "prepTime": "5 min",
+      "cookTime": "15 min",
+      "steps": [
+        "Dans un bol, mélangez le poulet avec 2 c. à soupe d’huile d’olive, 1 c. à soupe de raz-el-hanout, du sel et du poivre.",
+        "Laissez mariner pendant 5 minutes.",
+        "Dans une poêle, faites revenir les pois chiches, la pulpe de tomates et 2 c. à soupe de raz-el-hanout.",
+        "Salez, poivrez et laissez cuire quelques minutes.",
+        "En parallèle, préparez le couscous comme indiqué sur le paquet.",
+        "Dans une autre poêle, faites cuire le poulet mariné.",
+        "Quand tout est prêt, servez le couscous avec le poulet, la sauce et ajoutez le persil frais.",
+        "Servez chaud."
       ]
     },
     {
@@ -8074,104 +8514,6 @@
         "Ficeler les coins le plus raz possible du 'boudin' (comme un bonbon)",
         "Mettre le shumpot dans l'eau bouillante. Cuisson : 45 minutes environ.",
         "Astuce : Se déguste à merveille le lendemain, réchauffé à la poêle, en ajoutant de la vergeoise brune."
-      ]
-    },
-    {
-      "id": "glace_proteinee_chocolat",
-      "name": "Glace protéinée chocolat",
-      "image": "/assets/sugar-recipe/glace-proteinee-chocolat.jpg",
-      "eventCategory": null,
-      "category": ["dessert"],
-      "servingSize": "4",
-      "ingredients": [
-        {
-          "name": "de skyr",
-          "quantity": "300g"
-        },
-        {
-          "name": "de whey (vanille ou chocolat)",
-          "quantity": "25g"
-        },
-        {
-          "name": "de lait",
-          "quantity": "80ml"
-        },
-        {
-          "name": "de fromage blanc 3–4% ",
-          "quantity": "100g"
-        },
-        {
-          "name": "de miel",
-          "quantity": "10g"
-        },
-        {
-          "name": "de cacao (option)",
-          "quantity": "1 c. à café"
-        },
-        {
-          "name": "de chocolat noir",
-          "quantity": "80g"
-        },
-        {
-          "name": "d’huile de coco",
-          "quantity": "10g"
-        }
-      ],
-      "prepTime": "10 min",
-      "cookTime": "0 min",
-      "steps": [
-        "Mixez le skyr, la whey, le lait, le miel et le cacao jusqu’à obtenir une texture bien lisse.",
-        "Versez la préparation dans des moules à glace.",
-        "Placez au congélateur pendant 4 à 6 heures.",
-        "Faites fondre le chocolat noir avec l’huile de coco.",
-        "Démoulez les glaces puis trempez-les dans le chocolat fondu pour les enrober.",
-        "Replacez au congélateur 5 minutes pour figer l’enrobage.",
-        "Astuce : le fromage blanc améliore l'onctuosité"
-      ]
-    },
-    {
-      "id": "glace_proteinee_cacahuete",
-      "name": "Glace protéinée au beurre de cacahuète",
-      "image": "/assets/sugar-recipe/glace-proteinee-cacahuete.jpg",
-      "eventCategory": null,
-      "category": ["dessert"],
-      "servingSize": "4",
-      "ingredients": [
-        {
-          "name": "de yaourt végétal ou 2 petits suisses",
-          "quantity": "250g"
-        },
-        {
-          "name": "de whey (vanille)",
-          "quantity": "40g"
-        },
-        {
-          "name": "de beurre de cacahuète",
-          "quantity": "80ml"
-        },
-        {
-          "name": "de miel",
-          "quantity": "10g"
-        },
-        {
-          "name": "de chocolat noir",
-          "quantity": "1 carré"
-        },
-        {
-          "name": "d’huile de coco",
-          "quantity": "10g"
-        }
-      ],
-      "prepTime": "10 min",
-      "cookTime": "0 min",
-      "steps": [
-        "Mélanger le yaourt végétal, la whey, le miel jusqu’à obtenir une texture bien lisse.",
-        "Versez la moitié de la préparation dans des moules à glace. Ajouter le beurre de cacahuète, puis mettre au congélateur.",
-        "Verser le reste de la préparation",
-        "Placez au congélateur pendant 4 à 6 heures.",
-        "Faites fondre le chocolat noir avec l’huile de coco.",
-        "Démoulez les glaces puis trempez-les dans le chocolat fondu pour les enrober.",
-        "Replacez au congélateur 5 minutes pour figer l’enrobage."
       ]
     },
     {
