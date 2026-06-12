@@ -8459,6 +8459,65 @@
       ]
     },
     {
+      "id": "marbre_proteine",
+      "name": "Marbré protéiné",
+      "image": "/assets/sugar-recipe/marbre-proteine.jpg",
+      "eventCategory": null,
+      "category": ["dessert"],
+      "servingSize": "9",
+      "ingredients": [
+        {
+          "name": "oeufs",
+          "quantity": "4"
+        },
+        {
+          "name": "de farine d’avoine",
+          "quantity": "120g"
+        },
+        {
+          "name": "de compote de pomme",
+          "quantity": "200g"
+        },
+        {
+          "name": "de whey",
+          "quantity": "1 à 2 scoops"
+        },
+        {
+          "name": "de beurre de cacahuète",
+          "quantity": "40g"
+        },
+        {
+          "name": "de cacao non sucré",
+          "quantity": "15g"
+        },
+        {
+          "name": "pépites de chocolat",
+          "quantity": "15g"
+        },
+        {
+          "name": "de sucre vanillé",
+          "quantity": "1 sachet"
+        },
+        {
+          "name": "de sirop d’érable",
+          "quantity": "1 c. à café"
+        }
+      ],
+      "prepTime": "10 min",
+      "cookTime": "30 min",
+      "steps": [
+        "Préchauffez le four à 180°C.",
+        "Battez les œufs puis ajoutez la compote de pomme.",
+        "Ajoutez la farine d’avoine et le beurre de cacahuète, puis mélangez.",
+        "Incorporez la whey et le sirop d’érable.",
+        "Séparez la pâte en deux portions égales.",
+        "Ajoutez le sucre vanillé dans une portion et le cacao dans l’autre.",
+        "Mélangez chaque préparation.",
+        "Dans un moule à cake, versez en alternant une couche vanille puis une couche chocolat pour créer l’effet marbré.",
+        "Enfournez pendant environ 30 minutes."
+      ]
+    },
+    {
       "id": "shumpot",
       "name": "Shumpot",
       "image": "/assets/sugar-recipe/shumpot(2).jpg",
